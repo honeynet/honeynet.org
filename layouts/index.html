@@ -1,1 +1,34 @@
-hello world
+{{ define "header" }}
+
+
+<div class="d-flex flex-column flex-sm-row align-items-center justify-content-center py-4 gap-5">
+    {{ $logo := resources.Get "logo.png" }}
+    {{ $logo := $logo.Resize "250x" }}
+    <img style="max-width: 250px" alt="Honeynet Logo" src="{{ $logo.Permalink }}">
+    <div style="max-width: 460px">
+        <h1>The Honeynet Project</h1>
+        <p>The Honeynet Project is a leading international 501c3 non-profit security research organization, dedicated
+        to investigating the latest attacks and developing open source security tools to improve Internet security.
+        With chapters around the world, our volunteers have contributed to fight against malware (such as
+        Confickr), discovering new attacks and creating security tools used by businesses and government agencies all
+        over the world.</p>
+        <a href="#" class="btn btn-lg btn-primary mt-2">Learn More</a>
+    </div>
+</div>
+
+{{ end }}
+
+{{ define "main" }}
+<div class="container py-4">
+    <div class="homepage-content">
+        front page
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{ .Content }}
+    </div>
+    <div>
+        {{ range first 10 .Site.RegularPages }}
+        {{ .Render "summary" }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

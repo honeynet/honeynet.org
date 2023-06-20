@@ -1,0 +1,29 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="680" height="108"
+  viewBox="0 0 680 108"
+  >
+  <defs>
+    <g id="honeycomb">
+      <!-- http://www.mathopenref.com/coordpolycalc.html, 0, 0, 6, 20, 30 -->
+      <polygon points="
+        17,-10,0,-20
+        0,-20,-17,-10
+        -17,-10,-17,10
+        -17,10,0,20
+        0,20,17,10
+        17,10,17,-10
+        " fill="#f0b913" />
+    </g>
+  </defs>
+  <use xlink:href="#honeycomb" transform="translate(54,54)" />
+  <use xlink:href="#honeycomb" transform="translate(90,54)" />
+  <use xlink:href="#honeycomb" transform="translate(18,54)" />
+  <use xlink:href="#honeycomb" transform="translate(72,86)" />
+  <use xlink:href="#honeycomb" transform="translate(36,86)" />
+  <use xlink:href="#honeycomb" transform="translate(72,22)" />
+  <use xlink:href="#honeycomb" transform="translate(36,22)" />
+
+  <text x="130" y="76" style="font-family: Carbon Bl; font-size: 60px; fill: white">The Honeynet Project</text>
+</svg>
