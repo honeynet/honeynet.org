@@ -6,10 +6,10 @@
     <title>The Honeynet Project</title>
 
     {{ $style := resources.Get "main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
     {{ $js := resources.Get "bootstrap-5.3.0/bootstrap.bundle.min.js" | resources.Fingerprint }}
-    <script src="{{ $js.Permalink }}"></script>
+    <script src="{{ $js.RelPermalink }}"></script>
 </head>
 <body>
 <header>

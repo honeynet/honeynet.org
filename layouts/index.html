@@ -4,7 +4,7 @@
 <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center py-4 gap-5">
     {{ $logo := resources.Get "logo.png" }}
     {{ $logo := $logo.Resize "250x" }}
-    <img style="max-width: 250px" alt="Honeynet Logo" src="{{ $logo.Permalink }}">
+    <img style="max-width: 250px" alt="Honeynet Logo" src="{{ $logo.RelPermalink }}">
     <div style="max-width: 460px">
         <h1>The Honeynet Project</h1>
         <p>The Honeynet Project is a leading international 501c3 non-profit security research organization, dedicated
