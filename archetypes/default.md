@@ -1,6 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+author:
+  name: "Your Name"
+  url: "https://example.com"
 ---
 

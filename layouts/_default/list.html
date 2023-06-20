@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="container py-4">
+    {{ range (.Paginator).Pages }}
+    <article class="mb-5">
+        {{ partial "posts/head.html" . }}
+        <section>
+            {{ .Summary }}
+        </section>
+        <footer>
+            {{ if .Truncated }}
+            <a class="btn btn-secondary btn-sm" href="{{ .RelPermalink }}">
+                Read more
+            </a>
+            {{ end }}
+        </footer>
+    </article>
+    {{ end }}
+
+    <div class="mt-4"></div>
+    {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}

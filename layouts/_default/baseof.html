@@ -14,77 +14,8 @@
 <body>
 <header>
     <div class="container py-2">
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <img alt="The Honeynet Project Logo" src="/logo-text.svg" width="250">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">HOME</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                               aria-expanded="false">
-                                ABOUT US
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ ref . "about" }}">About Us</a></li>
-                                <li><a class="dropdown-item" href="#">Code of Conduct</a></li>
-                                <li><a class="dropdown-item" href="#">Funding</a></li>
-                                <li><a class="dropdown-item" href="#">Papers</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">NEWS</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                               aria-expanded="false">
-                                GSOC
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">GSoC 2023</a></li>
-                                <li><a class="dropdown-item" href="#">GSoC 2022</a></li>
-                                <li><a class="dropdown-item" href="#">GSoC 2021</a></li>
-                                <li><a class="dropdown-item" href="#">GSoC 2020</a></li>
-                                <li><a class="dropdown-item" href="#">GSoC 2018</a></li>
-                                <li><a class="dropdown-item" href="#">GSoC 2017</a></li>
-                                <li><a class="dropdown-item" href="#">GSoC 2016</a></li>
-                                <li><a class="dropdown-item" href="#">GSoC 2015</a></li>
-                                <li><a class="dropdown-item" href="#">GSoC 2013</a></li>
-                                <li><a class="dropdown-item" href="#">GSoC 2012</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PROJECTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">FAQs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">WORKSHOPS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CHALLENGES</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        {{- block "header" . }}
-            <h1 class="text-white">{{ .Title }}</h1>
-            {{ with .Params.subtitle }}
-            <span class="subtitle">{{ . }}</span>
-            {{ end }}
-        {{- end }}
+        {{ partial "nav.html" . }}
+        {{- block "header" . }}{{- end }}
     </div>
 </header>
 <main>

@@ -1,0 +1,22 @@
+<h1>
+    {{ if ne page . }}<a href="{{ .RelPermalink }}">{{ end -}}
+
+    {{ .Title }}
+    {{ with .Params.subtitle }}
+    <small class="text-body-secondary">{{ . }}</small>
+    {{ end }}
+
+    {{- if ne page . }}</a>{{ end }}
+</h1>
+<h5>
+    {{- with .Date }}
+        {{- .Format "02 Jan 2006" -}}
+    {{ end }}
+    {{- with .Param "author" }},
+    {{ if .url -}}
+    <a href="{{ .url }}">{{ .name }}</a>
+    {{ else }}
+    {{ .name }}
+    {{ end }}
+    {{ end }}
+</h5>

@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+            <img alt="The Honeynet Project Logo" src="/logo-text.svg" width="250">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                {{ range site.Menus.main }}
+                {{ if .HasChildren }}
+                <li class="nav-item dropdown">
+                    {{- if $.Page.HasMenuCurrent .Menu . }}
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false" aria-current="true">
+                        {{- .Name -}}
+                    </a>
+                    {{- else }}
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        {{- .Name -}}
+                    </a>
+                    {{- end }}
+                    <ul class="dropdown-menu">
+                        {{ range .Children }}
+                        <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </li>
+                {{ else }}
+                <li class="nav-item">
+                    {{- if $.Page.IsMenuCurrent .Menu . }}
+                    <a href="{{ .URL }}" class="nav-link active" aria-current="page">{{ .Name }}</a>
+                    {{- else }}
+                    <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+                    {{- end }}
+                </li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</nav>
