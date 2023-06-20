@@ -1,0 +1,16 @@
+permissions:
+  contents: read
+
+on:
+  push:
+    branches:
+      - main
+      - v2
+
+jobs:
+  deploy:
+    uses: mhils/workflows/.github/workflows/gh-pages-hugo.yml@main
+    permissions:
+      contents: read
+      id-token: write
+      pages: write
