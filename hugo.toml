@@ -15,7 +15,22 @@ title = 'The Honeynet Project'
   name = 'The Project'
   parent = 'About Us'
   pageRef = '/about'
-  weight = 20
+  weight = 1
+[[menu.main]]
+  name = 'Code of Conduct'
+  parent = 'About Us'
+  pageRef = '/about/code-of-conduct'
+  weight = 2
+[[menu.main]]
+  name = 'Funding'
+  parent = 'About Us'
+  pageRef = '/about/funding'
+  weight = 3
+[[menu.main]]
+  name = 'Papers'
+  parent = 'About Us'
+  pageRef = '/papers'
+  weight = 4
 [[menu.main]]
   name = 'News'
   pageRef = '/blog'

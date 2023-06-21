@@ -51,6 +51,5 @@ Contributions are super welcome! A lot of stuff can be done by pretty much anyon
 
 #### TODO (stretch goals)
 
- - Replicate the fancy front page animation with CSS.
  - Can we do something smart about "active projects"? Scrape activity stats from GitHub maybe?
  - Write new blog entries.

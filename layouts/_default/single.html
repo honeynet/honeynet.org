@@ -1,8 +1,10 @@
 {{ define "main" }}
 <div class="container py-4">
-    {{ partial "posts/head.html" . }}
-    <section>
-    {{ .Content }}
-    </section>
+    <div class="col col-lg-8">
+        {{ partial "posts/head.html" . }}
+        <section>
+            {{ .Content }}
+        </section>
+    </div>
 </div>
 {{ end }}

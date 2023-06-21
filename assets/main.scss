@@ -1,12 +1,8 @@
 $primary: #f0b913;
 @import "bootstrap-5.3.0/scss/bootstrap";
 @import "fonts";
+@import "frontpage";
 
-.navbar[data-bs-theme=dark] {
-  --bs-navbar-active-color: var(--bs-primary);
-  --bs-navbar-color: #ffffffdd;
-  --bs-navbar-hover-color: #ffffffff;
-}
 
 body {
   min-height: 100vh;
@@ -32,6 +28,12 @@ nav {
   font-weight: 700;
 }
 
-.nav-link  {
+.nav-link {
   text-transform: uppercase;
+}
+
+.navbar[data-bs-theme=dark] {
+  --bs-navbar-active-color: var(--bs-primary);
+  --bs-navbar-color: #ffffffdd;
+  --bs-navbar-hover-color: #ffffffff;
 }
