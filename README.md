@@ -13,6 +13,17 @@ The main objective is to migrate from Wordpress to a static site generator (Hugo
 
 [^hugo-install]: See https://gohugo.io/installation/ for more detailed installation instructions.
 
+### Adding content
+
+To add a new blog post, run the following command in the root directory of this repository:
+
+```
+hugo new blog/YYYY-MM-DD-some-title/index.md
+```
+
+You can then edit the newly created file with your favorite text editor, and
+add images/resources next to it.
+
 ### Contributing
 
 Contributions are super welcome! A lot of stuff can be done by pretty much anyone, it just needs to get done!
@@ -22,7 +33,7 @@ Contributions are super welcome! A lot of stuff can be done by pretty much anyon
  - [x] Setup Hugo scaffolding. (@mhils)
  - [x] Write a new template from scratch to get rid of the existing cruft. (@mhils)
  - [x] Setup CI to automatically build the site to https://honeynet.github.io/. (@mhils)
- - [ ] Add docs for how to add a blog post. [#4](https://github.com/honeynet/honeynet.github.io/issues/4)
+ - [x] Add docs for how to add a blog post. (@mhils)
  - [ ] Migrate existing content
    - [ ] Front page (remove hot topics + active projects for now?)
    - [ ] About Us
