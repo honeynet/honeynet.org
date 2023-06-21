@@ -36,7 +36,7 @@ Contributions are super welcome! A lot of stuff can be done by pretty much anyon
    - [ ] FAQ
    - [ ] Workshops (need to add Taiwan 2018 and https://austria2019.honeynet.org/)
    - [ ] Challenges (partially broken on the current website, update with a pointer to https://github.com/honeynet/forensic_challenges)
- - [ ] Fix social icons in the footer. Simply embedding SVGs from https://icons.getbootstrap.com/ is the way to go.
+ - [x] Fix social icons in the footer. (@mhils)
 
 #### TODO (stretch goals)
 
