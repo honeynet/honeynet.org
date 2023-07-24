@@ -1,0 +1,6 @@
+---
+title: "Only three ticket left for botnet mitigation training !"
+date: "2014-04-25"
+---
+
+So if you want to attend you better act fast. For more information and registration visit http://warsaw2014.honeynet.org/trainings.html#training1
