@@ -39,19 +39,19 @@ Contributions are super welcome! A lot of stuff can be done by pretty much anyon
  - [x] Write a new template from scratch to get rid of the existing cruft. (@mhils)
  - [x] Setup CI to automatically build the site to https://honeynet.github.io/. (@mhils)
  - [x] Add docs for how to add a blog post. (@mhils)
- - [ ] Migrate existing content
-   - [ ] Front page (remove hot topics + active projects for now?)
-   - [ ] About Us
-     - [ ] About Us
-     - [ ] CoC
-     - [ ] Funding (needs minor updates)
-     - [ ] Papers
-   - [ ] News (what can we do with auto-migration here?)
+ - [x] Migrate existing content
+   - [x] Front page (remove hot topics + active projects for now?)
+   - [x] About Us
+     - [x] About Us
+     - [x] CoC
+     - [x] Funding (needs minor updates)
+     - [x] Papers
+   - [x] News (what can we do with auto-migration here?)
    - [ ] GSoC
-   - [ ] Projects
+   - [x] Projects
    - [x] FAQ (@mhils)
    - [x] Workshops (@mhils)
-   - [ ] Challenges (partially broken on the current website, update with a pointer to https://github.com/honeynet/forensic_challenges)
+   - [x] Challenges (partially broken on the current website, update with a pointer to https://github.com/honeynet/forensic_challenges)
  - [x] Fix social icons in the footer. (@mhils)
 
 #### TODO (stretch goals)
