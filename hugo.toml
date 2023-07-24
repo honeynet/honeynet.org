@@ -44,6 +44,11 @@ title = 'The Honeynet Project'
   name = 'GSoC 2023'
   pageRef = '/gsoc/2023'
   weight = 20
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2009'
+  pageRef = '/gsoc/2009'
+  weight = 21
 # TODO: Previous GSoC years
 [[menu.main]]
   name = 'Projects'
