@@ -14,7 +14,7 @@ title = 'The Honeynet Project'
 [[menu.main]]
   name = 'The Project'
   parent = 'About Us'
-  pageRef = '/about'
+  pageRef = '/about/about'
   weight = 1
 [[menu.main]]
   name = 'Code of Conduct'

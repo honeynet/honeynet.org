@@ -24,8 +24,8 @@ The Honeynet Project engages broader security community via Google Summer of Cod
 
 ## Primary Contact Information
 
-2160 Greenview Drive \
-Ann Arbor, MI, 48103 United States \
+1425 Broadway #438, Seattle \
+WA, 98122, USA \
 Email: project@honeynet.org \
 Twitter: @projecthoneynet
 
@@ -54,7 +54,8 @@ We are a 501c3 non-profit organization incorporated in Illinois. Our EIN is 36-4
 
 ## Organizational Bylaws
 
-TODO: Add link
+* [Organizational Bylaws](/bylaws/Bylaws-20070723.pdf)
+* [Amendments to the Bylaws](/bylaws/Bylaws-amendments-20130725.pdf)
 
 ## About The Web Site
 
