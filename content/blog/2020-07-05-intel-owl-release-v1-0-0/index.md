@@ -6,6 +6,7 @@ categories:
 tags: 
   - "intelowl"
   - "threatintel"
+  - "featured"
 coverImage: "intel_owl.jpeg"
 ---
 

@@ -12,7 +12,7 @@
         With chapters around the world, our volunteers have contributed to fight against malware (such as
         Confickr), discovering new attacks and creating security tools used by businesses and government agencies all
         over the world.</p>
-        <a href="#" class="btn btn-lg btn-primary mt-2">Learn More</a>
+        <a href="/about/about/" class="btn btn-lg btn-primary mt-2">Learn More</a>
     </div>
 </div>
 
@@ -21,13 +21,22 @@
 {{ define "main" }}
 <div class="container py-4">
     <div class="homepage-content">
-        front page
-        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        {{ .Content }}
-    </div>
-    <div>
-        {{ range first 10 .Site.RegularPages }}
-        {{ .Render "summary" }}
+        {{ with .GetPage "tags/featured" }} 
+        {{ range (.Paginator).Pages }}
+        <article class="mb-5">
+            {{ partial "posts/head.html" . }}
+            <section>
+                {{ .Summary }}
+            </section>
+            <footer>
+                {{ if .Truncated }}
+                <a class="btn btn-secondary btn-sm" href="{{ .RelPermalink }}">
+                    Read more
+                </a>
+                {{ end }}
+            </footer>
+        </article>
+        {{ end }}
         {{ end }}
     </div>
 </div>

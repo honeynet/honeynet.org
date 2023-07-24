@@ -4,6 +4,8 @@ date: "2019-10-09"
 categories: 
   - "chapters"
   - "news"
+tags:
+  - "featured"
 coverImage: "logo-thp-100.png"
 ---
 

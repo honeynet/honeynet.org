@@ -3,9 +3,8 @@ title: "The Honeynet Project has a new CEO"
 date: "2021-12-07"
 categories: 
   - "news"
-tags: 
-  - "aliikinci"
-  - "ceo-d38"
+tags:
+  - "featured"
 coverImage: "cropped-favicon02.png"
 ---
 

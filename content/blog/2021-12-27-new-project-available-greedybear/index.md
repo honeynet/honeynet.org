@@ -3,7 +3,8 @@ title: "New project available: GreedyBear"
 date: "2021-12-27"
 categories: 
   - "honeypot"
-tags: 
+tags:
+  - "featured"
   - "greedybear"
   - "honeypots"
   - "tpot"
