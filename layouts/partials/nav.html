@@ -3,9 +3,8 @@
         <a class="navbar-brand" href="/">
             <img alt="The Honeynet Project Logo" src="/logo-text.svg" width="250">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -16,12 +15,12 @@
                 <li class="nav-item dropdown">
                     {{- if $.Page.HasMenuCurrent .Menu . }}
                     <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false" aria-current="true">
+                        aria-expanded="false" aria-current="true">
                         {{- .Name -}}
                     </a>
                     {{- else }}
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">
+                        aria-expanded="false">
                         {{- .Name -}}
                     </a>
                     {{- end }}
