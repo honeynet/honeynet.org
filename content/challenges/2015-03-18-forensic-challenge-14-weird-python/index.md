@@ -1,5 +1,5 @@
 ---
-title: "Forensic Challenge 14"
+title: "Forensic Challenge 14 - Weird Python"
 date: "2015-03-18"
 ---
 

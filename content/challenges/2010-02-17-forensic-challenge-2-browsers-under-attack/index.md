@@ -1,5 +1,5 @@
 ---
-title: "Forensic Challenge 2 (2010) - Browsers under attack"
+title: "Forensic Challenge 2 - Browsers under attack"
 date: "2010-02-17"
 ---
 

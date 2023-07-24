@@ -1,5 +1,5 @@
 ---
-title: "Challenge 1 of the Forensic Challenge 2010 - pcap attack trace"
+title: "Challenge 1 - pcap attack trace"
 date: "2010-01-18"
 ---
 

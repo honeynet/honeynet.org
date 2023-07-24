@@ -1,5 +1,5 @@
 ---
-title: "Forensic Challenge 13 – \"A Message in a Picture\""
+title: "Forensic Challenge 13 – A Message in a Picture"
 date: "2013-04-08"
 ---
 

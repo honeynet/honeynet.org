@@ -1,5 +1,5 @@
 ---
-title: "Forensic Challenge 10 - \"Attack Visualization\""
+title: "Forensic Challenge 10 - Attack Visualization"
 date: "2012-02-16"
 ---
 

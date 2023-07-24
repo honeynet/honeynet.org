@@ -1,5 +1,5 @@
 ---
-title: "Forensic Challenge 12 – \"Hiding in Plain Sight\""
+title: "Forensic Challenge 12 – Hiding in Plain Sight"
 date: "2012-10-16"
 ---
 

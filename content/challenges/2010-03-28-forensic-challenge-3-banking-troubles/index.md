@@ -1,5 +1,5 @@
 ---
-title: "Challenge 3 of the Forensic Challenge 2010 - Banking Troubles"
+title: "Challenge 3 - Banking Troubles"
 date: "2010-03-28"
 coverImage: "facebook.gif"
 ---
