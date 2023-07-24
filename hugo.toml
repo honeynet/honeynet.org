@@ -32,7 +32,7 @@ title = 'The Honeynet Project'
   pageRef = '/papers'
   weight = 4
 [[menu.main]]
-  name = 'News'
+  name = 'Blog'
   pageRef = '/blog'
   weight = 30
 [[menu.main]]
