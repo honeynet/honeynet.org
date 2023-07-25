@@ -2,6 +2,9 @@ baseURL = 'https://honeynet.org/'
 languageCode = 'en-us'
 title = 'The Honeynet Project'
 
+[permalinks]
+  blog = '/:year/:month/:day/:filename/'
+
 [menu]
 [[menu.main]]
   name = 'Home'
