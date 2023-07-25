@@ -6,6 +6,7 @@ title = 'The Honeynet Project'
   blog = '/:year/:month/:day/:filename/'
   challenges = '/challenges/:filename/'
   papers = '/papers/:filename/'
+  projects = '/projects/:filename/'
 
 [menu]
 [[menu.main]]
