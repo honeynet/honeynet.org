@@ -5,6 +5,7 @@ title = 'The Honeynet Project'
 [permalinks]
   blog = '/:year/:month/:day/:filename/'
   challenges = '/challenges/:filename/'
+  papers = '/papers/:filename/'
 
 [menu]
 [[menu.main]]
