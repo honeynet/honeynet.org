@@ -17,38 +17,19 @@ On this page you will learn more about GSoC 2023 and our efforts on developing a
 
 Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2021, you can view these here:
 
+- [GSoC 2022 Project Ideas](/gsoc/gsoc-2022/ideas/)
 - [GSoC 2021 Project Ideas](https://www.honeynet.org/gsoc/gsoc-2021/google-summer-of-code-2021-project-ideas/)  
-    
 - [GSoC 2020 Project Ideas](https://www.honeynet.org/gsoc/gsoc-2020/google-summer-of-code-2020-project-ideas/)  
-    
-- [GSoC 2018 Project Ideas](//www.honeynet.org/gsoc/gsoc2018/ideas/)
-- [GSoC 2018 Accepted Projects](//www.honeynet.org/gsoc2018/slots)  
-    
-- [GSoC 2017 Project Ideas](/gsoc/gsoc2017/ideas/)
-- [GSoC 2017 Accepted Projects](//www.honeynet.org/gsoc2017/slots)  
-    
-- [GSoC 2016 Project Ideas](/gsoc/gsoc2016/ideas/)
-- [GSoC 2016 Accepted Projects](//www.honeynet.org/gsoc2016/slots)  
-    
-- [GSoC 2015 Project Ideas](/gsoc/gsoc2015/ideas/)
-- [GSoC 2015 Accepted Projects](//www.honeynet.org/gsoc2015/slots)  
-    
-- [GSoC 2014 Project Ideas](/gsoc/gsoc2014/ideas/)  
-    
-- [GSoC 2013 Project Ideas](/gsoc/gsoc2013/ideas/)
-- [GSoC 2013 Accepted Projects](//www.honeynet.org/gsoc2013/slots)  
-    
+- [GSoC 2018 Project Ideas](//www.honeynet.org/gsoc/gsoc-2018/ideas/)
+- [GSoC 2017 Project Ideas](/gsoc/gsoc-2017/ideas/)
+- [GSoC 2016 Project Ideas](/gsoc/gsoc-2016/ideas/)
+- [GSoC 2015 Project Ideas](/gsoc/gsoc-2015/ideas/)
+- [GSoC 2014 Project Ideas](/gsoc/gsoc-2014/ideas/)  
+- [GSoC 2013 Project Ideas](/gsoc/gsoc-2013/ideas/)
 - [GSoC 2012 Project Ideas](/gsoc/gsoc-2012/ideas/)
-- [GSoC 2012 Accepted Projects](//www.honeynet.org/gsoc2012/slots)  
-    
-- [GSoC 2011 Project Ideas](/gsoc/gsoc2011/ideas/)
-- [GSoC 2011 Accepted Projects](//www.honeynet.org/gsoc2011/slots)  
-    
-- [GSoC 2010 Project Ideas](/gsoc/gsoc2010/ideas/)
-- [GSoC 2010 Accepted Projects](//www.honeynet.org/gsoc2010/slots)  
-    
-- [GSoC 2009 Project Ideas](/gsoc/gsoc2009/ideas/)
-- [GSoC 2009 Accepted Projects](//www.honeynet.org/gsoc2009/slots)
+- [GSoC 2011 Project Ideas](/gsoc/gsoc-2011/ideas/)
+- [GSoC 2010 Project Ideas](/gsoc/gsoc-2010/ideas/)
+- [GSoC 2009 Project Ideas](/gsoc/gsoc-2009/ideas/)
 
 ### Contacting Us
 
@@ -56,13 +37,13 @@ If you have any questions, please drop by in our [Slack chat](//gsoc-slack.hone
 
 [![GSoC Slack](//gsoc-slack.honeynet.org/badge.svg)](//gsoc-slack.honeynet.org/)
 
-### Organisational Administrators
+### Organizational Administrators
 
-Our GSoC 2022 organisational administrators this year are:
+Our GSoC 2023 organizational administrators this year are:
 
-- Tamas K Lengyel (lead)
-- Daniel Haslinger
-- Matteo Lodi
+- Lukas Rist (lead)
+- Maximilian Hils
+- Emmanouil Vasilomano
 
 ### Why get involved with the Honeynet Project?
 
@@ -72,11 +53,11 @@ Our GSoC 2022 organisational administrators this year are:
 4. We have [active](//www.honeynet.org/node/371) volunteer member [chapters](//www.honeynet.org/og) in many countries and from many different backgrounds, with a wide variety of skills and experience they are happy to share
 5. We have always been committed to the concepts of open source software and freely share everything we do, including each chapter publishing regular public [status reports](//www.honeynet.org/chapter/statusreports) on their recent activity
 6. We maintain active public and private communities of developers and researchers who use and contribute to our tools each day
-7. We provide our members and the community with the public and private infrastructure necessary to support distributed collaborative remote working, such as IRC channels, mailing lists, subversion repositories, Trac instances for ticket management and wikis, content management systems, blogs, live deployments with real end users for testing and regular feedback, etc
+7. We provide our members and the community with the public and private infrastructure necessary to support distributed collaborative remote working, such as IRC channels, mailing lists, subversion repositories, Trac instances for ticket management and wikis, content management systems, blogs, live deployments with real end users for testing and regular feedback, etc.
 8. We are hands on, supportive and keen to involve more talented people in projects we are really passionate about
 9. We have a strong track history of mentoring new members and successfully delivering open source projects, tools and research that demonstrably benefit the community
 10. The vast majority of our GSoC projects were delivered successfully and our students were happy, with a number of the tools created going on to become widely used within the security community
-11. Students from GSoC have gone on to become active members of the honeynet community, including proposing project ideas for future GSoCs or offering to be project mentors and organisation administrators (so we can't be too unpleasant a bunch to get involved with!) ;-)
+11. Students from GSoC have gone on to become active members of the honeynet community, including proposing project ideas for future GSoCs or offering to be project mentors and organization administrators (so we can't be too unpleasant a bunch to get involved with!) ;-)
 12. We have ex-GSoC students actively serving on our Board of Directors and in Executive Officer positions, so GSoC has definitely proven to be a great career path for students wanting to get more involved in open source and information security R&D.
 13. Honeypots and honeynet technology, research and tools have filtered down benefits to many areas of IT, web development, operational service management, Internet education and computer security research
 
