@@ -13,9 +13,7 @@ On this page you will learn more about GSoC 2021 and our efforts on developing a
 
 ### Project Ideas
 
-You can find our in progress GSoC 2021 ideas page here:
-
-https://www.honeynet.org/gsoc/gsoc-2021/google-summer-of-code-2021-project-ideas/
+- [GSoC 2021 Project Ideas]({{< ref "ideas.md" >}})
 
 Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2020, you can view these here:
 

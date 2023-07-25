@@ -1,6 +1,7 @@
 ---
 title: "Google Summer of Code 2018 Project Ideas"
-date: "2019-08-28"
+date: "2018-08-28"
+url: "/gsoc/gsoc-2028/google-summer-of-code-2018-project-ideas"
 ---
 
 ![GSoC Logo](images/GSoC-logo-horizontal-800.png)

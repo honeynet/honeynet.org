@@ -7,6 +7,7 @@ title = 'The Honeynet Project'
   challenges = '/challenges/:filename/'
   papers = '/papers/:filename/'
   projects = '/projects/:filename/'
+  gsoc = '/gsoc/:year/:filename'
 
 [menu]
 [[menu.main]]
@@ -48,14 +49,73 @@ title = 'The Honeynet Project'
 [[menu.main]]
   parent = 'GSoC'
   name = 'GSoC 2023'
-  pageRef = '/gsoc/2023'
+  pageRef = '/gsoc/gsoc-2023'
   weight = 20
 [[menu.main]]
   parent = 'GSoC'
-  name = 'GSoC 2009'
-  pageRef = '/gsoc/2009'
+  name = 'GSoC 2022'
+  pageRef = '/gsoc/gsoc-2022'
   weight = 21
-# TODO: Previous GSoC years
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2021'
+  pageRef = '/gsoc/gsoc-2021'
+  weight = 22
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2020'
+  pageRef = '/gsoc/gsoc-2020'
+  weight = 23
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2018'
+  pageRef = '/gsoc/gsoc-2018'
+  weight = 24
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2017'
+  pageRef = '/gsoc/gsoc-2017'
+  weight = 25
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2016'
+  pageRef = '/gsoc/gsoc-2016'
+  weight = 26
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2015'
+  pageRef = '/gsoc/gsoc-2015'
+  weight = 27
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2014'
+  pageRef = '/gsoc/gsoc-2014'
+  weight = 28
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2013'
+  pageRef = '/gsoc/gsoc-2013'
+  weight = 29
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2012'
+  pageRef = '/gsoc/gsoc-2012'
+  weight = 30
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2011'
+  pageRef = '/gsoc/gsoc-2011'
+  weight = 31
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2010'
+  pageRef = '/gsoc/gsoc-2010'
+  weight = 32
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2009'
+  pageRef = '/gsoc/gsoc-2009'
+  weight = 33
 [[menu.main]]
   name = 'Projects'
   pageRef = '/projects'

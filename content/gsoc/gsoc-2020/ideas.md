@@ -1,6 +1,7 @@
 ---
 title: "Google Summer of Code 2020 Project Ideas"
 date: "2020-02-20"
+url: "/gsoc/gsoc-2020/google-summer-of-code-2020-project-ideas"
 ---
 
 ### Getting Started

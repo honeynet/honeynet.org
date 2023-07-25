@@ -1,28 +1,25 @@
 ---
-title: "GSoC 2020"
-date: "2020-02-20"
+title: "GSoC 2022"
+date: "2022-01-25"
 ---
 
 * * *
 
-### We've been selected as GSoC 2020 mentoring organization!
+### We are applying again to be a mentor organization for GSoC in 2022
 
-We proudly announce that we've been selected to run as an mentoring organization for Google Summer of Code 2020!
+This will be the 13th time that Honeynet is participating in the Google Summer of Code program to accelerate the creation of information- and cyber security related tools that are free and open source software. Thank you to all mentors who submitted their project ideas and will volunteer as mentors throughout the summer.
 
-This is the 11th time that Google supports our efforts in creating information- and cyber security related tools that are free and open source software. Thank you to all mentors who submitted their project ideas and will volunteer as mentors throughout the summer.
-
-On this page you will learn more about GSoC 2020 and our efforts on developing and improving our projects. For now, you can take a look at our GSoC 2020 ideas page. We hope you'll find the one project that tickles your fancy.
+On this page you will learn more about GSoC 2022 and our efforts on developing and improving our projects.
 
 ### Project Ideas
 
-You can find our in progress GSoC 2020 ideas page here:
+- [GSoC 2022 Project Ideas]({{< ref "ideas.md" >}})
 
-- [GSoC 2020 Project Ideas](//www.honeynet.org/gsoc/gsoc-2020/google-summer-of-code-2020-project-ideas/)
+Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2021, you can view these here:
 
-Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2019, you can view these here:
-
-- GSoC 2019 Project Ideas
-- GSoC 2019 Accepted Projects  
+- [GSoC 2021 Project Ideas](https://www.honeynet.org/gsoc/gsoc-2021/google-summer-of-code-2021-project-ideas/)  
+    
+- [GSoC 2020 Project Ideas](https://www.honeynet.org/gsoc/gsoc-2020/google-summer-of-code-2020-project-ideas/)  
     
 - [GSoC 2018 Project Ideas](//www.honeynet.org/gsoc/gsoc2018/ideas/)
 - [GSoC 2018 Accepted Projects](//www.honeynet.org/gsoc2018/slots)  
@@ -61,10 +58,11 @@ If you have any questions, please drop by in our [Slack chat](//gsoc-slack.hone
 
 ### Organisational Administrators
 
-Our GSoC 2020 organisational administrators this year are:
+Our GSoC 2022 organisational administrators this year are:
 
-- Daniel Haslinger (lead, AT)
-- Tamas Lengyel (US)
+- Tamas K Lengyel (lead)
+- Daniel Haslinger
+- Matteo Lodi
 
 ### Why get involved with the Honeynet Project?
 
@@ -78,7 +76,7 @@ Our GSoC 2020 organisational administrators this year are:
 8. We are hands on, supportive and keen to involve more talented people in projects we are really passionate about
 9. We have a strong track history of mentoring new members and successfully delivering open source projects, tools and research that demonstrably benefit the community
 10. The vast majority of our GSoC projects were delivered successfully and our students were happy, with a number of the tools created going on to become widely used within the security community
-11. Students from GSoC 2009-2019 have gone on to become active members of the honeynet community, including proposing project ideas for future GSoCs or offering to be project mentors and organisation administrators (so we can't be too unpleasant a bunch to get involved with!) ;-)
+11. Students from GSoC have gone on to become active members of the honeynet community, including proposing project ideas for future GSoCs or offering to be project mentors and organisation administrators (so we can't be too unpleasant a bunch to get involved with!) ;-)
 12. We have ex-GSoC students actively serving on our Board of Directors and in Executive Officer positions, so GSoC has definitely proven to be a great career path for students wanting to get more involved in open source and information security R&D.
 13. Honeypots and honeynet technology, research and tools have filtered down benefits to many areas of IT, web development, operational service management, Internet education and computer security research
 

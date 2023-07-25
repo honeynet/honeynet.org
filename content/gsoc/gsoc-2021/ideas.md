@@ -1,6 +1,7 @@
 ---
 title: "Google Summer of Code 2021 Project Ideas"
 date: "2021-01-27"
+url: "/gsoc/gsoc-2021/google-summer-of-code-2021-project-ideas"
 ---
 
 ### Getting Started

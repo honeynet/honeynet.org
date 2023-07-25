@@ -1,6 +1,7 @@
 ---
 title: "Google Summer of Code 2022 Project Ideas"
 date: "2022-02-09"
+url: "/gsoc/gsoc-2022/google-summer-of-code-2022-project-ideas"
 ---
 
 ### Getting Started
@@ -32,41 +33,25 @@ If you are considering applying to participate with us in GSoC 2022 please find 
 
 # GSoC 2022 Project Ideas Overview
 
-- [#1 - Hack on Mitmproxy!](#1)
-
-- [#2 - IoT linux sandbox](#2)
-
-- [#3 - Securing the Open Source Supply Chain](#3)
-
-- [#4 - Finding hijacked Software](#4)
-
-- [#5 - Qiling Improvements](#5)
-
-- [#6 - Quark-Engine: strengthen Quark with both the depth and the breadth of the technology](#6)
-
-- [#7 - RIoTPoT: the IoT/OT honeypot](#7)
-
-- [#8 - HosTaGe: the swiss-army knife mobile honeypot](#8)
-
-- [#9 - WhisperPot: a medium interaction honeypot for SIP/VOIP attacks](#9)
-
-- [#10 - HTTP requests evaluation in TANNER](#10)
-
-- [#11 - Give a face to the GreedyBear!](#11)
-
-- [#12 - Give power to the GreedyBear!](#12)
-
-- [#13 - IntelOwl: Go client (go-intelowl)](#13)
-
-- [#14 - IntelOwl: General improvements and new features](#14)
-
-- [#15 - Add a summary of malware behavior to DRAKVUF Sandbox](#15)
-
-- [#16 - Implement a log browser in DRAKVUF Sandbox web interface](#16)
-
-- [#17 - Add graph representing malware execution to DRAKVUF Sandbox](#17)
-
-- [#18 - TANNER Web Improvement](#18)
+- [GSoC 2022 Project Ideas Overview](#gsoc-2022-project-ideas-overview)
+  - [#1 - Hack on Mitmproxy!](#1---hack-on-mitmproxy)
+  - [#2 - IoT linux sandbox](#2---iot-linux-sandbox)
+  - [#3 - Securing the Open Source Supply Chain](#3---securing-the-open-source-supply-chain)
+  - [#4 - Finding hijacked Software](#4---finding-hijacked-software)
+  - [#5 - Qiling Improvements](#5---qiling-improvements)
+  - [#6 - Quark-Engine: strengthen Quark with both the depth and the breadth of the technology](#6---quark-engine-strengthen-quark-with-both-the-depth-and-the-breadth-of-the-technology)
+  - [#7 - RIoTPoT: the IoT/OT honeypot](#7---riotpot-the-iotot-honeypot)
+  - [#8 - HosTaGe: the swiss-army knife mobile honeypot](#8---hostage-the-swiss-army-knife-mobile-honeypot)
+  - [#9 - WhisperPot: a medium interaction honeypot for SIP/VOIP attacks](#9---whisperpot-a-medium-interaction-honeypot-for-sipvoip-attacks)
+  - [#10 - HTTP requests evaluation in TANNER](#10---http-requests-evaluation-in-tanner)
+  - [#11 - Give a face to the GreedyBear!](#11---give-a-face-to-the-greedybear)
+  - [#12 - Give power to the GreedyBear!](#12---give-power-to-the-greedybear)
+  - [#13 - IntelOwl: Go client (go-intelowl)](#13---intelowl-go-client-go-intelowl)
+  - [#14 - IntelOwl: General improvements and new features](#14---intelowl-general-improvements-and-new-features)
+  - [#15 - Add a summary of malware behavior to DRAKVUF Sandbox](#15---add-a-summary-of-malware-behavior-to-drakvuf-sandbox)
+  - [#16 - Implement a log browser in DRAKVUF Sandbox web interface](#16---implement-a-log-browser-in-drakvuf-sandbox-web-interface)
+  - [#17 - Add graph representing malware execution to DRAKVUF Sandbox](#17---add-graph-representing-malware-execution-to-drakvuf-sandbox)
+  - [#18 - TANNER Web Improvement](#18---tanner-web-improvement)
 
 * * *
 

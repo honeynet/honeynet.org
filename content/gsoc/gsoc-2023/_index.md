@@ -1,19 +1,19 @@
 ---
-title: "GSoC 2022"
-date: "2022-01-25"
+title: "GSoC 2023"
+date: "2023-01-25"
 ---
 
 * * *
 
-### We are applying again to be a mentor organization for GSoC in 2022
+### We are applying again to be a mentor organization for GSoC in 2023
 
-This will be the 13th time that Honeynet is participating in the Google Summer of Code program to accelerate the creation of information- and cyber security related tools that are free and open source software. Thank you to all mentors who submitted their project ideas and will volunteer as mentors throughout the summer.
+This will be the 14th time that Honeynet is participating in the Google Summer of Code program to accelerate the creation of information- and cyber security related tools that are free and open source software. Thank you to all mentors who submitted their project ideas and will volunteer as mentors throughout the summer.
 
-On this page you will learn more about GSoC 2022 and our efforts on developing and improving our projects.
+On this page you will learn more about GSoC 2023 and our efforts on developing and improving our projects.
 
 ### Project Ideas
 
-- [GSoC 2022 Project Ideas](https://www.honeynet.org/gsoc/gsoc-2021/google-summer-of-code-2022-project-ideas/)
+- [GSoC 2023 Project Ideas]({{< ref "ideas.md" >}})
 
 Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2021, you can view these here:
 

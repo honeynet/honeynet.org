@@ -1,6 +1,7 @@
 ---
 title: "Google Summer of Code 2009 Project Ideas"
-date: "2019-08-28"
+date: "2009-08-28"
+url: "/gsoc/gsoc-2009/google-summer-of-code-2009-project-ideas"
 ---
 
 

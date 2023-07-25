@@ -13,7 +13,7 @@ The GSoC 2018 program starts in January with the [first major milestone](//deve
 
 Google will be reviewing mentoring organization applications over the coming days then announcing the official list of participating organisations on their [web site](//summerofcode.withgoogle.com/) on February 12th. Usually 300-500 potential mentoring organizations apply, with only 150-200 lucky organisations being selected, so org applications are highly competitive.
 
-In the meantime, potential mentoring organisations will be improving their public [project ideas](//www.honeynet.org/gsoc2018/ideas) pages, preparing mentors, fielding student questions and keeping their collective fingers crossed in the hope of being selected. Potential GSoC students and other interested parties can view our still under development list of possible [project ideas](//www.honeynet.org/gsoc2018/ideas) and potential mentors. As in previous years, this list of proposed [project ideas](//www.honeynet.org/gsoc2018/ideas) is not definitive and (assuming we get selected to participate) will remain a work in progress until GSoC 2018 student applications officially open on March 12th. We are also still open to receiving and mentoring interesting, novel and relevant project ideas received from students, including informal contact before official student applications begin. So if there is a research topic you are interested in working on this summer, please suggest it, or get in touch to discuss it further.
+In the meantime, potential mentoring organisations will be improving their public [project ideas]({{< ref "ideas.md" >}}) pages, preparing mentors, fielding student questions and keeping their collective fingers crossed in the hope of being selected. Potential GSoC students and other interested parties can view our still under development list of possible [project ideas]({{< ref "ideas.md" >}}) and potential mentors. As in previous years, this list of proposed [project ideas]({{< ref "ideas.md" >}}) is not definitive and (assuming we get selected to participate) will remain a work in progress until GSoC 2018 student applications officially open on March 12th. We are also still open to receiving and mentoring interesting, novel and relevant project ideas received from students, including informal contact before official student applications begin. So if there is a research topic you are interested in working on this summer, please suggest it, or get in touch to discuss it further.
 
 The third and fourth GSoC 2018 milestones (after org application and org selection) will be student applications and acceptance. GSoC 2018 student applications begins on March 12th and close on March 27th at 16:00 UTC. Please make sure you check the [official GSoC 2018 timeline](//developers.google.com/open-source/gsoc/timeline) carefully if you plan on applying (we should also mention that this page is not authoritative). To avoid disappointment and missed deadlines, if you are a student applying to GSoC this year, please make sure you submit your student application well in advance and don't leave it to the last minute! A good idea is to begin talking to us as soon as Google announces the official list of mentoring orgs. The sooner is usually the better, although since GSoC is highly competitive for both students and Orgs, we obviously cannot guarantee we will be selected to participate this year. Please bear that in mind when making contact.
 
@@ -23,26 +23,26 @@ On [April 23rd](//summerofcode.withgoogle.com/) Google will officially announc
 
 You can find our in progress GSoC 2018 ideas page here:
 
-- [GSoC 2018 Project Ideas](/gsoc/gsoc-2018/gsoc-2018-ideas/)
+- [GSoC 2018 Project Ideas]({{< ref "ideas.md" >}})
 
 Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2017, you can view these here:
 
-- [GSoC 2017 Project Ideas](/gsoc/gsoc2017/ideas/)
+- [GSoC 2017 Project Ideas](/gsoc/gsoc-2017/ideas/)
 - [GSoC 2017 Accepted Projects](//www.honeynet.org/gsoc2017/slots)
-- [GSoC 2016 Project Ideas](/gsoc/gsoc2016/ideas/)
+- [GSoC 2016 Project Ideas](/gsoc/gsoc-2016/ideas/)
 - [GSoC 2016 Accepted Projects](//www.honeynet.org/gsoc2016/slots)
-- [GSoC 2015 Project Ideas](/gsoc/gsoc2015/ideas/)
+- [GSoC 2015 Project Ideas](/gsoc/gsoc-2015/ideas/)
 - [GSoC 2015 Accepted Projects](//www.honeynet.org/gsoc2015/slots)
-- [GSoC 2014 Project Ideas](/gsoc/gsoc2014/ideas/)
+- [GSoC 2014 Project Ideas](/gsoc/gsoc-2014/ideas/)
 - [GSoC 2013 Project Ideas](/gsoc/gsoc2013/ideas/)
 - [GSoC 2013 Accepted Projects](//www.honeynet.org/gsoc2013/slots)
 - [GSoC 2012 Project Ideas](/gsoc/gsoc-2012/ideas/)
 - [GSoC 2012 Accepted Projects](//www.honeynet.org/gsoc2012/slots)
-- [GSoC 2011 Project Ideas](/gsoc/gsoc2011/ideas/)
+- [GSoC 2011 Project Ideas](/gsoc/gsoc-2011/ideas/)
 - [GSoC 2011 Accepted Projects](//www.honeynet.org/gsoc2011/slots)
-- [GSoC 2010 Project Ideas](/gsoc/gsoc2010/ideas/)
+- [GSoC 2010 Project Ideas](/gsoc/gsoc-2010/ideas/)
 - [GSoC 2010 Accepted Projects](//www.honeynet.org/gsoc2010/slots)
-- [GSoC 2009 Project Ideas](/gsoc/gsoc2009/ideas/)
+- [GSoC 2009 Project Ideas](/gsoc/gsoc-2009/ideas/)
 - [GSoC 2009 Accepted Projects](//www.honeynet.org/gsoc2009/slots)
 
 ### Student Application Tips
