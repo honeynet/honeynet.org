@@ -3,25 +3,20 @@ title: "Forensic Challenge 14 - Weird Python"
 date: "2015-03-18"
 ---
 
-# FC#14 - Weird Python
+Your boss John went to a BYOD conference lately. Yeah, he's that kind of security guy... After some mumble about targeted attacks happening during the event, your team finally got their hands on a PCAP with his traffic. Your colleague Pete Galloway investigated the incident. Yesterday, he casually mentioned that he found some weird Python bytecode, but couldn't make much sense out of "random" payloads yet. Today, Pete didn't come to work. Five minutes ago, he sent a company-wide mail with a total of four words: “Fuck you, I quit.“. What has happened!?
 
-(By Thomas Chopitea and Maximilian Hils)
+<!--more-->
 
-* * *
+**Skill Level: Both entry- and intermediate-level tasks**
 
-### **Skill Level: Both** **entry- and intermediate-level tasks**
-
-### Background
-
-Your boss John went to a BYOD conference lately. Yeah, he's that kind of security guy... After some mumble about targeted attacks happening during the event, your team finally got their hands on a PCAP with his traffic. Your colleague Pete Galloway investigated the incident. Yesterday, he casually mentioned that he found some weird Python bytecode, but couldn't make much sense out of "random" payloads yet. Today, Pete didn't come to work. Five minutes ago, he sent a company-wide mail with a total of four words: _â€œFuck you, I quit.â€œ_. What has happened!?
 
 ### Files
 
-[conference.pcapng](http://www2.honeynet.org/wp-content/uploads/attachments/conference.pcapng.gz) [(mirror)](https://www.dropbox.com/s/3a8z129uk8c1sec/conference.pcapng?dl=1)
+[conference.pcapng](https://github.com/honeynet/forensic_challenges/raw/master/zip_files/challenges/fc14.zip) [(mirror)](https://www.dropbox.com/s/3a8z129uk8c1sec/conference.pcapng?dl=1)
 
 ### Write-Up
 
-You can view a crowd-sourced write-up compiled from the submissions we received [here](http://www2.honeynet.org/wp-content/uploads/attachments/weird-python-writeup.pdf?dl=0). If you are interested in using the challenge for educational purposes, let us know and we are happy to remove this part temporarily.
+You can view a crowd-sourced write-up compiled from the submissions we received [here](https://github.com/honeynet/forensic_challenges/blob/master/zip_files/submissions/fc14.pdf). If you are interested in using the challenge for educational purposes, let us know and we are happy to remove this part temporarily.
 
 ### Questions
 
