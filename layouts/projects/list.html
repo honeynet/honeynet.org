@@ -1,0 +1,133 @@
+{{ define "main" }}
+<div class="container">
+    <div class="row">
+    <div class="col-12 col-lg-7 py-4">
+        <h1>Projects</h1>
+
+        <p>
+        This page contains a list of tools and services that we use on a regular basis. Most of these tools have been created
+        by our members and GSoC students, but some are also external and not affiliated with the Honeynet Project.
+        If you see that a specific tool is not listed, but should, feel free to email projects@honeynet.org.
+        </p>
+
+        {{- $one_year_ago := now.AddDate -1 0 0 }}
+        {{- $all_events := slice }}
+        {{- $active := slice }}
+        {{- $inactive := slice }}
+        {{- range .Pages }}
+            {{- $is_active := false }}
+            {{- $info := .Params }}
+            {{- if .Params.github }}
+                <!-- token is a classic token (without expiry) from a bot account with no privileges, fine to leak. -->
+                {{- $repo := getJSON (printf "https://api.github.com/repos/%s" .Params.github) (dict "Authorization" "Bearer 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") }}
+                {{- $events := getJSON (printf "https://api.github.com/repos/%s/events?per_page=100" .Params.github) (dict "Authorization" "Bearer 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") }}
+                {{ $info = merge $repo $info }}
+                <!-- https://docs.github.com/en/webhooks-and-events/events/github-event-types -->
+                {{- $filtered_events := slice }}
+                {{- range $events }}
+                    {{- if eq .type "PushEvent" }}
+                        {{- $filtered_events = $filtered_events | append . }}
+                    {{- else if and (eq .type "ReleaseEvent") (eq .payload.action "published") }}
+                        {{- $filtered_events = $filtered_events | append . }}
+                    {{- else if and (eq .type "PullRequestEvent") (eq .payload.action "opened") (ne .actor.display_login "dependabot") }}
+                        {{- $filtered_events = $filtered_events | append . }}
+                    {{- end }}
+                {{- end }}
+                {{ with $filtered_events }}
+                    {{- $all_events = $all_events | append (. | first 2) }}
+                {{ end }}
+                {{- $is_active = gt ($info.pushed_at | time) $one_year_ago }}
+            {{- end }}
+            {{- if $is_active }}
+                {{- $active = $active | append $info }}
+            {{- else }}
+                {{- $inactive = $inactive | append $info }}
+            {{- end }}
+        {{- end }}
+
+        <h2>Active Projects</h2>
+        {{- range sort $active "pushed_at" "desc" }}
+        {{- partial "project.html" . }}
+        {{- end }}
+
+        <h2 class="mt-4">Old Projects</h2>
+        {{- range sort (where $inactive "pushed_at" "!=" nil) "pushed_at" "desc" }}
+            {{- partial "project.html" . }}
+        {{- end }}
+        {{- range sort (where $inactive "pushed_at" "==" nil) "title" "asc" }}
+            {{- partial "project.html" . }}
+        {{- end }}
+    </div>
+    <div class="col col-lg-5 py-4 bg-light">
+        <h4>Latest Activity</h4>
+        {{ range sort $all_events "created_at" "desc" | first 10 }}
+        <div class="mb-3">
+            <div class="row gx-2 align-items-center mb-1">
+                <div class="col-auto">
+                    {{ $image := resources.GetRemote .actor.avatar_url }}
+                    {{ $image := $image.Resize "80x" }}
+                    <a href="https://github.com/{{ .actor.login }}">
+                    <img class="rounded-circle" width="40" alt="@{{ .actor.display_login }}" src="{{ $image.RelPermalink }}">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="link-body-emphasis" href="https://github.com/{{ .actor.login }}">{{ .actor.display_login }}</a>
+                    {{ if eq .type "PushEvent" }}
+                        pushed to
+                        <a class="link-body-emphasis" href="https://github.com/{{ .repo.name }}">{{ .repo.name }}</a>
+                    {{ else if eq .type "ReleaseEvent" }}
+                        {{ $repo_name := index (split .repo.name "/") 1 }}
+                        published
+                        <a class="link-body-emphasis" href="{{ .payload.release.html_url }}">
+                        {{ $repo_name }}
+                        {{ .payload.release.tag_name | replaceRE (printf "(?i)%s[^w]+" $repo_name) "" }}</a>. 🎉
+                    {{ else if eq .type "PullRequestEvent" }}
+                        opened a pull request
+                        in <a class="link-body-emphasis" href="https://github.com/{{ .repo.name }}">{{ .repo.name }}</a>.
+                    {{ end }}
+                    <span style="white-space: nowrap">
+                            · <relative-time datetime="{{ .created_at }}">at {{ .created_at | time | time.Format ":date_long" }}</relative-time>
+                        </span>
+                </div>
+            </div>
+            {{ if eq .type "PushEvent" }}
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="mb-1">
+                    {{ .payload.commits | len }} commit{{ if gt (.payload.commits | len) 1 }}s{{ end }}
+                    to <a class="badge text-bg-info">wat</a>
+                    </div>
+                    {{ $repo := .repo }}
+                    {{ range .payload.commits | first 3 }}
+                        <a style="color: #0969da" href="https://github.com/{{ $repo.name }}/commit/{{ .sha }}">{{ .sha | truncate 7 "" }}</a>
+                        <span class="text-muted">{{ index (split .message "\n") 0 | truncate 80 }}</span>
+                    {{ end }}
+              </div>
+            </div>
+            {{ else if eq .type "PullRequestEvent" }}
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="mb-1">
+                    <a class="link-body-emphasis" href="{{ .payload.pull_request.html_url }}">
+                        <span class="badge text-bg-info">#{{ .payload.pull_request.number }}</span></a>
+                    <a class="link-body-emphasis" href="{{ .payload.pull_request.html_url }}">
+                        {{ .payload.pull_request.title }}
+                    </a>
+                    </div>
+                    {{ .payload.pull_request.additions }} additions and {{ .payload.pull_request.deletions }} deletions
+                    in {{ .payload.pull_request.changed_files }} changed files.
+              </div>
+            </div>
+            {{ end }}
+
+            {{ if eq .type "PullRequestEvent!" }}
+                <pre>{{ . | jsonify (dict "indent" "  ") }}</pre>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    </div>
+</div>
+    {{ $js := resources.Get "relative-time-element.4.3.0.bundle.js" | resources.Fingerprint }}
+    <script type="module" src="{{ $js.RelPermalink }}"></script>
+{{ end }}
