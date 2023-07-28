@@ -1,6 +1,5 @@
 ---
 title: "Capture-HPC"
-date: "2008-08-14"
 ---
 
 **Capture** is a high interaction [client honeypot](https://projects.honeynet.org/capture-hpc/wiki/client_honeypot) (also called [honeyclient](https://projects.honeynet.org/capture-hpc/wiki/honeyclient)). A client honeypot or [honeyclient](https://projects.honeynet.org/capture-hpc/wiki/honeyclient) is a security technology that allows one to find malicious servers on a network. Capture identifies malicious servers by interacting with potentially malicious servers using a dedicated virtual machine and observing its system state changes. If an system state change is detected, since no other activity occurs on the dedicated client machine, the server Capture interacted with is classified as malicious.

@@ -1,6 +1,5 @@
 ---
 title: "Capture BAT"
-date: "2008-08-14"
 ---
 
 Capture BAT is a behavioral analysis tool of applications for the Win32 operating system family. Capture BAT is able to monitor the state of a system during the execution of applications and processing of documents, which provides an analyst with insights on how the software operates even if no source code is available. Capture BAT monitors state changes on a low kernel level and can easily be used across various Win32 operating system versions and configurations.

@@ -1,6 +1,5 @@
 ---
 title: "HoneyC"
-date: "2008-08-14"
 ---
 
 HoneyC is a low interaction client honeypot framework that allows to find malicious servers on a network. Instead of using a fully functional operating system and client to perform this task, HoneyC uses emulated clients that are able to solicit as much of a response from a server that is necessary for analysis of malicious content. Developed by Christian Seifert of the New Zealand Chapter.

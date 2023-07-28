@@ -1,6 +1,5 @@
 ---
 title: "Glastopf"
-date: "2009-10-17"
 ---
 
 ## About Glastopf

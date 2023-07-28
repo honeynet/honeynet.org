@@ -1,6 +1,5 @@
 ---
 title: "Google Hack Honeypot"
-date: "2008-08-14"
 ---
 
 Google Hack Honeypot is the reaction to a new type of malicious web traffic: search engine hackers. It is designed to provide reconnaissance against attackers that use search engines as a hacking tool. Developed by Ryan McGeehan & Brian Engert of the Chicago Chapter.
