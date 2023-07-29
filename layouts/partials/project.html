@@ -4,7 +4,7 @@
     </h4>
     {{ if .description }}
     <p class="text-body-secondary mb-0">
-        {{ .description | replaceRE (printf "^(?i)[^\\w]*%s[^\\w]+" .name) "" }}
+        {{ .description | replaceRE (printf "^(?i)[^\\w]*%s[^\\w]+(is\\s+)?" .name) "" }}
     </p>
     {{ end}}
 
@@ -66,7 +66,7 @@
     {{ with .topics }}
     <div class="my-1">
         {{ range . | first 15 }}
-        <span class="badge bg-primary">{{ . }}</span>
+        <span class="badge bg-primary text-dark">{{ . }}</span>
         {{ end}}
     </div>
     {{ end }}

@@ -5,9 +5,10 @@
         <h1>Projects</h1>
 
         <p>
-        This page contains a list of tools and services that we use on a regular basis. Most of these tools have been created
-        by our members and GSoC students, but some are also external and not affiliated with the Honeynet Project.
-        If you see that a specific tool is not listed, but should, feel free to email projects@honeynet.org.
+            This page contains a list of tools and services that we use on a regular basis. Most of these tools have
+            been created by our members and GSoC students, but some are also external and not affiliated with the
+            Honeynet Project. If you see that a specific tool is not listed, but should, feel free to email
+            projects@honeynet.org. Projects are sorted by last commit date.
         </p>
 
         {{- $one_year_ago := now.AddDate -1 0 0 }}
@@ -60,7 +61,7 @@
     </div>
     <div class="col col-lg-5 py-4 bg-light">
         <h4>Latest Activity</h4>
-        {{ range sort $all_events "created_at" "desc" | first 10 }}
+        {{ range sort $all_events "created_at" "desc" | first 20 }}
         <div class="mb-3">
             <div class="row gx-2 align-items-center mb-1">
                 <div class="col-auto">
