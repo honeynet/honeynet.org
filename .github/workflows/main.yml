@@ -11,7 +11,7 @@ on:
 
 jobs:
   deploy:
-    uses: mhils/workflows/.github/workflows/gh-pages-hugo.yml@main
+    uses: mhils/workflows/.github/workflows/gh-pages-hugo.yml@v2
     permissions:
       contents: read
       id-token: write

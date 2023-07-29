@@ -3,10 +3,17 @@ languageCode = 'en-us'
 title = 'The Honeynet Project'
 rssLimit = 20
 
-[outputFormats]
+#  disable RSS for everything, and then manually re-enable it in content/blog/_index.md.
+[outputs]
+home     = ["HTML"]
+page     = ["HTML"]
+section  = ["HTML"]
+taxonomy = ["HTML"]
+term     = ["HTML"]
+
 [outputFormats.RSS]
-mediatype = "application/rss"
-baseName = "feed/index"
+# Make blog/feed.xml availalbe at /feed/.
+baseName = "../feed/index"
 
 [permalinks]
   blog = '/:year/:month/:day/:filename/'

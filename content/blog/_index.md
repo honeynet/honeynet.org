@@ -1,0 +1,3 @@
++++
+outputs = ['html', 'rss']
++++
