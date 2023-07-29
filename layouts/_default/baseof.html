@@ -10,7 +10,7 @@
     {{ $js := resources.Get "bootstrap-5.3.0/bootstrap.bundle.min.js" | resources.Fingerprint -}}
     <script src="{{ $js.RelPermalink }}"></script>
 
-    <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="{{ .Site.Title }}">
+    <link rel="alternate" type="application/rss+xml" title="The Honeynet Project" href="/feed/" />
 </head>
 <body>
 <header>

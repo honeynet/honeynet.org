@@ -6,7 +6,7 @@ rssLimit = 20
 [outputFormats]
 [outputFormats.RSS]
 mediatype = "application/rss"
-baseName = "feed"
+baseName = "feed/index"
 
 [permalinks]
   blog = '/:year/:month/:day/:filename/'
