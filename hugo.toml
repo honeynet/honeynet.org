@@ -39,11 +39,11 @@ baseName = "feed"
   parent = 'About Us'
   pageRef = '/funding'
   weight = 3
-#[[menu.main]]
-#  name = 'Papers'
-#  parent = 'About Us'
-#  pageRef = '/papers'
-#  weight = 4
+[[menu.main]]
+  name = 'Papers'
+  parent = 'About Us'
+  pageRef = '/papers'
+  weight = 4
 [[menu.main]]
   name = 'Blog'
   pageRef = '/blog'
