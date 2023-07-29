@@ -1,6 +1,12 @@
 baseURL = 'https://honeynet.org/'
 languageCode = 'en-us'
 title = 'The Honeynet Project'
+rssLimit = 20
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "feed"
 
 [permalinks]
   blog = '/:year/:month/:day/:filename/'
