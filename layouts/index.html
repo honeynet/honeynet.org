@@ -1,8 +1,7 @@
 {{ define "header" }}
-
 <div id="hero" class="d-flex flex-column flex-sm-row align-items-center justify-content-center py-4 gap-5">
-    {{ $logo := resources.Get "logo.png" }}
-    {{ $logo := $logo.Resize "250x" }}
+    {{- $logo := resources.Get "logo.png" }}
+    {{- $logo := $logo.Resize "250x" }}
     <img style="max-width: 250px" alt="Honeynet Logo" src="{{ $logo.RelPermalink }}">
     <div style="max-width: 460px">
         <h1>The Honeynet Project</h1>
@@ -10,27 +9,15 @@
         <a href="{{ relref . "about" }}" class="btn btn-lg btn-primary mt-2">Learn More</a>
     </div>
 </div>
-
 {{ end }}
 
 {{ define "main" }}
 <div class="container py-4">
     <div class="homepage-content">
         {{ with .GetPage "tags/featured" }}
-        {{ range (.Paginator).Pages }}
-        <article class="mb-5">
-            {{ partial "posts/head.html" . }}
-            <section>
-                {{ .Summary }}
-            </section>
-            <footer>
-                {{ if .Truncated }}
-                <a class="btn btn-secondary btn-sm" href="{{ .RelPermalink }}">
-                    Read more
-                </a>
-                {{ end }}
-            </footer>
-        </article>
+        {{ range (.Paginator 3).Pages }}
+        {{ partial "posts/teaser.html" . }}
+
         {{ end }}
         {{ end }}
     </div>
