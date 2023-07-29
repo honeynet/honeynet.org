@@ -32,12 +32,12 @@ baseName = "feed"
 [[menu.main]]
   name = 'Code of Conduct'
   parent = 'About Us'
-  pageRef = '/about/code-of-conduct'
+  pageRef = '/code-of-conduct'
   weight = 2
 [[menu.main]]
   name = 'Funding'
   parent = 'About Us'
-  pageRef = '/about/funding'
+  pageRef = '/funding'
   weight = 3
 #[[menu.main]]
 #  name = 'Papers'

@@ -1,5 +1,6 @@
 ---
 title: "Code of Conduct"
+url: /about/code-of-conduct/
 ---
 
 * We will interact with others in our community with honesty, integrity and respect. This includes considering cultural differences as they relate to both interpersonal relations and when our work may have differing impacts amongst different cultural groups.
