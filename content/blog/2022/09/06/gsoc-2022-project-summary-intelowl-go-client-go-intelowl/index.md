@@ -2,8 +2,14 @@
 title: "GSoC 2022 Project Summary: IntelOwl Go Client (go-intelowl)"
 date: "2022-09-06"
 coverImage: "intel_owl_positive_reduced.png"
-tags: ["osint", "intelowl", "threatintel"]
+tags: ["gsoc", "intelowl", "threatintel"]
 ---
+
+Our [GSoC](https://summerofcode.withgoogle.com/) student [Hussain Khan](https://github.com/fear-the-reaper) was working for three months under the supervision of Matteo Lodi on the OSINT platform [IntelOwl](https://github.com/intelowlproject/IntelOwl), specifically on a Go client library, allowing developers to integrate with the IntelOwl API in their solutions.
+
+Read on for an overview of their achievements and how they successfully contributed towards IntelOwl and some considerations for the future.
+
+<!--more-->
 
 **Student**: Hussain Khan ([@fear-the-reaper](https://github.com/fear-the-reaper))
 
@@ -11,17 +17,15 @@ tags: ["osint", "intelowl", "threatintel"]
 
 **Organization**: The Honeynet Project
 
-**Project**: [Intel Owl](https://github.com/intelowlproject/IntelOwl)
+**Project**: [IntelOwl](https://github.com/intelowlproject/IntelOwl)
 
 **Project Overview**
 
-Intel Owl is an Open Source Intelligence or OSINT solution to get threat intelligence data about a specific file, an IP, or a domain from a single API at scale. It integrates a number of analyzers available online and is for everyone who needs a single point to query for info about a specific file or observable.
-
-<!--more-->
+IntelOwl is an Open Source Intelligence or OSINT solution to get threat intelligence data about a specific file, an IP, or a domain from a single API at scale. It integrates a number of analyzers available online and is for everyone who needs a single point to query for info about a specific file or observable.
 
 **Hussain’s proposal:**
 
-_I propose making a robust Go client library for OSINT Threat Intelligence Platform IntelOwl that easily communicates with their API. The Intelowl Go SDK will allow developers to communicate with the API so that they can easily develop and integrate IntelOwl with their own automated scripts, tools, and services._ 
+_I propose making a robust Go client library for OSINT Threat Intelligence Platform IntelOwl that easily communicates with their API. The IntelOwl Go SDK will allow developers to communicate with the API so that they can easily develop and integrate IntelOwl with their own automated scripts, tools, and services._ 
 
 So the main objective was to develop a robust Go client library that is easy to use for developers and easily extensible for adding new features.
 
@@ -30,7 +34,7 @@ So the main objective was to develop a robust Go client library that is easy to 
 List of pull requests merged before GSoC’s coding period:
 
 - Adding a new issue template where I added markdown templates for adding a new issue and analyzer [(#904](https://github.com/intelowlproject/IntelOwl/pull/904)).  
-- Patching the FLOSS analyzer where I researched adding the eXpert flag. This was a really fun issue where I thoroughly understood how intelowl’s analyzers are configured and how they are executed ([#940](https://github.com/intelowlproject/IntelOwl/pull/940)).  
+- Patching the FLOSS analyzer where I researched adding the eXpert flag. This was a really fun issue where I thoroughly understood how IntelOwl’s analyzers are configured and how they are executed ([#940](https://github.com/intelowlproject/IntelOwl/pull/940)).  
     
 
 **GSoC Tasks and Deliverables**

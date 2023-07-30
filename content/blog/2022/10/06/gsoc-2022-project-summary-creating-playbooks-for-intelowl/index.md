@@ -2,8 +2,14 @@
 title: "GSoC 2022 Project summary: Creating Playbooks for IntelOwl"
 date: "2022-10-06"
 coverImage: "intel_owl_positive_reduced.png"
-tags: ["osint", "intelowl", "threatintel"]
+tags: ["gsoc", "intelowl", "threatintel"]
 ---
+
+Our [GSoC](https://summerofcode.withgoogle.com/) student [Aditya Narayan Sinha](https://github.com/0x0elliot) was working for three months under the supervision of Matteo Lodi on the OSINT platform [IntelOwl](https://github.com/intelowlproject/IntelOwl), specifically on introducing playbooks that define automated actions associated with the observation of a specific indicator of compromise.
+
+Read on for an overview of their achievements and how they successfully contributed towards IntelOwl and some considerations for the future.
+
+<!--more-->
 
 **Student**: Aditya Narayan Sinha ([0x0elliot](https://github.com/0x0elliot))
 
@@ -11,9 +17,7 @@ tags: ["osint", "intelowl", "threatintel"]
 
 **Organization**: The Honeynet Project
 
-**Project**: [Intel Owl](https://github.com/intelowlproject/IntelOwl)
-
-<!--more-->
+**Project**: [IntelOwl](https://github.com/intelowlproject/IntelOwl)
 
 ### **Aditya’s GSoC Proposal:**
 
@@ -72,6 +76,6 @@ One of the main problems I encountered while working was syncing up with the oth
 
 I am thankful for my supportive and brilliant mentors for giving me this chance and being there every step of the way. If they weren't there, I am sure I wouldn't have it made it so far. Someone trusting in you always pushes you ahead more than you can think.
 
-I want to be there more with HoneyPot to accommodate in developing the projects they look forward to developing with my special interest being in GreedyBear https://github.com/honeynet/GreedyBear/. It is a project that is still being developed and has a lot of scopes for things to build.
+I want to be there more with HoneyPot to accommodate in developing the projects they look forward to developing with my special interest being in [GreedyBear](https://github.com/honeynet/GreedyBear/). It is a project that is still being developed and has a lot of scopes for things to build.
 
-I also want to help out with providing Go-IntelOwl support for Playbooks. It is something that wasn’t planned or promised in my original proposal. But Hussain, One of the other contributors to the IntelOwl project, Ended up completing the CLI by the time we all finished with our GSoC projects. As of now, it lacks Playbook support. So that would be the natural thing for me to move forward to adding.
+I also want to help out with providing Go-IntelOwl support for Playbooks. It is something that wasn’t planned or promised in my original proposal. But Hussain, one of the other contributors to the IntelOwl project, ended up completing the CLI by the time we all finished with our GSoC projects. As of now, it lacks Playbook support. So that would be the natural thing for me to move forward to adding.
