@@ -2,10 +2,10 @@
 title: "GSoC 2022 Project Summary: IntelOwl v4 Improvements"
 date: "2022-09-26"
 coverImage: "intel_owl_positive_reduced.png"
+tags: ["osint", "intelowl", "threatintel"]
 ---
 
-**  
-Student**: Aditya Pratap Singh ([devmrfitz](https://github.com/devmrfitz))
+**Student**: Aditya Pratap Singh ([devmrfitz](https://github.com/devmrfitz))
 
 **Mentor**: Matteo Lodi, Simone Berni and Daniele Rosetti
 
@@ -13,27 +13,22 @@ Student**: Aditya Pratap Singh ([devmrfitz](https://github.com/devmrfitz))
 
 **Project**: [Intel Owl](https://github.com/intelowlproject/IntelOwl)
 
-**Tag:** Information Security
-
 **Project Overview**
 
 Intel Owl is an Open Source Intelligence or OSINT solution to get threat intelligence data about a specific file, an IP, or a domain from a single API at scale. It integrates a number of analyzers available online and is for everyone who needs a single point to query for info about a specific file or observable.
+
+<!--more-->
 
 **Aditya’s proposal:**
 
 _Improve existing functionalities and add new ones to IntelOwl for release of v4._
 
-_\- Allow plugin secrets to be stored and managed from GUI #978_
-
-_\- Allow analysis of multiple IOCs in one call #732_
-
-_\- Add support for external authentication methods #121_
-
-_\- Provide navigable JSON result for each analyzer #959_
-
-_\- Add hashes to File\_Info analyzer #270_
-
-_\- Allow plugin configurations to inherit (extend) from each other #752 - Allow editing plugin params from the GUI #433_
+- Allow plugin secrets to be stored and managed from GUI #978_
+- Allow analysis of multiple IOCs in one call #732_
+- Add support for external authentication methods #121_
+- Provide navigable JSON result for each analyzer #959_
+- Add hashes to File\_Info analyzer #270_
+- Allow plugin configurations to inherit (extend) from each other #752 - Allow editing plugin params from the GUI #433_
 
 **Aditya's Journey**
 

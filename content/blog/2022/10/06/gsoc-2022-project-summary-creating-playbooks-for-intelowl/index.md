@@ -2,6 +2,7 @@
 title: "GSoC 2022 Project summary: Creating Playbooks for IntelOwl"
 date: "2022-10-06"
 coverImage: "intel_owl_positive_reduced.png"
+tags: ["osint", "intelowl", "threatintel"]
 ---
 
 **Student**: Aditya Narayan Sinha ([0x0elliot](https://github.com/0x0elliot))
@@ -12,7 +13,7 @@ coverImage: "intel_owl_positive_reduced.png"
 
 **Project**: [Intel Owl](https://github.com/intelowlproject/IntelOwl)
 
-**Tag:** Information Security
+<!--more-->
 
 ### **Aditya’s GSoC Proposal:**
 
@@ -22,17 +23,14 @@ I propose working on a new component for IntelOwl this summer - Playbooks which 
 
 ### **Pre GSoC Commits:**
 
-\- RIPE API analyzer - ([#763](https://github.com/intelowlproject/IntelOwl/pull/763))
+- RIPE API analyzer - ([#763](https://github.com/intelowlproject/IntelOwl/pull/763))
+- BitcoinAbuse Analyzer - ([#764](https://github.com/intelowlproject/IntelOwl/pull/764))
+- CAPE sandbox analyzer - ([#836](https://github.com/intelowlproject/IntelOwl/pull/836))
+- Analyzer for mnemonic PDNS - ([#785](https://github.com/intelowlproject/IntelOwl/pull/785))
 
-\- BitcoinAbuse Analyzer - ([#764](https://github.com/intelowlproject/IntelOwl/pull/764))
+## **GSoC Tasks and Deliverables**
 
-\- CAPE sandbox analyzer - ([#836](https://github.com/intelowlproject/IntelOwl/pull/836))
-
-\- Analyzer for mnemonic PDNS - ([#785](https://github.com/intelowlproject/IntelOwl/pull/785))
-
-### **GSoC Tasks and Deliverables**
-
-**1\. Playbooks Manager and changes in the IntelOwl core**
+### 1. Playbooks Manager and changes in the IntelOwl core
 
 A sub-app that had ready-to-use serializers to parse a playbooks\_config.json file along with all the necessary classes and data classes. While implementing this sub-app, I had to make some changes in the core of IntelOwl as well to accommodate for the feature.
 
@@ -40,37 +38,37 @@ I had to tackle multiple problems which came up while implementing this part of 
 
 Other than that, I built up the job serializers for Playbooks and worked on the analyzer/connector filtering logic.
 
-**2\. Tests and docs**
+### 2. Tests and docs
 
 After iterating through a couple of options, We settled on writing test classes for Files and Observables for Playbooks which used the same logic as Analyzers and Connectors. Like a lot of the development I did on making Playbooks, where I was writing one function which was used for both analyzers/connectors and Playbooks somewhere (usually after my mentors pointed out that I was still rewriting code that could be reused), I found myself doing the same here.
 
 And then, of course, I updated the documentation appropriately for the feature.
 
-**3\. Free to use Analyzers Playbook**
+### 3. Free to use Analyzers Playbook
 
 This was the least time-consuming portion of the work. My aim was to provide a base playbook that consisted of a collection of free-to-use analyzers. To solve this, I wrote a quick script that looked through analyzers\_config.json for analyzers that did not have an API key associated with them and then dumped it in the playbooks config file in the appropriate format with the parameters associated with it.
 
-**4\. IntelOwl UI changes**
+### 4. IntelOwl UI changes
 
 All frontend changes to support Playbooks were made as well (Accommodating in job reports, Adding an option for running Playbooks in the frontend, and A table in the plugins section)
 
 This was a part we had to redo neatly another time to make the UX the best we could pull off. By the end, We settled on the current version which includes a simple radio option you can use to shift to the Playbooks tab.
 
-**5\. PyIntelOwl Changes**
+### 5. PyIntelOwl Changes
 
 I made all the corresponding changes to support Playbooks in PyIntelOwl.
 
 Added CLI methods and easy-to-use functions for fetching playbook configs and running appropriate playbooks. After the Free to use Analyzers Playbook work, this was the simplest to pull off.
 
-### **Pull Requests**
+### Pull Requests
 
 Mid development, I figured out that it’s best to have one PR for both frontend & backend (https://github.com/intelowlproject/IntelOwl/pull/1123) and another for PyIntelOwl (https://github.com/intelowlproject/pyintelowl/pull/176).
 
-### **Problems Encountered:**
+### Problems Encountered:
 
 One of the main problems I encountered while working was syncing up with the other contributors working on the same issues as me. There were lots of merge conflicts and points where I had to rewrite things to match their changes.
 
-### **Next Steps**
+### Next Steps
 
 I am thankful for my supportive and brilliant mentors for giving me this chance and being there every step of the way. If they weren't there, I am sure I wouldn't have it made it so far. Someone trusting in you always pushes you ahead more than you can think.
 
