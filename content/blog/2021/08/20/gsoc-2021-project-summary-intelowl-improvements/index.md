@@ -1,14 +1,15 @@
 ---
 title: "GSoC 2021 Project Summary: IntelOwl Improvements"
 date: "2021-08-20"
-categories: 
-  - "gsoc"
-tags: 
-  - "gsoc-d20"
-  - "intelowl"
-  - "threatintel"
 coverImage: "intel_owl_positive_reduced.png"
+tags: ["gsoc", "intelowl", "threatintel"]
 ---
+
+Our [GSoC](https://summerofcode.withgoogle.com/) student [Sarthak Khattar](https://github.com/m0mosenpai) was working for three months under the supervision of Matteo Lodi on the OSINT platform [IntelOwl](https://github.com/intelowlproject/IntelOwl), specifically overhauling the analyzer configuration, API and test suite refactoring, and the integration of new analyzers.
+
+Read on for an overview of their achievements and how they successfully contributed towards IntelOwl and some considerations for the future.
+
+<!--more-->
 
 **Student:** Sarthak Khattar ([GitHub](https://github.com/m0mosenpai))
 
@@ -17,8 +18,6 @@ coverImage: "intel_owl_positive_reduced.png"
 **Organization:** The Honeynet Project
 
 **Project:** [IntelOwl](https://github.com/intelowlproject/IntelOwl)
-
-**Tag:** Information Security
 
 ### **Project Overview**
 

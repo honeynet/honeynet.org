@@ -22,6 +22,11 @@ baseName = "../feed/index"
   projects = '/projects/:filename/'
   gsoc = '/gsoc/:year/:filename'
 
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"
+
 [menu]
 [[menu.main]]
   name = 'Home'

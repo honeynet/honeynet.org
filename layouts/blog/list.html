@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container py-4">
+    <div class="col col-lg-8">
+        {{ range (.Paginator).Pages }}
+        {{ partial "posts/teaser.html" . }}
+        {{ end }}
+
+        <div class="mt-4"></div>
+        {{ template "_internal/pagination.html" . }}
+    </div>
+</div>
+{{ end }}

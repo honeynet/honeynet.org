@@ -8,15 +8,14 @@
 
     {{- if ne page . }}</a>{{ end -}}
 </h1>
-<h5>
+<h6>
     {{- with .Date -}}
         {{- .Format "02 Jan 2006" -}}
     {{- end -}}
-    {{- with .Param "author" -}},
-        {{- if .url -}}
-            <a href="{{ .url }}">{{ .name }}</a>
-        {{- else -}}
-            {{- .name -}}
-        {{- end -}}
-    {{- end -}}
-</h5>
+    {{- range .Params.authors }}
+        {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+            <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+        {{ end }}
+    {{ end }}
+    {{ partial "tags.html" . }}
+</h6>
