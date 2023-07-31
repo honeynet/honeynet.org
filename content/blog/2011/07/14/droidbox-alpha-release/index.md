@@ -1,14 +1,11 @@
 ---
 title: "DroidBox: alpha release"
 date: "2011-07-14"
-categories: 
-  - "android"
-  - "encryption"
 tags: 
-  - "android-d70"
+  - "android"
   - "droidbox"
-  - "dynamic-analysis-d29"
-  - "sandbox-d7"
+  - "dynamic-analysis"
+  - "sandbox"
 ---
 
 The Android application sandbox is now ready for an alpha release. Details on how to get DroidBox running are available at the [project webpage](http://code.google.com/p/droidbox).
@@ -25,6 +22,7 @@ At the moment, the following actions are logged during runtime:
 
 An analysis output looks like the following sample report:
 
+```
 ``____ __ ____ /\ _`\ [alpha] __ /\ \/\ _`\ \ \ \/\ \ _ __ ___ /\_\ \_\ \ \ \L\ \ ___ __ _ \ \ \ \ \/\`'__\ __`\/\ \ /'_` \ \ _ <' / __`\/\ \/'\ \ \ \_\ \ \ \/\ \L\ \ \ \/\ \L\ \ \ \L\ \ \L\ \/> \ \____/\ \_\ \____/\ \_\ \___,_\ \____/ \____//\_/\_\ \/___/ \/_/\/___/ \/_/\/__,_ /\/___/ \/___/ \//\/_/ ^C [*] Collected 36 sandbox logs``
 
 `[File activities] -----------------
@@ -76,6 +74,7 @@ An analysis output looks like the following sample report:
 [Sent SMS] ---------- [1310660575.45] Number: 0735445281 Message: Sending sms...
 
 ``[Phone calls] ------------- [1310660575.48] Number: 123456789 [1310660575.83] Number: 123456789`
+```
 
 The development continues with static analysis of Android packages. More specifically, permissions, activities and registered Intent receivers are to be parsed from the Manifest file to coordinate with the dynamic analysis. Some of the features planned to be implemented are:
 

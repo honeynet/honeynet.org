@@ -23,7 +23,7 @@ The main objective is to migrate from Wordpress to a static site generator (Hugo
 To add a new blog post, run the following command in the root directory of this repository:
 
 ```
-hugo new blog/YYYY-MM-DD-some-title/index.md
+hugo new blog/YYYY/MM/DD/some-title/index.md
 ```
 
 You can then edit the newly created file with your favorite text editor, and
