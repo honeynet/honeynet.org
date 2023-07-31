@@ -2,8 +2,13 @@
 title: "GSoC 2022 Project Summary: IntelOwl v4 Improvements"
 date: "2022-09-26"
 coverImage: "intel_owl_positive_reduced.png"
-tags: ["osint", "intelowl", "threatintel"]
+tags: ["gsoc", "intelowl", "threatintel"]
 ---
+Our [GSoC](https://summerofcode.withgoogle.com/) student [Aditya Pratap Singh](https://github.com/devmrfitz) was working for three months under the supervision of Matteo Lodi on the OSINT platform [IntelOwl](https://github.com/intelowlproject/IntelOwl), specifically on bulk analysis, single sign-on, and major improvements to the configurations and secrets.
+
+Read on for an overview of their achievements and how they successfully contributed towards IntelOwl and some considerations for the future.
+
+<!--more-->
 
 **Student**: Aditya Pratap Singh ([devmrfitz](https://github.com/devmrfitz))
 
@@ -11,13 +16,11 @@ tags: ["osint", "intelowl", "threatintel"]
 
 **Organization**: The Honeynet Project
 
-**Project**: [Intel Owl](https://github.com/intelowlproject/IntelOwl)
+**Project**: [IntelOwl](https://github.com/intelowlproject/IntelOwl)
 
 **Project Overview**
 
 Intel Owl is an Open Source Intelligence or OSINT solution to get threat intelligence data about a specific file, an IP, or a domain from a single API at scale. It integrates a number of analyzers available online and is for everyone who needs a single point to query for info about a specific file or observable.
-
-<!--more-->
 
 **Aditya’s proposal:**
 
@@ -47,7 +50,7 @@ Here's an overview of the features I had implemented by my mid-evaluation:
 - Allowed bulk analysis of files as well as observables, leading to a more efficient workflow for IntelOwl users. [#1032](https://github.com/intelowlproject/IntelOwl/pull/1032)
 - Improved the rendering of JSON job result data [#1051](https://github.com/intelowlproject/IntelOwl/pull/1051)
 - Edited `FileInfo` analyzer to add some more potentially useful hashes. [#1073](https://github.com/intelowlproject/IntelOwl/pull/1073)
-- Implemented a feature that felicitated editing of plugin parameters directly from GUI as well as setting of default parameters at organization level, thus making IntelOwl more customizable and easier to use. [#1095](https://github.com/intelowlproject/IntelOwl/pull/1095)
+- Implemented a feature that facilitated editing of plugin parameters directly from GUI as well as setting of default parameters at organization level, thus making IntelOwl more customizable and easier to use. [#1095](https://github.com/intelowlproject/IntelOwl/pull/1095)
 - Added an `extends` field of config files. This allowed configs to extend from other similar config, thus eliminating unnecessary code duplication. [#1119](https://github.com/intelowlproject/IntelOwl/pull/1119)
 
 I still felt I was going slightly wrong somewhere. My mid-evaluation report directed me to the problem. I was again not communicating enough, the very same mistake I had made last year. Due to the distributed nature of any popular FOSS project's community, it is very essential that seemingly minor implementation decisions (like the positioning of a button) should be discussed before being actually coded. This helps the community's developers to avoid writing as well as peer-reviewing unnecessary code.
@@ -59,9 +62,9 @@ Finally we come to today's status. I'm almost done with all the issues I set out
 - Added "Login with Google" support to IntelOwl to allow easier and secure user onboarding. [#1129](https://github.com/intelowlproject/IntelOwl/pull/1129)
 - \[The pending one\] Allowed secure editing of plugin secrets from IntelOwl's GUI. Earlier, the secrets could only be edited by manually modifying a specific file on the server. Also, implemented organization-level secrets. [#1136](https://github.com/intelowlproject/IntelOwl/pull/1136)
 
-The merging of this final PR will conclude my GSoC journey. I learnt a lot more than I initially set out to. The most valuable lessons are, infact, not even technical in nature. I learnt how to better work with a team, especially one spread over various timezones.
+The merging of this final PR will conclude my GSoC journey. I learnt a lot more than I initially set out to. The most valuable lessons are, in fact, not even technical in nature. I learnt how to better work with a team, especially one spread over various timezones.
 
-As an ending note, I would like to give a huge thanks to my mentor, Matteo Lodi. He was with me every step of the way, even when my work was not upto the mark.  
+As an ending note, I would like to give a huge thanks to my mentor, Matteo Lodi. He was with me every step of the way, even when my work was not up to the mark.  
 Thanks a lot Matteo :)
 
 Original post is available [here](https://dev.to/devmrfitz/to-gsoc-and-beyond-4m34)

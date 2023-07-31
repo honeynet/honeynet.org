@@ -1,13 +1,15 @@
 ---
-title: "GSoC 2020 Work Product - Intel Owl"
+title: "GSoC 2020 Project Summary: A new front-end and analyzers for IntelOwl"
 date: "2020-08-26"
-categories: 
-  - "gsoc"
-tags: 
-  - "intelowl"
-  - "threatintel"
 coverImage: "intel_owl.jpeg"
+tags: ["gsoc", "intelowl", "threatintel"]
 ---
+
+Our [GSoC](https://summerofcode.withgoogle.com/) student [Eshaan Bansal](https://github.com/Eshaan7) was working for three months under the supervision of Matteo Lodi on the OSINT platform [IntelOwl](https://github.com/intelowlproject/IntelOwl), specifically introducing a brand new front-end written in Angular and analyzers to automate integrations.
+
+Read on for an overview of their achievements and how they successfully contributed towards IntelOwl and some considerations for the future.
+
+<!--more-->
 
 **Student**: Eshaan Bansal ([@Eshaan7](https://github.com/Eshaan7))  
 **Mentor:** [Matteo Lodi](https://twitter.com/matte_lodi) and [Pietro Delsante](https://twitter.com/PietroDelsante)**  
@@ -16,8 +18,6 @@ Organization**: The Honeynet Project
 **Tag**: Information Security
 
 ### Project Overview
-
-#### Intel Owl
 
 Intel Owl is an Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale. It integrates a number of analyzers available online and is for everyone who needs a single point to query for info about a specific file or observable.
 
