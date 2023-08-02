@@ -5,13 +5,15 @@ on:
   push:
     branches:
       - main
-      - v2
+  pull_request:
   schedule:
     - cron: '27 3,9,15,21 * * *'
 
 jobs:
   deploy:
-    uses: mhils/workflows/.github/workflows/gh-pages-hugo.yml@v2
+    uses: mhils/workflows/.github/workflows/gh-pages-hugo.yml@v3
+    with:
+      deploy: ${{ github.ref == 'refs/heads/main' }}
     permissions:
       contents: read
       id-token: write
