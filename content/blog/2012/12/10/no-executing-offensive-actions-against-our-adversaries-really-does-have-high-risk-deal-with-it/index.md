@@ -6,7 +6,7 @@ tags:
   - "active-defense"
   - "active-response-continuum"
   - "counter-attack"
-  - "crowdstrike-d37"
+  - "crowdstrike"
   - "ethics"
   - "hack-back"
 ---

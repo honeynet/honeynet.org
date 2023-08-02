@@ -5,7 +5,7 @@ date: "2008-09-04"
 categories: 
   - "analysis"
 tags: 
-  - "hex-d64"
+  - "hex"
   - "malaysian-honeynet-chapter"
 ---
 

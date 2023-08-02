@@ -6,7 +6,7 @@ categories:
   - "gsoc"
 tags: 
   - "2018"
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2018"
   - "infection-monkey"
   - "project"

@@ -3,7 +3,7 @@ title: "Open Source Licensing Madness"
 authors: ["Sebastian Poeplau"]
 date: "2012-06-25"
 tags: 
-  - "ghost-d68"
+  - "ghost"
 ---
 
 Before we released the [Ghost USB honeypot](http://code.google.com/p/ghost-usb-honeypot/) as open source software, we had quite some trouble to apply the GPL to our case. Since there wasn't much information available for the very particular case of using the GPL for a Windows driver, I'll discuss our issues and solutions in this article. This might not directly be applicable to other software, but it should provide the reader with general insights and will hopefully help people to sort out similar problems in the future.  

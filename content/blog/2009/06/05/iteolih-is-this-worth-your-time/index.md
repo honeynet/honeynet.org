@@ -3,7 +3,7 @@ title: "Iteolih: Is this worth your time?"
 authors: ["Markus Koetter"]
 date: "2009-06-05"
 tags: 
-  - "iteolih-d90"
+  - "iteolih"
 ---
 
 Hello,

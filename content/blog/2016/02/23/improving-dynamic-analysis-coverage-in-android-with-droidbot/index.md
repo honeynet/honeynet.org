@@ -7,10 +7,10 @@ categories:
   - "android"
   - "gsoc"
 tags: 
-  - "android-d70"
+  - "android"
   - "droidbot"
   - "droidbox"
-  - "gsoc-d20"
+  - "gsoc"
 coverImage: "droidbot_screenshot.png"
 ---
 

@@ -5,7 +5,7 @@ date: "2010-05-24"
 tags: 
   - "anti-debugging"
   - "malware"
-  - "waledac-d83"
+  - "waledac"
 ---
 
 The last spreading malware version of [Waledac](https://honeynet.org/node/348), a notorious spamming botnet that has been taken down in a [collaborative effort lead by Microsoft](http://blogs.technet.com/microsoft_blog/archive/2010/02/25/cracking-down-on-botnets.aspx) earlier this year, contained some neat anti-debugging tricks in order to make reverse-engineering more difficult. Felix Leder and I [have been presenting about the approach](http://events.ccc.de/sigint/2010/wiki/Fahrplan/events/3895.de.html) at SIGINT 2010 in Cologne yesterday, and as the method seems to be not publicly known yet, I will quickly describe it here as well.

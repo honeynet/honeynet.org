@@ -6,9 +6,9 @@ categories:
   - "gsoc"
 tags: 
   - "forensics"
-  - "gsoc-d20"
-  - "snort-d76"
-  - "wireshark-d28"
+  - "gsoc"
+  - "snort"
+  - "wireshark"
   - "wireshnork"
 ---
 

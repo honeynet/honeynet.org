@@ -6,7 +6,7 @@ categories:
   - "gsoc"
 tags: 
   - "cuckoo-sandbox-androguard-gsoc"
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 We are proud and happy to announce that Cuckoo Sandbox and AndroGuard were choosen by Rapid7 for his Magnificent7 Program, an initiative created to fuel the success of seven bleeding edge open source projects and backed by a fund of $100,000. 

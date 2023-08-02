@@ -6,8 +6,8 @@ categories:
   - "workshop"
 tags: 
   - "canberra"
-  - "gsoc-d20"
-  - "workshop-d98"
+  - "gsoc"
+  - "workshop"
 coverImage: "drupal_image_1356.jpg"
 ---
 

@@ -3,8 +3,8 @@ title: "Thug and the art of web client tracking inspection"
 authors: ["Angelo Dellaera"]
 date: "2015-01-27"
 tags: 
-  - "honeyclient-d3"
-  - "thug-d25"
+  - "honeyclient"
+  - "thug"
 ---
 
 A few months ago I read the paper "Technical analysis of client identification mechanisms" \[1\]. The paper is really interesting and it is really worth investing your time and reading. Just a brief excerpt from the abstract:  

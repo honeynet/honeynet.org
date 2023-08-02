@@ -6,8 +6,8 @@ categories:
   - "gsoc"
   - "honeypot"
 tags: 
-  - "capture-hpc-d18"
-  - "gsoc-d20"
+  - "capture-hpc"
+  - "gsoc"
 ---
 
 Project Description:  

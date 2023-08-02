@@ -9,7 +9,7 @@ tags:
   - "attack"
   - "detect"
   - "globalpot"
-  - "honeypot-d9"
+  - "honeypot"
   - "ipv6-d51"
 ---
 

@@ -3,10 +3,10 @@ title: "What's new on PHoneyC (4): Try it out!"
 authors: ["Zhijie Chen"]
 date: "2009-08-10"
 tags: 
-  - "gsoc-d20"
-  - "libemu-d34"
-  - "phoneyc-d89"
-  - "shellcode-d49"
+  - "gsoc"
+  - "libemu"
+  - "phoneyc"
+  - "shellcode"
   - "spidermonkey"
 ---
 

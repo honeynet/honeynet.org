@@ -6,7 +6,7 @@ categories:
   - "analysis"
 tags: 
   - "email"
-  - "spam-d47"
+  - "spam"
   - "spamscope"
 coverImage: "spamscope.png"
 ---

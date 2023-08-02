@@ -5,9 +5,9 @@ date: "2009-05-25"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
-  - "phoneyc-d89"
-  - "shellcode-d49"
+  - "gsoc"
+  - "phoneyc"
+  - "shellcode"
   - "spidermonkey"
 ---
 

@@ -3,7 +3,7 @@ title: "Ghost version 0.2 released"
 authors: ["Sebastian Poeplau"]
 date: "2012-09-04"
 tags: 
-  - "ghost-d68"
+  - "ghost"
 ---
 
 We've just released version 0.2 of the Ghost USB honeypot for Windows XP and Windows 7 with a lot of great new features. You can download the new version from [the project page](http://code.google.com/p/ghost-usb-honeypot/). In this post, I'm going to give an overview of the changes.  

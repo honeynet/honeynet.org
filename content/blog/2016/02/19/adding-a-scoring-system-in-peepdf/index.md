@@ -6,7 +6,7 @@ categories:
   - "encryption"
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "peepdf"
 ---
 

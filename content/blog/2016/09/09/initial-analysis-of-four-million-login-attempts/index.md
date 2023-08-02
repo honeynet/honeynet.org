@@ -5,9 +5,9 @@ date: "2016-09-09"
 categories: 
   - "analysis"
 tags: 
-  - "analysis-d79"
-  - "heralding-d24"
-  - "honeypot-d9"
+  - "analysis"
+  - "heralding"
+  - "honeypot"
 ---
 
 **Introduction**

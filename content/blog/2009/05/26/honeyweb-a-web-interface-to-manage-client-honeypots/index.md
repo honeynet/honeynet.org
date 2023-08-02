@@ -7,8 +7,8 @@ categories:
   - "honeypot"
 tags: 
   - "client"
-  - "gsoc-d20"
-  - "honeypot-d9"
+  - "gsoc"
+  - "honeypot"
   - "honeyweb"
 ---
 

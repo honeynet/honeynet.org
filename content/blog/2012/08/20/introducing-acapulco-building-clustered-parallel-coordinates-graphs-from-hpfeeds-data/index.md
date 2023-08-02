@@ -5,10 +5,10 @@ date: "2012-08-20"
 tags: 
   - "clustering"
   - "dbscan"
-  - "hpfeeds-d84"
+  - "hpfeeds"
   - "kmeans"
   - "parallel-coordinates"
-  - "splunk-d8"
+  - "splunk"
 ---
 
 …and the summer is over. During the last three months I have tried to make sense of the highly unstructured data set that comes from merging the data streams of several hpfeeds channels. I have had to learn the inner workings of Splunk, their SDKs, the D3.js graphic library and explore different machine learning frameworks and clustering algorithms.

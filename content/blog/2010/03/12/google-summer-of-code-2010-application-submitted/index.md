@@ -5,7 +5,7 @@ date: "2010-03-12"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc-google"
 ---
 

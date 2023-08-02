@@ -6,7 +6,7 @@ categories:
   - "challenge"
 tags: 
   - "challenge"
-  - "forensic-challenge-d87"
+  - "forensic-challenge"
   - "hong-kong"
   - "traditional-chinese"
   - "133"

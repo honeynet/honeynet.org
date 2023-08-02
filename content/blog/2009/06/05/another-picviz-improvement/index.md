@@ -5,7 +5,7 @@ date: "2009-06-05"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "status"
 ---
 

@@ -5,7 +5,7 @@ date: "2014-02-18"
 categories: 
   - "workshop"
 tags: 
-  - "workshop-d98"
+  - "workshop"
 ---
 
 **Mon 5 May 2014 : :  

@@ -5,11 +5,11 @@ date: "2009-06-26"
 tags: 
   - "data"
   - "honeynet"
-  - "honeypot-d9"
-  - "linux-d95"
+  - "honeypot"
+  - "linux"
   - "logging"
-  - "logs-d11"
-  - "research-d43"
+  - "logs"
+  - "research"
   - "security"
 ---
 

@@ -5,7 +5,7 @@ date: "2010-04-09"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc-gsoc2010"
 ---
 

@@ -5,7 +5,7 @@ date: "2019-06-18"
 categories: 
   - "workshop"
 tags: 
-  - "workshop-d98"
+  - "workshop"
 coverImage: "drupal_image_1377.jpg"
 ---
 

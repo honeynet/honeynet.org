@@ -7,7 +7,7 @@ categories:
   - "gsoc"
   - "honeypot"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "honeybrid-gsoc-introduction"
 ---
 

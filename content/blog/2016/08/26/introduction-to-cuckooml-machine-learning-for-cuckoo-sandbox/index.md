@@ -6,7 +6,7 @@ categories:
   - "gsoc"
 tags: 
   - "cuckoo"
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2016"
 coverImage: "cuckoo.png"
 ---

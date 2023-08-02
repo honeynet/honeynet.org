@@ -3,9 +3,9 @@ title: "Low-interaction honeyclient Thug released!"
 authors: ["Angelo Dellaera"]
 date: "2012-03-19"
 tags: 
-  - "honeyclient-d3"
-  - "low-interaction-d2"
-  - "thug-d25"
+  - "honeyclient"
+  - "low-interaction"
+  - "thug"
 ---
 
 I'm glad to announce I finally publicly released a brand new low-interaction honeyclient I'm working on from a few months now. The project name is **Thug** and it was publicly presented a few hours ago during the Honeynet Project Security Workshop in Facebook HQ in Menlo Park. Please take a look at the (attached) presentation for details about Thug.  

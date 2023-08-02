@@ -9,7 +9,7 @@ tags:
   - "forensic-challenges"
   - "hong-kong"
   - "malware"
-  - "pdf-d64"
+  - "pdf"
   - "traditional-chinese"
 ---
 

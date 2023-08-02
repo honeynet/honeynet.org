@@ -5,7 +5,7 @@ date: "2009-01-02"
 categories: 
   - "encryption"
 tags: 
-  - "waledac-d83"
+  - "waledac"
 ---
 
 **Waledac is wishing merry christmas**

@@ -5,7 +5,7 @@ date: "2013-01-24"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 ![](images/drupal_image_1019.png)

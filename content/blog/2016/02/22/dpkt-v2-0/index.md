@@ -6,8 +6,8 @@ categories:
   - "gsoc"
 tags: 
   - "dpkt"
-  - "gsoc-d20"
-  - "python-d32"
+  - "gsoc"
+  - "python"
 ---
 
 ### What is dpkt?

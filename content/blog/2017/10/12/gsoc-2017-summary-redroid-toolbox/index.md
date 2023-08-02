@@ -6,7 +6,7 @@ categories:
   - "android"
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2017"
 ---
 

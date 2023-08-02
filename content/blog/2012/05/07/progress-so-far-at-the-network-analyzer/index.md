@@ -6,7 +6,7 @@ categories:
   - "gsoc"
 tags: 
   - "flow"
-  - "gsoc-d20"
+  - "gsoc"
   - "malware"
   - "network-traffic"
   - "protocols"

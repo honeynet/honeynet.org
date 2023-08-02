@@ -5,7 +5,7 @@ date: "2011-03-22"
 categories: 
   - "workshop"
 tags: 
-  - "workshop-d98"
+  - "workshop"
 ---
 
 Folks, we had a great day at the first-ever public Honeynet Project Security Workshop yesterday with many excellent presentations by our members from around the globe. The presentations ranged from deep technical dives around shellcode detection and mobile malware reverse engineering to views on social dynamics of attackers and ethics of computer security research.  

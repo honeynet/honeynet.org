@@ -6,10 +6,10 @@ categories:
   - "android"
   - "encryption"
 tags: 
-  - "android-d70"
+  - "android"
   - "droidbox"
-  - "dynamic-analysis-d29"
-  - "sandbox-d7"
+  - "dynamic-analysis"
+  - "sandbox"
 ---
 
 The Android application sandbox is now ready for an alpha release. Details on how to get DroidBox running are available at the [project webpage](http://code.google.com/p/droidbox).

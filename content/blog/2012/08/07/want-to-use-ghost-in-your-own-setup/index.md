@@ -3,7 +3,7 @@ title: "Want to Use Ghost in Your Own Setup?"
 authors: ["Sebastian Poeplau"]
 date: "2012-08-07"
 tags: 
-  - "ghost-d68"
+  - "ghost"
 ---
 
 This is a short introduction to one of the features that the upcoming Ghost 0.2 will offer. I expect to release the new version in late August or early September.  

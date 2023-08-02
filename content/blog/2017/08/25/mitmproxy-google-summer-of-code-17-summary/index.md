@@ -5,9 +5,9 @@ date: "2017-08-25"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2017"
-  - "mitmproxy-d76"
+  - "mitmproxy"
 coverImage: "options_editor_3.gif"
 ---
 

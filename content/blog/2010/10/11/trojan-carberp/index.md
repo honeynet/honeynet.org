@@ -5,7 +5,7 @@ date: "2010-10-11"
 tags: 
   - "carberp"
   - "trojan"
-  - "zeus-d96"
+  - "zeus"
 ---
 
 I'm interested in infostealers and specifically in banking-trojans so I didn't want to miss [this one](http://www.trustdefender.com/blog/2010/10/06/carberp-%E2%80%93-a-new-trojan-in-the-making/). Samples of Carberp are floating around at least since last spring but in late September we saw such numbers increasing.  

@@ -5,7 +5,7 @@ date: "2018-01-03"
 categories: 
   - "kye"
 tags: 
-  - "kye-d143"
+  - "kye"
 ---
 
 Analysis of 24 Hours Internet Attacks: A Brief Overview of Malicious Traffic Targeting Featureless Servers on the Web.

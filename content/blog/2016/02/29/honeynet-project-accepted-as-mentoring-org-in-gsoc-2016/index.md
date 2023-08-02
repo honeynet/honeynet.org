@@ -5,7 +5,7 @@ date: "2016-02-29"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2016"
 coverImage: "banner-gsoc2016_2.png"
 ---

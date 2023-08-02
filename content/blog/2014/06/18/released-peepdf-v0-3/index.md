@@ -5,12 +5,12 @@ date: "2014-06-18"
 categories: 
   - "analysis"
 tags: 
-  - "analysis-d79"
-  - "exploit-d27"
-  - "pdf-d64"
-  - "shellcode-d49"
+  - "analysis"
+  - "exploit"
+  - "pdf"
+  - "shellcode"
   - "tool"
-  - "vulnerabilities-d66"
+  - "vulnerabilities"
 ---
 
 After some time without releasing any new version here is [peepdf v0.3](http://eternal-todo.com/files/pdf/peepdf/peepdf_0.3.zip). It is not that I was not working in the project, but since [the option to update the tool from the command line was released](http://code.google.com/p/peepdf/wiki/Execution#Updating_peepdf) creating new versions became a secondary task. Besides this, since January 2014 [Google removed the option to upload new downloads to the Google Code projects](http://google-opensource.blogspot.nl/2013/05/a-change-to-google-code-download-service.html), so I had to figure out how to do it. From now on, all new releases will be hosted at [eternal-todo.com](http://peepdf.eternal-todo.com/), in the [releases section](http://eternal-todo.com/tools/peepdf-pdf-analysis-tool#releases).

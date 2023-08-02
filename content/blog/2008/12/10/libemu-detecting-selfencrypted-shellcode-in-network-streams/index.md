@@ -5,9 +5,9 @@ date: "2008-12-10"
 categories: 
   - "encryption"
 tags: 
-  - "libemu-d34"
+  - "libemu"
   - "release"
-  - "shellcode-d49"
+  - "shellcode"
 ---
 
 As libemu had it's second release ([0.2.0](http://sourceforge.net/project/showfiles.php?group_id=137598&package_id=246225 "libemu download on sourceforge")) lately, I'll try to introduce it to the audience who did not hear about it yet.

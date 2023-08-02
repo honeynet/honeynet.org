@@ -3,7 +3,7 @@ title: "PHoneyC DOM Emulation – Browser Personality"
 authors: ["Angelo Dellaera"]
 date: "2010-08-22"
 tags: 
-  - "phoneyc-d89"
+  - "phoneyc"
 ---
 
 A new improvement in PHoneyC DOM emulation code was committed in SVN [r1624](http://code.google.com/p/phoneyc/source/detail?r=1624). The idea is to better emulate the DOM behaviour depending on the selected browser personality. Let's take a look at the code starting from the personalities definition in _config.py_.  

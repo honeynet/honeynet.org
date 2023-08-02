@@ -5,10 +5,10 @@ date: "2010-11-05"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
-  - "kye-d143"
-  - "kyt-d6"
-  - "white-paper-d37"
+  - "gsoc"
+  - "kye"
+  - "kyt"
+  - "white-paper"
 ---
 
 Christian Seifert (CPRO of The Honeynet Project) has just announced publication of our Know Your Tools series: Qebek - Conceal the Monitoring, authored by Chengyu Song and Jianwei Zhuge from the Chinese Chapter and Brian Hay from the Alaskan Chapter. The paper is based on Chengyu's hard work during the GSoC 2009, Brian Hay and me acted as his mentors for the Qebek GSoC Project. Congrats to Chengyu and Chinese Chapter.  

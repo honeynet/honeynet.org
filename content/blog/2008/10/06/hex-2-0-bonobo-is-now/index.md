@@ -3,7 +3,7 @@ title: "HeX 2.0 “Bonobo” is now!"
 authors: ["Kevin Foo"]
 date: "2008-10-06"
 tags: 
-  - "hex-d64"
+  - "hex"
   - "malaysian-honeynet-chapter"
 coverImage: "drupal_image_250.png"
 ---

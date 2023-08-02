@@ -8,7 +8,7 @@ categories:
 tags: 
   - "dubai2013"
   - "honeynet"
-  - "workshop-d98"
+  - "workshop"
 ---
 
 We have interviewed Raffy, who is one of the teachers for the Honeynet Workshop in Dubai 10-12 of February. Raffy will give the following talk: [How Big Data, Data Mining, and Visualization Enable Security Intelligence](http://dubai2013.honeynet.org/briefings.html#talk7) and a class on [Information Visualization - Bridging the Gap Between Tufte and Firewalls"]( http://dubai2013.honeynet.org/training.html#class9)  

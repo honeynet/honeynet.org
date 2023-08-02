@@ -5,7 +5,7 @@ date: "2013-04-29"
 categories: 
   - "workshop"
 tags: 
-  - "workshop-d98"
+  - "workshop"
 ---
 
 As you may know, the annual workshop is a key event to bring together top information security experts from around the globe to present their research efforts as well as discuss insights and strategies to combat new emerging threats. The annual workshop held in February or March every year is a five-­days event including a one-­day briefing, two-­days of hands-­on training open to public and two-­days of private meetings by invitation only. Past annual workshops have been held at government, university and private company venues in Dubai (2013), San Francisco (2012), Paris (2011), Mexico City (2010) and Kuala Lumpur (2009), attracting more than 400 participants from around the world.  

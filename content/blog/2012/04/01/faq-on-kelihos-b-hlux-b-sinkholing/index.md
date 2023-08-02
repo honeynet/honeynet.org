@@ -5,7 +5,7 @@ date: "2012-04-01"
 tags: 
   - "code-of-conduct"
   - "ethics"
-  - "kelihos-d89"
+  - "kelihos"
   - "kelihos-b-hlux-b"
 ---
 

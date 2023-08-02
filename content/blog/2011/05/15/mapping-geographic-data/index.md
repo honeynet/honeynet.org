@@ -3,9 +3,9 @@ title: "Mapping geographic data"
 authors: ["Oguz Yarimtepe"]
 date: "2011-05-15"
 tags: 
-  - "django-d68"
-  - "geodjango-d96"
-  - "python-d32"
+  - "django"
+  - "geodjango"
+  - "python"
 ---
 
 Visualization is a niche area especially at the security analysis. As mentioned in a well-known sentence; "A picture is worth a thousand words". The importance and the power of the visualization in the security area stands out with the ability to define multi-dimensional data with a single shape. When addressing the creating a mesh tiled 3D view on an Earth map, i was reading about the geoweb application development. A geoweb application consists of some components.  

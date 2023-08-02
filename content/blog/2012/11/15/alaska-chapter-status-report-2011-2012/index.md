@@ -6,7 +6,7 @@ categories:
   - "chapters"
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 ORGANIZATION  

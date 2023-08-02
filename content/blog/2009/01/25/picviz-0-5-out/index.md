@@ -3,8 +3,8 @@ title: "Picviz 0.5 out"
 authors: ["Sebastien Tricaud"]
 date: "2009-01-25"
 tags: 
-  - "picviz-d80"
-  - "visualization-d89"
+  - "picviz"
+  - "visualization"
 ---
 
 The new release 0.5 of Picviz is out. This version comes with real-time mode enabled (and adds the libevent dependency) among other things, such as new properties and variables.  

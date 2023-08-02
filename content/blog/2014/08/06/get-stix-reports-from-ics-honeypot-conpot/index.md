@@ -5,12 +5,12 @@ date: "2014-08-06"
 categories: 
   - "honeypot"
 tags: 
-  - "conpot-d32"
-  - "honeypot-d9"
-  - "ics-d114"
-  - "scada-d51"
-  - "stix-d55"
-  - "taxii-d67"
+  - "conpot"
+  - "honeypot"
+  - "ics"
+  - "scada"
+  - "stix"
+  - "taxii"
 ---
 
 The team working on the ICS/SCADA honeypot [Conpot](http://conpot.org), just merged in a more mature support for [STIX](https://stix.mitre.org/) (Structured Threat Information eXpression) formatted reporting via [TAXII](https://taxii.mitre.org/) (Trusted Automated eXchange of Indicator Information) into the master branch on [Github](https://github.com/glastopf/conpot).  

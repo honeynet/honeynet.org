@@ -5,9 +5,9 @@ date: "2014-09-02"
 categories: 
   - "honeypot"
 tags: 
-  - "bifrozt-d66"
+  - "bifrozt"
   - "high-interaction-honeypot"
-  - "linux-d95"
+  - "linux"
 ---
 
 A few days ago I was contacted by our CPRO, Leon van der Eijk, and asked to write a blog post about my own project called Bifrozt; something which I was more than happy to do. :) This post will explain what Bifrozt is, how this got started, the overall status of the project and what will happen further down the road.

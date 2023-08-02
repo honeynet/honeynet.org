@@ -5,7 +5,7 @@ date: "2011-10-13"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2011-d13"
 ---
 

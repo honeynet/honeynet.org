@@ -5,7 +5,7 @@ date: "2012-08-28"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 1 Introduction  

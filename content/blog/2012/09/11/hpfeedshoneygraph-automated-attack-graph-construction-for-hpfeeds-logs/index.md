@@ -7,7 +7,7 @@ categories:
 tags: 
   - "attack-graph"
   - "d3-v2"
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc-2012-d67"
 coverImage: "project_design.jpg"
 ---

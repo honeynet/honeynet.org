@@ -3,7 +3,7 @@ title: "Detecting Conficker"
 authors: ["Tillmann Werner"]
 date: "2009-03-30"
 tags: 
-  - "conficker-d40"
+  - "conficker"
   - "detection"
   - "downadup"
   - "scanner"

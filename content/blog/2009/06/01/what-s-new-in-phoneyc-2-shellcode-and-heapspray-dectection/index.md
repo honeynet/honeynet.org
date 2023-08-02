@@ -3,9 +3,9 @@ title: "What's new in phoneyc (2)--- Shellcode and Heapspray Dectection"
 authors: ["Zhijie Chen"]
 date: "2009-06-01"
 tags: 
-  - "gsoc-d20"
-  - "phoneyc-d89"
-  - "shellcode-d49"
+  - "gsoc"
+  - "phoneyc"
+  - "shellcode"
   - "spidermonkey"
 ---
 

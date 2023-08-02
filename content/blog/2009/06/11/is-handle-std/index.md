@@ -3,10 +3,10 @@ title: "Is Handle Std"
 authors: ["Chengyu Song"]
 date: "2009-06-11"
 tags: 
-  - "qebek-d19"
-  - "qemu-d52"
-  - "sebek-d10"
-  - "windows-d101"
+  - "qebek"
+  - "qemu"
+  - "sebek"
+  - "windows"
 ---
 
 Sebek Windows client has two keystroke sources, one is read or write std stream, the other is csrss port. In the callback function of NtReadFile and NtWriteFile, Sebek will check if the given file handle match one of the three standard stream handles. if matches, it then logs the given data of keystrokes:

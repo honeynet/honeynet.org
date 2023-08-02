@@ -6,13 +6,13 @@ categories:
   - "analysis"
   - "android"
 tags: 
-  - "analysis-d79"
-  - "android-d70"
-  - "apk-d24"
+  - "analysis"
+  - "android"
+  - "apk"
   - "demo"
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2011-d13"
-  - "gui-d83"
+  - "gui"
   - "tool"
   - "video"
 ---

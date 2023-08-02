@@ -3,11 +3,11 @@ title: "Is that PDF so scary?"
 authors: ["Guido Landi"]
 date: "2010-09-10"
 tags: 
-  - "aslr-d63"
-  - "dep-d89"
-  - "exploit-d27"
-  - "pdf-d64"
-  - "rop-d27"
+  - "aslr"
+  - "dep"
+  - "exploit"
+  - "pdf"
+  - "rop"
 ---
 
   

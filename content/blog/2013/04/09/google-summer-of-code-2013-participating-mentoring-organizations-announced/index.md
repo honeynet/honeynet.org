@@ -6,7 +6,7 @@ categories:
   - "gsoc"
 tags: 
   - "google-summer-of-code"
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc-2013"
 ---
 

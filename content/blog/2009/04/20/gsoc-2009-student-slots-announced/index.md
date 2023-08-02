@@ -5,7 +5,7 @@ date: "2009-04-20"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 The results for Google Summer of Code 2009 are out and the Honeynet Project are very excited to have been allocated 9 official slots by Google. You can view the project selection here:  

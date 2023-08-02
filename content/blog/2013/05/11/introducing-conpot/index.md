@@ -3,9 +3,9 @@ title: "Introducing Conpot"
 authors: ["Lukas Rist"]
 date: "2013-05-11"
 tags: 
-  - "honeypot-d9"
-  - "ics-d114"
-  - "scada-d51"
+  - "honeypot"
+  - "ics"
+  - "scada"
 ---
 
 We proudly announce the first release of our Industrial Control System honeypot named [Conpot](http://conpot.org).  

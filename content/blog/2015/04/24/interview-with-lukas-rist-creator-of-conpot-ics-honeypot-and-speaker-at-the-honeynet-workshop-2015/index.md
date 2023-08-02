@@ -6,10 +6,10 @@ categories:
   - "honeypot"
   - "workshop"
 tags: 
-  - "conpot-d32"
+  - "conpot"
   - "hnw2015"
   - "lukas-rist"
-  - "workshop-d98"
+  - "workshop"
 ---
 
   

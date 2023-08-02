@@ -5,7 +5,7 @@ date: "2010-08-31"
 tags: 
   - "eat-filtering"
   - "emet"
-  - "shellcode-d49"
+  - "shellcode"
 ---
 
 I'll tell you the truth: Export Address Table Filtering, the feature of the [upcoming release of EMET](http://blogs.technet.com/b/srd/archive/2010/07/28/announcing-the-upcoming-release-of-emet-v2.aspx), "designed to break nearly all shell code in use today", intrigued me a bit.  

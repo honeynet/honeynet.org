@@ -6,7 +6,7 @@ categories:
   - "android"
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 The updated version of APKInspector is a powerful static analysis tool for Android Malicious applications. It provide convenient and various features for smartphone security engineers. With the sensitive permission analysis, static instrumentation and easy-to-use graph-code interaction .etc, they can get a thorough and deep understanding of the malicious applications on Android. The improvement mainly focus on two categories: User Interface and Security Analysis. The goal is to build an easy-to-use tool with strong security analysis features. For the UI part, we made the following progress: 1) Automatically installation In last version, user need to install many packages APKInspector depended on in order to run this tool which might be an obstacle for the widely distribution of APKInspector. With the updated version, user only have to run a script to install the tool. 2）Fine-grained Graph View to Source View The new version of APKInspector have fine-grained graph-code interaction. In the past, we only provide the interaction at the block level, now we can identify each phase of the code. It supports instruction level interaction between graph view and code view now.

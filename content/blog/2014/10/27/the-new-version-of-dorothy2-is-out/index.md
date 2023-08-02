@@ -3,9 +3,9 @@ title: "The new version of dorothy2 is out!"
 authors: ["Marco Riccardi"]
 date: "2014-10-27"
 tags: 
-  - "dorothy-d80"
+  - "dorothy"
   - "forensics"
-  - "sandbox-d7"
+  - "sandbox"
 ---
 
 Howdy all,  

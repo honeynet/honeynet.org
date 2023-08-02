@@ -6,9 +6,9 @@ categories:
   - "encryption"
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2016"
-  - "mitmproxy-d76"
+  - "mitmproxy"
 coverImage: "drupal_image_1288.png"
 ---
 

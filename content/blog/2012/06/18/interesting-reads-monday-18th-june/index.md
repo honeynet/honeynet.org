@@ -4,8 +4,8 @@ authors: ["Matt Erasmus"]
 date: "2012-06-18"
 tags: 
   - "interesting"
-  - "malware-d38"
-  - "monday-d63"
+  - "malware"
+  - "monday"
   - "news"
   - "reading"
 ---

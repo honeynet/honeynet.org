@@ -5,7 +5,7 @@ date: "2012-07-13"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "http-https-proxy-gsoc-honeyproxy-forensics"
 ---
 

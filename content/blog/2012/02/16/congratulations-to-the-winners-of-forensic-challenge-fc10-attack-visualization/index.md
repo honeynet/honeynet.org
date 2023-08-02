@@ -7,8 +7,8 @@ categories:
 tags: 
   - "challenge"
   - "fc10-d13"
-  - "forensic-challenge-d87"
-  - "visualization-d89"
+  - "forensic-challenge"
+  - "visualization"
 ---
 
 While the quantity of submissions for FC10 was lower than usual - we had expected this because of the amount of work required to submit plus being over the Christmas break - the quality of the solutions was really inspiring.  

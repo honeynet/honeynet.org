@@ -5,8 +5,8 @@ date: "2010-11-15"
 categories: 
   - "honeypot"
 tags: 
-  - "kye-d143"
-  - "kyt-d6"
+  - "kye"
+  - "kyt"
   - "paper"
   - "publication"
 coverImage: "facebook.gif"

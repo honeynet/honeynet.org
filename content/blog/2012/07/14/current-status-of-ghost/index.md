@@ -3,7 +3,7 @@ title: "Current Status of Ghost"
 authors: ["Sebastian Poeplau"]
 date: "2012-07-14"
 tags: 
-  - "ghost-d68"
+  - "ghost"
 ---
 
 As the first half of the HP summer of code has passed, I'd like to give a short update on the current status of the Ghost USB honeypot.  

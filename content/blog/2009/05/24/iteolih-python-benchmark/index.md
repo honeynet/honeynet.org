@@ -3,8 +3,8 @@ title: "Iteolih: Python Benchmark"
 authors: ["Markus Koetter"]
 date: "2009-05-24"
 tags: 
-  - "iteolih-d90"
-  - "python-d32"
+  - "iteolih"
+  - "python"
 ---
 
 As the plan is to embedd python as scripting language into the honeypot, I ran a benchmark on a testsuite. The 'testsuite' is a c core which accepts connections, and allows python to deal with the input. The protocol used for benchmarking is http, the service serves a non static html page.

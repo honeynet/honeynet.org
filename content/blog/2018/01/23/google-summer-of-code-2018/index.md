@@ -5,7 +5,7 @@ date: "2018-01-23"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2018"
 coverImage: "gsoc.png"
 ---

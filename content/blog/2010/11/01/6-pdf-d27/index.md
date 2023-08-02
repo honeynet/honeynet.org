@@ -8,7 +8,7 @@ tags:
   - "challenge"
   - "forensic-challenges"
   - "malware"
-  - "pdf-d64"
+  - "pdf"
   - "simplified-chinese"
 ---
 

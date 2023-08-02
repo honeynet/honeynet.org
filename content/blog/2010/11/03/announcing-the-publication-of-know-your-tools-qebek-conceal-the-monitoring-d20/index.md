@@ -3,9 +3,9 @@ title: "Announcing the publication of Know Your Tools: Qebek - Conceal the Monit
 authors: ["Christian Seifert"]
 date: "2010-11-03"
 tags: 
-  - "kye-d143"
-  - "kyt-d6"
-  - "qebek-d19"
+  - "kye"
+  - "kyt"
+  - "qebek"
 coverImage: "facebook.gif"
 ---
 

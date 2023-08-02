@@ -5,7 +5,7 @@ date: "2012-04-08"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2012"
 coverImage: "gsoc2012_stats_1.png"
 ---

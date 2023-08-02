@@ -4,11 +4,11 @@ authors: ["Matt Erasmus"]
 date: "2012-06-25"
 tags: 
   - "interesting"
-  - "malware-d38"
-  - "monday-d63"
+  - "malware"
+  - "monday"
   - "news"
   - "reading"
-  - "twitter-d34"
+  - "twitter"
 ---
 
 Another Monday has been and gone (on this side of the world at least). I thought I'd sit down again and share some of the interestingness (yes, that's a word now) that came through my various news feeds over the course of the weekend. I'm hoping this week will be a little less malware focused, but I can't make any promises.  

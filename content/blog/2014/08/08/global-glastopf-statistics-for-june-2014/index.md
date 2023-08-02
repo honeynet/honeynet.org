@@ -3,10 +3,10 @@ title: "Global Glastopf statistics for June 2014"
 authors: ["Mikael Keri"]
 date: "2014-08-08"
 tags: 
-  - "glastopf-d23"
-  - "logs-d11"
+  - "glastopf"
+  - "logs"
   - "reports"
-  - "statistics-d53"
+  - "statistics"
 ---
 
 **During the month of June the following information was obtained from Glastopf installations worldwide**

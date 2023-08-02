@@ -5,9 +5,9 @@ date: "2009-06-15"
 categories: 
   - "analysis"
 tags: 
-  - "glastopf-d23"
+  - "glastopf"
   - "new-version"
-  - "web-honeypot-d19"
+  - "web-honeypot"
 ---
 
 Last saturday I've finally released a new Glastopf version. There are some new features and many changes under the hood.

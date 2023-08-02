@@ -7,8 +7,8 @@ categories:
 tags: 
   - "afterglow"
   - "afterglow-cloud"
-  - "data-visualization-d98"
-  - "gsoc-d20"
+  - "data-visualization"
+  - "gsoc"
   - "gsoc2012"
 ---
 

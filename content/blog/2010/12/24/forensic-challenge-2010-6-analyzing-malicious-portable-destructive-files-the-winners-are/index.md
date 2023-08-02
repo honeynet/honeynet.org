@@ -6,7 +6,7 @@ categories:
   - "challenge"
 tags: 
   - "challenge"
-  - "forensic-challenge-d87"
+  - "forensic-challenge"
 ---
 
 Folks, holiday greetings from forensic challenge headquarter in Seattle. Mahmud and Ahmad from the Malaysian Chapter have judged all submissions and results have been posted on the challenge web site. The winners are:  

@@ -5,7 +5,7 @@ date: "2012-01-25"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "malware-sandbox-cuckoo"
 ---
 

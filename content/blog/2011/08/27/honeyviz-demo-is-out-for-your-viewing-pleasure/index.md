@@ -5,7 +5,7 @@ date: "2011-08-27"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc11-d57"
 coverImage: "default_map.jpg"
 ---

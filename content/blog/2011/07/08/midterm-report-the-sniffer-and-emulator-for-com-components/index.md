@@ -5,8 +5,8 @@ date: "2011-07-08"
 categories: 
   - "gsoc"
 tags: 
-  - "capture-hpc-d18"
-  - "gsoc-d20"
+  - "capture-hpc"
+  - "gsoc"
 ---
 
 By now, what I have done for Capture-HPC is:

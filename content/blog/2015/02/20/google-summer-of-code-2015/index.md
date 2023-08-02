@@ -5,7 +5,7 @@ date: "2015-02-20"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2015"
 ---
 

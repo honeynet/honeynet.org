@@ -5,8 +5,8 @@ date: "2012-08-26"
 categories: 
   - "android"
 tags: 
-  - "android-d70"
-  - "are-d48"
+  - "android"
+  - "are"
   - "update"
 ---
 

@@ -7,7 +7,7 @@ categories:
 tags: 
   - "hnw2016-d20"
   - "san-antonio"
-  - "workshop-d98"
+  - "workshop"
 coverImage: "SATX2016.jpg"
 ---
 

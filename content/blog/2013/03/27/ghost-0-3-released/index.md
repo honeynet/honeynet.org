@@ -3,7 +3,7 @@ title: "Ghost 0.3 released"
 authors: ["Sebastian Poeplau"]
 date: "2013-03-27"
 tags: 
-  - "ghost-d68"
+  - "ghost"
 ---
 
 Today I've released version 0.3 of the Ghost USB honeypot, which introduces a lot of new features, including a completely rewritten core for better malware detection. The new version is available on the [project page](https://code.google.com/p/ghost-usb-honeypot/). This post outlines the major changes.

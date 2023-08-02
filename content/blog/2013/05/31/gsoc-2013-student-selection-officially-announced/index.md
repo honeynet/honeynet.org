@@ -5,7 +5,7 @@ date: "2013-05-31"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2013"
 coverImage: "gsoc2013_accepted_stats_1.png"
 ---

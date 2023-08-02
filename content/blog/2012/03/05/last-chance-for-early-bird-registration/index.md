@@ -5,7 +5,7 @@ date: "2012-03-05"
 categories: 
   - "workshop"
 tags: 
-  - "workshop-d98"
+  - "workshop"
   - "workshop-facebook"
 ---
 

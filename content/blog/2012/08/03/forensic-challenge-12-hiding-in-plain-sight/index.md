@@ -6,7 +6,7 @@ categories:
   - "challenge"
 tags: 
   - "challenge"
-  - "forensic-challenge-d87"
+  - "forensic-challenge"
 ---
 
 I am pleased to announce a new forensic challenge: [Forensic Challenge 12 – “Hiding in Plain Sight“](https://www.honeynet.org/node/906). The challenge has been provided by the Alaska Chapter under the leadership of Lucas McDaniel.  

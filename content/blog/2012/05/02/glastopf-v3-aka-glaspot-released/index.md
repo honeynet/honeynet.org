@@ -7,12 +7,12 @@ categories:
 tags: 
   - "botnet-monitoring"
   - "glaspot"
-  - "glastopf-d23"
+  - "glastopf"
   - "google-summer-of-code"
-  - "gsoc-d20"
-  - "hpfeeds-d84"
+  - "gsoc"
+  - "hpfeeds"
   - "release"
-  - "sandbox-d7"
+  - "sandbox"
   - "web-server-botnet"
 ---
 
