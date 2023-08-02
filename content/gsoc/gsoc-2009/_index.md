@@ -7,7 +7,7 @@ date: "2009-03-12"
 
 * * *
 
-The Honeynet Project is very passionate about being accepted to be a mentor organization in the Google Summer of Code 2009.Â  You can view our proposed list of [GSoC 2009 project ideas here]({{< ref "ideas.md" >}}) (student were also free to propose their own ideas, and may did) plus you can view the list of project applications accepted for [GSoC 2009 allocated slots here.](/gsoc/slots "GSoC 2009 Slots") We'll be posting more details about the progress made in GSoC 2009 in the coming weeks, and making regular [blog posts](/aggregator "Blog"). If you are unfamiliar with Google Summer of Code, learn more at the [GSoC Website](http://socghop.appspot.com/).
+The Honeynet Project is very passionate about being accepted to be a mentor organization in the Google Summer of Code 2009.Â  You can view our proposed list of [GSoC 2009 project ideas here]({{< ref "ideas.md" >}}) (student were also free to propose their own ideas, and may did) plus you can view the list of project applications accepted for [GSoC 2009 allocated slots here.](/gsoc/slots "GSoC 2009 Slots") We'll be posting more details about the progress made in GSoC 2009 in the coming weeks, and making regular [blog posts](/feed "Blog"). If you are unfamiliar with Google Summer of Code, learn more at the [GSoC Website](http://socghop.appspot.com/).
 
 ## Why get involved with the Honeynet Project and GSOC 2009?
 

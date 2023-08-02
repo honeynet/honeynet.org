@@ -8,55 +8,17 @@ tags:
   - "tool"
 ---
 
-Here is another tool release from The Honeynet Project: Cuckoo Box by Claudio Guarnieri. Cuckoo is a binary analysis sandbox, designed and developed with the general purpose of automating the analysis of malware. Read more about the tool [here](https://honeynet.org/project/Cuckoo), grab the tool [here](http://www.cuckoobox.org/download.php) – but please read detailed setup guide [here](http://www.cuckoobox.org/doc/setup.html) (make sure to read it!). BTW, this tool is really well-documented, so make use of it before deploying it.
-
-  
-  
+Here is another tool release from The Honeynet Project: Cuckoo Box by Claudio Guarnieri. Cuckoo is a binary analysis sandbox, designed and developed with the general purpose of automating the analysis of malware. Read more about the tool [here](https://cuckoosandbox.org/), grab the tool [here](https://cuckoosandbox.org/downloadp) – but please read detailed setup guide [here](https://cuckoo.sh/docs/) (make sure to read it!). BTW, this tool is really well-documented, so make use of it before deploying it.
 
 Cuckoo is a lightweight solution that performs automated dynamic analysis of provided Windows binaries. It is able to return comprehensive reports on key API calls and network activity. Current features are:
 
-  
-  
-
-  
 - Retrieve files from remote URLs and analyze them.
-  
-  
 - Trace relevant API calls for behavioral analysis.
-  
-  
 - Recursively monitor newly spawned processes.
-  
-  
 - Dump generated network traffic.
-  
-  
 - Run concurrent analysis on multiple machines.
-  
-  
 - Support custom analysis package based on AutoIt3 scripting.
-  
-  
 - Intercept downloaded and deleted files.
-  
-  
 - Take screenshots during runtime.
-  
 
-  
-  
-
-Please [try the tool](https://honeynet.org/project/Cuckoo) and send the feedback [to the author](http://www.cuckoobox.org/contacts.php) – or sign up for a mailing list devoted to this tool [here](https://public.honeynet.org/mailman/listinfo/cuckoo).
-
-  
-  
-
-**Possibly related posts**:
-
-  
-  
-
-  
-
-  
-- [The Honeynet Project Releases New Tool: PhoneyC](http://chuvakin.blogspot.com/2011/02/honeynet-project-releases-new-tool.html)
+Please [try the tool](https://cuckoosandbox.org/) and send the feedback [to the author](https://cuckoosandbox.org/) – or sign up for a mailing list devoted to this tool [here](https://public.honeynet.org/mailman/listinfo/cuckoo).
