@@ -1,5 +1,6 @@
 ---
 title: "HoneyMap - Visualizing Worldwide Attacks in Real-Time"
+authors: ["Mark Schloesser"]
 date: "2012-10-01"
 tags: 
   - "honeymap"

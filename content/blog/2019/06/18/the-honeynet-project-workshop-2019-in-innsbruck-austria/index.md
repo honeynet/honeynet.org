@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project Workshop 2019 in Innsbruck, Austria"
+authors: ["Andrea De Pasquale"]
 date: "2019-06-18"
 categories: 
   - "workshop"

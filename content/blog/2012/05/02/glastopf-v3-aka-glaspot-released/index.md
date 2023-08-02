@@ -1,5 +1,6 @@
 ---
 title: "Glastopf v3 aka Glaspot released"
+authors: ["Lukas Rist"]
 date: "2012-05-02"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "Honeynet Project accepted as mentoring org in GSoC 2016!"
+authors: ["David Watson"]
 date: "2016-02-29"
 categories: 
   - "gsoc"

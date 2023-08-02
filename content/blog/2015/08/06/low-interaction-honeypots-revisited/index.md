@@ -1,5 +1,6 @@
 ---
 title: "Low Interaction Honeypots Revisited"
+authors: ["David Watson"]
 date: "2015-08-06"
 categories: 
   - "honeypot"

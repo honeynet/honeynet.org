@@ -1,5 +1,6 @@
 ---
 title: "Call for Proposal for hosting the 2014 Annual Workshop"
+authors: ["Julia Yuchin Cheng"]
 date: "2013-04-29"
 categories: 
   - "workshop"

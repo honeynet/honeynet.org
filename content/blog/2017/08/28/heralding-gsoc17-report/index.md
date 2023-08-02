@@ -1,5 +1,6 @@
 ---
 title: "Heralding GSoC17 Report"
+authors: ["Roman Samoilenko"]
 date: "2017-08-28"
 categories: 
   - "gsoc"

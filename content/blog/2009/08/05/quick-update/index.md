@@ -1,5 +1,6 @@
 ---
 title: "Quick Update"
+authors: ["Thibaut Gadiolet"]
 date: "2009-08-05"
 tags: 
   - "axis"

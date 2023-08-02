@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code"
+authors: ["Lance Spitzner"]
 date: "2009-03-13"
 tags: 
   - "google"

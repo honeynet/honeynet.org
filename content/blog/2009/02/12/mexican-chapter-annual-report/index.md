@@ -1,5 +1,6 @@
 ---
 title: "Mexican Chapter -  Annual Report"
+authors: ["Miguel Lopez"]
 date: "2009-02-12"
 categories: 
   - "analysis"

@@ -1,5 +1,6 @@
 ---
 title: "Press Release: 2013 Honeynet Project Workshop"
+authors: ["Christian Seifert"]
 date: "2012-11-27"
 categories: 
   - "workshop"

@@ -1,5 +1,6 @@
 ---
 title: "Trojan Carberp"
+authors: ["Guido Landi"]
 date: "2010-10-11"
 tags: 
   - "carberp"

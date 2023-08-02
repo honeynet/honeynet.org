@@ -1,5 +1,6 @@
 ---
 title: "Initial analysis of four million login attempts"
+authors: ["Johnny Vestergaard"]
 date: "2016-09-09"
 categories: 
   - "analysis"

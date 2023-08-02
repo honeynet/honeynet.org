@@ -1,5 +1,6 @@
 ---
 title: "The search for open VoIP gateways intensifies!"
+authors: ["Sjur Usken"]
 date: "2008-09-04"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "2014 Honeynet Project Workshop crew"
+authors: ["Leon van der Eijk"]
 date: "2014-05-22"
 categories: 
   - "workshop"

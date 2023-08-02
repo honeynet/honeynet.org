@@ -1,5 +1,6 @@
 ---
 title: "Honeynet Project Workshop | 18-20 May 2015 | Stavanger, Norway"
+authors: ["Andrea De Pasquale"]
 date: "2014-11-23"
 categories: 
   - "workshop"

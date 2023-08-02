@@ -1,5 +1,6 @@
 ---
 title: "Know Your Tools: Qebek - Conceal the Monitoring has been published"
+authors: ["Jianwei Zhuge"]
 date: "2010-11-05"
 categories: 
   - "gsoc"

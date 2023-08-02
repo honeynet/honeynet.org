@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2018 Project Summary: Conpot"
+authors: ["Daniel Haslinger"]
 date: "2018-08-18"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "PaulDotCom"
+authors: ["Lance Spitzner"]
 date: "2009-07-31"
 ---
 

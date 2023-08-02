@@ -1,5 +1,6 @@
 ---
 title: "APKInspector BETA Release & Demo Video"
+authors: ["Ryan W Smith"]
 date: "2011-08-24"
 categories: 
   - "analysis"

@@ -1,5 +1,6 @@
 ---
 title: "Italian Chapter updates"
+authors: ["Marco Riccardi"]
 date: "2009-12-16"
 categories: 
   - "chapters"

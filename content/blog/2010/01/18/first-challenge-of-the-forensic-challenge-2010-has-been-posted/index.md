@@ -1,5 +1,6 @@
 ---
 title: "First challenge of the Forensic Challenge 2010 has been posted."
+authors: ["Christian Seifert"]
 date: "2010-01-18"
 categories: 
   - "challenge"

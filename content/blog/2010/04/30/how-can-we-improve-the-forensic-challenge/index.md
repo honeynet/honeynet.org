@@ -1,5 +1,6 @@
 ---
 title: "How can we improve the Forensic Challenge?"
+authors: ["Christian Seifert"]
 date: "2010-04-30"
 categories: 
   - "challenge"

@@ -1,5 +1,6 @@
 ---
 title: "HeX LiveCD to be 2.0-RC2 soon."
+authors: ["Kevin Foo"]
 date: "2008-09-04"
 categories: 
   - "analysis"

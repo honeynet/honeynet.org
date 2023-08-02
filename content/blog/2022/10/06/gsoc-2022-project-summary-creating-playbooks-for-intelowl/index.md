@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2022 Project summary: Creating Playbooks for IntelOwl"
+authors: ["Matteo Lodi"]
 date: "2022-10-06"
 coverImage: "intel_owl_positive_reduced.png"
 tags: ["gsoc", "intelowl", "threatintel"]

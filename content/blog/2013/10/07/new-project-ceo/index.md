@@ -1,5 +1,6 @@
 ---
 title: "New project CEO"
+authors: ["Leon van der Eijk"]
 date: "2013-10-07"
 tags: 
   - "project-news"

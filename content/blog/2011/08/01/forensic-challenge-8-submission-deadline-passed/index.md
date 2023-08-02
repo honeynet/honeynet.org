@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 8 - Submission deadline passed"
+authors: ["Angelo Dellaera"]
 date: "2011-08-01"
 categories: 
   - "challenge"

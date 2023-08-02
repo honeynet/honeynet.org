@@ -1,5 +1,6 @@
 ---
 title: "First Improvement of PICVIZ is done"
+authors: ["Victor Amaducci"]
 date: "2009-05-19"
 categories: 
   - "gsoc"

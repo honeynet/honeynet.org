@@ -1,5 +1,6 @@
 ---
 title: "Current Status of Ghost"
+authors: ["Sebastian Poeplau"]
 date: "2012-07-14"
 tags: 
   - "ghost-d68"

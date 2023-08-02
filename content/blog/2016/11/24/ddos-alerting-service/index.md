@@ -1,5 +1,6 @@
 ---
 title: "DDOS alerting service"
+authors: ["Rogier Spoor"]
 date: "2016-11-24"
 tags: 
   - "ddos-honeypot"

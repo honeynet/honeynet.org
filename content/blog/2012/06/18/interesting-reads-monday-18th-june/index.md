@@ -1,5 +1,6 @@
 ---
 title: "Interesting Reads: Monday 18th June"
+authors: ["Matt Erasmus"]
 date: "2012-06-18"
 tags: 
   - "interesting"

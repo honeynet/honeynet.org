@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2009 Student Slots Announced"
+authors: ["David Watson"]
 date: "2009-04-20"
 categories: 
   - "gsoc"

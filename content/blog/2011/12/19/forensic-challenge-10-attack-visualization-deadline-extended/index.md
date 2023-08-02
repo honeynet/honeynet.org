@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 10 - \"Attack Visualization\" - Deadline Extended"
+authors: ["Angelo Dellaera"]
 date: "2011-12-19"
 categories: 
   - "challenge"

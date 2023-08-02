@@ -1,5 +1,6 @@
 ---
 title: "Parser Redux and Libraries"
+authors: ["Kevin Galloway"]
 date: "2009-06-21"
 coverImage: "parser.png"
 ---

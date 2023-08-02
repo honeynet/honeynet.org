@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2011 - Org Applications Open"
+authors: ["David Watson"]
 date: "2011-03-06"
 categories: 
   - "gsoc"

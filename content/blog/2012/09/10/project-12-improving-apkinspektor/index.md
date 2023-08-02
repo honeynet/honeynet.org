@@ -1,5 +1,6 @@
 ---
 title: "Project 12 - Improving APKInspektor"
+authors: ["Yuan Tian"]
 date: "2012-09-10"
 categories: 
   - "android"

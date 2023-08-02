@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2021 Project Summary: IntelOwl Improvements"
+authors: ["Matteo Lodi"]
 date: "2021-08-20"
 coverImage: "intel_owl_positive_reduced.png"
 tags: ["gsoc", "intelowl", "threatintel"]

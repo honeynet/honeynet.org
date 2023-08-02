@@ -1,5 +1,6 @@
 ---
 title: "PHoneyC DOM Emulation – Browser Personality"
+authors: ["Angelo Dellaera"]
 date: "2010-08-22"
 tags: 
   - "phoneyc-d89"

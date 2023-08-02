@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 12 – “Hiding in Plain Sight“"
+authors: ["Angelo Dellaera"]
 date: "2012-08-03"
 categories: 
   - "challenge"

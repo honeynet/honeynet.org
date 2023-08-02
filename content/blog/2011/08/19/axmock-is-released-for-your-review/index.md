@@ -1,5 +1,6 @@
 ---
 title: "AxMock is released for your review"
+authors: ["Youzhi Bao"]
 date: "2011-08-19"
 tags: 
   - "capture-hpc-d18"

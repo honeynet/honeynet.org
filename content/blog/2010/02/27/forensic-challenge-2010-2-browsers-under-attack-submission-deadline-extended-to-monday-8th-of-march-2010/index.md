@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 2010/2 - \"browsers under attack\" - submission deadline extended to Monday, 8th of March 2010"
+authors: ["Christian Seifert"]
 date: "2010-02-27"
 categories: 
   - "challenge"

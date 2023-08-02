@@ -1,5 +1,6 @@
 ---
 title: "cuckooHide -  Hiding CuckooBox from trivial detection mechanism"
+authors: ["Dario Fernandes"]
 date: "2011-09-09"
 ---
 

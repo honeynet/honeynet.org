@@ -1,5 +1,6 @@
 ---
 title: "Thug 0.5 and KYT paper"
+authors: ["Angelo Dellaera"]
 date: "2014-07-10"
 categories: 
   - "kye"

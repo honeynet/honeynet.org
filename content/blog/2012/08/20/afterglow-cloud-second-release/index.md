@@ -1,5 +1,6 @@
 ---
 title: "AfterGlow Cloud: Second release"
+authors: ["Surya Nallu"]
 date: "2012-08-20"
 categories: 
   - "gsoc"

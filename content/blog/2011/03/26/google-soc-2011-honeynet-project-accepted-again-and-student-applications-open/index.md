@@ -1,5 +1,6 @@
 ---
 title: "Google SoC 2011 - Honeynet Project Accepted Again and Student Applications Open!"
+authors: ["David Watson"]
 date: "2011-03-26"
 categories: 
   - "gsoc"

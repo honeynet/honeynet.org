@@ -1,5 +1,6 @@
 ---
 title: "Detecting and Containing Conficker - Management Overview"
+authors: ["Lance Spitzner"]
 date: "2009-03-30"
 categories: 
   - "kye"

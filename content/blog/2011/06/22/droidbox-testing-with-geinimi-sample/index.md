@@ -1,5 +1,6 @@
 ---
 title: "DroidBox: testing with Geinimi sample"
+authors: ["Patrik Lantz"]
 date: "2011-06-22"
 categories: 
   - "android"

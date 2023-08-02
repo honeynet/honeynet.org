@@ -1,5 +1,6 @@
 ---
 title: "Quechua - beta version"
+authors: ["zaccone"]
 date: "2012-07-27"
 categories: 
   - "data-mining"

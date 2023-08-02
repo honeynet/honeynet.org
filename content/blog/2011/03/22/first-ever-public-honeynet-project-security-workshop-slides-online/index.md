@@ -1,5 +1,6 @@
 ---
 title: "First-Ever Public Honeynet Project Security Workshop - Slides Online"
+authors: ["Christian Seifert"]
 date: "2011-03-22"
 categories: 
   - "workshop"

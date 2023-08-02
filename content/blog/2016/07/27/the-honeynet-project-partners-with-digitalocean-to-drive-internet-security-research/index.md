@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project Partners With DigitalOcean To Drive  Internet Security Research"
+authors: ["Roberto Tanara"]
 date: "2016-07-27"
 ---
 

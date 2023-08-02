@@ -1,5 +1,6 @@
 ---
 title: "A few differences between IE7 and FF3, what we discovered in coding"
+authors: ["Geng Wang"]
 date: "2009-06-03"
 tags: 
   - "project"

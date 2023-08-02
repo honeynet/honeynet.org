@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2015"
+authors: ["David Watson"]
 date: "2015-02-20"
 categories: 
   - "gsoc"

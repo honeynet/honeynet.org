@@ -1,5 +1,6 @@
 ---
 title: "Response to \"How Microsoft Appointed Itself Sheriff of the Internet\" (Part 2)"
+authors: ["David Dittrich"]
 date: "2015-02-27"
 tags: 
   - "botnet"

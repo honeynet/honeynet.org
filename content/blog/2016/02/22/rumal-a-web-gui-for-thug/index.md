@@ -1,5 +1,6 @@
 ---
 title: "Rumal, a web GUI for Thug"
+authors: ["Pietro Delsante"]
 date: "2016-02-22"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "HoneySpider Network Capture-HPC NG is out!"
+authors: ["Guillaume Arcas"]
 date: "2011-12-07"
 tags: 
   - "capture-hpc-honeyclient-honeyspider"

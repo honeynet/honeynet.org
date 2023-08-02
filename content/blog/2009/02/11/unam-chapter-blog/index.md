@@ -1,5 +1,6 @@
 ---
 title: "UNAM Chapter Blog"
+authors: ["javier.santillan"]
 date: "2009-02-11"
 categories: 
   - "chapters"

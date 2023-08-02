@@ -1,5 +1,6 @@
 ---
 title: "Mitmproxy Google Summer of Code 17 Summary"
+authors: ["Matthew Shao"]
 date: "2017-08-25"
 categories: 
   - "gsoc"

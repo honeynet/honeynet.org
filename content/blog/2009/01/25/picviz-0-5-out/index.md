@@ -1,5 +1,6 @@
 ---
 title: "Picviz 0.5 out"
+authors: ["Sebastien Tricaud"]
 date: "2009-01-25"
 tags: 
   - "picviz-d80"

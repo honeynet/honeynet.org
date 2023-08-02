@@ -1,5 +1,6 @@
 ---
 title: "Conficker.A going down?"
+authors: ["Tillmann Werner"]
 date: "2009-07-10"
 tags: 
   - "conficker-d40"

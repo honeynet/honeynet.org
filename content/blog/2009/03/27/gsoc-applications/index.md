@@ -1,5 +1,6 @@
 ---
 title: "GSoC Applications"
+authors: ["Lance Spitzner"]
 date: "2009-03-27"
 categories: 
   - "gsoc"

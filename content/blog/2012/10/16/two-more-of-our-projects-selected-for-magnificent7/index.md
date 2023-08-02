@@ -1,5 +1,6 @@
 ---
 title: "Two more of our projects selected for Magnificent7"
+authors: ["Sebastian Poeplau"]
 date: "2012-10-16"
 ---
 

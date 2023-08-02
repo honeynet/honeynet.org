@@ -1,5 +1,6 @@
 ---
 title: "Announcing the Honeynet Project Forensic Challenge 2010"
+authors: ["Christian Seifert"]
 date: "2010-01-12"
 categories: 
   - "challenge"

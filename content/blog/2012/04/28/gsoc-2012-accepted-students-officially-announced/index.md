@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2012 Accepted Students Officially Announced"
+authors: ["David Watson"]
 date: "2012-04-28"
 categories: 
   - "gsoc"

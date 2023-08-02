@@ -1,5 +1,6 @@
 ---
 title: "WireShnork - A Snort plugin for Wireshark"
+authors: ["Guillaume Arcas"]
 date: "2011-11-17"
 categories: 
   - "gsoc"

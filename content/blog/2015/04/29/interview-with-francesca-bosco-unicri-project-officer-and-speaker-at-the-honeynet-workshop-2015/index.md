@@ -1,5 +1,6 @@
 ---
 title: "Interview with Francesca Bosco, UNICRI Project Officer and speaker at the Honeynet Workshop 2015"
+authors: ["Roberto Tanara"]
 date: "2015-04-29"
 categories: 
   - "workshop"

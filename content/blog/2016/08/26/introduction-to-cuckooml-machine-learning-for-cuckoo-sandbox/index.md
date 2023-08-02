@@ -1,5 +1,6 @@
 ---
 title: "Introduction to CuckooML: Machine Learning for Cuckoo Sandbox"
+authors: ["Roberto Tanara"]
 date: "2016-08-26"
 categories: 
   - "gsoc"

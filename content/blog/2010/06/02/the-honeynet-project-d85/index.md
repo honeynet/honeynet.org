@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project 鑑識分析挑戰中文版啟航"
+authors: ["Roland Cheung"]
 date: "2010-06-02"
 categories: 
   - "challenge"

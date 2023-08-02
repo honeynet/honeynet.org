@@ -1,5 +1,6 @@
 ---
 title: "Synchronous Communication between Kernel and User Space"
+authors: ["Sebastian Poeplau"]
 date: "2012-07-10"
 tags: 
   - "ghost-d68"

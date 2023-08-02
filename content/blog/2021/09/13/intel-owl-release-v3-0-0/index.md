@@ -1,5 +1,6 @@
 ---
 title: "Intel Owl: Release v3.0.0"
+authors: ["Eshaan Bansal"]
 date: "2021-09-13"
 categories: 
   - "gsoc"

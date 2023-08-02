@@ -1,5 +1,6 @@
 ---
 title: "Know Your Enemy: Social Dynamics of Hacking"
+authors: ["Christian Seifert"]
 date: "2012-05-29"
 categories: 
   - "kye"

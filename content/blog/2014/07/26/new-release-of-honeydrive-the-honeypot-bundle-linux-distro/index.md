@@ -1,5 +1,6 @@
 ---
 title: "New release of HoneyDrive; the honeypot bundle Linux distro"
+authors: ["Ioannis Koniaris"]
 date: "2014-07-26"
 categories: 
   - "honeypot"

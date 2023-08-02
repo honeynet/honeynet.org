@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 2010/5 - Log Mysteries - What Apache version was used?"
+authors: ["Christian Seifert"]
 date: "2011-01-22"
 categories: 
   - "challenge"

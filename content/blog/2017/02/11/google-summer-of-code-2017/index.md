@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2017"
+authors: ["Maximilian Hils"]
 date: "2017-02-11"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "HoneyViz demo is out for your viewing pleasure"
+authors: ["Lucas Mcdaniel"]
 date: "2011-08-27"
 categories: 
   - "gsoc"

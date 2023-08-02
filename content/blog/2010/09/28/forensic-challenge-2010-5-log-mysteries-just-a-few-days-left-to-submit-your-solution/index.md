@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 2010/5 - Log Mysteries - just a few days left to submit your solution"
+authors: ["Christian Seifert"]
 date: "2010-09-28"
 categories: 
   - "challenge"

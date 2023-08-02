@@ -1,5 +1,6 @@
 ---
 title: "Workshop news: Mitigating Botnets almost soldout!"
+authors: ["Leon van der Eijk"]
 date: "2014-04-21"
 categories: 
   - "workshop"

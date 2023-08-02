@@ -1,5 +1,6 @@
 ---
 title: "Data model and tutorial"
+authors: ["Thibaut Gadiolet"]
 date: "2009-06-15"
 tags: 
   - "data-model-honeyweb-tutorial"

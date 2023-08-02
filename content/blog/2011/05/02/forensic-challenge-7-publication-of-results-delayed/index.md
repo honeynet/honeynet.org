@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 7 - Publication of Results Delayed"
+authors: ["Angelo Dellaera"]
 date: "2011-05-02"
 categories: 
   - "challenge"

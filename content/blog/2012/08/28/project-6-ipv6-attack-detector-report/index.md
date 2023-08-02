@@ -1,5 +1,6 @@
 ---
 title: "Project 6 - IPv6 attack detector Report"
+authors: ["phamvantoan"]
 date: "2012-08-28"
 categories: 
   - "gsoc"

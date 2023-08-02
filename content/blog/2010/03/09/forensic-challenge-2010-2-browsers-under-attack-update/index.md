@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 2010/2 - \"browsers under attack\" - update"
+authors: ["Christian Seifert"]
 date: "2010-03-09"
 categories: 
   - "challenge"

@@ -1,5 +1,6 @@
 ---
 title: "Introducing Acapulco: Building Clustered Parallel Coordinates Graphs from HPFeeds data"
+authors: ["Hugo Gascon"]
 date: "2012-08-20"
 tags: 
   - "clustering"

@@ -1,5 +1,6 @@
 ---
 title: "APKinspector : the alpha release of project 6."
+authors: ["Cong Zheng"]
 date: "2011-07-26"
 categories: 
   - "android"

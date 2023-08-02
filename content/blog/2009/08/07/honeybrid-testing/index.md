@@ -1,5 +1,6 @@
 ---
 title: "Honeybrid testing"
+authors: ["Robin Berthier"]
 date: "2009-08-07"
 tags: 
   - "honeybrid-gsoc-testing"

@@ -1,5 +1,6 @@
 ---
 title: "Free Honeynet Log Data for Research"
+authors: ["Anton Chuvakin"]
 date: "2009-06-26"
 tags: 
   - "data"

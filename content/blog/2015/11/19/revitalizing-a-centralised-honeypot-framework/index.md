@@ -1,5 +1,6 @@
 ---
 title: "Revitalizing a Centralised Honeypot Framework"
+authors: ["Rogier Spoor"]
 date: "2015-11-19"
 tags: 
   - "framework-honeypot"

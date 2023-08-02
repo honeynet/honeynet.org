@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2010 Application Submitted"
+authors: ["David Watson"]
 date: "2010-03-12"
 categories: 
   - "gsoc"

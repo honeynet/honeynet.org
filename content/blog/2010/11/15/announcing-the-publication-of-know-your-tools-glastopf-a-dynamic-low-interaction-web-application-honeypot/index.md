@@ -1,5 +1,6 @@
 ---
 title: "Announcing the publication of Know Your Tools: Glastopf - A dynamic, low-interaction web application honeypot"
+authors: ["Christian Seifert"]
 date: "2010-11-15"
 categories: 
   - "honeypot"

@@ -1,5 +1,6 @@
 ---
 title: "Is that PDF so scary?"
+authors: ["Guido Landi"]
 date: "2010-09-10"
 tags: 
   - "aslr-d63"

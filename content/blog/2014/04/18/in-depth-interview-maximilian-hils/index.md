@@ -1,5 +1,6 @@
 ---
 title: "In-depth Interview: Maximilian Hils"
+authors: ["Pietro Delsante"]
 date: "2014-04-18"
 ---
 

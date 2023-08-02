@@ -1,5 +1,6 @@
 ---
 title: "Get system call address from SSDT"
+authors: ["Chengyu Song"]
 date: "2009-06-07"
 categories: 
   - "analysis"

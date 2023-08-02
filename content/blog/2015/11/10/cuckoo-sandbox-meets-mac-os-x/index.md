@@ -1,5 +1,6 @@
 ---
 title: "Cuckoo Sandbox meets Mac OS X"
+authors: ["Jurriaan Bremer"]
 date: "2015-11-10"
 ---
 

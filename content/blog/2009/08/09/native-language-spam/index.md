@@ -1,5 +1,6 @@
 ---
 title: "Native Language Spam"
+authors: ["Tillmann Werner"]
 date: "2009-08-09"
 tags: 
   - "spam-d47"

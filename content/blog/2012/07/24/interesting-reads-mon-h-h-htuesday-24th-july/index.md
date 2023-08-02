@@ -1,5 +1,6 @@
 ---
 title: "Interesting Reads: Mon^H^H^HTuesday 24th July"
+authors: ["Matt Erasmus"]
 date: "2012-07-24"
 tags: 
   - "honeynet"

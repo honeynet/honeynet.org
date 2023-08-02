@@ -1,5 +1,6 @@
 ---
 title: "Interview with Per Thorsheim, PasswordsCon Founder and Organizer, speaker at the Honeynet Workshop 2015"
+authors: ["Leon van der Eijk"]
 date: "2015-04-13"
 categories: 
   - "workshop"

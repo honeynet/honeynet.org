@@ -1,5 +1,6 @@
 ---
 title: "Google SoC 2011 - Org Applications Finished"
+authors: ["David Watson"]
 date: "2011-03-12"
 categories: 
   - "gsoc"

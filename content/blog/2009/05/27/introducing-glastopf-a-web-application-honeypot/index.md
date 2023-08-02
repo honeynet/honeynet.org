@@ -1,5 +1,6 @@
 ---
 title: "Introducing Glastopf, a Web Application Honeypot"
+authors: ["Lukas Rist"]
 date: "2009-05-27"
 categories: 
   - "analysis"

@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2013 Announced"
+authors: ["David Watson"]
 date: "2013-03-02"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "nebula - Client library and revised signature segment selection"
+authors: ["Tillmann Werner"]
 date: "2009-06-08"
 categories: 
   - "gsoc"

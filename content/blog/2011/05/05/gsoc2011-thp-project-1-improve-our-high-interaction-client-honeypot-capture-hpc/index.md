@@ -1,5 +1,6 @@
 ---
 title: "GSoC2011-THP Project 1 - Improve our high interaction client honeypot Capture-HPC"
+authors: ["Youzhi Bao"]
 date: "2011-05-05"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "2014 Honeynet Project Security Workshop in Warsaw!"
+authors: ["Julia Yuchin Cheng"]
 date: "2014-01-02"
 categories: 
   - "workshop"

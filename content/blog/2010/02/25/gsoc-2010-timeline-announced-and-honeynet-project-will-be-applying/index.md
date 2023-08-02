@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2010 Timeline announced and Honeynet Project will be applying"
+authors: ["David Watson"]
 date: "2010-02-25"
 categories: 
   - "gsoc"

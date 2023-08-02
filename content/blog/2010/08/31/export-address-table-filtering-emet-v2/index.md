@@ -1,5 +1,6 @@
 ---
 title: "Export Address Table Filtering (EMET v2)"
+authors: ["Guido Landi"]
 date: "2010-08-31"
 tags: 
   - "eat-filtering"

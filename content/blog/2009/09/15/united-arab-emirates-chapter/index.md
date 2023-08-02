@@ -1,5 +1,6 @@
 ---
 title: "United Arab Emirates Chapter"
+authors: ["Lance Spitzner"]
 date: "2009-09-15"
 categories: 
   - "chapters"

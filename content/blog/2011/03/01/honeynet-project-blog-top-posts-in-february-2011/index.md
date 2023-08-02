@@ -1,5 +1,6 @@
 ---
 title: "Honeynet Project Blog Top Posts in February 2011"
+authors: ["Anton Chuvakin"]
 date: "2011-03-01"
 tags: 
   - "blogging"

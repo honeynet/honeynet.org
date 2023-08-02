@@ -1,5 +1,6 @@
 ---
 title: "There Is Still Time To Register for The 2011 Honeynet  Project Security Workshop (Paris, March 21)"
+authors: ["Anton Chuvakin"]
 date: "2011-03-09"
 categories: 
   - "workshop"

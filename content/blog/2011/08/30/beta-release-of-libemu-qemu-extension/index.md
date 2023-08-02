@@ -1,5 +1,6 @@
 ---
 title: "Beta release of libemu qemu extension"
+authors: ["Florian Schmitt"]
 date: "2011-08-30"
 tags: 
   - "libemu-d34"

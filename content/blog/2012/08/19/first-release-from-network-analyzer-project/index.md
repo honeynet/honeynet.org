@@ -1,5 +1,6 @@
 ---
 title: "First release from Network Analyzer project"
+authors: ["Oguz Yarimtepe"]
 date: "2012-08-19"
 categories: 
   - "gsoc"

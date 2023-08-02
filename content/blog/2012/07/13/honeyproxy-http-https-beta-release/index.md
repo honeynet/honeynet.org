@@ -1,5 +1,6 @@
 ---
 title: "HoneyProxy HTTP/HTTPS - Beta Release"
+authors: ["Guillaume Arcas"]
 date: "2012-07-13"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "VM image for Network Analyzer and installation howto"
+authors: ["Oguz Yarimtepe"]
 date: "2012-08-19"
 ---
 

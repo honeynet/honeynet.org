@@ -1,5 +1,6 @@
 ---
 title: "Waledac's Anti-Debugging Tricks"
+authors: ["Tillmann Werner"]
 date: "2010-05-24"
 tags: 
   - "anti-debugging"

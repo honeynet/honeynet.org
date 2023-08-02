@@ -1,5 +1,6 @@
 ---
 title: "Google Summer Of Code 2013 Student Applications now closed and some statistics"
+authors: ["David Watson"]
 date: "2013-05-09"
 categories: 
   - "gsoc"

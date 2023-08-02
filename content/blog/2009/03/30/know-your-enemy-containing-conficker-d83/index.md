@@ -1,5 +1,6 @@
 ---
 title: "Know Your Enemy: Containing Conficker"
+authors: ["Lance Spitzner"]
 date: "2009-03-30"
 categories: 
   - "kye"

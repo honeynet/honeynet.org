@@ -1,5 +1,6 @@
 ---
 title: "KYE paper: Bots keep talking to us"
+authors: ["Sebastien Tricaud"]
 date: "2018-01-03"
 categories: 
   - "kye"

@@ -1,5 +1,6 @@
 ---
 title: "Thug 0.6 released!"
+authors: ["Angelo Dellaera"]
 date: "2015-01-05"
 tags: 
   - "honeyclient-d3"

@@ -1,5 +1,6 @@
 ---
 title: "Last chance for early bird registration"
+authors: ["Christian Seifert"]
 date: "2012-03-05"
 categories: 
   - "workshop"

@@ -1,5 +1,6 @@
 ---
 title: "Email analysis with SpamScope"
+authors: ["Fedele Mantuano"]
 date: "2016-11-02"
 categories: 
   - "analysis"

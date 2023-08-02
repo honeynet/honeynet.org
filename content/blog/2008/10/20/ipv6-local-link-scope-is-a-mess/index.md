@@ -1,5 +1,6 @@
 ---
 title: "ipv6 local-link scope is a mess"
+authors: ["Markus Koetter"]
 date: "2008-10-20"
 tags: 
   - "ipv6-d51"

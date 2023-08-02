@@ -1,5 +1,6 @@
 ---
 title: "Security in 2020? Anton Chuvakin will give you the broad overview!"
+authors: ["Sjur Usken"]
 date: "2013-02-07"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Murofet, Zeus++ or just Zeus 2.1?"
+authors: ["Guido Landi"]
 date: "2010-10-15"
 categories: 
   - "encryption"

@@ -1,5 +1,6 @@
 ---
 title: "GlastopfNG release"
+authors: ["Lukas Rist"]
 date: "2010-10-15"
 tags: 
   - "glastopf-d23"

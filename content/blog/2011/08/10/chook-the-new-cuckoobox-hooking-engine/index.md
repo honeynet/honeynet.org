@@ -1,5 +1,6 @@
 ---
 title: "cHook -  The new CuckooBox Hooking Engine"
+authors: ["Dario Fernandes"]
 date: "2011-08-10"
 categories: 
   - "gsoc"

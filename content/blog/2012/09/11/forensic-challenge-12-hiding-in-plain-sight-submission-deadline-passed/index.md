@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 12 – “Hiding in Plain Sight“ - Submission deadline passed"
+authors: ["Angelo Dellaera"]
 date: "2012-09-11"
 categories: 
   - "challenge"

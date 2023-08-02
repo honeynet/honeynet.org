@@ -1,5 +1,6 @@
 ---
 title: "Annual Honeynet Project Workshop"
+authors: ["Lance Spitzner"]
 date: "2008-12-18"
 categories: 
   - "workshop"

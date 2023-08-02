@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2010 Updated Ideas Page and Student Applications Open"
+authors: ["David Watson"]
 date: "2010-04-05"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "Meet Lukas Rist, our new Chief Research Officer"
+authors: ["Roberto Tanara"]
 date: "2016-12-28"
 tags: 
   - "cro"

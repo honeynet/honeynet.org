@@ -1,5 +1,6 @@
 ---
 title: "PHoneyC DOM Emulation - Window"
+authors: ["Angelo Dellaera"]
 date: "2010-08-10"
 tags: 
   - "phoneyc-d89"

@@ -1,5 +1,6 @@
 ---
 title: "Ghost 0.3 released"
+authors: ["Sebastian Poeplau"]
 date: "2013-03-27"
 tags: 
   - "ghost-d68"

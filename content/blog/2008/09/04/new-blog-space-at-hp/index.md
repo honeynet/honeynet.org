@@ -1,5 +1,6 @@
 ---
 title: "New blog space at HP"
+authors: ["Kevin Foo"]
 date: "2008-09-04"
 ---
 

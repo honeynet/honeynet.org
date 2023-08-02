@@ -1,5 +1,6 @@
 ---
 title: "Google SoC 2011 - Student Applications In Progress"
+authors: ["David Watson"]
 date: "2011-04-04"
 categories: 
   - "gsoc"

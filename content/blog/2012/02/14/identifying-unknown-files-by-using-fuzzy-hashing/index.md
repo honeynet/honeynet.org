@@ -1,5 +1,6 @@
 ---
 title: "Identifying unknown files by using fuzzy hashing"
+authors: ["Leon van der Eijk"]
 date: "2012-02-14"
 tags: 
   - "fuzzy-hashing"

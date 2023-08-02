@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 2010/6 - Analyzing Malicious Portable Destructive Files - The winners are ..."
+authors: ["Christian Seifert"]
 date: "2010-12-24"
 categories: 
   - "challenge"

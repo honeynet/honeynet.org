@@ -1,5 +1,6 @@
 ---
 title: "Beta Release of DroidBox for Android 2.3 and APIMonitor"
+authors: ["Kun Yang"]
 date: "2012-08-23"
 categories: 
   - "android"

@@ -1,5 +1,6 @@
 ---
 title: "2011 Honeynet Project Security Workshop Videos Online"
+authors: ["Anton Chuvakin"]
 date: "2011-04-19"
 categories: 
   - "workshop"

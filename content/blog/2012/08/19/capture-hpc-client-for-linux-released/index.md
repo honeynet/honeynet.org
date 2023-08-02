@@ -1,5 +1,6 @@
 ---
 title: "Capture HPC Client for Linux released!"
+authors: ["Maciej Szawlowski"]
 date: "2012-08-19"
 ---
 

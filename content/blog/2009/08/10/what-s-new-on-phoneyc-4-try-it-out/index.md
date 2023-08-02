@@ -1,5 +1,6 @@
 ---
 title: "What's new on PHoneyC (4): Try it out!"
+authors: ["Zhijie Chen"]
 date: "2009-08-10"
 tags: 
   - "gsoc-d20"

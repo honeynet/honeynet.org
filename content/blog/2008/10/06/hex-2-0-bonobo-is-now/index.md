@@ -1,5 +1,6 @@
 ---
 title: "HeX 2.0 “Bonobo” is now!"
+authors: ["Kevin Foo"]
 date: "2008-10-06"
 tags: 
   - "hex-d64"

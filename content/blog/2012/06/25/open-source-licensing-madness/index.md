@@ -1,5 +1,6 @@
 ---
 title: "Open Source Licensing Madness"
+authors: ["Sebastian Poeplau"]
 date: "2012-06-25"
 tags: 
   - "ghost-d68"

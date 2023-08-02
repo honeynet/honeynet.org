@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2014 Mentoring Organization Applications"
+authors: ["David Watson"]
 date: "2014-02-14"
 categories: 
   - "gsoc"

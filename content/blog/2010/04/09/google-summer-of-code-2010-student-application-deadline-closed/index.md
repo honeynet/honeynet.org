@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2010 Student Application Deadline Closed"
+authors: ["David Watson"]
 date: "2010-04-09"
 categories: 
   - "gsoc"

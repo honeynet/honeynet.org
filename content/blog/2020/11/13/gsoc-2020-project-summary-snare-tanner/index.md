@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2020 Project Summary: SNARE/TANNER"
+authors: ["Mehtab Zafar"]
 date: "2020-11-13"
 tags: 
   - "honeypots"

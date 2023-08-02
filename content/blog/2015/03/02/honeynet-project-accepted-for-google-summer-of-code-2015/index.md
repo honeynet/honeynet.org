@@ -1,5 +1,6 @@
 ---
 title: "Honeynet Project Accepted for Google Summer of Code 2015"
+authors: ["David Watson"]
 date: "2015-03-02"
 categories: 
   - "gsoc"

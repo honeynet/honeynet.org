@@ -1,5 +1,6 @@
 ---
 title: "Ghost version 0.2 released"
+authors: ["Sebastian Poeplau"]
 date: "2012-09-04"
 tags: 
   - "ghost-d68"

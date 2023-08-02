@@ -1,5 +1,6 @@
 ---
 title: "Get STIX Reports from ICS Honeypot Conpot"
+authors: ["Lukas Rist"]
 date: "2014-08-06"
 categories: 
   - "honeypot"

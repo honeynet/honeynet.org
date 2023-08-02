@@ -1,5 +1,6 @@
 ---
 title: "French Chapter Status Report 2012"
+authors: ["Guillaume Arcas"]
 date: "2012-12-05"
 categories: 
   - "android"

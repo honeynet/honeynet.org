@@ -1,5 +1,6 @@
 ---
 title: "Thug and the art of web client tracking inspection"
+authors: ["Angelo Dellaera"]
 date: "2015-01-27"
 tags: 
   - "honeyclient-d3"

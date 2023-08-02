@@ -1,5 +1,6 @@
 ---
 title: "World-wide security training you cannot afford to miss!"
+authors: ["Julia Yuchin Cheng"]
 date: "2014-04-03"
 ---
 

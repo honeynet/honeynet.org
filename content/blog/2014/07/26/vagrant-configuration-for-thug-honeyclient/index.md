@@ -1,5 +1,6 @@
 ---
 title: "Vagrant configuration for Thug honeyclient"
+authors: ["Ioannis Koniaris"]
 date: "2014-07-26"
 tags: 
   - "thug-d25"

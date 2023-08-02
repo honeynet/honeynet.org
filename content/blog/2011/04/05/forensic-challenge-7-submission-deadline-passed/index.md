@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 7 - Submission deadline passed"
+authors: ["Angelo Dellaera"]
 date: "2011-04-05"
 categories: 
   - "challenge"

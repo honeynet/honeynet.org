@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2013 Participating Mentoring Organizations Announced"
+authors: ["David Watson"]
 date: "2013-04-09"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "Released peepdf v0.3"
+authors: ["Jose Esparza"]
 date: "2014-06-18"
 categories: 
   - "analysis"

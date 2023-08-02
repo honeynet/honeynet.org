@@ -1,5 +1,6 @@
 ---
 title: "GSoC Mentoring Organization"
+authors: ["Lance Spitzner"]
 date: "2009-03-19"
 categories: 
   - "gsoc"

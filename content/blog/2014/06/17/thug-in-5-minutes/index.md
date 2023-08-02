@@ -1,5 +1,6 @@
 ---
 title: "Thug in 5 minutes"
+authors: ["Ali Ikinci"]
 date: "2014-06-17"
 tags: 
   - "docker-d152"

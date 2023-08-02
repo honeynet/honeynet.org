@@ -1,5 +1,6 @@
 ---
 title: "Thug: 1000 commits, 1000 thanks"
+authors: ["Angelo Dellaera"]
 date: "2013-06-10"
 tags: 
   - "honeyclient-d3"

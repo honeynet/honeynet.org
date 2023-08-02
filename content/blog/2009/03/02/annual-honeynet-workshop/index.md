@@ -1,5 +1,6 @@
 ---
 title: "Annual Honeynet Workshop"
+authors: ["Lance Spitzner"]
 date: "2009-03-02"
 categories: 
   - "analysis"

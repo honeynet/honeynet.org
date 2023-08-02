@@ -1,5 +1,6 @@
 ---
 title: "HoneyNED chapter had a busy 2017"
+authors: ["Rogier Spoor"]
 date: "2017-12-22"
 categories: 
   - "chapters"

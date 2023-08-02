@@ -1,5 +1,6 @@
 ---
 title: "2012 Honeynet Project Security Workshop @ Facebook, Inc. - SF Bay Area, CA, USA - March 19th/20th 2012"
+authors: ["Christian Seifert"]
 date: "2012-01-24"
 categories: 
   - "workshop"

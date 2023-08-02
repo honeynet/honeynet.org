@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code Applications"
+authors: ["Lance Spitzner"]
 date: "2009-04-03"
 categories: 
   - "gsoc"

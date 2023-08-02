@@ -1,5 +1,6 @@
 ---
 title: "HoneyProxy 1.1 - Dubai - released!"
+authors: ["Maximilian Hils"]
 date: "2013-01-24"
 categories: 
   - "gsoc"

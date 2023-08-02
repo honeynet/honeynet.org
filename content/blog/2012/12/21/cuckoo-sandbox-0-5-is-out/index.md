@@ -1,5 +1,6 @@
 ---
 title: "Cuckoo Sandbox 0.5 is out!"
+authors: ["Christian Seifert"]
 date: "2012-12-21"
 ---
 

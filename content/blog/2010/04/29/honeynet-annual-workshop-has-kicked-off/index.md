@@ -1,5 +1,6 @@
 ---
 title: "Honeynet Annual Workshop has kicked off"
+authors: ["Jamie Riden"]
 date: "2010-04-29"
 categories: 
   - "workshop"

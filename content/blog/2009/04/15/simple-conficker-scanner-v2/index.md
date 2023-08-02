@@ -1,5 +1,6 @@
 ---
 title: "Simple Conficker Scanner v2"
+authors: ["Tillmann Werner"]
 date: "2009-04-15"
 tags: 
   - "conficker-d40"

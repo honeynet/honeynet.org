@@ -1,5 +1,6 @@
 ---
 title: "Know Your Tools: use Picviz to find attacks"
+authors: ["Christian Seifert"]
 date: "2009-11-26"
 tags: 
   - "kye-d143"

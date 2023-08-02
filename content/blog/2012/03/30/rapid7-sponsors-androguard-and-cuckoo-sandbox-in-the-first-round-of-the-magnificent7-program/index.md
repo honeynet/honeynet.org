@@ -1,5 +1,6 @@
 ---
 title: "Rapid7 Sponsors Androguard and Cuckoo Sandbox in the First Round of the Magnificent7 Program"
+authors: ["Guillaume Arcas"]
 date: "2012-03-30"
 categories: 
   - "gsoc"

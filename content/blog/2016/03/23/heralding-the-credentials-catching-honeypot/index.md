@@ -1,5 +1,6 @@
 ---
 title: "Heralding - the credentials catching honeypot"
+authors: ["Johnny Vestergaard"]
 date: "2016-03-23"
 tags: 
   - "heralding-d24"

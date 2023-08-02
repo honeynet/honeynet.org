@@ -1,5 +1,6 @@
 ---
 title: "Nepenthes Pharm"
+authors: ["Lance Spitzner"]
 date: "2009-11-29"
 ---
 

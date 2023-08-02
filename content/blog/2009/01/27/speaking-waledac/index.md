@@ -1,5 +1,6 @@
 ---
 title: "Speaking Waledac"
+authors: ["Felix Leder"]
 date: "2009-01-27"
 categories: 
   - "encryption"

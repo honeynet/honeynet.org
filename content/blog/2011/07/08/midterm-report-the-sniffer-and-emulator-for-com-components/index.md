@@ -1,5 +1,6 @@
 ---
 title: "Midterm Report: The sniffer and emulator for COM components"
+authors: ["Youzhi Bao"]
 date: "2011-07-08"
 categories: 
   - "gsoc"

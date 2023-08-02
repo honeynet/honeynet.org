@@ -1,5 +1,6 @@
 ---
 title: "Kippo fork - all in one"
+authors: ["Katarina Durechova"]
 date: "2014-11-12"
 tags: 
   - "kippo"

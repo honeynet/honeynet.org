@@ -1,5 +1,6 @@
 ---
 title: "In-depth interview: Felix Leder"
+authors: ["Leon van der Eijk"]
 date: "2014-04-24"
 ---
 

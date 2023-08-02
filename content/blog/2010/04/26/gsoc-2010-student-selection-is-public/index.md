@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2010 Student Selection is Public"
+authors: ["David Watson"]
 date: "2010-04-26"
 categories: 
   - "gsoc"

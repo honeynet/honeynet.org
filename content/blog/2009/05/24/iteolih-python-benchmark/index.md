@@ -1,5 +1,6 @@
 ---
 title: "Iteolih: Python Benchmark"
+authors: ["Markus Koetter"]
 date: "2009-05-24"
 tags: 
   - "iteolih-d90"

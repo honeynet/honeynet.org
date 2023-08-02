@@ -1,5 +1,6 @@
 ---
 title: "SIP Module for Dionaea"
+authors: ["Guillaume Arcas"]
 date: "2011-09-27"
 categories: 
   - "gsoc"

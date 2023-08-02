@@ -1,5 +1,6 @@
 ---
 title: "Android Reverse Engineering (A.R.E.) Virtual Machine available for download now!"
+authors: ["Christian Seifert"]
 date: "2011-11-01"
 categories: 
   - "android"

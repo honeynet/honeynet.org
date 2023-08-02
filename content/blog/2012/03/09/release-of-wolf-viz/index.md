@@ -1,5 +1,6 @@
 ---
 title: "Release of WoLF Viz"
+authors: ["Christian Seifert"]
 date: "2012-03-09"
 tags: 
   - "forensic-challenge-d87"

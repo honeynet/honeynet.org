@@ -1,5 +1,6 @@
 ---
 title: "mitmproxy: HTTP/2 Support and GSoC 2016"
+authors: ["Maximilian Hils"]
 date: "2016-02-15"
 categories: 
   - "encryption"

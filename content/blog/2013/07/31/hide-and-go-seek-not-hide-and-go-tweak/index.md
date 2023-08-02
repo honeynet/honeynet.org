@@ -1,5 +1,6 @@
 ---
 title: "Hide and go seek, not hide and go tweak"
+authors: ["David Dittrich"]
 date: "2013-07-31"
 tags: 
   - "active-response-continuum"

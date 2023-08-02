@@ -1,5 +1,6 @@
 ---
 title: "Honeybrid: combining low and high interaction honeypots"
+authors: ["Robin Berthier"]
 date: "2009-05-27"
 categories: 
   - "analysis"

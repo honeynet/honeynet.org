@@ -1,5 +1,6 @@
 ---
 title: "Low-interaction honeyclient Thug released!"
+authors: ["Angelo Dellaera"]
 date: "2012-03-19"
 tags: 
   - "honeyclient-d3"

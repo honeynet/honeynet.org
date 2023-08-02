@@ -1,5 +1,6 @@
 ---
 title: "Congratulations to the winners of Forensic Challenge FC10- Attack Visualization !"
+authors: ["Ben Reardon"]
 date: "2012-02-16"
 categories: 
   - "challenge"

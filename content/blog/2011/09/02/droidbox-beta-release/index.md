@@ -1,5 +1,6 @@
 ---
 title: "DroidBox: beta release"
+authors: ["Patrik Lantz"]
 date: "2011-09-02"
 tags: 
   - "android-d70"

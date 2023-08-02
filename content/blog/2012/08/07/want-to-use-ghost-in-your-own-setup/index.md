@@ -1,5 +1,6 @@
 ---
 title: "Want to Use Ghost in Your Own Setup?"
+authors: ["Sebastian Poeplau"]
 date: "2012-08-07"
 tags: 
   - "ghost-d68"

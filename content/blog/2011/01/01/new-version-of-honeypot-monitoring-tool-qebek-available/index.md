@@ -1,5 +1,6 @@
 ---
 title: "New version of honeypot monitoring tool Qebek available"
+authors: ["Christian Seifert"]
 date: "2011-01-01"
 categories: 
   - "honeypot"

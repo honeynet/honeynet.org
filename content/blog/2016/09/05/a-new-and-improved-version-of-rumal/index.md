@@ -1,5 +1,6 @@
 ---
 title: "A new and improved version of Rumal"
+authors: ["Roberto Tanara"]
 date: "2016-09-05"
 categories: 
   - "gsoc"

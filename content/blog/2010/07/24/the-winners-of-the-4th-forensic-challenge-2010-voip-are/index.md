@@ -1,5 +1,6 @@
 ---
 title: "The winners of the 4th Forensic Challenge 2010 VoIP are ..."
+authors: ["Christian Seifert"]
 date: "2010-07-24"
 categories: 
   - "challenge"

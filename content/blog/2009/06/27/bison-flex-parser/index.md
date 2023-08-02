@@ -1,5 +1,6 @@
 ---
 title: "Bison/Flex parser"
+authors: ["Robin Berthier"]
 date: "2009-06-27"
 tags: 
   - "honeybrid-gsoc-parser"

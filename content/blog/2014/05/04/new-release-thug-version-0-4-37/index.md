@@ -1,5 +1,6 @@
 ---
 title: "New release Thug version 0.4.37 !"
+authors: ["Leon van der Eijk"]
 date: "2014-05-04"
 ---
 

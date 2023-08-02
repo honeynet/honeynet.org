@@ -1,5 +1,6 @@
 ---
 title: "GSoC2013 Blog Online"
+authors: ["Ali Ikinci"]
 date: "2013-06-24"
 categories: 
   - "gsoc"

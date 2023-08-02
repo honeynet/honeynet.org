@@ -1,5 +1,6 @@
 ---
 title: "Interview with Kai Roer, \"Hacking Your Mind\" at Honeynet Workshop 2015"
+authors: ["The Honeynet Project"]
 date: "2015-03-29"
 categories: 
   - "workshop"

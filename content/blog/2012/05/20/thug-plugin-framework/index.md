@@ -1,5 +1,6 @@
 ---
 title: "Thug Plugin Framework"
+authors: ["Angelo Dellaera"]
 date: "2012-05-20"
 tags: 
   - "thug-d25"

@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 2010/4 - VoIP - 4 days left!"
+authors: ["Christian Seifert"]
 date: "2010-06-26"
 categories: 
   - "challenge"

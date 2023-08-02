@@ -1,5 +1,6 @@
 ---
 title: "Interview with Hugo Gonzalez, Android expert and trainer at the Honeynet Workshop 2015"
+authors: ["Roberto Tanara"]
 date: "2015-04-22"
 categories: 
   - "android"

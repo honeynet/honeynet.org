@@ -1,5 +1,6 @@
 ---
 title: "Interview with our new CEO Andre Ludwig"
+authors: ["Leon van der Eijk"]
 date: "2015-10-22"
 tags: 
   - "meet-our-new-ceo-andre"

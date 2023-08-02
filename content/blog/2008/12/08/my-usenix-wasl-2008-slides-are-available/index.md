@@ -1,5 +1,6 @@
 ---
 title: "My usenix WASL 2008 slides are available"
+authors: ["Sebastien Tricaud"]
 date: "2008-12-08"
 categories: 
   - "analysis"

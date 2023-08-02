@@ -1,5 +1,6 @@
 ---
 title: "HoneySink: Beta Release"
+authors: ["Shaun Vlassis"]
 date: "2011-09-11"
 categories: 
   - "gsoc"

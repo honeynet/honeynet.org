@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challange 7 - Only 5 days left!"
+authors: ["Christian Seifert"]
 date: "2011-03-26"
 categories: 
   - "challenge"

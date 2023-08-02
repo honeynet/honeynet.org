@@ -1,5 +1,6 @@
 ---
 title: "Meet the CEO"
+authors: ["Leon van der Eijk"]
 date: "2014-11-25"
 tags: 
   - "ceo-d38"

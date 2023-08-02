@@ -1,5 +1,6 @@
 ---
 title: "Building a functional and centralized threat intelligence framework, with Mark!"
+authors: ["Sjur Usken"]
 date: "2013-01-31"
 tags: 
   - "dubai"

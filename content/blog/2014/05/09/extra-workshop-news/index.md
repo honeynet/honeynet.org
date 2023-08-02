@@ -1,5 +1,6 @@
 ---
 title: "EXTRA workshop news !"
+authors: ["Leon van der Eijk"]
 date: "2014-05-09"
 categories: 
   - "workshop"

@@ -1,5 +1,6 @@
 ---
 title: "UK Chapter Annual Status Report 2011/2012"
+authors: ["David Watson"]
 date: "2012-12-04"
 categories: 
   - "chapters"

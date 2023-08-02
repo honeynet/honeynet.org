@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project  on Social Media"
+authors: ["Anton Chuvakin"]
 date: "2011-03-08"
 ---
 

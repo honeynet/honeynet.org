@@ -1,5 +1,6 @@
 ---
 title: "HpfeedsHoneyGraph - Automated Attack Graph Construction for Hpfeeds Logs"
+authors: ["Julia Yuchin Cheng"]
 date: "2012-09-11"
 categories: 
   - "gsoc"

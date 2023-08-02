@@ -1,5 +1,6 @@
 ---
 title: "QEMU dyngen"
+authors: ["Chengyu Song"]
 date: "2009-06-21"
 tags: 
   - "qemu-qebek"

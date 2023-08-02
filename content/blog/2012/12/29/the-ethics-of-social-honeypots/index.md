@@ -1,5 +1,6 @@
 ---
 title: "The Ethics of Social Honeypots"
+authors: ["David Dittrich"]
 date: "2012-12-29"
 categories: 
   - "honeypot"

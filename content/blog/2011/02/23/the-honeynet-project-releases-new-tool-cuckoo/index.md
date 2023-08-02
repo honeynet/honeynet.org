@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project Releases New Tool: Cuckoo"
+authors: ["Anton Chuvakin"]
 date: "2011-02-23"
 tags: 
   - "malware-d38"

@@ -1,5 +1,6 @@
 ---
 title: "Visualize your attacks workshop in Dubai 10-12th"
+authors: ["Sjur Usken"]
 date: "2013-01-09"
 categories: 
   - "data-mining"

@@ -1,5 +1,6 @@
 ---
 title: "New platinum sponsor for our anual workshop !"
+authors: ["Leon van der Eijk"]
 date: "2014-04-21"
 categories: 
   - "workshop"

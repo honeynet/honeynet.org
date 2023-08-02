@@ -1,5 +1,6 @@
 ---
 title: "Debating the Active Response Continuum: Defining the Terms of the Debate"
+authors: ["David Dittrich"]
 date: "2013-05-28"
 tags: 
   - "active-defense"

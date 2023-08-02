@@ -1,5 +1,6 @@
 ---
 title: "Another great step forward"
+authors: ["Angelo Dellaera"]
 date: "2010-08-11"
 ---
 

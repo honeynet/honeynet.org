@@ -1,5 +1,6 @@
 ---
 title: "Another Features is ready!"
+authors: ["Victor Amaducci"]
 date: "2009-06-17"
 tags: 
   - "feature"

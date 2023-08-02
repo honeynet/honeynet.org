@@ -1,5 +1,6 @@
 ---
 title: "Introducing Conpot"
+authors: ["Lukas Rist"]
 date: "2013-05-11"
 tags: 
   - "honeypot-d9"

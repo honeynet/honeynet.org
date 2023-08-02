@@ -1,5 +1,6 @@
 ---
 title: "GSOC 2020 PROJECT SUMMARY: HosTaGe"
+authors: ["Irini Lygerou"]
 date: "2020-09-29"
 categories: 
   - "gsoc"

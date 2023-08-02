@@ -1,5 +1,6 @@
 ---
 title: "AREsoft-updater Released"
+authors: ["Adnan Mohd Shukor"]
 date: "2012-08-26"
 categories: 
   - "android"

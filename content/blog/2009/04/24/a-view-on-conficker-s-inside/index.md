@@ -1,5 +1,6 @@
 ---
 title: "A view on Conficker's inside"
+authors: ["Felix Leder"]
 date: "2009-04-24"
 tags: 
   - "conficker-d40"

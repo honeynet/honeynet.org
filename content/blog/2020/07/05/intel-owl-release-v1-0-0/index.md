@@ -1,5 +1,6 @@
 ---
 title: "Intel Owl Release v1.0.0"
+authors: ["Eshaan Bansal"]
 date: "2020-07-05"
 categories: 
   - "gsoc"

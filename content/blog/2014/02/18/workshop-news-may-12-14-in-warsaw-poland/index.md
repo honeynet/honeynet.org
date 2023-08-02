@@ -1,5 +1,6 @@
 ---
 title: "WORKSHOP NEWS - May 12-14 in Warsaw, Poland"
+authors: ["Julia Yuchin Cheng"]
 date: "2014-02-18"
 categories: 
   - "workshop"

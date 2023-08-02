@@ -1,5 +1,6 @@
 ---
 title: "Reversing Malicious Flashy Flash and Dissecting Malicious Document with Mahmud!"
+authors: ["Sjur Usken"]
 date: "2013-01-25"
 categories: 
   - "android"

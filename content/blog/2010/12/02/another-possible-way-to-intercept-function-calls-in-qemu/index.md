@@ -1,5 +1,6 @@
 ---
 title: "Another possible way to intercept function calls in QEMU"
+authors: ["Chengyu Song"]
 date: "2010-12-02"
 categories: 
   - "android"

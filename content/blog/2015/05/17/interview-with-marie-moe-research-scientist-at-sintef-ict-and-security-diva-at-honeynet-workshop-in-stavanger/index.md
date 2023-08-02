@@ -1,5 +1,6 @@
 ---
 title: "Interview with Marie Moe, research scientist at SINTEF ICT and Security Diva at Honeynet Workshop in Stavanger"
+authors: ["Roberto Tanara"]
 date: "2015-05-17"
 categories: 
   - "workshop"

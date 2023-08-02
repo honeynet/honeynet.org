@@ -1,5 +1,6 @@
 ---
 title: "Two roads diverged in Ghost development"
+authors: ["Sebastian Poeplau"]
 date: "2012-12-18"
 tags: 
   - "ghost-d68"

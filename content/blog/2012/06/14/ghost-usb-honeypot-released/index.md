@@ -1,5 +1,6 @@
 ---
 title: "Ghost USB honeypot released"
+authors: ["Sebastian Poeplau"]
 date: "2012-06-14"
 categories: 
   - "honeypot"

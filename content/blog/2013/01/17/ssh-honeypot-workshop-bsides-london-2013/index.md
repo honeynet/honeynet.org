@@ -1,5 +1,6 @@
 ---
 title: "SSH honeypot workshop Bsides London 2013"
+authors: ["Leon van der Eijk"]
 date: "2013-01-17"
 categories: 
   - "honeypot"

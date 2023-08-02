@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 14 – “Weird Python“ – Winners"
+authors: ["Maximilian Hils"]
 date: "2015-04-07"
 categories: 
   - "challenge"

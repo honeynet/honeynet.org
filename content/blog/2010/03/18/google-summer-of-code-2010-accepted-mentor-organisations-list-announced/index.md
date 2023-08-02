@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2010 Accepted Mentor Organisations List Announced"
+authors: ["David Watson"]
 date: "2010-03-18"
 categories: 
   - "gsoc"

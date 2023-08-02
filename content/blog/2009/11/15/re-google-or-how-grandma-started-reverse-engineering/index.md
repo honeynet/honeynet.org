@@ -1,5 +1,6 @@
 ---
 title: "RE-Google - or how Grandma started Reverse Engineering"
+authors: ["Felix Leder"]
 date: "2009-11-15"
 tags: 
   - "beginner"

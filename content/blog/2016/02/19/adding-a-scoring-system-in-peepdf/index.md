@@ -1,5 +1,6 @@
 ---
 title: "Adding a scoring system in peepdf"
+authors: ["Roberto Tanara"]
 date: "2016-02-19"
 categories: 
   - "encryption"

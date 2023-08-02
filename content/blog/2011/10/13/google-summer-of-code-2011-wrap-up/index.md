@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2011- Wrap up"
+authors: ["Christian Seifert"]
 date: "2011-10-13"
 categories: 
   - "gsoc"

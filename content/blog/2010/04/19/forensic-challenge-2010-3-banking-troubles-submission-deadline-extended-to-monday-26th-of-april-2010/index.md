@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 2010/3 - \"Banking Troubles\" - submission deadline extended to Monday, 26th of April 2010"
+authors: ["Christian Seifert"]
 date: "2010-04-19"
 categories: 
   - "challenge"

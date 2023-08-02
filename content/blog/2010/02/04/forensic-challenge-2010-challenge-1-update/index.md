@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 2010 - Challenge 1 update"
+authors: ["Christian Seifert"]
 date: "2010-02-04"
 categories: 
   - "challenge"

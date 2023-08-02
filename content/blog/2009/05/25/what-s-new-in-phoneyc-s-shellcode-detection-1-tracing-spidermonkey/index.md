@@ -1,5 +1,6 @@
 ---
 title: "What's new in phoneyc's shellcode detection (1)--- Tracing spidermonkey"
+authors: ["Zhijie Chen"]
 date: "2009-05-25"
 categories: 
   - "gsoc"

@@ -1,5 +1,6 @@
 ---
 title: "Google Summer Of Code 2012 Student Applications - Deadline Approaching"
+authors: ["David Watson"]
 date: "2012-04-03"
 categories: 
   - "gsoc"

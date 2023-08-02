@@ -1,5 +1,6 @@
 ---
 title: "libemu: Detecting selfencrypted shellcode in network streams"
+authors: ["Markus Koetter"]
 date: "2008-12-10"
 categories: 
   - "encryption"

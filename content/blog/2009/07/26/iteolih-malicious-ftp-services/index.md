@@ -1,5 +1,6 @@
 ---
 title: "Iteolih: malicious ftp services"
+authors: ["Markus Koetter"]
 date: "2009-07-26"
 tags: 
   - "iteolih-d90"

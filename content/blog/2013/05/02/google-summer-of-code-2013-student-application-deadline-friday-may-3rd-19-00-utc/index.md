@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2013 Student Application Deadline Friday May 3rd 19:00 UTC"
+authors: ["David Watson"]
 date: "2013-05-02"
 categories: 
   - "gsoc"

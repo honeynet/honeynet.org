@@ -1,5 +1,6 @@
 ---
 title: "Spartan Devils Chapter Status Report For 2012"
+authors: ["Tom Holt"]
 date: "2012-11-05"
 categories: 
   - "chapters"

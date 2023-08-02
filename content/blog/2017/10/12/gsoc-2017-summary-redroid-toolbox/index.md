@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2017 Summary: ReDroid toolbox"
+authors: ["Roberto Tanara"]
 date: "2017-10-12"
 categories: 
   - "android"

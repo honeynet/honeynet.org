@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2016"
+authors: ["David Watson"]
 date: "2016-02-19"
 categories: 
   - "android"

@@ -1,5 +1,6 @@
 ---
 title: "ARTDroid: an easy-to-use framework for hooking under ART"
+authors: ["Cong Zheng"]
 date: "2016-02-02"
 categories: 
   - "android"

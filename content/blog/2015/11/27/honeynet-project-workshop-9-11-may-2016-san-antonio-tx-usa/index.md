@@ -1,5 +1,6 @@
 ---
 title: "Honeynet Project Workshop | 9-11 May 2016 | San Antonio, TX, USA"
+authors: ["Andrea De Pasquale"]
 date: "2015-11-27"
 categories: 
   - "workshop"

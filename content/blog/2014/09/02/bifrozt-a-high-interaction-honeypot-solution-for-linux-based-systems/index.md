@@ -1,5 +1,6 @@
 ---
 title: "Bifrozt - A high interaction honeypot solution for Linux based systems."
+authors: ["Are Hansen"]
 date: "2014-09-02"
 categories: 
   - "honeypot"

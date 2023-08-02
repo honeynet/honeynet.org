@@ -1,5 +1,6 @@
 ---
 title: "Improving dynamic analysis coverage in Android with DroidBot"
+authors: ["Roberto Tanara"]
 date: "2016-02-23"
 categories: 
   - "analysis"

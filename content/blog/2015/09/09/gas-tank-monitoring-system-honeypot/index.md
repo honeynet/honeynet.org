@@ -1,5 +1,6 @@
 ---
 title: "Gas Tank Monitoring System Honeypot"
+authors: ["Lukas Rist"]
 date: "2015-09-09"
 categories: 
   - "honeypot"

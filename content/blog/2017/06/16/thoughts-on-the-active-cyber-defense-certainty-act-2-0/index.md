@@ -1,5 +1,6 @@
 ---
 title: "Thoughts on the Active Cyber Defense Certainty Act 2.0"
+authors: ["David Dittrich"]
 date: "2017-06-16"
 tags: 
   - "active-response-continuum"

@@ -1,5 +1,6 @@
 ---
 title: "A new infosec era? Or a new infosec error?"
+authors: ["David Dittrich"]
 date: "2013-03-11"
 tags: 
   - "botnet"

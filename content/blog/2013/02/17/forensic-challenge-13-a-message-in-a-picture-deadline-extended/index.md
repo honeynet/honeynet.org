@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 13 – \"A Message in a Picture\" - Deadline extended"
+authors: ["Angelo Dellaera"]
 date: "2013-02-17"
 categories: 
   - "challenge"

@@ -1,5 +1,6 @@
 ---
 title: "Mapping geographic data"
+authors: ["Oguz Yarimtepe"]
 date: "2011-05-15"
 tags: 
   - "django-d68"

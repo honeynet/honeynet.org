@@ -1,5 +1,6 @@
 ---
 title: "A new Cuckoo hatched his egg!"
+authors: ["Guillaume Arcas"]
 date: "2011-11-25"
 tags: 
   - "dynamic-malware-analysis-virtuaization-cuckoo-gsoc"

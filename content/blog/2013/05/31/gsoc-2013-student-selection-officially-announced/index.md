@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2013 Student Selection Officially Announced"
+authors: ["David Watson"]
 date: "2013-05-31"
 categories: 
   - "gsoc"

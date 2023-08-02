@@ -1,5 +1,6 @@
 ---
 title: "First-ever Honeynet Project  Public Conference–Paris 2011"
+authors: ["Anton Chuvakin"]
 date: "2011-01-31"
 categories: 
   - "android"

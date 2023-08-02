@@ -1,5 +1,6 @@
 ---
 title: "Improving Glastopf"
+authors: ["Lukas Rist"]
 date: "2009-06-15"
 categories: 
   - "analysis"
