@@ -13,8 +13,9 @@
         {{- .Format "02 Jan 2006" -}}
     {{- end -}}
     {{- range .Params.authors }}
+        {{ $name := . }}
         {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-            <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+            <a href="{{ .Permalink }}">{{ .Params.name | default $name }}</a>
         {{ end }}
     {{ end }}
     {{ partial "tags.html" . }}
