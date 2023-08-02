@@ -1,5 +1,6 @@
 ---
 title: "Improve the security of unlocking your smartphone"
+authors: ["Chengyu Song"]
 date: "2011-02-07"
 categories: 
   - "android"

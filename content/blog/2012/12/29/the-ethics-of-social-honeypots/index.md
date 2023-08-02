@@ -1,14 +1,15 @@
 ---
 title: "The Ethics of Social Honeypots"
+authors: ["David Dittrich"]
 date: "2012-12-29"
 categories: 
   - "honeypot"
 tags: 
-  - "botnets-d72"
+  - "botnets"
   - "ethics"
   - "honeypots"
-  - "irb-d21"
-  - "social-honeypots-d54"
+  - "irb"
+  - "social-honeypots"
   - "social-networks"
   - "the-menlo-report"
 ---

@@ -1,12 +1,13 @@
 ---
 title: "nebula - Client library and revised signature segment selection"
+authors: ["Tillmann Werner"]
 date: "2009-06-08"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
-  - "hpsoc-d78"
-  - "nebula-d31"
+  - "gsoc"
+  - "hpsoc"
+  - "nebula"
 ---
 
 [](/gsoc/project11 "HPSoc Project Description")![nebula Logo](images/nebula.png) [One project](/gsoc/project11 "HPSoc Project Description") mentored by the Honeynet Project during GSoC aims at improving [nebula](http://nebula.carnivore.it "nebula - An Intrusion Signature Generator"), an automated intrusion signature generator. There are two critical components in the signature generator: A clustering engine that groups similar attacks into classes, and a signature assembler that extracts common features and selects some of them for the actual signature.

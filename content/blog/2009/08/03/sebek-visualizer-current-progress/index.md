@@ -1,5 +1,6 @@
 ---
 title: "Sebek Visualizer-Current Progress"
+authors: ["Kevin Galloway"]
 date: "2009-08-03"
 coverImage: "sebek_vis2.png"
 ---

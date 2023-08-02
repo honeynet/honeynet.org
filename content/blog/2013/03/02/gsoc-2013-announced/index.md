@@ -1,10 +1,11 @@
 ---
 title: "GSoC 2013 Announced"
+authors: ["David Watson"]
 date: "2013-03-02"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2013"
 ---
 

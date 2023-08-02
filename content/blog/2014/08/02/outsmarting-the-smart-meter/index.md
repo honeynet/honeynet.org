@@ -1,5 +1,6 @@
 ---
 title: "Outsmarting the smart meter"
+authors: ["Johnny Vestergaard"]
 date: "2014-08-02"
 ---
 

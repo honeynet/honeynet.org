@@ -1,8 +1,9 @@
 ---
 title: "Thug Plugin Framework"
+authors: ["Angelo Dellaera"]
 date: "2012-05-20"
 tags: 
-  - "thug-d25"
+  - "thug"
 ---
 
 In the last months I spent a lot of efforts in Thug development. During these months a few interesting features and improvements were introduced but right now I want to spend some time for taking a look at the new plugin framework introduced in the version 0.3.0. If you ever thought about extending Thug with additional features but didn’t know how to do it you should really keep on reading. Let’s start by taking a look a the code.  

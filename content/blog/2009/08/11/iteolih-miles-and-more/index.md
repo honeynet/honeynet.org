@@ -1,8 +1,9 @@
 ---
 title: "Iteolih: Miles and More"
+authors: ["Markus Koetter"]
 date: "2009-08-11"
 tags: 
-  - "iteolih-d90"
+  - "iteolih"
 ---
 
 We got a new milestone due:

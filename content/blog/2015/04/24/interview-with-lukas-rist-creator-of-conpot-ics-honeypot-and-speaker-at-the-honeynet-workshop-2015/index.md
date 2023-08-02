@@ -1,14 +1,15 @@
 ---
 title: "Interview with Lukas Rist, creator of Conpot ICS honeypot and speaker at the Honeynet Workshop 2015"
+authors: ["Leon van der Eijk"]
 date: "2015-04-24"
 categories: 
   - "honeypot"
   - "workshop"
 tags: 
-  - "conpot-d32"
+  - "conpot"
   - "hnw2015"
   - "lukas-rist"
-  - "workshop-d98"
+  - "workshop"
 ---
 
   

@@ -1,5 +1,6 @@
 ---
 title: "Confusion About Honeypots"
+authors: ["Lance Spitzner"]
 date: "2009-06-28"
 categories: 
   - "honeypot"

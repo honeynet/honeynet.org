@@ -1,5 +1,6 @@
 ---
 title: "Glastopf Project: A Look Ahead"
+authors: ["Lukas Rist"]
 date: "2010-02-03"
 ---
 

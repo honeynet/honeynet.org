@@ -1,5 +1,6 @@
 ---
 title: "Donate to the Honeynet Project"
+authors: ["Christian Seifert"]
 date: "2012-12-18"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Lion and iOS 5"
+authors: ["Chengyu Song"]
 date: "2011-06-07"
 tags: 
   - "security"

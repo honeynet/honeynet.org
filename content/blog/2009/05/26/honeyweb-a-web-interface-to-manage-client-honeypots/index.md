@@ -1,13 +1,14 @@
 ---
 title: "HoneyWeb, a web interface to manage client honeypots"
+authors: ["Thibaut Gadiolet"]
 date: "2009-05-26"
 categories: 
   - "gsoc"
   - "honeypot"
 tags: 
   - "client"
-  - "gsoc-d20"
-  - "honeypot-d9"
+  - "gsoc"
+  - "honeypot"
   - "honeyweb"
 ---
 

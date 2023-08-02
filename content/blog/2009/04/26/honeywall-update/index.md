@@ -1,5 +1,6 @@
 ---
 title: "Honeywall update"
+authors: ["Rob Mcmillen"]
 date: "2009-04-26"
 tags: 
   - "honeywall"

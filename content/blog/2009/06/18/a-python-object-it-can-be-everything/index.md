@@ -1,5 +1,6 @@
 ---
 title: "A python object: It can be everything!"
+authors: ["Geng Wang"]
 date: "2009-06-18"
 tags: 
   - "project"

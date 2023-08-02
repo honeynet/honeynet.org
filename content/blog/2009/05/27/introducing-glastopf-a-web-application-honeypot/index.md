@@ -1,7 +1,7 @@
 ---
 title: "Introducing Glastopf, a Web Application Honeypot"
-date: "2009-05-27"
 authors: ["Lukas Rist"]
+date: "2009-05-27"
 tags: 
   - "glastopf"
   - "gsoc"

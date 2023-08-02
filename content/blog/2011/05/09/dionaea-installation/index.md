@@ -1,9 +1,10 @@
 ---
 title: "Dionaea Installation"
+authors: ["Oguz Yarimtepe"]
 date: "2011-05-09"
 tags: 
   - "debian"
-  - "dionaea-d42"
+  - "dionaea"
   - "log-record"
 ---
 

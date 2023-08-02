@@ -1,10 +1,11 @@
 ---
 title: "Meet the CEO"
+authors: ["Leon van der Eijk"]
 date: "2014-11-25"
 tags: 
-  - "ceo-d38"
+  - "ceo"
   - "hpw2015-d52"
-  - "workshop-d98"
+  - "workshop"
 ---
 
 **Angelo, you have been HNP CEO for more than over a year now. What were your goals when you started and did you achieve them?**  

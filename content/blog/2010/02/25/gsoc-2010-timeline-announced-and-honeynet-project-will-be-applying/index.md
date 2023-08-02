@@ -1,10 +1,11 @@
 ---
 title: "GSoC 2010 Timeline announced and Honeynet Project will be applying"
+authors: ["David Watson"]
 date: "2010-02-25"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 Last year the Honeynet Project entered **Google Summer of Code** (http://socghop.appspot.com/gsoc/program/home/google/gsoc2009) for the first time. We received 9 Google funded student places and also funded 3 more places of our own, all of whom successfully completed their projects in a wide range of areas of open source security R&D. You can find out more in our Google SoC 2009 section of our website (https://www.honeynet.org/gsoc).  

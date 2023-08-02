@@ -1,11 +1,12 @@
 ---
 title: "DroidBox: beta release"
+authors: ["Patrik Lantz"]
 date: "2011-09-02"
 tags: 
-  - "android-d70"
+  - "android"
   - "droidbox"
-  - "dynamic-analysis-d29"
-  - "sandbox-d7"
+  - "dynamic-analysis"
+  - "sandbox"
 ---
 
 Beta version is out and the install instructions are available at the [project webpage](http://code.google.com/p/droidbox/). The new features are:

@@ -1,5 +1,6 @@
 ---
 title: "Iteolih: SMB/RPC efforts"
+authors: ["Mark Schloesser"]
 date: "2009-07-11"
 tags: 
   - "iteolih-samba-dcerpc-python"

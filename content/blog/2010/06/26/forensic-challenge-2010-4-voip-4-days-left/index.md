@@ -1,11 +1,12 @@
 ---
 title: "Forensic Challenge 2010/4 - VoIP - 4 days left!"
+authors: ["Christian Seifert"]
 date: "2010-06-26"
 categories: 
   - "challenge"
 tags: 
   - "challenge"
-  - "forensic-challenge-d87"
+  - "forensic-challenge"
 ---
 
 Folks, the submission deadline for our [Forensic Challenge 4 - VoIP](https://www.honeynet.org/challenges/2010_4_voip) is quickly approaching. The deadline is this Wednesday and so you have another 4 days to submit your solution.  

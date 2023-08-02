@@ -1,10 +1,11 @@
 ---
 title: "Google SoC 2011 - Accepted Projects Announced"
+authors: ["Christian Seifert"]
 date: "2011-04-25"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2011-gsoc"
 ---
 

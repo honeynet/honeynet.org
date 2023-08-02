@@ -1,5 +1,6 @@
 ---
 title: "取证分析挑战 6 - 分析恶意编码 PDF 档案"
+authors: ["Roland Cheung"]
 date: "2010-11-01"
 categories: 
   - "challenge"
@@ -7,7 +8,7 @@ tags:
   - "challenge"
   - "forensic-challenges"
   - "malware"
-  - "pdf-d64"
+  - "pdf"
   - "simplified-chinese"
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: "Email analysis with SpamScope"
+authors: ["Fedele Mantuano"]
 date: "2016-11-02"
 categories: 
   - "analysis"
 tags: 
   - "email"
-  - "spam-d47"
+  - "spam"
   - "spamscope"
 coverImage: "spamscope.png"
 ---

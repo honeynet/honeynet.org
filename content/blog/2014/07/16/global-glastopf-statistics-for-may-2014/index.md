@@ -1,9 +1,10 @@
 ---
 title: "Global Glastopf statistics for May 2014"
+authors: ["Mikael Keri"]
 date: "2014-07-16"
 tags: 
-  - "glastopf-d23"
-  - "logs-d11"
+  - "glastopf"
+  - "logs"
   - "reports"
   - "statistic"
 ---

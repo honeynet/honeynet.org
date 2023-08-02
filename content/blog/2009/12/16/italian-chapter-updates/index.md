@@ -1,15 +1,16 @@
 ---
 title: "Italian Chapter updates"
+authors: ["Marco Riccardi"]
 date: "2009-12-16"
 categories: 
   - "chapters"
 tags: 
-  - "botnets-d72"
+  - "botnets"
   - "chapter"
-  - "dorothy-d80"
+  - "dorothy"
   - "report"
   - "the-italian-honeynet-chapter"
-  - "visualization-d89"
+  - "visualization"
 ---
 
 Folks,  

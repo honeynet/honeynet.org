@@ -1,5 +1,6 @@
 ---
 title: "Project Honeynet “Log Mysteries” Challenge Lessons"
+authors: ["Anton Chuvakin"]
 date: "2010-11-10"
 tags: 
   - "challenge"

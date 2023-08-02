@@ -1,5 +1,6 @@
 ---
 title: "Picviz 'Durian gostoso' 0.6 is out"
+authors: ["Victor Amaducci"]
 date: "2009-06-19"
 tags: 
   - "release"

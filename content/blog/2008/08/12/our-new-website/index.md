@@ -1,5 +1,6 @@
 ---
 title: "Our New Website"
+authors: ["Lance Spitzner"]
 date: "2008-08-12"
 Authors: ["Lance Spitzner"]
 ---

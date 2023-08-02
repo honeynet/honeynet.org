@@ -1,5 +1,6 @@
 ---
 title: "Something about python: __setattr__ and __getattr__"
+authors: ["Geng Wang"]
 date: "2009-06-03"
 tags: 
   - "project"

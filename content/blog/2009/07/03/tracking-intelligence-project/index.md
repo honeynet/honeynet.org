@@ -1,5 +1,6 @@
 ---
 title: "Tracking Intelligence Project"
+authors: ["Angelo Dellaera"]
 date: "2009-07-03"
 ---
 

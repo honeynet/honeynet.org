@@ -1,10 +1,11 @@
 ---
 title: "Know Your Enemy: Containing Conficker"
+authors: ["Lance Spitzner"]
 date: "2009-03-30"
 categories: 
   - "kye"
 tags: 
-  - "kye-d143"
+  - "kye"
 ---
 
 The Honeynet Project is excited to announce the release of [Know Your Enemy: Containing Conficker](/papers/conficker/).    In this paper we present several potential methods to contain Conficker. The approaches presented take advantage of the way Conficker patches infected systems, which can be used to remotelydetect a compromised system. Furthermore, we demonstrate various methods to detect and remove Conficker locally and a potential vaccination tool is presented. Finally, the domain name generation mechanism for all three Conficker variants is discussed in detail and anoverview of the potential for upcoming domain collisions in version .C is provided. Tools for all the ideas presented  are freely available for download including source code.  This paper was authored by Tillmann Werner and Felix Leder.

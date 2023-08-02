@@ -1,5 +1,6 @@
 ---
 title: "Implementation: the whole hooking and some modules"
+authors: ["Youzhi Bao"]
 date: "2011-08-11"
 ---
 

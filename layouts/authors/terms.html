@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container py-4">
+    <div class="col col-lg-8">
+        <h1>Authors</h1>
+        <ul>
+            {{ range .Data.Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Params.name }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}

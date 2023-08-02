@@ -1,11 +1,12 @@
 ---
 title: "The Honeynet Project取证分析挑战中文版启航，欢迎华语世界安全人士参与"
+authors: ["Jianwei Zhuge"]
 date: "2010-06-02"
 categories: 
   - "challenge"
 tags: 
   - "challenge"
-  - "forensic-challenge-d87"
+  - "forensic-challenge"
   - "simpilified-chinese"
 ---
 

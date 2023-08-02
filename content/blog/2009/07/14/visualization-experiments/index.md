@@ -1,5 +1,6 @@
 ---
 title: "Visualization Experiments"
+authors: ["Kevin Galloway"]
 date: "2009-07-14"
 coverImage: "vis1.png"
 ---

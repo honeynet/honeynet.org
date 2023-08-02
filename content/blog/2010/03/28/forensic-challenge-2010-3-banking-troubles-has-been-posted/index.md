@@ -1,11 +1,12 @@
 ---
 title: "Forensic Challenge 2010/3 - \"Banking Troubles\" has been posted"
+authors: ["Christian Seifert"]
 date: "2010-03-28"
 categories: 
   - "challenge"
 tags: 
   - "challenge"
-  - "forensic-challenge-d87"
+  - "forensic-challenge"
 coverImage: "facebook.gif"
 ---
 

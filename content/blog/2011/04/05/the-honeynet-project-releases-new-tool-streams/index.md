@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project Releases New Tool: streams"
+authors: ["Anton Chuvakin"]
 date: "2011-04-05"
 tags: 
   - "release"

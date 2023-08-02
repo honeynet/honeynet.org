@@ -1,5 +1,6 @@
 ---
 title: "A review to what we have done yet"
+authors: ["Geng Wang"]
 date: "2009-07-13"
 tags: 
   - "project"

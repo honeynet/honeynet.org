@@ -1,10 +1,11 @@
 ---
 title: "HoneyViz demo is out for your viewing pleasure"
+authors: ["Lucas Mcdaniel"]
 date: "2011-08-27"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc11-d57"
 coverImage: "default_map.jpg"
 ---

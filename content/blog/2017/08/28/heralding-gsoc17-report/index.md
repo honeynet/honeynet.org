@@ -1,12 +1,13 @@
 ---
 title: "Heralding GSoC17 Report"
+authors: ["Roman Samoilenko"]
 date: "2017-08-28"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2017"
-  - "heralding-d24"
+  - "heralding"
 ---
 
 The summer is coming to the end as well as my GSoC17 happy days. So, now it’s time to sum up the results and say goodbye to the GSoC until the next year.

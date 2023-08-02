@@ -1,5 +1,6 @@
 ---
 title: "SHIVA (Spam Honeypot with Intelligent Virtual Analyzer)"
+authors: ["Angelo Dellaera"]
 date: "2013-11-25"
 categories: 
   - "honeypot"

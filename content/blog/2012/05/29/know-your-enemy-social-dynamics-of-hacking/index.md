@@ -1,10 +1,11 @@
 ---
 title: "Know Your Enemy: Social Dynamics of Hacking"
+authors: ["Christian Seifert"]
 date: "2012-05-29"
 categories: 
   - "kye"
 tags: 
-  - "kye-d143"
+  - "kye"
 ---
 
 I am very pleased to announce the publication of another paper in our Know Your Enemy white paper series: ["KYE - Social Dynamics of Hacking"](https://honeynet.org/papers/socialdynamics) authored by Thomas J. Holt and Max Kilger from our Spartan Devils Honeynet Project Chapter. In this paper, Tom and Max go to the roots of the Know Your Enemy series and shine light on the social groups that are involved in hacking.  

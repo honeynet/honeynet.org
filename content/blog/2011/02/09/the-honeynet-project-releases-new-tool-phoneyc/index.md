@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project Releases New Tool: PhoneyC"
+authors: ["Anton Chuvakin"]
 date: "2011-02-09"
 tags: 
   - "tool"

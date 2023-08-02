@@ -1,10 +1,11 @@
 ---
 title: "GlastopfNG release"
+authors: ["Lukas Rist"]
 date: "2010-10-15"
 tags: 
-  - "glastopf-d23"
-  - "glastopng-d53"
-  - "web-honeypot-d19"
+  - "glastopf"
+  - "glastopng"
+  - "web-honeypot"
 ---
 
 Before we are getting worse than [Duke Nukem Forever](http://en.wikipedia.org/wiki/Duke_Nukem_Forever), we decided to finally release the next generation of the web application honeypot Glastopf, aka GlastopfNG!  

@@ -1,8 +1,9 @@
 ---
 title: "Glastopf retrospection"
+authors: ["Lukas Rist"]
 date: "2009-08-10"
 tags: 
-  - "glastopf-d23"
+  - "glastopf"
   - "webhoneypot"
 ---
 

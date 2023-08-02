@@ -1,11 +1,12 @@
 ---
 title: "The winners of the 4th Forensic Challenge 2010 VoIP are ..."
+authors: ["Christian Seifert"]
 date: "2010-07-24"
 categories: 
   - "challenge"
 tags: 
   - "challenge"
-  - "forensic-challenge-d87"
+  - "forensic-challenge"
 ---
 
 The 4th Forensic Challenge on VoIP has come to an end. We had a total of 21 submissions with several submissions from Chinese speakers which has been made possible by Julia, Jianwei and Roland from the Chinese speaking chapters.  

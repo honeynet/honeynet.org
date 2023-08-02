@@ -1,5 +1,6 @@
 ---
 title: "Mobile Device Security Summit 2013 (Anaheim, CA)"
+authors: ["Hadi Syahrial"]
 date: "2012-12-20"
 ---
 

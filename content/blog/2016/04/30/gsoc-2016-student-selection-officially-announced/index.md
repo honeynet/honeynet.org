@@ -1,10 +1,11 @@
 ---
 title: "GSoC 2016 Student Selection Officially Announced"
+authors: ["David Watson"]
 date: "2016-04-30"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2016"
 coverImage: "banner-gsoc2016_2.png"
 ---

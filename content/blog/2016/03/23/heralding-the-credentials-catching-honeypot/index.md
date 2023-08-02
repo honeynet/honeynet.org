@@ -1,9 +1,10 @@
 ---
 title: "Heralding - the credentials catching honeypot"
+authors: ["Johnny Vestergaard"]
 date: "2016-03-23"
 tags: 
-  - "heralding-d24"
-  - "honeypot-d9"
+  - "heralding"
+  - "honeypot"
 ---
 
 Sometimes (actually, most times) you don’t need advanced deception technology, but rather just a simple tool to answer some simple questions. I was recently in that situation, and needed the answers to the following questions:

@@ -1,5 +1,6 @@
 ---
 title: "An interview with Lance Spitzner, founder of The Honeynet Project"
+authors: ["Andrea De Pasquale"]
 date: "2015-03-17"
 tags: 
   - "hpw2015-d52"

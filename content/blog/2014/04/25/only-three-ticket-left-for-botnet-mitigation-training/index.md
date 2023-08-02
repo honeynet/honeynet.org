@@ -1,5 +1,6 @@
 ---
 title: "Only three ticket left for botnet mitigation training !"
+authors: ["Leon van der Eijk"]
 date: "2014-04-25"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project in the Media"
+authors: ["Anton Chuvakin"]
 date: "2011-03-22"
 ---
 

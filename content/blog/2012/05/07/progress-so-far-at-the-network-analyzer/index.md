@@ -1,11 +1,12 @@
 ---
 title: "Progress so far at the Network Analyzer"
+authors: ["Oguz Yarimtepe"]
 date: "2012-05-07"
 categories: 
   - "gsoc"
 tags: 
   - "flow"
-  - "gsoc-d20"
+  - "gsoc"
   - "malware"
   - "network-traffic"
   - "protocols"

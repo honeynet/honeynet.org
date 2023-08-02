@@ -1,5 +1,6 @@
 ---
 title: "Webviz is out for your reviews"
+authors: ["Oguz Yarimtepe"]
 date: "2011-08-12"
 ---
 

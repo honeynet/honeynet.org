@@ -1,8 +1,9 @@
 ---
 title: "Synchronous Communication between Kernel and User Space"
+authors: ["Sebastian Poeplau"]
 date: "2012-07-10"
 tags: 
-  - "ghost-d68"
+  - "ghost"
 ---
 
 In this post I'd like to describe some aspects of the communication between kernel and user mode in the Ghost USB honeypot. More specifically, I'll focus on how to realize blocking communication with the Windows Driver Frameworks (WDF).  

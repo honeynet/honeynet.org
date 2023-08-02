@@ -1,5 +1,6 @@
 ---
 title: "Dissecting the SotM Attack Trace Pcap"
+authors: ["Tillmann Werner"]
 date: "2010-02-19"
 tags: 
   - "forensic-challenge-2010"

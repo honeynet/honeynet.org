@@ -1,10 +1,11 @@
 ---
 title: "Google Summer of Code 2017"
+authors: ["Maximilian Hils"]
 date: "2017-02-11"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2017"
 coverImage: "gsoc.png"
 ---

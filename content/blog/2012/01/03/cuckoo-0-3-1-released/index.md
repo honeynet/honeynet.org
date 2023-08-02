@@ -1,5 +1,6 @@
 ---
 title: "Cuckoo 0.3.1 released"
+authors: ["Guillaume Arcas"]
 date: "2012-01-03"
 tags: 
   - "cuckoo-sandbox-malware-analysis"

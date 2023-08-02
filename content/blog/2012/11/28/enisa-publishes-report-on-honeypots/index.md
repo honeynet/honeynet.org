@@ -1,5 +1,6 @@
 ---
 title: "ENISA publishes report on honeypots"
+authors: ["Christian Seifert"]
 date: "2012-11-28"
 categories: 
   - "honeypot"

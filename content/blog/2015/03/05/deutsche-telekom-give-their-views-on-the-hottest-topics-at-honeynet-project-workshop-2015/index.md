@@ -1,13 +1,14 @@
 ---
 title: "Deutsche Telekom Give Their Views on the Hottest Topics at Honeynet Project Workshop 2015"
+authors: ["Leon van der Eijk"]
 date: "2015-03-05"
 categories: 
   - "workshop"
 tags: 
   - "hpw2015-d52"
-  - "norway-d92"
-  - "stavanger-d77"
-  - "workshop-d98"
+  - "norway"
+  - "stavanger"
+  - "workshop"
 ---
 
   

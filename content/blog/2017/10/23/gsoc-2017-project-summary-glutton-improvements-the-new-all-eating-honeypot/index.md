@@ -1,10 +1,11 @@
 ---
 title: "GSoC 2017 Project Summary:  Glutton improvements, the new “all eating honeypot”"
+authors: ["Roberto Tanara"]
 date: "2017-10-23"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc-glutton"
   - "gsoc2017"
 ---

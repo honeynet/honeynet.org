@@ -1,12 +1,13 @@
 ---
 title: "A view on Conficker's inside"
+authors: ["Felix Leder"]
 date: "2009-04-24"
 tags: 
-  - "conficker-d40"
+  - "conficker"
   - "control-flow"
   - "dependencies"
-  - "malware-d38"
-  - "visualization-d89"
+  - "malware"
+  - "visualization"
 ---
 
 Many people have asked us, how Conficker looks like. That's a tough question for something that's hidden and tries to be as stealthy as possible. The last time somebody asked me: "Can you show me Conficker?", I decided to visualize Conficker. Here is [a little video that shows the evil core of Conficker.C](http://iv.cs.uni-bonn.de/uploads/media/video.avi "Conficker.C video").

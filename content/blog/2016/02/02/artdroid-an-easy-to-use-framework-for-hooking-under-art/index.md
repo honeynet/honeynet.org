@@ -1,14 +1,15 @@
 ---
 title: "ARTDroid: an easy-to-use framework for hooking under ART"
+authors: ["Cong Zheng"]
 date: "2016-02-02"
 categories: 
   - "android"
 tags: 
-  - "android-d70"
+  - "android"
   - "art"
-  - "dynamic-analysis-d29"
-  - "gsoc-d20"
-  - "hook-d81"
+  - "dynamic-analysis"
+  - "gsoc"
+  - "hook"
   - "malware"
 ---
 

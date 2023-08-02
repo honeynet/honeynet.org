@@ -1,8 +1,9 @@
 ---
 title: "Conficker.A going down?"
+authors: ["Tillmann Werner"]
 date: "2009-07-10"
 tags: 
-  - "conficker-d40"
+  - "conficker"
 ---
 
 [Conficker](/papers/conficker) contains a piece of code that has been object of speculation: It does not infect boxes located in the Ukraine. Before sending an exploit, it performs a lookup against Maxmind's GeoIP database, which is freely available, and skips the host if the returned country code is UA. While the B variant comes with a copy of the database embedded, the A variant downloads the file from Maxmind's server. A couple of days ago Felix had the idea to deliver a specially crafted database that maps every IP address to the Ukrain. The database format is actually quite simple, and he managed to create a valid database that places the whole Internet around Kiev.

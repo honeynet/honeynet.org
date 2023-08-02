@@ -1,10 +1,11 @@
 ---
 title: "GSoC 2017 Project Summary: major SNARE/Tanner improvements"
+authors: ["Roberto Tanara"]
 date: "2017-10-23"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc-snare-tanner"
   - "gsoc2017"
 ---

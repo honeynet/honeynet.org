@@ -1,13 +1,14 @@
 ---
 title: "Interview with Per Thorsheim, PasswordsCon Founder and Organizer, speaker at the Honeynet Workshop 2015"
+authors: ["Leon van der Eijk"]
 date: "2015-04-13"
 categories: 
   - "workshop"
 tags: 
   - "hpw2015-d52"
-  - "norway-d92"
-  - "stavanger-d77"
-  - "workshop-d98"
+  - "norway"
+  - "stavanger"
+  - "workshop"
 ---
 
 Per Thorsheim is the founder & main organizer of Passwordscon, the worlds first and only conference about passwords and digital authentication. After pwning a Fortune 500 in a day because of a lazy sysadmin using "Password" as his password 16 years ago, Per has been researching the security and usability of the one security technology that pretty much everyone uses every single day.

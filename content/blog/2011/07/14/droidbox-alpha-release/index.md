@@ -1,5 +1,6 @@
 ---
 title: "DroidBox: alpha release"
+authors: ["Patrik Lantz"]
 date: "2011-07-14"
 tags: 
   - "android"

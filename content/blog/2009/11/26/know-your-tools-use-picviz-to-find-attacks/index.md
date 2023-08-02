@@ -1,10 +1,11 @@
 ---
 title: "Know Your Tools: use Picviz to find attacks"
+authors: ["Christian Seifert"]
 date: "2009-11-26"
 tags: 
-  - "kye-d143"
-  - "kyt-d6"
-  - "picviz-d80"
+  - "kye"
+  - "kyt"
+  - "picviz"
 ---
 
 We are very excited to announce the publication of our first paper in the new Know Your Tools paper series: “KYT: use Picviz to find attacks” authored by Sebastien Tricaud from the French Chapter and Victor Amaducci from the University of Campinas.  

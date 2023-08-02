@@ -1,11 +1,12 @@
 ---
 title: "HoneyMap - Visualizing Worldwide Attacks in Real-Time"
+authors: ["Mark Schloesser"]
 date: "2012-10-01"
 tags: 
   - "honeymap"
-  - "honeypot-d9"
-  - "visualization-d89"
-  - "worldmap-d26"
+  - "honeypot"
+  - "visualization"
+  - "worldmap"
 ---
 
 ![](images/drupal_image_959.png)

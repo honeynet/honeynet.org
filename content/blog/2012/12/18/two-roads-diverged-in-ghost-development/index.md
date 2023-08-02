@@ -1,8 +1,9 @@
 ---
 title: "Two roads diverged in Ghost development"
+authors: ["Sebastian Poeplau"]
 date: "2012-12-18"
 tags: 
-  - "ghost-d68"
+  - "ghost"
 ---
 
 Over the last few weeks I've basically rewritten the core of [Ghost](http://code.google.com/p/ghost-usb-honeypot/), our system for USB malware detection. While the new approach promises to be much more effective, it has a drawback: It only works for Windows Vista and later systems. As a consequence, there are now two flavors of Ghost in existence: One supports Windows XP but won't receive much further development, whereas a lot of interesting new features will be implemented for the other one, which is dedicated to Vista and later. In this post, I'm going to explain the reasoning behind the decision, describe the recent technical advances and outline some of our plans for the future.  

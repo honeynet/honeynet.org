@@ -1,5 +1,6 @@
 ---
 title: "UAE Chapter Status Report For 2012"
+authors: ["Ahmad Alajail"]
 date: "2012-11-11"
 categories: 
   - "chapters"

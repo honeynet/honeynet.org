@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project has a new CEO"
+authors: ["Roberto Tanara"]
 date: "2021-12-07"
 categories: 
   - "news"

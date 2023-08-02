@@ -1,9 +1,10 @@
 ---
 title: "Frontends for shockpot and wordpot"
+authors: ["Stanislav Barta"]
 date: "2015-12-04"
 tags: 
   - "frontend"
-  - "honeypot-d9"
+  - "honeypot"
   - "shockpot"
   - "wordpot"
 ---

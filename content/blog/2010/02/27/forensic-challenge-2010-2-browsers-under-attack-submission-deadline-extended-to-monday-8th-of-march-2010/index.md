@@ -1,5 +1,6 @@
 ---
 title: "Forensic Challenge 2010/2 - \"browsers under attack\" - submission deadline extended to Monday, 8th of March 2010"
+authors: ["Christian Seifert"]
 date: "2010-02-27"
 categories: 
   - "challenge"
@@ -7,7 +8,7 @@ tags:
   - "browsers-under-attack"
   - "challenge"
   - "challenge-2"
-  - "forensic-challenge-d87"
+  - "forensic-challenge"
 ---
 
 We have decided to extend the submission deadline for our second forensic challenge - "browsers under attack" to Monday, 8th of March 2010. This gives you another week to participate in our latest challenge. Subsequently, the announcement of the results will also move another week to Monday, 22nd of March 2010. 

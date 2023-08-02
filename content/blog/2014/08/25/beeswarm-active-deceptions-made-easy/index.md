@@ -1,5 +1,6 @@
 ---
 title: "Beeswarm - active deceptions made easy"
+authors: ["Johnny Vestergaard"]
 date: "2014-08-25"
 ---
 

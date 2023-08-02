@@ -1,5 +1,6 @@
 ---
 title: "How to transparently redirect a TCP connection"
+authors: ["Robin Berthier"]
 date: "2009-06-12"
 tags: 
   - "honeybrid-gsoc-redirection"

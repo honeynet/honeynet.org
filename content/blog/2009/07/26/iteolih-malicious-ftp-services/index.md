@@ -1,8 +1,9 @@
 ---
 title: "Iteolih: malicious ftp services"
+authors: ["Markus Koetter"]
 date: "2009-07-26"
 tags: 
-  - "iteolih-d90"
+  - "iteolih"
 ---
 
 Yesterday, I got an incomplete, but successful, attack on my honeypot, the attackers remote code execution looked like this:  

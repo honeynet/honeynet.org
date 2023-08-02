@@ -1,16 +1,17 @@
 ---
 title: "GSoC 2018 Project Summary: Conpot"
+authors: ["Daniel Haslinger"]
 date: "2018-08-18"
 categories: 
   - "gsoc"
 tags: 
   - "2018"
-  - "conpot-d32"
-  - "gsoc-d20"
+  - "conpot"
+  - "gsoc"
   - "gsoc2018"
-  - "ics-d114"
-  - "python-d32"
-  - "scada-d51"
+  - "ics"
+  - "python"
+  - "scada"
 coverImage: "conpot.jpeg"
 ---
 

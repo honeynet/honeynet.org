@@ -1,12 +1,13 @@
 ---
 title: "GSoC 2016 Wrap Up: Mitmproxy"
+authors: ["Maximilian Hils"]
 date: "2017-02-13"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2016"
-  - "mitmproxy-d76"
+  - "mitmproxy"
 coverImage: "mitmweb_1_0.png"
 ---
 

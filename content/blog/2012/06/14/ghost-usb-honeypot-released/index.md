@@ -1,10 +1,11 @@
 ---
 title: "Ghost USB honeypot released"
+authors: ["Sebastian Poeplau"]
 date: "2012-06-14"
 categories: 
   - "honeypot"
 tags: 
-  - "ghost-d68"
+  - "ghost"
 ---
 
 I'm very pleased to announce that we have released the first public version of the Ghost USB honeypot.  

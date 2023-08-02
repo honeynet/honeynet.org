@@ -1,13 +1,14 @@
 ---
 title: "Honeynet Project Workshop | 18-20 May 2015 | Stavanger, Norway"
+authors: ["Andrea De Pasquale"]
 date: "2014-11-23"
 categories: 
   - "workshop"
 tags: 
   - "hpw2015-d52"
-  - "norway-d92"
-  - "stavanger-d77"
-  - "workshop-d98"
+  - "norway"
+  - "stavanger"
+  - "workshop"
 coverImage: "drupal_image_1201.jpg"
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Google Soc 2012 - Honeynet Project Accepted"
+authors: ["Christian Seifert"]
 date: "2012-03-16"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2012"
 ---
 

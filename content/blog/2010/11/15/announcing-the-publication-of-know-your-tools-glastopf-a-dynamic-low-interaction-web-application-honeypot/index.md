@@ -1,11 +1,12 @@
 ---
 title: "Announcing the publication of Know Your Tools: Glastopf - A dynamic, low-interaction web application honeypot"
+authors: ["Christian Seifert"]
 date: "2010-11-15"
 categories: 
   - "honeypot"
 tags: 
-  - "kye-d143"
-  - "kyt-d6"
+  - "kye"
+  - "kyt"
   - "paper"
   - "publication"
 coverImage: "facebook.gif"

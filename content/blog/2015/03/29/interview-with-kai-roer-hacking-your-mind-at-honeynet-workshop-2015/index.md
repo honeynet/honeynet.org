@@ -1,13 +1,14 @@
 ---
 title: "Interview with Kai Roer, \"Hacking Your Mind\" at Honeynet Workshop 2015"
+authors: ["The Honeynet Project"]
 date: "2015-03-29"
 categories: 
   - "workshop"
 tags: 
   - "hpw2015-d52"
-  - "norway-d92"
-  - "stavanger-d77"
-  - "workshop-d98"
+  - "norway"
+  - "stavanger"
+  - "workshop"
 coverImage: "drupal_image_1233.jpg"
 ---
 

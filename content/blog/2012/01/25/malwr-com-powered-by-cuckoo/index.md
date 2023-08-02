@@ -1,10 +1,11 @@
 ---
 title: "Malwr.com: powered by Cuckoo"
+authors: ["Guillaume Arcas"]
 date: "2012-01-25"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "malware-sandbox-cuckoo"
 ---
 

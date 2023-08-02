@@ -1,8 +1,9 @@
 ---
 title: "Conficker Online Detection"
+authors: ["Tillmann Werner"]
 date: "2009-04-02"
 tags: 
-  - "conficker-d40"
+  - "conficker"
   - "detection"
 ---
 

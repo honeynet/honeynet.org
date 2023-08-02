@@ -1,12 +1,13 @@
 ---
 title: "Honeybrid: combining low and high interaction honeypots"
+authors: ["Robin Berthier"]
 date: "2009-05-27"
 categories: 
   - "analysis"
   - "gsoc"
   - "honeypot"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "honeybrid-gsoc-introduction"
 ---
 

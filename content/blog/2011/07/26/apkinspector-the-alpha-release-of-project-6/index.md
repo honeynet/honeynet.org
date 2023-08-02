@@ -1,12 +1,13 @@
 ---
 title: "APKinspector : the alpha release of project 6."
+authors: ["Cong Zheng"]
 date: "2011-07-26"
 categories: 
   - "android"
   - "gsoc"
 tags: 
   - "apkinspector-android-malware-static-analysis"
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 The GUI tool for static analysis of Android malware is ready for an alpha release. For more details regarding this project, check [here](https://www.honeynet.org/gsoc/slot6).  

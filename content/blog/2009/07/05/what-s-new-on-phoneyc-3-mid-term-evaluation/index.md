@@ -1,13 +1,14 @@
 ---
 title: "What's new on phoneyc (3)--- Mid-term Evaluation"
+authors: ["Zhijie Chen"]
 date: "2009-07-05"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
-  - "libemu-d34"
-  - "phoneyc-d89"
-  - "shellcode-d49"
+  - "gsoc"
+  - "libemu"
+  - "phoneyc"
+  - "shellcode"
   - "spidermonkey"
 ---
 

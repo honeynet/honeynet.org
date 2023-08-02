@@ -1,10 +1,11 @@
 ---
 title: "Interview with Francesca Bosco, UNICRI Project Officer and speaker at the Honeynet Workshop 2015"
+authors: ["Roberto Tanara"]
 date: "2015-04-29"
 categories: 
   - "workshop"
 tags: 
-  - "workshop-d98"
+  - "workshop"
 ---
 
 Francesca Bosco earned a law degree in International Law and joined UNICRI in 2006 as a member of the Emerging Crimes Unit. She is responsible for cybercrime prevention projects, and in conjunction with key strategic partners, has developed new methodologies and strategies for researching and countering computer related crimes.

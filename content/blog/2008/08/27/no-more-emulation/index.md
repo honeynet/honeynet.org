@@ -1,5 +1,6 @@
 ---
 title: "No more emulation!"
+authors: ["Tillmann Werner"]
 date: "2008-08-27"
 categories: 
   - "analysis"

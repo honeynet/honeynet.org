@@ -1,5 +1,6 @@
 ---
 title: "Canadian Chapter Status Report For 2011"
+authors: ["Natalia Stakhanova"]
 date: "2012-11-06"
 categories: 
   - "chapters"

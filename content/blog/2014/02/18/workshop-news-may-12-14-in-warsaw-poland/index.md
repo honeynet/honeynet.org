@@ -1,10 +1,11 @@
 ---
 title: "WORKSHOP NEWS - May 12-14 in Warsaw, Poland"
+authors: ["Julia Yuchin Cheng"]
 date: "2014-02-18"
 categories: 
   - "workshop"
 tags: 
-  - "workshop-d98"
+  - "workshop"
 ---
 
 **Mon 5 May 2014 : :  

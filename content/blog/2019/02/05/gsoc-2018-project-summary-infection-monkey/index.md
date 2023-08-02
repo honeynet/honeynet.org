@@ -1,11 +1,12 @@
 ---
 title: "GSoC 2018 Project Summary: Infection Monkey"
+authors: ["Daniel Haslinger"]
 date: "2019-02-05"
 categories: 
   - "gsoc"
 tags: 
   - "2018"
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2018"
   - "infection-monkey"
   - "project"

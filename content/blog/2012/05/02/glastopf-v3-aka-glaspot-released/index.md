@@ -1,17 +1,18 @@
 ---
 title: "Glastopf v3 aka Glaspot released"
+authors: ["Lukas Rist"]
 date: "2012-05-02"
 categories: 
   - "gsoc"
 tags: 
   - "botnet-monitoring"
   - "glaspot"
-  - "glastopf-d23"
+  - "glastopf"
   - "google-summer-of-code"
-  - "gsoc-d20"
-  - "hpfeeds-d84"
+  - "gsoc"
+  - "hpfeeds"
   - "release"
-  - "sandbox-d7"
+  - "sandbox"
   - "web-server-botnet"
 ---
 

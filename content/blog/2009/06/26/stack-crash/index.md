@@ -1,5 +1,6 @@
 ---
 title: "stack crash?"
+authors: ["Chengyu Song"]
 date: "2009-06-26"
 tags: 
   - "qebek-windows"

@@ -1,15 +1,16 @@
 ---
 title: "HoneySink: Beta Release"
+authors: ["Shaun Vlassis"]
 date: "2011-09-11"
 categories: 
   - "gsoc"
 tags: 
-  - "beta-d90"
-  - "gsoc-d20"
-  - "honeypot-d9"
+  - "beta"
+  - "gsoc"
+  - "honeypot"
   - "honeysink"
   - "sink"
-  - "sinkhole-d45"
+  - "sinkhole"
 ---
 
 The Beta version of HoneySink is out!  

@@ -1,5 +1,6 @@
 ---
 title: "Kelihos.B/Hlux.B botnet takedown"
+authors: ["Christian Seifert"]
 date: "2012-03-31"
 tags: 
   - "botnet"

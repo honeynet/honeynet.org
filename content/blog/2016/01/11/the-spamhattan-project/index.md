@@ -1,5 +1,6 @@
 ---
 title: "The Spamhattan Project"
+authors: ["Jop van der Lelie"]
 date: "2016-01-11"
 ---
 

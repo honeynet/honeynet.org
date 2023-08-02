@@ -1,15 +1,16 @@
 ---
 title: "Improving dynamic analysis coverage in Android with DroidBot"
+authors: ["Roberto Tanara"]
 date: "2016-02-23"
 categories: 
   - "analysis"
   - "android"
   - "gsoc"
 tags: 
-  - "android-d70"
+  - "android"
   - "droidbot"
   - "droidbox"
-  - "gsoc-d20"
+  - "gsoc"
 coverImage: "droidbot_screenshot.png"
 ---
 

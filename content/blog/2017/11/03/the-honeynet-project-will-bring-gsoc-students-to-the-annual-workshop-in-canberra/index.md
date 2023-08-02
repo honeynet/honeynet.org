@@ -1,12 +1,13 @@
 ---
 title: "The Honeynet Project will bring GSoC students to the annual workshop in Canberra"
+authors: ["Roberto Tanara"]
 date: "2017-11-03"
 categories: 
   - "workshop"
 tags: 
   - "canberra"
-  - "gsoc-d20"
-  - "workshop-d98"
+  - "gsoc"
+  - "workshop"
 coverImage: "drupal_image_1356.jpg"
 ---
 

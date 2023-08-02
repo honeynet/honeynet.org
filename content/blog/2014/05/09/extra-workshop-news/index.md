@@ -1,10 +1,11 @@
 ---
 title: "EXTRA workshop news !"
+authors: ["Leon van der Eijk"]
 date: "2014-05-09"
 categories: 
   - "workshop"
 tags: 
-  - "workshop-d98"
+  - "workshop"
 ---
 
 Well folks, just a few days and the workshops will kick off ! Registrants, please remember to bring your printed tickets !  

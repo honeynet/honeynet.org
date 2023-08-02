@@ -1,11 +1,12 @@
 ---
 title: "Alaska Chapter - Status Report 2011-2012"
+authors: ["Brian Hay"]
 date: "2012-11-15"
 categories: 
   - "chapters"
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 ORGANIZATION  

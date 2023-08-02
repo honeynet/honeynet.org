@@ -1,5 +1,6 @@
 ---
 title: "Thoughts on the Microsoft's \"Operation b71\" (Zeus botnet civil legal action)"
+authors: ["David Dittrich"]
 date: "2012-03-28"
 tags: 
   - "botnet"

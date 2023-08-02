@@ -1,5 +1,6 @@
 ---
 title: "New features added !"
+authors: ["Thibaut Gadiolet"]
 date: "2009-06-19"
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: "Beta release of libemu qemu extension"
+authors: ["Florian Schmitt"]
 date: "2011-08-30"
 tags: 
-  - "libemu-d34"
-  - "qemu-d52"
-  - "shellcode-d49"
+  - "libemu"
+  - "qemu"
+  - "shellcode"
 ---
 
 As part of this year’s Summer of Code, I programmed an extension for the shellcode detection and analysis library [libemu](http://libemu.carnivore.it/). The main goal of the project was to increase the performance when executing shellcode, with the help of a virtualizer. Prior to this extension, libemu made use of a custom emulator, which supported only instructions mostly used in shellcode. With this extension, libemu utilizes a full-blown, completely functioning virtualizer, which executes code presumably the same way a real CPU does.  

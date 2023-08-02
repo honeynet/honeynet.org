@@ -1,13 +1,14 @@
 ---
 title: "AfterGlow Cloud: Initial release"
+authors: ["Surya Nallu"]
 date: "2012-07-10"
 categories: 
   - "gsoc"
 tags: 
   - "afterglow"
   - "afterglow-cloud"
-  - "data-visualization-d98"
-  - "gsoc-d20"
+  - "data-visualization"
+  - "gsoc"
   - "gsoc2012"
 coverImage: "firewall_preview.jpg"
 ---

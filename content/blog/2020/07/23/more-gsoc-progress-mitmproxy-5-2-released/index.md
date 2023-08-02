@@ -1,5 +1,6 @@
 ---
 title: "More GSoC Progress: Mitmproxy 5.2 released!"
+authors: ["Maximilian Hils"]
 date: "2020-07-23"
 categories: 
   - "gsoc"

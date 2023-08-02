@@ -1,5 +1,6 @@
 ---
 title: "Spanish Chapter Status Report For 2008"
+authors: ["Diego Gonzalez Gomez"]
 date: "2009-07-24"
 categories: 
   - "chapters"

@@ -1,11 +1,12 @@
 ---
 title: "Forensic Challenge 13 – \"A Message in a Picture\""
+authors: ["Angelo Dellaera"]
 date: "2013-01-01"
 categories: 
   - "challenge"
 tags: 
   - "challenge"
-  - "forensic-challenge-d87"
+  - "forensic-challenge"
 ---
 
 Let's start the new year with a forensic challenge!  

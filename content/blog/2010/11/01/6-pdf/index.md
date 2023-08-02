@@ -1,5 +1,6 @@
 ---
 title: "鑑識分析挑戰 6：分析惡意編碼 PDF 檔案"
+authors: ["Roland Cheung"]
 date: "2010-11-01"
 categories: 
   - "challenge"
@@ -8,7 +9,7 @@ tags:
   - "forensic-challenges"
   - "hong-kong"
   - "malware"
-  - "pdf-d64"
+  - "pdf"
   - "traditional-chinese"
 ---
 

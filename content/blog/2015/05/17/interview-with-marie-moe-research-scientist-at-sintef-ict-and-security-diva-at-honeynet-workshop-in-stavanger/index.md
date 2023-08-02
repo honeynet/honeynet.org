@@ -1,11 +1,12 @@
 ---
 title: "Interview with Marie Moe, research scientist at SINTEF ICT and Security Diva at Honeynet Workshop in Stavanger"
+authors: ["Roberto Tanara"]
 date: "2015-05-17"
 categories: 
   - "workshop"
 tags: 
   - "hnw2015"
-  - "workshop-d98"
+  - "workshop"
 ---
 
 Marie has a Ph. D. in information security and  is passionate about incident handling and information sharing. She has experience as a team leader at NSM NorCERT, the Norwegian national CERT. Marie also teaches a class on incident management and contingency planning at Gjøvik University College.

@@ -1,5 +1,6 @@
 ---
 title: "6Guard: a honeypot-based IPv6 attack detector"
+authors: ["Xu Weilin"]
 date: "2012-08-27"
 categories: 
   - "honeypot"
@@ -8,7 +9,7 @@ tags:
   - "attack"
   - "detect"
   - "globalpot"
-  - "honeypot-d9"
+  - "honeypot"
   - "ipv6-d51"
 ---
 

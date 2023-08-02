@@ -1,9 +1,10 @@
 ---
 title: "Thug 0.6 released!"
+authors: ["Angelo Dellaera"]
 date: "2015-01-05"
 tags: 
-  - "honeyclient-d3"
-  - "thug-d25"
+  - "honeyclient"
+  - "thug"
 ---
 
 Thug 0.6 was released just a few hours ago. The most important change introduced during the 0.5 branch was a complete redesign of the logging infrastructure which is now completely modular. This makes adding (or removing) new logging modules extremely easy.  

@@ -1,13 +1,14 @@
 ---
 title: "mitmproxy: HTTP/2 Support and GSoC 2016"
+authors: ["Maximilian Hils"]
 date: "2016-02-15"
 categories: 
   - "encryption"
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2016"
-  - "mitmproxy-d76"
+  - "mitmproxy"
 coverImage: "drupal_image_1288.png"
 ---
 

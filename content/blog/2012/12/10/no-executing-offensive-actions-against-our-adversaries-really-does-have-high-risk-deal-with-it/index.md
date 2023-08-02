@@ -1,11 +1,12 @@
 ---
 title: "No, Executing Offensive Actions Against Our Adversaries Really Does Have High Risk (Deal With It)"
+authors: ["David Dittrich"]
 date: "2012-12-10"
 tags: 
   - "active-defense"
   - "active-response-continuum"
   - "counter-attack"
-  - "crowdstrike-d37"
+  - "crowdstrike"
   - "ethics"
   - "hack-back"
 ---

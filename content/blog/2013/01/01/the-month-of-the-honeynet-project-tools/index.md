@@ -1,5 +1,6 @@
 ---
 title: "The Month of the Honeynet Project Tools"
+authors: ["Angelo Dellaera"]
 date: "2013-01-01"
 tags: 
   - "mohpt"

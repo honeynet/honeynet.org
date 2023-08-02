@@ -1,11 +1,12 @@
 ---
 title: "GSoC 2017: First Month Progress"
+authors: ["Maximilian Hils"]
 date: "2017-06-30"
 categories: 
   - "android"
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
   - "gsoc2017"
 coverImage: "gsoc.png"
 ---

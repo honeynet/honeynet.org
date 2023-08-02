@@ -1,5 +1,6 @@
 ---
 title: "First-ever Honeynet Project  Public Conference–Paris 2011"
+authors: ["Anton Chuvakin"]
 date: "2011-01-31"
 categories: 
   - "android"
@@ -8,7 +9,7 @@ tags:
   - "annual"
   - "conference"
   - "news"
-  - "workshop-d98"
+  - "workshop"
 ---
 
 It is with great pleasure I announce the first-ever [Honeynet Project](https://www.honeynet.org/) **_Public_** Conference, held alongside with the traditional Honeynet Project Annual Workshop. The event will be held on March 21, 2011 in Paris. For those who just _want to register now_, go [here](http://www.regonline.com/2011_Honeynet_Project_Workshop).

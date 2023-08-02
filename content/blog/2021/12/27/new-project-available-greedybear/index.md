@@ -1,5 +1,6 @@
 ---
 title: "New project available: GreedyBear"
+authors: ["Matteo Lodi"]
 date: "2021-12-27"
 categories: 
   - "honeypot"

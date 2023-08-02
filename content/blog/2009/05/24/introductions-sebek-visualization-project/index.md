@@ -1,5 +1,6 @@
 ---
 title: "Introductions: Sebek Visualization Project"
+authors: ["Kevin Galloway"]
 date: "2009-05-24"
 ---
 

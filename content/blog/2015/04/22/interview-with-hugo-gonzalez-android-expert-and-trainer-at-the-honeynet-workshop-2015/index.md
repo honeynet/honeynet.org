@@ -1,14 +1,15 @@
 ---
 title: "Interview with Hugo Gonzalez, Android expert and trainer at the Honeynet Workshop 2015"
+authors: ["Roberto Tanara"]
 date: "2015-04-22"
 categories: 
   - "android"
   - "workshop"
 tags: 
-  - "android-d70"
+  - "android"
   - "hnw2015"
   - "hugo-gonzalez"
-  - "workshop-d98"
+  - "workshop"
 ---
 
 Hugo Gonzalez is a full member of the Honeynet Project, and now is pursuing his PhD at University of New Brunswick, working at the Information Security Centre of Excellence. His research interest include Malware Authorship Attribution, Android Malware and Application Layer DoS attacks.

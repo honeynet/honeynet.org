@@ -1,10 +1,11 @@
 ---
 title: "SIP Module for Dionaea"
+authors: ["Guillaume Arcas"]
 date: "2011-09-27"
 categories: 
   - "gsoc"
 tags: 
-  - "gsoc-d20"
+  - "gsoc"
 ---
 
 The Honeynet Project had mentored 12 projects this year for the Google Summer  

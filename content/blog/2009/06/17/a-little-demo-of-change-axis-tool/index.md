@@ -1,5 +1,6 @@
 ---
 title: "A little demo of Change Axis tool"
+authors: ["Victor Amaducci"]
 date: "2009-06-17"
 tags: 
   - "images"

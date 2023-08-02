@@ -1,10 +1,11 @@
 ---
 title: "Improved logging capabilities of dionaea"
+authors: ["Stanislav Barta"]
 date: "2015-12-14"
 tags: 
-  - "dionaea-d42"
+  - "dionaea"
   - "frontend"
-  - "honeypot-d9"
+  - "honeypot"
 ---
 
 Hello,

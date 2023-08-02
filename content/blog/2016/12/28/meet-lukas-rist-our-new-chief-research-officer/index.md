@@ -1,9 +1,10 @@
 ---
 title: "Meet Lukas Rist, our new Chief Research Officer"
+authors: ["Roberto Tanara"]
 date: "2016-12-28"
 tags: 
   - "cro"
-  - "research-d43"
+  - "research"
 ---
 
 Back in November, the Honeynet Project announced the appointment of a new Chief Research Officer: Lukas Rist took the role after a long and successful tenure by David Watson. The research office will also be supported by Maximilian Hils and Cornelius Aschermann.

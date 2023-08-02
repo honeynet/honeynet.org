@@ -1,5 +1,6 @@
 ---
 title: "In-depth interview: Angelo Dell'Aera"
+authors: ["Leon van der Eijk"]
 date: "2014-04-22"
 ---
 

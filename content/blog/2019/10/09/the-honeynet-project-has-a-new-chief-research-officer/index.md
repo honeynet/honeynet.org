@@ -1,5 +1,6 @@
 ---
 title: "The Honeynet Project has a new Chief Research Officer"
+authors: ["The Honeynet Project"]
 date: "2019-10-09"
 categories: 
   - "chapters"

@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2020 Project Summary: A new front-end and analyzers for IntelOwl"
+authors: ["Eshaan Bansal"]
 date: "2020-08-26"
 coverImage: "intel_owl.jpeg"
 tags: ["gsoc", "intelowl", "threatintel"]

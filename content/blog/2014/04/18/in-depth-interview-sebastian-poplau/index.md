@@ -1,5 +1,6 @@
 ---
 title: "In-depth Interview: Sebastian Pöplau"
+authors: ["Pietro Delsante"]
 date: "2014-04-18"
 ---
 

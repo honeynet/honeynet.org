@@ -1,11 +1,12 @@
 ---
 title: "Global Glastopf statistics for April 2014"
+authors: ["Mikael Keri"]
 date: "2014-07-16"
 tags: 
-  - "glastopf-d23"
-  - "logs-d11"
+  - "glastopf"
+  - "logs"
   - "report"
-  - "statistics-d53"
+  - "statistics"
 ---
 
 **During the month of April the following information was obtained from Glastopf installations worldwide**  

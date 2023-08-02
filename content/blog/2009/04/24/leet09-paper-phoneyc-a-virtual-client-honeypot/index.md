@@ -1,5 +1,6 @@
 ---
 title: "LEET09 Paper: PhoneyC: A Virtual Client Honeypot"
+authors: ["Jose Nazario"]
 date: "2009-04-24"
 categories: 
   - "analysis"

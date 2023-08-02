@@ -1,16 +1,17 @@
 ---
 title: "Quechua - beta version"
+authors: ["zaccone"]
 date: "2012-07-27"
 categories: 
   - "data-mining"
   - "gsoc"
 tags: 
   - "c"
-  - "data-mining-d11"
+  - "data-mining"
   - "framework"
-  - "gsoc-d20"
-  - "machine-learning-d25"
-  - "python-d32"
+  - "gsoc"
+  - "machine-learning"
+  - "python"
 ---
 
 **Quechua beta version**  
