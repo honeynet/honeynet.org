@@ -29,45 +29,37 @@ baseName = "../feed/index"
 
 [menu]
 [[menu.main]]
-  name = 'Home'
-  pageRef = '/'
+  name = 'About'
+  pageRef = '#'
   weight = 10
 [[menu.main]]
-  name = 'About Us'
-  pageRef = '#'
-  weight = 20
-[[menu.main]]
   name = 'The Project'
-  parent = 'About Us'
+  parent = 'About'
   pageRef = '/about'
   weight = 1
 [[menu.main]]
   name = 'Code of Conduct'
-  parent = 'About Us'
+  parent = 'About'
   pageRef = '/code-of-conduct'
   weight = 2
 [[menu.main]]
   name = 'Funding'
-  parent = 'About Us'
+  parent = 'About'
   pageRef = '/funding'
   weight = 3
 [[menu.main]]
   name = 'Papers'
-  parent = 'About Us'
+  parent = 'About'
   pageRef = '/papers'
   weight = 4
 [[menu.main]]
   name = 'Projects'
   pageRef = '/projects'
-  weight = 30
-[[menu.main]]
-  name = 'Blog'
-  pageRef = '/blog'
-  weight = 40
+  weight = 20
 [[menu.main]]
   name = 'GSoC'
   pageRef = '/gsoc'
-  weight = 50
+  weight = 30
 [[menu.main]]
   parent = 'GSoC'
   name = 'GSoC 2023'
@@ -141,12 +133,16 @@ baseName = "../feed/index"
 [[menu.main]]
   name = 'Workshops'
   pageRef = '/workshops'
-  weight = 60
+  weight = 40
 [[menu.main]]
   name = 'Challenges'
   pageRef = '/challenges'
-  weight = 70
+  weight = 50
+[[menu.main]]
+  name = 'Blog'
+  pageRef = '/blog'
+  weight = 60
 [[menu.main]]
   name = 'FAQ'
   pageRef = '/faq'
-  weight = 80
+  weight = 70
