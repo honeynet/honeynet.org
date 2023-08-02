@@ -33,13 +33,13 @@ We are a 501c3 non-profit organization incorporated in Illinois. Our EIN is 36-4
 
 ## Our Board Of Directors
 
-* Sebastien Tricaud - Jan, 2020
-* David Pisano (chairman) - Jan, 2021
-* Jeff Nathan - Jan, 2021
-* Daniel Haslinger - Jan, 2022
-* Max Kilger - Jan, 2022
-* Abhinav Saxena - Jan, 2023
-* Daniel Singh - Jan, 2023
+* David Pisano (Chairman) - Jan, 2024
+* Jeff Nathan - Jan, 2024
+* Felix Leder - Jan, 2025
+* Max Kilger - Jan, 2025
+* Maximilian Hils - Mar, 2026
+* Emmanouil Vasilomanolakis - Mar, 2026
+* Hugo Gascón - Mar, 2026
 
 ## Our Officers
 
