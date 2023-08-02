@@ -65,7 +65,8 @@
         <div class="mb-3">
             <div class="row gx-2 align-items-center mb-1">
                 <div class="col-auto">
-                    {{ $image := resources.GetRemote .actor.avatar_url }}
+                    {{/* not using .actor.avatar_url because that is not available for authors pages and we want to share the cache */}}
+                    {{ $image := resources.GetRemote (printf "https://github.com/%s.png" .actor.login) }}
                     {{ $image := $image.Resize "80x" }}
                     <a href="https://github.com/{{ .actor.login }}">
                     <img class="rounded-circle" width="40" alt="@{{ .actor.display_login }}" src="{{ $image.RelPermalink }}">
