@@ -57,6 +57,10 @@ baseName = "../feed/index"
   pageRef = '/papers'
   weight = 4
 [[menu.main]]
+  name = 'Projects'
+  pageRef = '/projects'
+  weight = 50
+[[menu.main]]
   name = 'Blog'
   pageRef = '/blog'
   weight = 30
@@ -135,14 +139,6 @@ baseName = "../feed/index"
   pageRef = '/gsoc/gsoc-2009'
   weight = 33
 [[menu.main]]
-  name = 'Projects'
-  pageRef = '/projects'
-  weight = 50
-[[menu.main]]
-  name = 'FAQ'
-  pageRef = '/faq'
-  weight = 60
-[[menu.main]]
   name = 'Workshops'
   pageRef = '/workshops'
   weight = 70
@@ -150,3 +146,7 @@ baseName = "../feed/index"
   name = 'Challenges'
   pageRef = '/challenges'
   weight = 80
+[[menu.main]]
+  name = 'FAQ'
+  pageRef = '/faq'
+  weight = 60
