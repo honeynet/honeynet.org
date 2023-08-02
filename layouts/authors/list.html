@@ -4,9 +4,12 @@
 
         <div class="row gx-2 align-items-center mb-4">
             <div class="col-auto">
-                {{ $image := resources.GetRemote (printf "https://github.com/%s.png" .Params.github) }}
-                {{ $image := $image.Resize "160x" }}
-                <img class="rounded-circle" width="80" alt="{{ .Params.name }}" src="{{ $image.RelPermalink }}">
+                {{ $name := .Params.name }}
+                {{ with .Params.github }}
+                    {{ $image := resources.GetRemote (printf "https://github.com/%s.png" .) }}
+                    {{ $image := $image.Resize "160x" }}
+                    <img class="rounded-circle" width="80" alt="{{ $name }}" src="{{ $image.RelPermalink }}">
+                {{ end }}
             </div>
             <div class="col">
                 <h1 class="my-0">{{ .Params.name }}</h1>
