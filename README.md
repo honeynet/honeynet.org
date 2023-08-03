@@ -33,3 +33,14 @@ hugo new authors/john-doe/_index.md
 ```
 
 You can then edit the newly created file with your favorite text editor, and add images/resources next to it.
+
+### Adding a GitHub project
+
+To add an GitHub project, either copy an existing project
+or run the following command in the root directory of this repository:
+
+```
+hugo new projects/foo.md
+```
+
+You can then edit the newly created file with your favorite text editor.
