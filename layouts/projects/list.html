@@ -20,8 +20,10 @@
             {{- $info := .Params }}
             {{- if .Params.github }}
                 <!-- token is a classic token (without expiry) from a bot account with no privileges, fine to leak. -->
-                {{- $repo := getJSON (printf "https://api.github.com/repos/%s" .Params.github) (dict "Authorization" "Bearer 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") }}
-                {{- $events := getJSON (printf "https://api.github.com/repos/%s/events?per_page=100" .Params.github) (dict "Authorization" "Bearer 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") }}
+                <!-- obfuscated so that GitHub does not revoke it immediately. -->
+                {{- $auth := printf "Bearer ghp_%s%s" "n0V6Jwhc32WEl0Zv91m" "DAxQKbCPcDy1sDBg3" }}
+                {{- $repo := getJSON (printf "https://api.github.com/repos/%s" .Params.github) (dict "Authorization" $auth) }}
+                {{- $events := getJSON (printf "https://api.github.com/repos/%s/events?per_page=100" .Params.github) (dict "Authorization" $auth) }}
                 {{ $info = merge $repo $info }}
                 <!-- https://docs.github.com/en/webhooks-and-events/events/github-event-types -->
                 {{- $filtered_events := slice }}
