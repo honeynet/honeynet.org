@@ -69,10 +69,12 @@
                 <div class="col-auto">
                     {{/* not using .actor.avatar_url because that is not available for authors pages and we want to share the cache */}}
                     {{ $image := resources.GetRemote (printf "https://github.com/%s.png" .actor.login) }}
-                    {{ $image := $image.Resize "80x" }}
-                    <a href="https://github.com/{{ .actor.login }}">
-                    <img class="rounded-circle" width="40" alt="@{{ .actor.display_login }}" src="{{ $image.RelPermalink }}">
-                    </a>
+                    {{ with $image }}
+                        {{ $image := $image.Resize "80x" }}
+                        <a href="https://github.com/{{ .actor.login }}">
+                        <img class="rounded-circle" width="40" alt="@{{ .actor.display_login }}" src="{{ $image.RelPermalink }}">
+                        </a>
+                    {{ end }}
                 </div>
                 <div class="col">
                     <a class="link-body-emphasis" href="https://github.com/{{ .actor.login }}">{{ .actor.display_login }}</a>
