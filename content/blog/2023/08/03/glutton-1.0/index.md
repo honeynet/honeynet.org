@@ -5,7 +5,11 @@ authors: ["Lukas Rist"]
 tags: ["honeypot", "glutton"]
 ---
 
-First commit was  [Jul 11, 2016](https://github.com/mushorg/glutton/commit/adfbf78d9e226e76158a404634d062c6b2db7283)
+I'd like to announce the 1.0 release of the server-side, low-interaction honeypot Glutton.
+
+First commit was on [July 11th, 2016](https://github.com/mushorg/glutton/commit/adfbf78d9e226e76158a404634d062c6b2db7283)
+
+<!--more-->
 
 Initially we just redirected all incoming traffic:
 
@@ -20,8 +24,8 @@ GSoC 2017 with [Mohammad Bilal](https://github.com/furusiyya) with his many [con
 On January 26th, 2017 we released the [reworked](https://github.com/mushorg/glutton/commit/df5efe922617ebe68312b3ccb5ea984265436507) networking stack using [Freki](https://github.com/kung-foo/freki) by [Jonathan Camp](https://github.com/kung-foo). Freki is a tool for manipulating packets in userspace. Using iptable's raw table, packets are routed down into userspace where Freki takes over. A set of rules is applied allowing for a large amount of flexibility. For example, you can forward all TCP ports to an HTTP honeypot and log the requests. Or you can proxy TCP port 22 into a docker container running an ssh honeypot.
 
 ```bash
-iptables -A INPUT -j NFQUEUE --queue-num 0
-iptables -A OUTPUT -j NFQUEUE --queue-num 0
+$ iptables -A INPUT -j NFQUEUE --queue-num 0
+$ iptables -A OUTPUT -j NFQUEUE --queue-num 0
 ```
 
 SMB (EternalBlue by WannaCry), Jabber, MQTT
