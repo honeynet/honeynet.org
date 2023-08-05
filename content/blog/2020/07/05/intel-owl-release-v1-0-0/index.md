@@ -19,8 +19,7 @@ With the release of [version 1.0.0](https://github.com/intelowlproject/IntelOwl/
 
 Sneak peek of some features from the new web interface:
 
-  
-1\. Want to **get threat intelligence data quick** without having to wait for the entire analysis to end ? We got you covered! With the new interface, requesting a malware/observable scan is a breeze with just a few clicks and as a bonus, you can go through the result as it keeps getting updated from our API in background.
+1. Want to **get threat intelligence data quick** without having to wait for the entire analysis to end ? We got you covered! With the new interface, requesting a malware/observable scan is a breeze with just a few clicks and as a bonus, you can go through the result as it keeps getting updated from our API in background.
 
 ![](images/LzriEDq.gif)
 
@@ -28,7 +27,7 @@ Request new scan and view Job result instantly ([See It In Action](https://i.img
 
 As you can see here, one can now add specific and custom tags to a new analysis. This helps you group different scans together and differentiate between them.
 
-2\. A **dashboard to display different visualizations** of analysis data, with the following features:
+2. A **dashboard to display different visualizations** of analysis data, with the following features:
 
 - Tabular view of all analysis jobs which can be filtered, sorted or searched through.
 - Pie charts for visualizing analysis data on the basis of _status_, _observable\_classification_ and _file\_mimetype_.
@@ -39,7 +38,7 @@ As you can see here, one can now add specific and custom tags to a new analysis.
 
 Dashboard ([See It In Action](https://i.imgur.com/wCIwh9m.gif))
 
-3\. Intel Owl’s query power comes from the **many (80+ and growing) different analyzers (external or internal) that are seamlessly integrated into the core API.** Ofcourse, with this comes the issue of managing them - so we have made it easy for you.  
+3. Intel Owl’s query power comes from the **many (80+ and growing) different analyzers (external or internal) that are seamlessly integrated into the core API.** Ofcourse, with this comes the issue of managing them - so we have made it easy for you.  
 You can view the list of all analyzers along with their use-case and supported types in a tabular view which can be filtered, sorted or searched through. Along with this, there's also a dendrogram tree view inspired by [https://osintframework.com/](https://osintframework.com/).  
 Our motive is that the layman can easily understand and use the API in a way that prevents him/her from gathering noise and speed up threat intelligence operations in their organization.
 
@@ -47,7 +46,7 @@ Our motive is that the layman can easily understand and use the API in a way tha
 
 Analyzers Configuration ([See It In Action](https://i.imgur.com/US8N2M0.gif))
 
-4\. Different themes for different times of the day ? We understand. **Switch between dark and light themes** in a single click without the need of refreshing the page.
+4. Different themes for different times of the day ? We understand. **Switch between dark and light themes** in a single click without the need of refreshing the page.
 
 ![Theme Switcher](images/nicC9gd.gif)
 

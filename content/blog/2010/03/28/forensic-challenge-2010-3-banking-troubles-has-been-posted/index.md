@@ -5,7 +5,6 @@ date: "2010-03-28"
 categories: 
   - "challenge"
 tags: 
-  - "challenge"
   - "forensic-challenge"
 coverImage: "facebook.gif"
 ---

@@ -17,28 +17,14 @@ After some time without releasing any new version here is [peepdf v0.3](http://e
 
 The differences with version 0.2 are noticeable: new commands and features have been added, some libraries have been updated, detection for more vulnerabilities have been added, a lot of bug fixes, etc. This is the list of the most important changes ([full changelog here](http://peepdf.googlecode.com/svn/trunk/CHANGELOG)):
 
-- - Replaced Spidermonkey with PyV8 as the Javascript engine ([**see why here**](http://eternal-todo.com/blog/pdf-attack-journey-exploitkit-shellcode)).
-        
-
-- - New command _“[**vt\_check**](http://code.google.com/p/peepdf/wiki/Commands#vtcheck)”_ to show VirusTotal detection (API key included). The sample is not sent to VT just hashes.
-        
-
-- - Added detection for CVE-2010-0188, CVE-2010-2883, CVE-2013-0640, CVE-2013-2729 and CVE-2013-3346.
-        
-
-- - Updated [_**colorama**_](https://pypi.python.org/pypi/colorama) to version 3.1.
-        
-
-- - New option to avoid automatic execution of Javascript code (-m). Useful to avoid endless loops related to heap spraying.
-        
-
-- - New command _“[**js\_jjdecode**](http://code.google.com/p/peepdf/wiki/Commands#js_jjdecode)”_ to decode Javascript code using the [**_jjencode_ algorithm**](http://utf-8.jp/public/jjencode.html).
-        
-
-- - New command _“[**js\_vars**](http://code.google.com/p/peepdf/wiki/Commands#js_vars)”_ to show the variables defined in the Javascript context and their content.
-        
-
-- - More complete description of the exploits found.
+- Replaced Spidermonkey with PyV8 as the Javascript engine ([**see why here**](http://eternal-todo.com/blog/pdf-attack-journey-exploitkit-shellcode)).
+- New command _“[**vt\_check**](http://code.google.com/p/peepdf/wiki/Commands#vtcheck)”_ to show VirusTotal detection (API key included). The sample is not sent to VT just hashes.
+- Added detection for CVE-2010-0188, CVE-2010-2883, CVE-2013-0640, CVE-2013-2729 and CVE-2013-3346.
+- Updated [_**colorama**_](https://pypi.python.org/pypi/colorama) to version 3.1.
+- New option to avoid automatic execution of Javascript code (-m). Useful to avoid endless loops related to heap spraying.
+- New command _“[**js\_jjdecode**](http://code.google.com/p/peepdf/wiki/Commands#js_jjdecode)”_ to decode Javascript code using the [**_jjencode_ algorithm**](http://utf-8.jp/public/jjencode.html).
+- New command _“[**js\_vars**](http://code.google.com/p/peepdf/wiki/Commands#js_vars)”_ to show the variables defined in the Javascript context and their content.
+- More complete description of the exploits found.
         
 
 ![](images/drupal_image_1171.png)

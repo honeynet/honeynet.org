@@ -11,21 +11,21 @@ tags:
 1 Introduction  
   
 As the end of GSoC 2012 will come in the next few days, i am proud to announce IPv6-guard. IPv6-guard is an IPv6 attack detector tool including some defense mechanisms to protect against most of recent attacks on ipv6 protocol suite.  
-  
+
 2 IPv6-Guard  
-  
+
 2.1 How it works  
-  
+
 At first, the tool will gather “genuine” informations of connected network. Those information includes IP and MAC address of neighbors and routers on the network.After first time run, IPv6-guard will save this information to use later, if anything has change,it will ask for confirmation ( User can edit “/data/genuine.info” to add more interface if need). If the network is under attack, some invalid information might be detected and it will ask you to verify what information is “genuine”. IPv6-Guard will use collected information and signatures against every received packet to detect and mitigate IPv6 attacks from the network.  
-  
+
 Output:  
 \[code\]  
 Trusted ? \[Y/n\] y Got fe80::9c4e:a8a4:c6b9:7e6c / 6c:62:6d:07:7e:8c  
 \[/code\]  
 2.2 Examples  
-  
+
 • flood\_advertise6  
-  
+
 Output:  
 \[code\]  
 \[FLOOD PACKET\]  

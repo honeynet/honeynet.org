@@ -2,12 +2,9 @@
 title: "Improving Glastopf"
 authors: ["Lukas Rist"]
 date: "2009-06-15"
-categories: 
-  - "analysis"
 tags: 
   - "glastopf"
-  - "new-version"
-  - "web-honeypot"
+  - "honeypot"
 ---
 
 Last saturday I've finally released a new Glastopf version. There are some new features and many changes under the hood.

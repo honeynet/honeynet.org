@@ -11,9 +11,9 @@ tags:
 
 Folks, holiday greetings from forensic challenge headquarter in Seattle. Mahmud and Ahmad from the Malaysian Chapter have judged all submissions and results have been posted on the challenge web site. The winners are:  
   
-1\. Vos from Russia with perfect score!  
-2\. Codrut from Romania  
-3\. Mike from Canada  
+1. Vos from Russia with perfect score!  
+2. Codrut from Romania  
+3. Mike from Canada  
   
 Congratulations!  
   

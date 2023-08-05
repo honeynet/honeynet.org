@@ -16,14 +16,9 @@ Thug is a client honeypot that emulates a real web browser, fetches and executes
 If this is the first time you hear of Rumal or Thug or just want to read more about them, then we suggest you take a look at some of the following resources:
 
 - Thug [https://github.com/buffer/thug](https://github.com/buffer/thug)
-    
-
 - Rumal, a web GUI for Thug [https://www.honeynet.org/node/1312](https://www.honeynet.org/node/1312)
-    
 - GSoC 2015: Introducing Thug’s Rumal [https://sysenterhoneynet.wordpress.com/2015/03/06/gsoc-2015-introducing-thugs-rumal/](https://sysenterhoneynet.wordpress.com/2015/03/06/gsoc-2015-introducing-thugs-rumal/)
-    
 - GSoC 2016 project [https://honeynet.org/gsoc/ideas#project8](https://sysenterhoneynet.wordpress.com/2015/03/06/gsoc-2015-introducing-thugs-rumal/)
-    
 - Rumal’s Documentation [http://thugs-rumal.github.io/](http://thugs-rumal.github.io/)
     
 
@@ -43,11 +38,9 @@ Communication between front-end and back-end happened via rest APIs, now a commu
 
 A prototype communication system has been implemented using RabbitMQ and the pika python library. This communication system has been developed to handle the issues with distributed multiple backend/frontends, and specifically these problems:
 
-\-          Is it possible to have multiple consumers (backends) and a single frontend?
-
-\-          Is it possible to choose what backend you want to use?
-
-\-          Would it be possible to have multiple publishers (frontends) as well?
+- Is it possible to have multiple consumers (backends) and a single frontend?
+- Is it possible to choose what backend you want to use?
+- Would it be possible to have multiple publishers (frontends) as well?
 
  When running a new scan you can now select which backend you want to run the scan on, which will send this scan via a private queue to the backend you specified. If you have no preference on which backend to run the scan you can select ANY option which will place it on a public queue and it will be picked up by the 1st available backend.
 
@@ -80,13 +73,9 @@ Building a Social Platform
 
 Rumal now supports the use of public, private and group scans with the ability to comment and tag:
 
-- Groups (just like on Facebook) will provide users a private area where they can run scans, comment and tag, all within a group of collaborators. Only authorized collaborators can see and access the group. Groups can be modified at any time by the owner (removing/adding users).
-    
+- Groups (just like on Facebook) will provide users a private area where they can run scans, comment and tag, all within a group of collaborators. Only authorized collaborators can see and access the group. Groups can be modified at any time by the owner (removing/adding users). 
 - Public scans allow anyone to view, comment and tag your scan, while a private scan is only for yourself to view. Owners can modify the sharing model of their scan at any time.
-    
 - Commenting will give users the ability to show their perspective and ideas about results of a public scan (or within a group). Comments are attached to nodes (url and IP address) within the analysis tree and can be switched by selecting a node.
-    
-
 - Tags allow you to show to other users what is important in a public or group scan. Tags are attached to the entire scan and are saved within the mongo database. They can be used within the advanced search to find scans with specific tags. 
     
 

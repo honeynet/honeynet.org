@@ -6,7 +6,6 @@ categories:
   - "gsoc"
 tags: 
   - "gsoc"
-  - "gsoc2016"
   - "mitmproxy"
 coverImage: "mitmweb_1_0.png"
 ---
