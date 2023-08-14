@@ -17,6 +17,7 @@
         {{- range ( where site.RegularPages "Section" "blog" | first 5 ) }}
         {{ partial "posts/teaser.html" . }}
         {{ end }}
+        <a href="{{ relref . "blog" }}" class="btn btn-primary">More Posts</a>
     </div>
 </div>
 {{ end }}
