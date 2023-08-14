@@ -6,8 +6,6 @@ categories:
   - "gsoc"
 tags: 
   - "gsoc"
-  - "gsoc-2013"
-  - "gsoc2013"
 coverImage: "gsoc2013_stats_2.png"
 ---
 

@@ -9,7 +9,6 @@ tags:
   - "afterglow-cloud"
   - "data-visualization"
   - "gsoc"
-  - "gsoc2012"
 coverImage: "firewall_preview.jpg"
 ---
 
@@ -17,9 +16,8 @@ With the marking of the mid-term milestone in GSoC 2012, we're happy to announce
 
 Live demos of the project are currently available at:
 
-- - [http://afterglow.ayrus.net:31080](http://afterglow.ayrus.net:31080)
-
-- - [http://andromeda.ayrus.net:31337](http://andromeda.ayrus.net:31337) (mirror)
+- [http://afterglow.ayrus.net:31080](http://afterglow.ayrus.net:31080)
+- [http://andromeda.ayrus.net:31337](http://andromeda.ayrus.net:31337) (mirror)
 
 This release covers all the basic features discussed and agreed upon initially \[2\]. You can upload any comma-seperated file (only CSV files) as your log source to visualize it. The current version doesn't cover parsers for exporting logs from different sources (example tcpdump) into CSV -- but this is a future addition, likely in the next release. To have a feel of what the application is capable of, you can try uploading the sample "firewall.csv" file (in the attachments). This sample file contains some rules (pass, block) over different source and destination nodes. Getting any sense of what's exactly going on is difficult by merely inspecting the CSV file -- this is where AfterGlow is needed.
 

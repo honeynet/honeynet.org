@@ -26,15 +26,10 @@ Input data enter in a spout (orange edge), an example are email files.  Inputs 
 The main bolts of SpamScope are:
 
 1. tokenizer: based on mail-parser ([https://github.com/SpamScope/mail-parser](https://github.com/SpamScope/mail-parser)), this bolt splits the email in different components (body, header, attachments, etc), generate the stream for the others bolts and can filter emails and attachments already analyzed, without accessing the DB but only looking up RAM structures.
-    
 2. attachments: this bolt ingests the files contained in email attachments, and adds the hashes (also fuzzy hash), Apache Tika analysis ([https://tika.apache.org/](https://tika.apache.org/)) and VirusTotal reports.
-    
 3. url-handlers: these bolts extract the urls from body and attachments and are very important for the phishing bolt.
-    
 4. phishing: this bolt looks for phishing in body, header, url and attachment and use a bitmap to give a phishing score to the mail. See [the code](https://github.com/SpamScope/spamscope/blob/develop/src/modules/phishing_bitmap.py) for more details. The score it’s very important to avoid false positive.
-    
 5. json: all the streams are merged to become a JSON
-    
 6. output: SpamScope comes with Elasticsearch, Redis and a Debug (files on disk) output.
     
 

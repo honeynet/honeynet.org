@@ -8,13 +8,10 @@ categories:
 
 Emulation is an important technology in honeypots and honeynets. It's not always what we want, though, and here's why. As you might know, most bots perform attacks in multiple stages, i.e., they
 
-- - send some exploit code to the victim that opens a shell,
-
-- - connect to that shell or let the shell connect back,
-
-- - invoke commands to download the actual malware binary,
-
-- - execute the malware.
+- send some exploit code to the victim that opens a shell,
+- connect to that shell or let the shell connect back,
+- invoke commands to download the actual malware binary,
+- execute the malware.
 
 Catching the exploit and providing a fake shell isn't too hard, as shown in [this post](http://honeytrap.mwcollect.org/whatfor). But we certainly don't want a malware to get executed on our honeypot, not even in an emulated environment. Instead, we want to do different things with it, e.g., submit it to a central service for automated analysis.
 
@@ -26,13 +23,15 @@ First, we need to identify the functions we're interested in, so the ones we wan
 
 The next step is to write a DLL that contains our replacement function and that will later be loaded into `ftp.exe`. The code could look like this:
 
-`#include`
+```
+#include
 
-FILE \_\_stdcall \_\_declspec(dllexport) \*hook\_fsopen(const char \*path, const char \*mode, int shflag) { FILE \*stream = NULL;
+FILE __stdcall __declspec(dllexport) *hook_fsopen(const char *path, const char *mode, int shflag) { FILE *stream = NULL;
 
-printf("hooked \_fsopen(\\"%s\\", \\"%s\\", %d)\\n", path, mode, shflag); stream = \_fsopen(path, mode, shflag); printf("return value: (FILE \*) %p\\n", stream);
+printf("hooked _fsopen("%s", "%s", %d)", path, mode, shflag); stream = _fsopen(path, mode, shflag); printf("return value: (FILE *) %p", stream);
 
-`return stream; }`
+return stream; }
+```
 
 Now we need to make a DLL of it. Under Linux we can use [mingw](http://www.mingw.org/) to cross-compile and link the code: `shell$ i586-mingw32msvc-gcc -Wall -Werror -shared hook.c -o hook.dll shell$ i586-mingw32msvc-strip hook.dll` The first command compiles the code and builds the DLL. Stripping symbols with the second command is optional but greatly reduces the DLL's size. So, now that we have a dynamic library with our replacement function, how do we enforce `ftp.exe` to load it? We need to edit the program's import table, located in the PE header, and add our DLL to it. I used LordPE for this as shown below. Click at the marked buttons to open `ftp.exe` and edit its header information:
 

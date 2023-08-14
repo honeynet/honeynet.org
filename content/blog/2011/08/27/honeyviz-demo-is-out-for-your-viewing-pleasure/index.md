@@ -6,7 +6,6 @@ categories:
   - "gsoc"
 tags: 
   - "gsoc"
-  - "gsoc11-d57"
 coverImage: "default_map.jpg"
 ---
 

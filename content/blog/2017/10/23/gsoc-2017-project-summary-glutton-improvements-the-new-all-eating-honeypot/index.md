@@ -6,8 +6,7 @@ categories:
   - "gsoc"
 tags: 
   - "gsoc"
-  - "gsoc-glutton"
-  - "gsoc2017"
+  - "glutton"
 ---
 
 #### Student [Mohammad Bilal](https://gist.github.com/furusiyya) contributed this post as a project summary of his GSoC2017 experience. 

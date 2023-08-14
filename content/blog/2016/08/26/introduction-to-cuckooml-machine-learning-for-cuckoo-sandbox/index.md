@@ -7,11 +7,10 @@ categories:
 tags: 
   - "cuckoo"
   - "gsoc"
-  - "gsoc2016"
 coverImage: "cuckoo.png"
 ---
 
-# CuckooML is a GSOC 2016 project by [Kacper Sokol](https://github.com/So-Cool/) that aims to deliver the possibility to find similarities between malware samples based on static and dynamic analysis features of binaries submitted to Cuckoo Sandbox. By using anomaly detection techniques, such mechanism is able to cluster and identify new types of malware and can constitute an invaluable tool for security researchers.
+CuckooML is a GSOC 2016 project by [Kacper Sokol](https://github.com/So-Cool/) that aims to deliver the possibility to find similarities between malware samples based on static and dynamic analysis features of binaries submitted to Cuckoo Sandbox. By using anomaly detection techniques, such mechanism is able to cluster and identify new types of malware and can constitute an invaluable tool for security researchers.
 
 ### It's all about data..
 

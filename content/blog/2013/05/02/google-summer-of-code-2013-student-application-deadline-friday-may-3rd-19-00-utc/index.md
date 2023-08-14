@@ -6,7 +6,6 @@ categories:
   - "gsoc"
 tags: 
   - "gsoc"
-  - "gsoc2013"
 ---
 
 With less that 24 hours now remaining until the [official deadline](https://www.google-melange.com/gsoc/events/google/gsoc2013) for [Google Summer of Code (GSoC) 2013](http://www.google-melange.com/gsoc/homepage/google/gsoc2013) student applications ([19:00 UTC Friday May 3rd 2013](https://www.google-melange.com/gsoc/events/google/gsoc2013)), this is our final call for interested and [eligible GSoC students](https://google-melange.appspot.com/gsoc/document/show/gsoc_program/google/gsoc2013/help_page#1._Are_there_any_age_restrictions_on). If you are interested or intend to get involved, please apply now.  

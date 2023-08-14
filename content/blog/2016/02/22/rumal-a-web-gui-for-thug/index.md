@@ -34,20 +34,12 @@ Rumal is a very promising project, but it’s still in an early alpha stage. We 
 
 Future developments:
 
-- Existing code cleanup
-    
+- Existing code cleanup 
 - Consolidate back and front end results into MongoDB, front-end could also switch to Elastic Search, now fully supported by Thug
-    
 - Remove requirement of a fully functional Thug install running in the front-end
-    
 - the JavaScript part does need some rethinking and it should also be made more robust (e.g. it should not die for unexpected or missing values in structures)
-    
 - Improve data visualization of analysis results
-    
 - Move configuration options to external config files
-    
 - Parallelize the enrich daemon
-    
 - Threads should be replaced by processes whenever possible
-    
 - Introduce a message queue for internal communication to improve performance

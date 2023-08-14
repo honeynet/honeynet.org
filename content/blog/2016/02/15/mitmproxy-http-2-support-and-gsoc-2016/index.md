@@ -7,7 +7,6 @@ categories:
   - "gsoc"
 tags: 
   - "gsoc"
-  - "gsoc2016"
   - "mitmproxy"
 coverImage: "drupal_image_1288.png"
 ---
@@ -26,22 +25,13 @@ We are happy to announce the immediate availability of [mitmproxy 0.16](https://
 
 Since the last release, the project has had 226 commits by 23 contributors, resulting in 64 closed issues and 49 closed PRs, all of this in just over 74 days.
 
-- - Completely revised HTTP2 implementation based on [hyper-h2](https://github.com/python-hyper/hyper-h2) (Thomas Kriechbaumer)
-
-- - Export flows as cURL command, Python code or raw HTTP (Shadab Zafar)
-
-- - Fixed compatibility with the Android Emulator (Will Coster)
-
-- - Script Reloader: Inline scripts are reloaded automatically if modified (Matthew Shao)
-
-- - Inline script hooks for TCP mode (Michael J. Bazzinotti)
-
-- - Add default ciphers to support iOS9 App Transport Security (Jorge Villacorta)
-
-- - Basic Authentication for mitmweb (Guillem Anguera)
-
-- - Exempt connections from interception based on TLS Server Name Indication (David Weinstein)
-
-- - Provide Python Wheels for faster installation
-
-- - Numerous bugfixes and minor improvements
+- Completely revised HTTP2 implementation based on [hyper-h2](https://github.com/python-hyper/hyper-h2) (Thomas Kriechbaumer)
+- Export flows as cURL command, Python code or raw HTTP (Shadab Zafar)
+- Fixed compatibility with the Android Emulator (Will Coster)
+- Script Reloader: Inline scripts are reloaded automatically if modified (Matthew Shao)
+- Inline script hooks for TCP mode (Michael J. Bazzinotti)
+- Add default ciphers to support iOS9 App Transport Security (Jorge Villacorta)
+- Basic Authentication for mitmweb (Guillem Anguera)
+- Exempt connections from interception based on TLS Server Name Indication (David Weinstein)
+- Provide Python Wheels for faster installation
+- Numerous bugfixes and minor improvements

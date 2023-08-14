@@ -16,17 +16,15 @@ tags:
 ---
 
 We have interviewed Mahmud ab Rahman, who currently works as an Information Security Specialist for Malaysia Computer Emergency and Response Team (MyCERT) under the umbrella of CyberSecurity Malaysia. His areas of focus are network security,botnet monitoring, and malware analysis. He is also one of the teachers for the Honeynet Workshop in Dubai 10-12 of February and will give a talk about [Reversing Malicious Flashy Flash](”http://dubai2013.honeynet.org/briefings.html#talk10”) and a full workshop on [Dissecting Malicious Document Attacks](”http://dubai2013.honeynet.org/training.html#class1”)  
-  
-  
-  
+
 **So, Mahmud, why did you become a security expert?**  
-  
+
 I become involve in security arena due to my interest in poking with any barriers set for it. It could be anything, not necessary outsmarting security solutions. Most of the time we can outsmart our adversaries as well. :). Never the less, this is my hobby, so what possibly go wrong with a paid hobby?. :)  
-  
+
 **What will you talk about?**  
-  
+
 i'll take about a topic on reverse engineering malicious flash file. In this talk i'll cover on multiple ways to help dealing with with malicious flash. As for the training, i'll cover more on analyzing those malicious files which being used in targeted attacks.  
-  
+
 **What do you love the most being a security expert?**  
   
 The most dramatically changing environment is infosec industry,imho. Any new technologies are pushed to the market today, you'll need to be ready with security mindset for it. So, it will always provides a soft-landing  

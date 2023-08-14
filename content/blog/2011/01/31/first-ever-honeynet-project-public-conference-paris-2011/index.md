@@ -1,9 +1,8 @@
 ---
-title: "First-ever Honeynet Project  Public Conference–Paris 2011"
+title: "First-ever Honeynet Project Public Conference–Paris 2011"
 authors: ["Anton Chuvakin"]
 date: "2011-01-31"
-categories: 
-  - "android"
+categories:
   - "workshop"
 tags: 
   - "annual"
@@ -32,11 +31,9 @@ This year’s workshop will be held in Paris, France on **21 March 2011** and **
 
 **Note**:
 
-1\. Attendee limitation is 180
-
-2\. Participants can bring their Computer to play CTF and Forensics Challenges (FC).
-
-3\. Security workshop will be conducted in English.
+1. Attendee limitation is 180
+2. Participants can bring their Computer to play CTF and Forensics Challenges (FC).
+3. Security workshop will be conducted in English.
 
 **Full agenda is available** [**here**](https://www.regonline.com/builder/site/tab1.aspx?EventID=929631); some highlights are below:
 

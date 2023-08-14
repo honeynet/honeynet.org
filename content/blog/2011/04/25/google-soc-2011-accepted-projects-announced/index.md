@@ -6,9 +6,8 @@ categories:
   - "gsoc"
 tags: 
   - "gsoc"
-  - "gsoc2011-gsoc"
 ---
 
 Folks, Google has just announced the accepted projects on [the GSoc website](http://www.google-melange.com). We had an excellent line up of students and proposals this year and were able to accept 12 projects! Thanks for all the students who have applied this year and congratulations to all accepted!  
-  
+
 Christian

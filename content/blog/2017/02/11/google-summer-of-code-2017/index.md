@@ -6,7 +6,6 @@ categories:
   - "gsoc"
 tags: 
   - "gsoc"
-  - "gsoc2017"
 coverImage: "gsoc.png"
 ---
 

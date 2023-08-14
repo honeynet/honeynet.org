@@ -2,8 +2,7 @@
 title: "APKInspector BETA Release & Demo Video"
 authors: ["Ryan W Smith"]
 date: "2011-08-24"
-categories: 
-  - "analysis"
+categories:
   - "android"
 tags: 
   - "analysis"
@@ -11,8 +10,6 @@ tags:
   - "apk"
   - "demo"
   - "gsoc"
-  - "gsoc2011-d13"
-  - "gui"
   - "tool"
   - "video"
 ---
