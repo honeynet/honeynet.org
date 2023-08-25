@@ -92,7 +92,7 @@ an "interesting" event they should be able to persist and share those events.
 
 This task is still pending. The implementation is split into 2 tasks:
 * [#84](https://github.com/honeynet/ochi/pull/84) - implementation of backend storage and HTTP handlers
-* TODO: add link once PR ready - implementation of frontend UI for sharing events and displaying them when visiting shared links.
+* Implementation of frontend UI for sharing events and displaying them when visiting shared links.
 
 ### 4. Refactoring work
 
