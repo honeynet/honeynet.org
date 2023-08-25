@@ -1,8 +1,7 @@
 ---
 title: "GSoC 2023 Project summary: Ochi"
-authors: ["Lucas Rist"]
+authors: ["Kumiszhan Dybyspayeva"]
 date: "2023-08-24T11:00:06+01:00"
-# coverImage: "intel_owl_positive_reduced.png"
 tags: ["gsoc", "ochi"]
 ---
 
