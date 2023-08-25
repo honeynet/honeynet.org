@@ -2,3 +2,5 @@
 public/
 resources/
 .vscode
+
+.DS_Store
