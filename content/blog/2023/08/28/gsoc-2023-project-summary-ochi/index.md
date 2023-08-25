@@ -15,7 +15,7 @@ Read on for an overview of their achievements and how they successfully contribu
 
 **Student**: Kumiszhan Dybyspayeva ([dkumiszhan](https://github.com/dkumiszhan))
 
-**Mentor**: Lucas Rist
+**Mentor**: Lukas Rist
 
 **Organization**: The Honeynet Project
 
