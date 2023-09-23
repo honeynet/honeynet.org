@@ -12,8 +12,24 @@ taxonomy = ["HTML"]
 term     = ["HTML"]
 
 [outputFormats.RSS]
-# Make blog/feed.xml availalbe at /feed/.
+# Make blog/feed.xml available at /feed/.
 baseName = "../feed/index"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokailight'
+    tabWidth = 4
 
 [permalinks]
   blog = '/:year/:month/:day/:filename/'
