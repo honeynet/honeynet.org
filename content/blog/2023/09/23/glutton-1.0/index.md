@@ -1,6 +1,6 @@
 ---
 title: "Glutton 1.0 Release"
-date: 2023-08-03T20:41:27+02:00
+date: 2023-09-23T20:41:27+02:00
 authors: ["Lukas Rist"]
 categories: ["honeypot"]
 tags: ["honeypot", "glutton"]
