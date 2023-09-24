@@ -10,6 +10,10 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+main {
+  overflow: hidden;
+}
+
 h1 {
   font-family: Rajdhani, sans-serif;
   font-weight: 600;
