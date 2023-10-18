@@ -58,10 +58,10 @@ Our tax status can be checked on the IRS website.
 ## Our Board Of Directors
 
 * 01/2021–01/2024: Jeff Nathan
-* 01/2021–01/2024: David Pisano (chairman)
+* 01/2021–01/2024: David Pisano 
 * 01/2022–01/2025: Max Kilger
 * 01/2022–01/2025: Felix Leder
-* 01/2023–01/2026: Hugo Gascón
+* 01/2023–01/2026: Hugo Gascón (Chairman)
 * 01/2023–01/2026: Maximilian Hils
 * 01/2023–01/2026: Emmanouil Vasilomanolakis
 
