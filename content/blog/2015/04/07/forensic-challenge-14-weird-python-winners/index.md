@@ -8,7 +8,7 @@ tags:
   - "challenge"
 ---
 
-The submission deadline for the [Forensic Challenge 14 – “Weird Python“](https://honeynet.org/node/1220) put up by Thomas Chopieta and Maximilian Hils has passed. We have received **14 submissions** totaling to more than **200 pages**. Thanks to our workshop team, we are happy to announce the winners who will get tickets for the Honeynet Workshop in Stavanger!
+The submission deadline for the [Forensic Challenge 14 – “Weird Python“](https://honeynet.org/node/1220) put up by Thomas Chopitea and Maximilian Hils has passed. We have received **14 submissions** totaling to more than **200 pages**. Thanks to our workshop team, we are happy to announce the winners who will get tickets for the Honeynet Workshop in Stavanger!
 
 Here are the most excellent submissions:
 
