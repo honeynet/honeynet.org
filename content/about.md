@@ -46,8 +46,8 @@ Project blog.
 
 ## Primary Contact Information
 
-1425 Broadway #438, Seattle  
-WA, 98122, USA  
+2602 S 38th Street, Suite A-126, Tacoma
+WA, USA 98409-7303
 Email: project@honeynet.org  
 Twitter: [@projecthoneynet](https://twitter.com/projecthoneynet)
 
@@ -70,7 +70,7 @@ Our tax status can be checked on the IRS website.
 * Chief Executive Officer: Ali Ikinci
 * Chief Ethics and Legal Officer: Dave Dittrich
 * Chief Membership Officer: Stewart Sentanoe
-* Chief Financial Officer: Katherine Carpenter
+* Chief Financial Officer: D.C. Grant
 * Chief Infrastructure Officer: Andrea De Pasquale
 * Chief Research Officer: Lukas Rist
 
