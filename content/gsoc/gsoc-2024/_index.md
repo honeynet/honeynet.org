@@ -33,10 +33,9 @@ Often students ask us what kind of projects we are likely to be offering in a co
 
 ### Contacting Us
 
-If you have any questions, please drop by in our [Slack chat](//gsoc-slack.honeynet.org/) and say "hi" (note that our members do have to sleep and come from timezones all over the world, so please be patient and wait a few hours if you have a specific question).
+If you have any questions, please drop by in our [Discord chat](https://discord.gg/68B8Ru5fSU) and say "hi" (note that our members do have to sleep and come from timezones all over the world, so please be patient and wait a few hours if you have a specific question).
 
-[![GSoC Slack](//gsoc-slack.honeynet.org/badge.svg)](//gsoc-slack.honeynet.org/)
-
+[[GSoC Discord]](https://discord.gg/68B8Ru5fSU)
 ### Organizational Administrators
 
 Will update soon.
@@ -56,9 +55,5 @@ Will update soon.
 11. Students from GSoC have gone on to become active members of the honeynet community, including proposing project ideas for future GSoCs or offering to be project mentors and organization administrators (so we can't be too unpleasant a bunch to get involved with!) ;-)
 12. We have ex-GSoC students actively serving on our Board of Directors and in Executive Officer positions, so GSoC has definitely proven to be a great career path for students wanting to get more involved in open source and information security R&D.
 13. Honeypots and honeynet technology, research and tools have filtered down benefits to many areas of IT, web development, operational service management, Internet education and computer security research
-
-### Other ways to get involved
-
-[GSoC](//summerofcode.withgoogle.com/) is not the only way you can become involved in the with honeynet technologies and open source software - check out our [current](//www.honeynet.org/challenges) or [historic](//old.honeynet.org/misc/chall.html)series of [forensic challenges](//www.honeynet.org/challenges). Or learn more about the practical, real world application of honeynet technology in our popular series of ["Know Your Enemy"](//www.honeynet.org/papers) whitepapers, which now include projects and tools output from previous GSoCs students or mentors such as [PicViz](//www.honeynet.org/node/499), [Glastopf](//www.honeynet.org/papers/KYT_glastopf), [Qebek](//www.honeynet.org/papers/KYT_qebek) or [Conficker](//www.honeynet.org/papers/conficker).
 
 Feel free to contact us at on Slack or at [project@honeynet.org](mailto:project@honeynet.org) at any time.
