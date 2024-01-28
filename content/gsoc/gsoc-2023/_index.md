@@ -15,12 +15,12 @@ On this page you will learn more about GSoC 2023 and our efforts on developing a
 
 - [GSoC 2023 Project Ideas]({{< ref "ideas.md" >}})
 
-Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2021, you can view these here:
+Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2022, you can view these here:
 
-- [GSoC 2022 Project Ideas](/gsoc/gsoc-2022/ideas/)
-- [GSoC 2021 Project Ideas](https://www.honeynet.org/gsoc/gsoc-2021/google-summer-of-code-2021-project-ideas/)  
-- [GSoC 2020 Project Ideas](https://www.honeynet.org/gsoc/gsoc-2020/google-summer-of-code-2020-project-ideas/)  
-- [GSoC 2018 Project Ideas](//www.honeynet.org/gsoc/gsoc-2018/ideas/)
+- [GSoC 2022 Project Ideas](/gsoc/gsoc-2022/google-summer-of-code-2022-project-ideas/)
+- [GSoC 2021 Project Ideas](/gsoc/gsoc-2021/google-summer-of-code-2021-project-ideas/)  
+- [GSoC 2020 Project Ideas](/gsoc/gsoc-2020/google-summer-of-code-2020-project-ideas/)  
+- [GSoC 2018 Project Ideas](/gsoc/gsoc-2018/ideas/)
 - [GSoC 2017 Project Ideas](/gsoc/gsoc-2017/ideas/)
 - [GSoC 2016 Project Ideas](/gsoc/gsoc-2016/ideas/)
 - [GSoC 2015 Project Ideas](/gsoc/gsoc-2015/ideas/)
