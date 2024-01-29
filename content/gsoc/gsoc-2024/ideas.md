@@ -9,7 +9,7 @@ url: "/gsoc/gsoc-2024/google-summer-of-code-2024-project-ideas"
 This page contains a list of potential project ideas that we are keen to develop during GSoC 2024. If you would like to apply as a GSoC student, please follow these two steps to get started:
 
 1. Read through this page and identify the project ideas you find interesting. Play around with our tools!
-2. Join us on Slack and talk to your potential mentors on [Discord](https://discord.gg/68B8Ru5fSU)
+2. Join us on Discord and talk to your potential mentors on [Discord](https://discord.gg/68B8Ru5fSU)
 
 If there are any questions, please don’t hesitate and get in touch! 🙂
 
@@ -23,7 +23,7 @@ Please note - even if you aren't an [eligible GSoC participant](//developers.go
 
 Each sponsored GSoC 2024 project will have one or more mentors available to provide a guaranteed contact point to students, plus one or more technical advisors to help applicants with the technical direction and delivery of the project (often the original author of a tool or its current maintainer, and usually someone recognised as an international expert in their particular field). Our Google Summer of Code organisational administrators will also be available to all sponsored GSoC students for general advice and logistical support. We'll also provide hosting for project infrastructure, if required.
 
-For all questions about the Honeynet Project, the GSoC program or our projects, please contact us on **[gsoc-slack.honeynet.org](//gsoc-slack.honeynet.org/) (preferred)** or email us at [project@honeynet.org](mailto:project@honeynet.org).
+For all questions about the Honeynet Project, the GSoC program or our projects, please contact us on [Discord](https://discord.gg/68B8Ru5fSU) (preferred)** or email us at [project@honeynet.org](mailto:project@honeynet.org).
 
 **Application template**
 

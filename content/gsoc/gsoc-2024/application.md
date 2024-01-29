@@ -6,7 +6,7 @@ date: "2024-01-28"
 These are the questions we require potential [Google Summer of Code](https://summerofcode.withgoogle.com/) participants to complete. **Please use [Google's official interface](https://summerofcode.withgoogle.com/) to submit both drafts for feedback and your final proposal.** You can always update your submission up until the deadline. Submission received by email, Discord, or through direct contact with a mentor will not count.
 
 Your Name:  
-Slack Username:  
+Discord Username:  
 Email Address:  
 Nationality:  
 Primary Spoken Language:
