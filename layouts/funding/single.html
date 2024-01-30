@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="container py-4">
+    <div class="col col-lg-8">
+        {{ partial "posts/head.html" . }}
+        <section>
+            {{ .Content }}
+        </section>
+        <br />
+        <section>
+            <h2>Current Sponsors</h2>
+            {{ range readDir "static/sponsors/current" }}
+                {{ if (eq (path.Ext .Name) ".webp") }}
+                    <img src='/sponsors/current/{{ .Name }}' alt="{{ .Name }}">
+                {{ end }}
+            {{ end }}
+        </section>
+        <br />
+        <section>
+            <h2>Former Sponsors</h2>
+            {{ range readDir "static/sponsors/former" }}
+                {{ if (eq (path.Ext .Name) ".webp") }}
+                    <img src='/sponsors/former/{{ .Name }}' alt="{{ .Name }}">
+                {{ end }}
+            {{ end }}
+        </section>
+    </div>
+</div>
+{{ end }}
