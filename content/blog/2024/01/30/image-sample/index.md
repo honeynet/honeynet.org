@@ -16,3 +16,5 @@ Embed the image like this:
 Technically we are not creating an image but embedding an arbitrary file. The `!` distinguishes between a link and an embedded file.
 
 ![alt text](logo.webp "hover text")
+
+Alternatively we could modify the layout of a blog post and introduce a "banner" image via front matter.
