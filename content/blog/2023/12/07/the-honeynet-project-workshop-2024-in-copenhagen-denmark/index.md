@@ -27,7 +27,7 @@ In addition to the enriching learning opportunities, the workshop will offer amp
 Secure your spot now by registering [here](https://denmark2024.honeynet.org/registration/). Don't miss this golden opportunity to expand your knowledge and actively contribute to the shaping of the future of cybersecurity. Pack your bags, mark your calendars, and we hope to see you at The Honeynet Project Workshop 2024 in Copenhagen!
 
 
-🎟️ **Workshop Website:** <https://denmark2024.honeynet.org/>  
+🎟️ **Conference Website:** <https://denmark2024.honeynet.org/>  
 📅 **Date:** May 27th–29th, 2024  
 📍 **Location:**
 [
