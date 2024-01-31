@@ -2,8 +2,8 @@
 title: "Google Summer of Code 2024 Project Ideas"
 date: "2024-01-29"
 url: "/gsoc/gsoc-2024/google-summer-of-code-2024-project-ideas"
+type: "ideas"
 ---
-
 ### Getting Started
 
 This page contains a list of potential project ideas that we are keen to develop during GSoC 2024. If you would like to apply as a GSoC student, please follow these two steps to get started:
@@ -32,22 +32,3 @@ If you are considering applying to participate with us in GSoC 2024 please find 
 * * *
 
 # GSoC 2024 Project Ideas Overview
-
-- [GSoC 2023 Project Ideas Overview](#gsoc-2024-project-ideas-overview)
-  - [#1 - TBD](#1---tbd)
-
-* * *
-
-## #1 - TBD
-
-**Mentor:** TBD
-
-**Project URL:** [https://TBD](https://TBD)
-
-**Project type**: Improving an existing tool
-
-**Project hours:** 350
-
-Potential Tasks: TBD
-
-* * *
