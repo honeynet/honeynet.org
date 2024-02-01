@@ -5,20 +5,20 @@
         <section>
             {{ .Content }}
         </section>
-
         <section>
             {{ $ideasDir := print .File.Dir "ideas/" }}
             <ul>
                 {{ range $i, $page := where .Site.RegularPages "File.Dir" $ideasDir }}
-                    <li><a href="#{{ $page.Title | anchorize }}">{{ $page.Title }}</a></li>
+                    <li><a href="#{{ $page.Title | anchorize }}">#{{ add $i 1 }} - {{ $page.Title }}</a></li>
                 {{ end }}
             </ul>
+            <hr />
             {{ range $i, $page := where .Site.RegularPages "File.Dir" $ideasDir }}
                 <h3 id="{{ .Title | anchorize }}">#{{ add $i 1 }} - {{ .Title }}</h3>
-                Mentor: {{ .Params.mentor }}<br />
-                Project type: {{ .Params.project_type }}<br />
-                URL: <a href="{{ .Params.project_url }}">{{ .Params.project_url }}</a><br />
-                Expected Project hours: {{ .Params.hours }}<br />
+                <b>Mentor:</b> {{ .Params.mentor }}<br />
+                <b>Project type:</b> {{ .Params.project_type }}<br />
+                <b>URL:</b> <a href="{{ .Params.project_url }}">{{ .Params.project_url }}</a><br />
+                <b>Expected Project hours:</b> {{ .Params.hours }}<br />
                 <br />
                 {{ .Content }}
             {{ end }}
