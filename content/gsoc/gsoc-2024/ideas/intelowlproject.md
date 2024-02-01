@@ -2,7 +2,7 @@
 title: "IntelChat: Enhancing Threat Analysis with an LLM-Based Chatbot in IntelOwl"
 date: "2024-01-29"
 project_url: "https://github.com/intelowlproject"
-hours: "small, medium, and large projects are possible."
+hours: "350"
 mentor: "Hugo Gascón, Matteo Lodi"
 project_type: "Improving an existing tool"
 ---
