@@ -14,7 +14,7 @@ On this page you will learn more about GSoC 2024 and our efforts on developing a
 
 ### Project Ideas
 
-- [GSoC 2024 Project Ideas]()
+- [GSoC 2024 Project Ideas](google-summer-of-code-2024-project-ideas)
 
 Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2023, you can view these here:
 
