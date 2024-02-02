@@ -6,9 +6,11 @@ categories: ["honeypot"]
 tags: ["honeypot", "glutton"]
 ---
 
+{{<figure src="/2023/09/23/glutton-1.0/images/glutton.webp" alt="Glutton" width="30%">}}
+
 I'd like to announce the 1.0 release of the server-side, low-interaction honeypot [Glutton](https://github.com/mushorg/glutton)!
 
-We build Glutton as a versatile honeypot, capable of receiving any network traffic by accepting connections on any port. Bein very easy to adapt and extend, Glutton is a fantastic tool to understand 
+We build Glutton as a versatile honeypot, capable of receiving any network traffic by accepting connections on any port. Being very easy to adapt and extend, Glutton is a fantastic tool to understand network threats.
 
 <!--more-->
 
