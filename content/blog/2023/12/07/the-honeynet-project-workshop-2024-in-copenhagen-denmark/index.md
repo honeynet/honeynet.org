@@ -9,7 +9,7 @@ tags:
 ---
 
 
-{{<figure src="/images/copenhagen.webp" alt="Copenhagen" width="96%">}}
+{{<figure src="/2023/12/07/the-honeynet-project-workshop-2024-in-copenhagen-denmark/images/copenhagen.webp" alt="Copenhagen" width="96%">}}
 
 We are thrilled to announce The Honeynet Project Workshop 2024, scheduled to take place in **Copenhagen, Denmark, from May 27th to 29th**. 
 The event will be hosted at the Mødecenter of the Technical University of Denmark and will feature a combination of cybersecurity briefings and hands-on training sessions. 
