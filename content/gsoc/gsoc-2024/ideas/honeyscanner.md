@@ -3,7 +3,7 @@ title: "Improving the functionality of Honeyscanner: a honeypot vulnerability an
 date: "2024-02-01"
 project_url: "https://github.com/honeynet/honeyscanner"
 hours: "small, medium, and large projects are possible."
-mentor: "Emmanouil Vasilomanolakis"
+mentor: "Emmanouil Vasilomanolakis, Ricardo Yaben and Shreyas Srinivasa"
 project_type: "Improving an existing tool"
 ---
 
