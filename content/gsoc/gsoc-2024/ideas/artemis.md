@@ -7,7 +7,7 @@ mentor: "Krzysztof Zając"
 project_type: "Improving an existing tool"
 ---
 
-Artemis is a modular vulnerability scanner checking various aspects of website security and building easy-to-read messages to send to organizations in order to get the vulnerabilities fixed.
+Artemis is a modular vulnerability scanner that checks various aspects of website security and builds easy-to-read messages to send to organizations in order to get the vulnerabilities fixed.
 Multiple national-level CSIRTs use it to improve the security of their constituencies.
 
 The goal of this project is to:
