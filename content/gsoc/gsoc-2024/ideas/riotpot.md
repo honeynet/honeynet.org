@@ -2,7 +2,7 @@
 title: "Improving the RioTPot hybrid interaction honeypot"
 date: "2024-02-01"
 project_url: "https://github.com/honeynet/riotpot"
-hours: "small, medium, and large projects are possible."
+hours: "90, 175 or 350 hours"
 mentor: "Emmanouil Vasilomanolakis, Ricardo Yaben and Shreyas Srinivasa"
 project_type: "Improving an existing tool"
 ---

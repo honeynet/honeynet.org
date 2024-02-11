@@ -2,7 +2,7 @@
 title: "DRAKVUF Rust & Python bindings"
 date: "2024-01-29"
 project_url: "https://github.com/tklengyel/drakvuf"
-hours: "small, medium, and large projects are possible."
+hours: "90, 175 or 350 hours"
 mentor: "Tamas Lengyel"
 project_type: "Improving an existing tool"
 ---

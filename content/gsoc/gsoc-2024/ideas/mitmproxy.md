@@ -2,7 +2,7 @@
 title: "Hack on Mitmproxy!"
 date: "2024-01-29"
 project_url: "https://mitmproxy.org"
-hours: "small, medium, and large projects are possible."
+hours: "90, 175 or 350 hours"
 mentor: "Maximilian Hils"
 project_type: "Improving an existing tool"
 ---

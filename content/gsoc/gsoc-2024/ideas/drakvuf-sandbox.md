@@ -2,7 +2,7 @@
 title: "Extending the DRAKVUF Sandbox analytic pipeline"
 date: "2024-02-05"
 project_url: "https://github.com/CERT-Polska/drakvuf-sandbox/"
-hours: "medium, and large projects are possible."
+hours: "175 or 350 hours"
 mentor: "Jarosław Jedynak"
 project_type: "Improving an existing tool"
 ---

@@ -2,7 +2,7 @@
 title: "Extending the Artemis scanner"
 date: "2024-02-06"
 project_url: "https://github.com/CERT-Polska/Artemis"
-hours: "medium, and large projects are possible."
+hours: "175 or 350 hours"
 mentor: "Krzysztof Zając"
 project_type: "Improving an existing tool"
 ---
