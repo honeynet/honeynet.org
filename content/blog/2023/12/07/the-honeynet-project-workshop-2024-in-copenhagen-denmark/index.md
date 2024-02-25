@@ -2,6 +2,7 @@
 title: "The Honeynet Project Workshop 2024"
 authors: ["Emmanouil Vasilomanolakis", "Fatih Saglam", "Hugo Gascon"]
 date: "2023-12-07"
+weight: 10
 categories: 
   - "workshop"
 tags: 
