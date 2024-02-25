@@ -11,7 +11,7 @@ coverImage: "gsoc.png"
 
 ![GSoC Logo](images/GSoC-logo-horizontal-800.png)
 
-After successfully participating in GSoC between 2009 and 2017, and having created or extended many honeynet technologies that have since gone on to become industry standard tools, we are very happy to annouce that The Honeynet Project has applied to be a mentoring organization once again in GSoC 2018.
+After successfully participating in GSoC between 2009 and 2017, and having created or extended many honeynet technologies that have since gone on to become industry standard tools, we are very happy to announce that The Honeynet Project has applied to be a mentoring organization once again in GSoC 2018.
 
 While last year's GSoC saw significant changes to the program structure, the program has not seen major adjustments this year. We are very happy that the new payment model and the added third evaluation came to stay! At Honeynet, we collected extensive feedback from mentors last year and will use that to improve our students’ experience - more on that later. Based on the very positive feedback from last year, we'll definitely continue to use our now not-so-new-anymore [GSoC Slack channel](https://gsoc-slack.honeynet.org/) and we are excited to talk to you there!
 
