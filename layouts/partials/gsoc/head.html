@@ -1,0 +1,19 @@
+<h1>
+    {{- if ne page . }}<a href="{{ .RelPermalink }}">{{ end -}}
+
+    {{- .Title -}}
+    {{- with .Params.subtitle -}}
+        <small class="text-body-secondary">{{ . }}</small>
+    {{- end -}}
+
+    {{- if ne page . }}</a>{{ end -}}
+</h1>
+<h6>
+    {{- range .Params.authors }}
+        {{ $name := . }}
+        {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+            <a href="{{ .Permalink }}">{{ .Params.name | default $name }}</a>
+        {{ end }}
+    {{ end }}
+    {{ partial "tags.html" . }}
+</h6>
