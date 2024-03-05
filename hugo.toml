@@ -36,7 +36,6 @@ baseName = "../feed/index"
   challenges = '/challenges/:filename/'
   papers = '/papers/:filename/'
   projects = '/projects/:filename/'
-  gsoc = '/gsoc/:year/:filename'
 
 [taxonomies]
   author = "authors"
@@ -76,6 +75,11 @@ baseName = "../feed/index"
   name = 'GSoC'
   pageRef = '/gsoc'
   weight = 30
+[[menu.main]]
+  name = 'Google Summer of Code'
+  parent = 'GSoC'
+  pageRef = '/gsoc'
+  weight = 10
 [[menu.main]]
   parent = 'GSoC'
   name = 'GSoC 2024'
