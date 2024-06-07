@@ -67,12 +67,13 @@ Our tax status can be checked on the IRS website.
 
 ## Our Officers
 
-* Chief Executive Officer: Ali Ikinci
-* Chief Ethics and Legal Officer: Dave Dittrich
-* Chief Membership Officer: Stewart Sentanoe
+* Chief Executive Officer: Emmanouil Vasilomanolakis
 * Chief Financial Officer: D.C. Grant
-* Chief Infrastructure Officer: Andrea De Pasquale
 * Chief Research Officer: Lukas Rist
+* Chief Infrastructure Officer: Brian Hay 
+* Chief Ethics and Legal Officer: Dave Dittrich
+* Chief Membership Officer: Hugo Gascón 
+* Chief Public Relations Officer: Shreyas Srinivasa
 
 ## Organizational Bylaws
 
