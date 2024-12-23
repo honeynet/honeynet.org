@@ -82,6 +82,11 @@ baseName = "../feed/index"
   weight = 10
 [[menu.main]]
   parent = 'GSoC'
+  name = 'GSoC 2025'
+  pageRef = '/gsoc/gsoc-2025'
+  weight = 18
+[[menu.main]]
+  parent = 'GSoC'
   name = 'GSoC 2024'
   pageRef = '/gsoc/gsoc-2024'
   weight = 19

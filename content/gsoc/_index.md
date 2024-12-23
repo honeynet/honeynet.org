@@ -2,7 +2,7 @@
 title: "Google Summer of Code"
 ---
 
-The Honeynet Project has participated 15 times in the Google Summer of Code. Throughout the years, it has been an important and successful event for the organization. Many former GSoC students have become successful contributors, GSoC mentors and admins themselves. Every year Google Summer of Code provides a breeze of fresh air into the Honeynet Project, motivating students, mentors and organization members alike.
+The Honeynet Project has participated 16 times in the Google Summer of Code. Throughout the years, it has been an important and successful event for the organization. Many former GSoC students have become successful contributors, GSoC mentors and admins themselves. Every year Google Summer of Code provides a breeze of fresh air into the Honeynet Project, motivating students, mentors and organization members alike.
 
 Every year we are trying to gather as many successful students as possible at our in-person workshop to provide an opportunity for the students to present their work, meet their mentors and many members of the organization.
 
