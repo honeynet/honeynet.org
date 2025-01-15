@@ -10,6 +10,7 @@ tags:
   - "shellcode"
   - "spidermonkey"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ## 1. Overview
 

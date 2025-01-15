@@ -3,6 +3,7 @@ title: "New features added !"
 authors: ["Thibaut Gadiolet"]
 date: "2009-06-19"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **Hi folks,**
 

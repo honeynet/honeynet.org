@@ -15,6 +15,7 @@ tags:
   - "symantec"
   - "zeus"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 In the [first part](https://staff.washington.edu/dittrich/home/blog/wired-response-p1.html#wiredp1) of this two part blog post, the issue of anticipating retaliation during an aggressive battle to wrest control of a DDoS botnet was examined. In this part, the issues of dual standards, taking responsibility, and learning lessons to make positive change over time are examined.
 

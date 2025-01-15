@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 After a few slow days for student applicants everywhere, and some difficult decisions on the final slot allocations for our mentors, the long wait is finally over and the [GSoC 2010 official student selections](http://socghop.appspot.com/gsoc/program/list_projects/google/gsoc2010) are public. The Honeynet Project are very excited to have received [17 GSoC slots this year](http://socghop.appspot.com/gsoc/org/home/google/gsoc2010/honeynet) (up from 9 last year), so many thanks to Google for their fantastic support again this year.  
 

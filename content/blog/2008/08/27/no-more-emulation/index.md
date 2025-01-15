@@ -5,6 +5,7 @@ date: "2008-08-27"
 categories: 
   - "analysis"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Emulation is an important technology in honeypots and honeynets. It's not always what we want, though, and here's why. As you might know, most bots perform attacks in multiple stages, i.e., they
 

@@ -9,6 +9,7 @@ tags:
   - "mitmproxy"
 coverImage: "options_editor_3.gif"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hi, I’m Matthew Shao from China. This year, I got the honor to be selected as a Google Summer of Code student for the mitmproxy project. With the help of my kindly mentors Maximilian Hils and Clemens Brunner, I managed to improve the source code of mitmweb, which is a web interface for mitmproxy, and added some exciting new features for it. Here I’m going to present you the work I’ve done during this fulfilling summer.
 

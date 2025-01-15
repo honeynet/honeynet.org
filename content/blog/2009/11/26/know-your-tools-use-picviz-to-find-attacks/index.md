@@ -7,6 +7,7 @@ tags:
   - "kyt"
   - "picviz"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We are very excited to announce the publication of our first paper in the new Know Your Tools paper series: “KYT: use Picviz to find attacks” authored by Sebastien Tricaud from the French Chapter and Victor Amaducci from the University of Campinas.  
   

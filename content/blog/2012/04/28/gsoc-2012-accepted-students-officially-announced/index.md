@@ -8,6 +8,7 @@ tags:
   - "gsoc"
 coverImage: "gsoc2012_accepted_stats_1.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Since my [last post](https://www.honeynet.org/node/840) about the Google Summer Of Code 2012 Student Applications deadline closing and sharing some [initial student applications statistics](https://www.honeynet.org/node/840), all the GSoC 2012 mentoring organisations have been hard at work reviewing and scoring their student applications.  
   

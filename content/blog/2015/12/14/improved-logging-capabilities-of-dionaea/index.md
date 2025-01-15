@@ -7,6 +7,7 @@ tags:
   - "frontend"
   - "honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hello,
 

@@ -8,6 +8,7 @@ tags:
   - "qemu"
   - "windows"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 When using hooking technology to intercept system calls, there are two different places to collect information: before the original function is called (precall) and after the original function returns (postcall). For example, in Sebek Win32 client, when callback function OnZwReadFile is called, it first calls the original function s\_fnZwReadFile, after the original function returns, it checks whether the original call succeeds,  if does, it then calls the data collection function LogIfStdHandle:
 

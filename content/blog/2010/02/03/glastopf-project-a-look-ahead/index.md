@@ -3,6 +3,7 @@ title: "Glastopf Project: A Look Ahead"
 authors: ["Lukas Rist"]
 date: "2010-02-03"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **Glastopf:**  
 On January the 22nd I met [Sven](http://www.disenchant.ch/blog/about). Sven is a bachelor student at the [Bern university of applied sciences](http://www.bfh.ch/) and will write his thesis about Glastopf. During his work he will rewrite the current Glastopf unstable version, but when he will be finished the new version will have at least the same features like the previous version. The goals are: A much better modular structure, this means there is one core which directs every request to the modules. They store the data, emulating the vulnerability and compose the response which the core gives back to the attacker. There will be a much better classification of incoming attacks and the rules used for this will be totally detached from the source code to distribute them easily between different sensors. I will post some details as soon as we started the work. This also means that we will freeze the current unstable version to put all effort into the new version.  

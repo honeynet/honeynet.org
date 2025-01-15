@@ -5,6 +5,7 @@ date: "2011-12-07"
 tags: 
   - "capture-hpc-honeyclient-honeyspider"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Client honeypots are tools that actively search servers for malicious data like malware, exploits, malicious PDF files, etc.  
   

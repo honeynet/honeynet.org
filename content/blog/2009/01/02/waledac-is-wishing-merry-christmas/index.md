@@ -7,6 +7,7 @@ categories:
 tags: 
   - "waledac"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **Waledac is wishing merry christmas**
 

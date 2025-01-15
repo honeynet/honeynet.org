@@ -5,6 +5,7 @@ date: "2020-08-26"
 coverImage: "intel_owl.jpeg"
 tags: ["gsoc", "intelowl", "threatintel"]
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Our [GSoC](https://summerofcode.withgoogle.com/) student [Eshaan Bansal](https://github.com/Eshaan7) was working for three months under the supervision of Matteo Lodi on the OSINT platform [IntelOwl](https://github.com/intelowlproject/IntelOwl), specifically introducing a brand new front-end written in Angular and analyzers to automate integrations.
 

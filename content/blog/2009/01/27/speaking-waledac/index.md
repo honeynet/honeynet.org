@@ -10,6 +10,7 @@ tags:
   - "encryption"
   - "waledac"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 While it seems to be impossible to say whether waledac is the successor of storm or not, what we _can_ do is take a look at the traffic encryption. They guys over at Shadowserver have already [blogged some details](http://www.shadowserver.org/wiki/pmwiki.php?n=Calendar.20081231) about this. We at the [Giraffe Chapter](/chapters/giraffe) investigated waledac's communication protocol further. Here are our results.
 

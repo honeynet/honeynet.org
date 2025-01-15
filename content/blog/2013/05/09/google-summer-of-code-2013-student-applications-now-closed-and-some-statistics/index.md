@@ -8,6 +8,7 @@ tags:
   - "gsoc"
 coverImage: "gsoc2013_stats_2.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Having being very pleased to be [accepted once again](https://www.honeynet.org/node/1043) by Google as one of the lucky mentoring organization for [GSoC 2013](http://www.google-melange.com/gsoc/homepage/google/gsoc2013), we had eagerly awaited the [student application period](https://www.honeynet.org/node/1045) starting and the excitement (and occasional drama) that always brings. Once again we were not disappointed, with a steady stream of students getting in touch with us via our [public mailing list](https://public.honeynet.org/mailman/listinfo/gsoc) or IRC channel (#gsoc-honeynet on irc.freenode.net) and exploring project ideas with us.  
   

@@ -5,6 +5,7 @@ date: "2009-08-07"
 tags: 
   - "honeybrid-gsoc-testing"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Second milestone reached! Honeybrid has now all its functionalities working and it's time for testing. In order to check that everything works efficiently, I deployed a Windows honeypot to receive traffic from five /24 unused subnets during half an hour. Here are the details of this experiment.
 

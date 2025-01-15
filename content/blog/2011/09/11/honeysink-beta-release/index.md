@@ -12,6 +12,7 @@ tags:
   - "sink"
   - "sinkhole"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The Beta version of HoneySink is out!  
 

@@ -13,6 +13,7 @@ tags:
   - "gsoc"
 coverImage: "droidbot_screenshot.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hi there, my name is Li Yuanchun and I'm glad to introduce DroidBot, a tool to improve the coverage of dynamic analysis.  
 As it is the case for malware targeting the desktop, static and dynamic analysis are also used for detection of Android malware. However, existing static analysis tools such as [FlowDroid](https://blogs.uni-paderborn.de/sse/tools/flowdroid/) or [DroidSafe](http://mit-pac.github.io/droidsafe-src/) lack accuracy because of specific characteristics of the Android framework like ICC (Inter-Component Communication), dynamic loading, alias, etc.  While dynamic analysis is more reliable because it executes the target app in a real Android environment and monitors the behaviors during runtime, its effectiveness relays on the amount of code it is able to execute, this is, its \*coverage\*. Because some malicious behaviors only appear at certain states, the more states covered, the more malicious behaviors detected. The goal of DroidBot is to help achieving a higher coverage in automated dynamic analysis. In particular, DroidBox works like a robot interacting with the target app and tries to trigger as many malicious behaviors as possible.  

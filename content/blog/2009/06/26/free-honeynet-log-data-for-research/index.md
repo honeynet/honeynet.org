@@ -12,6 +12,7 @@ tags:
   - "research"
   - "security"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
   
 

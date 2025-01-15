@@ -9,6 +9,7 @@ tags:
   - "high-interaction-honeypot"
   - "linux"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 A few days ago I was contacted by our CPRO, Leon van der Eijk, and asked to write a blog post about my own project called Bifrozt; something which I was more than happy to do. :) This post will explain what Bifrozt is, how this got started, the overall status of the project and what will happen further down the road.
 

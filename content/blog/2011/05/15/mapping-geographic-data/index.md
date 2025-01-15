@@ -7,6 +7,7 @@ tags:
   - "geodjango"
   - "python"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Visualization is a niche area especially at the security analysis. As mentioned in a well-known sentence; "A picture is worth a thousand words". The importance and the power of the visualization in the security area stands out with the ability to define multi-dimensional data with a single shape. When addressing the creating a mesh tiled 3D view on an Earth map, i was reading about the geoweb application development. A geoweb application consists of some components.  
   

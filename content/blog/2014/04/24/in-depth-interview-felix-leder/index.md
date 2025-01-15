@@ -3,6 +3,7 @@ title: "In-depth interview: Felix Leder"
 authors: ["Leon van der Eijk"]
 date: "2014-04-24"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Felix Leder is the director for malware research at Blue Coat. Several malware analysis solutions, like Cuckoo box and Norman's Malware Analyzer G2, have been initiated by and grown around him. After starting in the mobile space with companies like Nokia, he turned to his favourite field of research IT-Security. During the time he worked for Fraunhofer and the University of Bonn, he joined into researching botnet mitigation tactics and new methodologies for executable and malware analysis. The results were successful takedowns and a PhD. Felix Leder is a reverse engineer and tool developer by heart. He has given world-wide classes on malware analysis, reverse engineering, and anti-botnet approaches. Participants range from governmental institutions, financial & security industries, to military bodies. Read along to know more about him!  
   

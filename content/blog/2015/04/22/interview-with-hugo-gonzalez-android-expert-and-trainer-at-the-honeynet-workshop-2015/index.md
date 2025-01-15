@@ -9,6 +9,7 @@ tags:
   - "android"
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hugo Gonzalez is a full member of the Honeynet Project, and now is pursuing his PhD at University of New Brunswick, working at the Information Security Centre of Excellence. His research interest include Malware Authorship Attribution, Android Malware and Application Layer DoS attacks.
 

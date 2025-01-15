@@ -10,6 +10,7 @@ tags:
   - "spamscope"
 coverImage: "spamscope.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 SpamScope (https://github.com/SpamScope/spamscope) is a fast and advanced tool for email analysis developed by Fedele Mantuano ([@fedelemantuano](https://twitter.com/fedelemantuano)).  The analysis engine it’s based on Apache Storm and Streamparse.
 

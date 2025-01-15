@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Cuckoo Sandbox is a malware analysis system capable to outline the behavior of a malware during its execution. In order to generate such results, Cuckoo performs hooking of a number of selected Windows functions, intercept their calls and after storing the relevant informations and eventually performing additional actions, returns the exection to the original code.
 

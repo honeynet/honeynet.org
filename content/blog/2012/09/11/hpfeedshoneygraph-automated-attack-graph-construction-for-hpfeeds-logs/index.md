@@ -11,6 +11,7 @@ tags:
   - "gsoc-2012-d67"
 coverImage: "project_design.jpg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Finally it is good enough to announce my GSoC project - HpfeedsHoneyGraph which is a Splunk APP to display attack graph for hpfeeds logs. It is not a easy project for me to complete in short time. During the last three months, I have to learn several skills for implementation including HPfeeds logs correlation of several hpfeeds channels, Splunk frameworks, Splunk REST API , D3.v2.js graph library and fast-fluxing modules. The most difficult challenge for me is to write javascript code. I SUPER hate javascript.  
   

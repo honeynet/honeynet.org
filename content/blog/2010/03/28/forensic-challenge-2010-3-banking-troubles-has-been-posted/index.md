@@ -8,6 +8,7 @@ tags:
   - "forensic-challenge"
 coverImage: "facebook.gif"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [Challenge 3](https://honeynet.org/challenges/2010_3_banking_troubles) of the Honeynet Project Forensic Challenge - titled "Banking Troubles" - is now online and we invite you to participate. Challenge 3 - provided by Josh Smith and Matt Cote from The Rochester Institute of Technology Chapter, Angelo Dell'Aera from the Italian Chapter and Nicolas Collery from the Singapore Chapter - is a bit different from our previous challenges in that we do not ask you to analyze a pcap network trace, but rather a memory image from a virtual machine. This should make for an interesting challenge!  
   

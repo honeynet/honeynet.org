@@ -8,6 +8,7 @@ tags:
   - "gsoc"
 coverImage: "gsoc2012_stats_1.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 After a slower than usual start, this years [Google Summer of Code (GSoC) student applications period](https://www.google-melange.com/gsoc/events/google/gsoc2012) closed at 19:00 UTC on Friday April 6th, with a major application rush in the last couple of days which kept us busy right up to the deadline! Many thanks to all the interested students who applied, and our mentors and org admins for taking the time to respond to students on IRC, email and through Melange. Even if you don't get accepted as student for [GSoC 2012 with the Honeynet Project](https://www.google-melange.com/gsoc/org/google/gsoc2012/honeynet), please do consider trying to work on your chosen project and becoming part of our community anyway, as we are all volunteers and would be happy to welcome and support you too.  
 

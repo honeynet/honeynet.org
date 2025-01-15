@@ -7,6 +7,7 @@ categories:
 tags: 
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Just a reminder, there is still time to register for The 2011 Honeynet Project Security Workshop.  
 

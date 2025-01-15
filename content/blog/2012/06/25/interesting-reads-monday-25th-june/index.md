@@ -10,6 +10,7 @@ tags:
   - "reading"
   - "twitter"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Another Monday has been and gone (on this side of the world at least). I thought I'd sit down again and share some of the interestingness (yes, that's a word now) that came through my various news feeds over the course of the weekend. I'm hoping this week will be a little less malware focused, but I can't make any promises.  
   

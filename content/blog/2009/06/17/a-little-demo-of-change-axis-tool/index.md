@@ -5,6 +5,7 @@ date: "2009-06-17"
 tags: 
   - "images"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
   
   

@@ -3,6 +3,7 @@ title: "The Honeynet Project  on Social Media"
 authors: ["Anton Chuvakin"]
 date: "2011-03-08"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Not all of you might know it, but The Honeynet Project is well-represented on social media. Apart from [this blog](https://www.honeynet.org/blog), we have:
 

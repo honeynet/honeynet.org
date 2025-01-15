@@ -5,6 +5,7 @@ date: "2009-08-11"
 tags: 
   - "iteolih"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We got a new milestone due:
 

@@ -11,6 +11,7 @@ tags:
   - "tpot"
 coverImage: "greedybear.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 This year has been a Christmas more tough than usual for a lot of people. The Covid pandemic is rising again all over the world, the security analysts are facing one of the worst ever found software vulnerabilities (referring to Log4j CVE-2021-44228), and so on.
 

@@ -7,6 +7,7 @@ tags:
   - "dubai2013"
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We have finally gotten an interview with Mark Schloesser. This is the guy that does not say too much, but delivers as hell. “Less talk more code” could easily describe him. He will take you through [Configuring an Environment for Threat Assessment](“http://dubai2013.honeynet.org/training.html#class3) This is building a functional and centralized threat intelligence framework! We are really looking forward to this workshop!  
   

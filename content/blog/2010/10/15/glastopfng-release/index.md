@@ -7,6 +7,7 @@ tags:
   - "glastopng"
   - "web-honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Before we are getting worse than [Duke Nukem Forever](http://en.wikipedia.org/wiki/Duke_Nukem_Forever), we decided to finally release the next generation of the web application honeypot Glastopf, aka GlastopfNG!  
   

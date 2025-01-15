@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Over the past five years, The Honeynet Project has been had the pleasure of mentoring over 70 lucky bachelors, masters and PhD students from all over the world through [Google Summer of Code](https://developers.google.com/open-source/soc/) (GSoC), Google's ongoing programme of support for international students working on free open source software (FOSS). Together we have worked on a large number of information security tools, including some that have gone on to be the leading examples of tools in their chosen field. Overall it has been a hugely positive experience for us and our students, and has resulted in many becoming active long term members of our community. We very much hope that will continue in the future.  
   

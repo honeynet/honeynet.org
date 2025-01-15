@@ -3,6 +3,7 @@ title: "Introductions: Sebek Visualization Project"
 authors: ["Kevin Galloway"]
 date: "2009-05-24"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hello all,  
   

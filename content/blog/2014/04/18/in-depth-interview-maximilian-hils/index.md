@@ -3,6 +3,7 @@ title: "In-depth Interview: Maximilian Hils"
 authors: ["Pietro Delsante"]
 date: "2014-04-18"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Maximilian Hils ([@maximilianhils](https://twitter.com/maximilianhils)) is a student of Information Systems at WWU Münster, Germany. He is one of the two core developers of mitmproxy, on which he started to work on during his Honeynet Google Summer of Code project in 2012. In his spare time, he develops web applications and slays SSL dragons whereever he finds them. Recently, he developed an interest in Cloud Storage Security and Security Usability. He will be giving a live demo about "[slaying SSL dragons with mitmproxy](http://warsaw2014.honeynet.org/briefings.html#demo5)" at the upcoming annual [The Honeynet Project workshop in Warsaw](http://warsaw2014.honeynet.org/) on May 13. Here you have a nice way to discover something more about him and his work.  
   

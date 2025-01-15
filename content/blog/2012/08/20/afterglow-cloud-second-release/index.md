@@ -10,6 +10,7 @@ tags:
   - "data-visualization"
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 AfterGlow cloud has evolved further into another release; with many improvements added to the [initial version](https://honeynet.org/node/890). With GSoC 2012 approaching an end, we've covered all the additional features we planned for in the second phase of development, post mid-term. Building up on the initial version, this post will run you through the general features and additional improvements covered.
 

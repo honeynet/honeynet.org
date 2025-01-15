@@ -5,6 +5,7 @@ date: "2013-10-07"
 tags: 
   - "project-news"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Last week it was announced that Angelo Dell'Aera is elected as our new CEO. Here is a brief description about Angelo.  
   

@@ -8,6 +8,7 @@ tags:
   - "challenge"
   - "forensic-challenge"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 An important update for Forensic Challenge 7 challengers. For reasons related to reviewers' everyday job committments the challenge results will be announced on Friday, May 6th 2011 and not on Friday, 29th April as announced in the previous blog post.  
 

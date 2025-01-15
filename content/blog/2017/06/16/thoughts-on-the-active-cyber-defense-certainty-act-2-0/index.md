@@ -10,6 +10,7 @@ tags:
   - "hacking-back"
   - "law"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 On May 25, 2017, Representative Tom Graves released the second draft of proposed amendments to 18 U.S.C. 1030 (known as the _Computer Fraud and Abuse Act_). Representative Graves’ bill is known as the _Active Cyber Defense Certainty Act_ (or _ACDC Act_). There is no universally accepted umbrella term for this, but it is variously called “Active Defense”, “Active Cyber Defense”, “hacking back,” “hackback”, and “strike back.” You will find the word “active” applied almost universally in these discussions, though it frequently results in establishing a simple (though false) dichotomy of “passive defense” vs. “active defense” and frequently leading to fallacious “straw man” arguments. I prefer the term “_Active Response Continuum_” to explicitly avoid setting up such binary choices. \[Dittrich and Himma(2005)\]
 

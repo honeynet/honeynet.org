@@ -8,6 +8,7 @@ tags:
   - "qebek"
 coverImage: "facebook.gif"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 I am very pleased to announce another publication of our Know Your Tools series: Qebek - Conceal the Monitoring authored by Chengyu Song and Jianwei Zhuge from the Chinese Chapter and Brian Hay from the Alaskan Chapter.  
   

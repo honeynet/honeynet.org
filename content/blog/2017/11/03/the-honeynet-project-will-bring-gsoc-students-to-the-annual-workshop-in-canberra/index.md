@@ -10,6 +10,7 @@ tags:
   - "workshop"
 coverImage: "drupal_image_1356.jpg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [The Honeynet Project annual workshop](https://canberra2017.honeynet.org/) is just few days away, members and security folks from all over the world will gather in Canberra, Australia November 15th-17th. Every year the Honeynet Project, with the support of Google, funds a bunch of students that were admitted to the Google Summer of Code program and successfully completed their project assignments. They will have a chance to travel to the workshop and meet face to face with honeynet members and grown up experts in the security field.
 

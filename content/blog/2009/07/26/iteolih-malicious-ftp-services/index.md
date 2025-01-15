@@ -5,6 +5,7 @@ date: "2009-07-26"
 tags: 
   - "iteolih"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Yesterday, I got an incomplete, but successful, attack on my honeypot, the attackers remote code execution looked like this:  
 

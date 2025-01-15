@@ -7,6 +7,7 @@ categories:
   - "news"
 coverImage: "logo-brand-inverted-1.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We are excited to announce the release of [mitmproxy 5.2](https://github.com/mitmproxy/mitmproxy/releases/tag/v5.2), a free and open source interactive HTTPS proxy! As the first part of his Google Summer of Code (GSoC) at the Honeynet Project, our student [Martin Plattner](https://mplattner.at/) ([@MartinPlattnr](https://twitter.com/MartinPlattnr)) has completely revamped mitmproxy's replacement feature, which is a powerful tool to modify and redirect HTTP messages.
 

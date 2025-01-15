@@ -5,6 +5,7 @@ date: "2009-07-11"
 tags: 
   - "iteolih-samba-dcerpc-python"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 During the last weeks I have been working on SMB and specifically DCERPC support for the [Dionaea](http://dionaea.carnivore.it/ "dionaea homepage") next generation low-interaction honeypot (buzz!).
 

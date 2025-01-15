@@ -9,6 +9,7 @@ tags:
   - "forensic-challenge"
   - "simpilified-chinese"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [The Honeynet Project](https://honeynet.org/)是一个国际知名的开源信息安全研究团队，致力于提升Internet的安全。[取证分析挑战(Forensic Challenge)](https://honeynet.org/challenges)是The Honeynet Project向安全社区推出的一个重要项目，其目的是让安全社区有机会能够分析从Internet上捕获的实际攻击并分享他们的调查结果，通过参与取证分析挑战，安全人士和团队不仅可以了解最新的Internet安全威胁，也能学习到如何对它们进行分析，更好的是，他们还可以从其他提交者的分析结果和过程中，学习到分析攻击的新工具和新技术。而最好的是，取证分析挑战中的攻击都是在我们的成员从Internet上野外捕获到的真实攻击。  
 

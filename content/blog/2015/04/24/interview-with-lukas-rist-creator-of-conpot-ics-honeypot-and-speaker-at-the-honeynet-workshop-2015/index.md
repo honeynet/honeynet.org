@@ -9,6 +9,7 @@ tags:
   - "conpot"
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Lukas Rist is a software engineer with Blue Coat Norway where he develops behavioral malware analysis systems. In his spare time, he works on web application and ICS/SCADA honeypots and botnet monitoring tools under the umbrella of the Honeynet Project where he is also a Director. He recently developed an interest in deployment automation, ephemeral file systems and exotic industrial communication protocols.
 

@@ -11,6 +11,7 @@ tags:
   - "publication"
 coverImage: "facebook.gif"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Folks, I am very pleased to announce the publication of our Know Your Tools paper: Glastopf - A dynamic, low-interaction web application honeypot authored by Lukas Rist of the Chicago Honeynet Project Chaper and Sven Vetsch, Marcel Kossin, and Michael Mauer.  
 

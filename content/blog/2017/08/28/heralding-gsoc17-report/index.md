@@ -8,6 +8,7 @@ tags:
   - "gsoc"
   - "heralding"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The summer is coming to the end as well as my GSoC17 happy days. So, now it’s time to sum up the results and say goodbye to the GSoC until the next year.
 

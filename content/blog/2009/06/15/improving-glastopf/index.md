@@ -6,6 +6,7 @@ tags:
   - "glastopf"
   - "honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Last saturday I've finally released a new Glastopf version. There are some new features and many changes under the hood.
 

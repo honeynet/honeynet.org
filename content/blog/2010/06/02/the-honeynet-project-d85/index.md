@@ -10,6 +10,7 @@ tags:
   - "hong-kong"
   - "traditional-chinese"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [The Honeynet Project](https://honeynet.org/) 是一個國際知名的開源資訊安全研究團隊，致力於提升Internet的安全。[鑑識分析挑戰(Forensic Challenge)](https://honeynet.org/challenges)是 The Honeynet Project 向安全社區推出的一個重要專案，其目的是讓安全社區有機會能夠分析從 Internet 上捕獲的實際攻擊並分享他們的調查結果，通過參與鑑識分析挑戰，安全人士和團隊不僅可以瞭解最新的 Internet 安全威脅，也能學習到如何對它們進行分析，更好的是，他們還可以從其他提交者的分析結果和過程中，學習到分析攻擊的新工具和新技術。而最好的是，鑑識分析挑戰中的攻擊都是在我們的成員從 Internet 上野外捕獲到的真實攻擊。  
 

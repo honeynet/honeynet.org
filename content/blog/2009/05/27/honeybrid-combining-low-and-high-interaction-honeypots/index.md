@@ -9,6 +9,7 @@ tags:
   - "gsoc"
   - "honeybrid"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The goal of this post is to introduce [myself](http://www.enre.umd.edu/~robinb/) and my [project](/gsoc/project6): my name is Robin Berthier and I just got my PhD from the [University of Maryland.](http://www.umd.edu) I'll be working this summer on improving [Honeybrid](http://honeybrid.sf.net), a hybrid honeypot architecture. I've been working with honeypot technologies for the past 4 years, and Honeybrid represents a central part of my dissertation. 
 

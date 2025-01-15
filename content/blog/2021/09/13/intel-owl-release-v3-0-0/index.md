@@ -9,6 +9,7 @@ tags:
   - "threatintel"
 coverImage: "intel_owl_positive_reduced.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 _[Intel Owl GitHub repository](https://github.com/intelowlproject/IntelOwl/)_
 

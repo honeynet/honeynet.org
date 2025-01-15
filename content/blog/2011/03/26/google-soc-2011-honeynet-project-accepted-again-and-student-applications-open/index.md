@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Our [annual workshop in Paris](https://www.honeynet.org/node/626) got off to the perfect start this weekend when Google went live with the [new look GSoC 2011 Melange site](http://www.google-melange.com) and announced which lucky organizations had been [accepted as mentoring orgs for GSoC 2011](http://www.google-melange.com/gsoc/accepted_orgs/google/gsoc2011).  
 

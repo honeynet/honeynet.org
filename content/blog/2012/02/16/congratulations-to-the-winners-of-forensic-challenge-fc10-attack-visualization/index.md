@@ -10,6 +10,7 @@ tags:
   - "forensic-challenge"
   - "visualization"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 While the quantity of submissions for FC10 was lower than usual - we had expected this because of the amount of work required to submit plus being over the Christmas break - the quality of the solutions was really inspiring.  
 

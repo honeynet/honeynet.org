@@ -5,6 +5,7 @@ date: "2009-06-19"
 tags: 
   - "release"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hello all!
 

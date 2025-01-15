@@ -6,6 +6,7 @@ tags:
   - "docker"
   - "thug"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Ever wanted to run up a quick instance of [Thug](https://buffer.github.io/thug/) on a couple of malicious web sites or try it out but lacked the sys op knowledge or time to install it? Here is the opportunity. Thanks to [Docker](http://www.docker.com) you can run Thug up in a matter of minutes. [Jose Nazario](https://registry.hub.docker.com/u/jnazario/thug/) and [me](https://registry.hub.docker.com/u/riker2000/thug/) have created two docker images which are in the Docker Hub ready to run.
 

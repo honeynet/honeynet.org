@@ -8,6 +8,7 @@ tags:
   - "gsoc"
   - "malware-sandbox-cuckoo"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We are proud and happy to announce that a new free malware analysis online service is born.  
 

@@ -8,6 +8,7 @@ tags:
   - "dynamic-analysis"
   - "sandbox"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The Android application sandbox is now ready for an alpha release. Details on how to get DroidBox running are available at the [project webpage](http://code.google.com/p/droidbox).
 

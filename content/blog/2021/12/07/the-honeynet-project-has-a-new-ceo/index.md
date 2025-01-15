@@ -8,6 +8,7 @@ tags:
   - "featured"
 coverImage: "cropped-favicon02.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The Honeynet Project has appointed **Ali Ikinci** as the new CEO. 
 

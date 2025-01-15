@@ -8,6 +8,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 This is a contribution by GSoC student Ziyue Yang, find him on Github [yzygitzh](https://github.com/yzygitzh).
 

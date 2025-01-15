@@ -8,6 +8,7 @@ tags:
   - "kelihos"
   - "kelihos-b-hlux-b"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 On March 31, 2012, the Honeynet Project published a draft [Code of Conduct](https://honeynet.org/codeofconduct) and a statement about [Ethics in Computer Security Research: Kelihos.B/Hlux.B botnet takedown](https://honeynet.org/node/834).
 

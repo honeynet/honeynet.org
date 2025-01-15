@@ -12,6 +12,7 @@ tags:
   - "hook"
   - "malware"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 During Google Summer of Code 2015, in the Honeynet Project open-source org, Valerio Costamagna and Cong Zheng (mentor) worked on ARTDroid, an easy-to-use framework for hooking virtual-method under latest Android runtime (ART).
 

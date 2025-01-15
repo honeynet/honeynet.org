@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Well, [Google Summer of Code 2010](http://socghop.appspot.com/gsoc/program/home/google/gsoc2009) is now officially up and running, with the [deadline for organisation applications](http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/timeline) closing 45 minutes ago. Happily the Honeynet Project's application for GSoC 2010 was submitted on time, so all we can do now is sit back and wait until March 18th to find out if we are one of the lucky organisations selected this year.  
 

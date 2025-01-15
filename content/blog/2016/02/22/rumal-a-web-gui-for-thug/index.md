@@ -9,6 +9,7 @@ tags:
   - "rumal"
   - "thug"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 As you may know, [Thug](https://github.com/buffer/thug) is a handy tool for studying exploit kits, as it emulates a real browser complete of a set of plugins like Adobe Reader, Flash and Java. When you feed Thug with the URL of a suspicious web page, it “crawls” it and starts fetching and executing any internal or external JavaScript, following redirects and downloading files just like a browser would do. When Thug encounters some files it cannot analyze by itself (like Flash, Java and PDF), it passes them to external tools. Thug’s results are then collected in a variety of formats, with the default one being a set of collections inside a MongoDB database. Thug works very well but the output can be challenging to navigate, the result often being the ability to only check if the exploit kit’s payload (e.g. an \*.exe file) has been downloaded: if not, one may think that the URL is not malicious, or maybe that the exploit kit is dead. That’s where a web GUI would come handy, and that’s exactly what Thug’s Rumal was born for: there’s plenty of information that can be extracted from Thug’s output and that can help a correct analysis to determine the maliciousness of a web page.
 

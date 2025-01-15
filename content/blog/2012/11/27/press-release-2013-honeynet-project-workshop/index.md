@@ -7,6 +7,7 @@ categories:
 tags: 
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 <table width="600px" border="0"><tbody><tr border="0"><td width="60%">THE HONEYNET PROJECT<br>Contact: Christian Seifert<br>Phone: +1-206-2651944</td><td align="right" width="40%">1425 Broadway #438<br>Seattle, WA, 98122</td></tr></tbody></table>
 

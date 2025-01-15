@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The Honeynet Project had mentored 12 projects this year for the Google Summer  
 of Code (GSoC). The 11th project was to extend the SIP module for  

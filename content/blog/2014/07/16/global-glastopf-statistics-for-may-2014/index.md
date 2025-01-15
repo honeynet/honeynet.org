@@ -8,6 +8,7 @@ tags:
   - "reports"
   - "statistic"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **During the month of May the following information was obtained from Glastopf installations worldwide**  
   

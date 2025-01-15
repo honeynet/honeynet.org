@@ -9,6 +9,7 @@ tags:
   - "gsoc"
   - "python"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ### What is dpkt?
 

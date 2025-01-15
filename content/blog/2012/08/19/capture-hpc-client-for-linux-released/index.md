@@ -3,6 +3,7 @@ title: "Capture HPC Client for Linux released!"
 authors: ["Maciej Szawlowski"]
 date: "2012-08-19"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 I'm proud to announce the release of new Capture HPC client module.  
   

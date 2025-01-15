@@ -8,6 +8,7 @@ tags:
   - "network"
   - "scan"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Today we released version 2 of our [Simple Conficker Scanner](http://four.cs.uni-bonn.de/conficker/) (SCSv2). It contains a new scanning method which allows for detection of machines infected with the recent Conficker version (D or E, depending on the naming scheme - the tool calls it D). Although the patch to the vulnerable function NetpwPathCanonicalize() was updated in the new variant, the RPC response codes for specially crafted requests are still different for infected machines. This enabled us to write a network scanner to distinguish Conficker zombies from clean hosts. The scanning results look like this:
 

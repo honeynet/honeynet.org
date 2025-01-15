@@ -7,6 +7,7 @@ tags:
   - "focus"
   - "zoom"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hi folks! I'm happy cause the work on Picviz Projetct goes well. Another feature was finish, and was determined on our Porposal we are work to improve the Picviz interface.
 

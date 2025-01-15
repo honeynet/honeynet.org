@@ -5,6 +5,7 @@ date: "2009-06-26"
 tags: 
   - "qebek-windows"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 This phenomenon is first observed when I tried the NtReadFile test last week, sometimes when the postNtReadFile is called, the handle value, buffer address and buffer size got from the stack is quite different from values got in preNtReadFile. I didn't pay much attention to this problem that time, but, when I tried to debug the NtSecureConnectPort API with WinDBG today, this phenomenon appeared again. So I did a further study on it.
 

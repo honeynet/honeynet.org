@@ -6,6 +6,7 @@ tags:
   - "honeyclient"
   - "thug"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 A few months ago I read the paper "Technical analysis of client identification mechanisms" \[1\]. The paper is really interesting and it is really worth investing your time and reading. Just a brief excerpt from the abstract:  
   

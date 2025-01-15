@@ -8,6 +8,7 @@ tags:
   - "gsoc"
   - "status"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hello all!
 

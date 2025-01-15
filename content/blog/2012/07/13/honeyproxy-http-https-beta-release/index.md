@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 At the middle of GSoC 2012, we are happy and proud to release a beta version of HoneyProxy, a lightweight tool that allows live HTTP and HTTPS traffic inspection and analysis.
 

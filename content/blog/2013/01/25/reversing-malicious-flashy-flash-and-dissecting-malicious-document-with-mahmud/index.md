@@ -14,6 +14,7 @@ tags:
   - "talk"
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We have interviewed Mahmud ab Rahman, who currently works as an Information Security Specialist for Malaysia Computer Emergency and Response Team (MyCERT) under the umbrella of CyberSecurity Malaysia. His areas of focus are network security,botnet monitoring, and malware analysis. He is also one of the teachers for the Honeynet Workshop in Dubai 10-12 of February and will give a talk about [Reversing Malicious Flashy Flash](”http://dubai2013.honeynet.org/briefings.html#talk10”) and a full workshop on [Dissecting Malicious Document Attacks](”http://dubai2013.honeynet.org/training.html#class1”)  
 

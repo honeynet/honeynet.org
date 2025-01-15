@@ -7,6 +7,7 @@ categories:
 tags: 
   - "smartphone"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 There is a [paper](https://www.usenix.org/events/woot10/tech/techAbstracts.html#Aviv) at WOOT 10' described how to use smudges on the touch sceen of a smartphone to get largely decrease the time an attacker need to guess the right password to unlock the screen. For example, by for 4 passcode based iPhone, one just need to try at most P(4,4) = 4! = 24 times before he get the right one.  
 

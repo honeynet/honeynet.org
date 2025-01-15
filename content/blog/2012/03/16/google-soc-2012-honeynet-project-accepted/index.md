@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We have just been notified by Google that the Honeynet Project has - once again - been accepted as one of the mentoring organization for Google Summer of Code 2012 (in total 180 organizations were selected). We are very excited and are looking forward to a great summer! Already a big thank you to Google for their continued support!  
 

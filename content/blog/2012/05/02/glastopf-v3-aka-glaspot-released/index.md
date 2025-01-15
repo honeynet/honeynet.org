@@ -14,6 +14,7 @@ tags:
   - "sandbox"
   - "web-server-botnet"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We where glad to announce yet another tool during our annual workshop in San Francisco. Glaspot is the third version of the web application honeypot [Glastopf](http://glastopf.org "Glastopf") and it come with some very powerful new features:  
 

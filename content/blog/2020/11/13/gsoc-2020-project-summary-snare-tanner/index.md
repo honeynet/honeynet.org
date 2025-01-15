@@ -7,6 +7,7 @@ tags:
   - "snare"
   - "tanner"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 This year I got selected for Google Summer of Code 2020 under The Honeynet Project and worked on the [SNARE](https://github.com/mushorg/snare)/[TANNER](https://github.com/mushorg/tanner). GSoC 2020 was very special for me because I finally got selected for the organization, for which I've been trying to get selected for the past 2 years.
 

@@ -5,6 +5,7 @@ date: "2010-02-19"
 tags: 
   - "forensic-challenge-2010"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hi everybody,  
   

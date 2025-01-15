@@ -11,6 +11,7 @@ tags:
   - "gsoc"
 coverImage: "firewall_preview.jpg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 With the marking of the mid-term milestone in GSoC 2012, we're happy to announce a first version release of AfterGlow Cloud. After a lot of discussions and review the project seems to be in a good position for an initial release. The project in essential is based on AfterGlow \[1\], a security visualization tool which facilitates generating visual graphs from data you upload. The tool described at \[1\] is originally command-line based, the aim of this project, in general is to bring this tool and its options to the cloud -- so as to provide a neat interface for on-the-fly visualizations.
 

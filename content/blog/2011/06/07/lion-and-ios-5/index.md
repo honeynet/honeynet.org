@@ -5,6 +5,7 @@ date: "2011-06-07"
 tags: 
   - "security"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Today Apple unveiled the next generation of OS X, Lion and new iOS 5. Among the features, I'm concerned about two features: AriDrop and iCloud.  
   

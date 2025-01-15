@@ -13,6 +13,7 @@ tags:
   - "dynamic"
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 I'm announcing the new features of Android dynamic analysis tool DroidBox as GSoC 2012 approaches the end. In this release, I would like to introduce two parts of my work: DroidBox porting and APIMonitor.
 

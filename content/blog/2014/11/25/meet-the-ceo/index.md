@@ -7,6 +7,7 @@ tags:
   - "hpw2015-d52"
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **Angelo, you have been HNP CEO for more than over a year now. What were your goals when you started and did you achieve them?**  
   

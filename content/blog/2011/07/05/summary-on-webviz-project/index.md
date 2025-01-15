@@ -3,6 +3,7 @@ title: "Summary on Webviz Project"
 authors: ["Oguz Yarimtepe"]
 date: "2011-07-05"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The review period is coming and i decided to write an entry to inform about the Webviz project. Till now the first output of the project is a proof of concept work\[1\] (requires WebGL supported browser, tested on Firefox 5 and Firefox 4, on other browsers i don't guarantee it works fine).
 

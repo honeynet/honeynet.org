@@ -3,6 +3,7 @@ title: "In-depth Interview: Sebastian Pöplau"
 authors: ["Pietro Delsante"]
 date: "2014-04-18"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Sebastian Pöplau ([@poeplau](https://twitter.com/poeplau)) is the lead developer of the Ghost USB Honeypot, a detection system for USB malware. He is an IT security enthusiast and a full member of the Honeynet Project. He has studied in Bonn, Germany, and Santa Barbara, CA, and works with Lastline. He will be giving a live demo about [code-loading techniques on Android](http://warsaw2014.honeynet.org/briefings.html#demo3) during the annual [The Honeynet Project Workshop in Warsaw](http://warsaw2014.honeynet.org/) on May 12. Here you have a good chance to get to know him a bit more.  
   

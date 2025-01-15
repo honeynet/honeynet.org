@@ -7,6 +7,7 @@ tags:
   - "forensics"
   - "sandbox"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Howdy all,  
 The Italian Chapter is proud to release the latest version of [dorothy2](https://github.com/m4rco-/dorothy2) (our ruby-based malware analysis framework) :).  

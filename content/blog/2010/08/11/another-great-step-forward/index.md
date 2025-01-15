@@ -3,6 +3,7 @@ title: "Another great step forward"
 authors: ["Angelo Dellaera"]
 date: "2010-08-11"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 _“Dionaea is meant to be a Nepenthes successor, embedding Python as scripting language, using libemu to detect shellcodes, supporting IPv6 and TLS”_ (taken from [Dionaea homepage](http://dionaea.carnivore.it/)). Besides being the most interesting project for trapping malware exploiting vulnerabilities, Dionaea supports a really cool feature which allows it to log to XMPP services as described [here](http://dionaea.carnivore.it/#logxmpp). TIP now exploits this feature receiving and storing such logs (really thanks to Markus Koetter for his help and support). Just an example of what happened today…  
   

@@ -11,6 +11,7 @@ tags:
   - "mobile-hostage"
 coverImage: "screen-7.jpg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ## HosTaGe: a mobile honeypot
 

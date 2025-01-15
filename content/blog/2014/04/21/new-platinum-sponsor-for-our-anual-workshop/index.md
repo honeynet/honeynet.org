@@ -7,5 +7,6 @@ categories:
 tags: 
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The honeynet project is excited and proud to have Deutsche Telekom aboard as a platinum sponsor for our annual workshop in Warshaw 2014 ! DT is a 143 million mobile customer telecom operator. More information on this telecom giant can be found at www.telekom.com/company/at-a-glance/92662

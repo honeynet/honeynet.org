@@ -6,6 +6,7 @@ tags:
   - "release"
   - "tool"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Tillmann Werner from the Giraffe Honeynet Project chapter just released the first version of "streams", a tool for browsing, mining and processing TCP streams in pcap files. If you ever needed to process large pcap files on a session level, you will love this tool. Have a look at the README to get an impression of its  
 capabilities.  

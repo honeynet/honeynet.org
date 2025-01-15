@@ -11,5 +11,6 @@ tags:
   - "workshop"
 coverImage: "drupal_image_1201.jpg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **Join us! [http://stavanger2015.honeynet.org/](http://stavanger2015.honeynet.org/)**

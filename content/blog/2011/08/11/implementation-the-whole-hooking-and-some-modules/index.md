@@ -3,6 +3,7 @@ title: "Implementation: the whole hooking and some modules"
 authors: ["Youzhi Bao"]
 date: "2011-08-11"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The whole implementation is mainly consisted of 4 modules: central controller, emulator, dummy control and list. Central controller is a dynamic link library written in C++. Emulator and dummy control are COM components written in python and registered into registry by win32com.server.register.UseCommandLine. List is a text file in a certain format to read and modify.  
 The implementation considers the further updating for new controls’ emulation. One need only modified the emulating, existing of available list and adding new methods into emulator. The Central controller needs not to do any change. Below is the description for each module.  

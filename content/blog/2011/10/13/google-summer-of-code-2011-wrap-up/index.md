@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 In 2011, the Honeynet Project had once again the opportunity to participate in the Google Summer of Code program. In the last few weeks, we wrapped up all projects, beta tested the code, wrote documentation, and prepared releases.  
 

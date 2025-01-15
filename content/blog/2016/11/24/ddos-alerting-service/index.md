@@ -5,6 +5,7 @@ date: "2016-11-24"
 tags: 
   - "ddos-honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ### SIDN Fund offers financial support for DDOS alerting service
 

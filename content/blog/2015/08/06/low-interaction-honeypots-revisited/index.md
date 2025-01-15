@@ -5,6 +5,7 @@ date: "2015-08-06"
 categories: 
   - "honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **TL;DR:** Low interaction honeypots are designed to emulate vulnerable services and potentially detect attacks without exposing full operating system functionality. Although they have evolved in many ways over the past 15 years, understanding their limitations and sometimes inherent design weaknesses is important when you consider deploying them. Understanding the history of attempted honeypot detection and evasion allows system defenders to improve their continued use of honeypots and hopefully helps makes all of our networks safer.
 

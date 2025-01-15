@@ -3,6 +3,7 @@ title: "Outsmarting the smart meter"
 authors: ["Johnny Vestergaard"]
 date: "2014-08-02"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The [Conpot team](http://www.conpot.org) recently introduced what we call the proxy module. Basically we forward the traffic from one service in [Conpot](http://www.conpot.org) to a service running on a real piece of hardware. This is a very successful technique when figuring out a unknown hardware or protocol. Next step then is to decode the messages logged in the proxy module. Most of this step is done by studying books of specifications, leaked manuals and offensive tools. This then gives us insight into the protocol, the commands sent and responses generated.
 

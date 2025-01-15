@@ -8,6 +8,7 @@ tags:
   - "gsoc"
   - "nebula"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [](/gsoc/project11 "HPSoc Project Description")![nebula Logo](images/nebula.png) [One project](/gsoc/project11 "HPSoc Project Description") mentored by the Honeynet Project during GSoC aims at improving [nebula](http://nebula.carnivore.it "nebula - An Intrusion Signature Generator"), an automated intrusion signature generator. There are two critical components in the signature generator: A clustering engine that groups similar attacks into classes, and a signature assembler that extracts common features and selects some of them for the actual signature.
 

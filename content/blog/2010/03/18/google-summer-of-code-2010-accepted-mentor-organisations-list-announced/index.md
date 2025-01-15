@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Much to the excitement of students all around the world, tonight Google officially announced which mentor organisations have been accepted for [Google Summer of Code (GSoC) 2010](http://socghop.appspot.com/), and the Honeynet Project are delighted to have been selected as one of 151 such mentoring organisations! You can view the full list here:  
 

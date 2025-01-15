@@ -9,6 +9,7 @@ tags:
   - "reverse-engineering"
   - "reversing"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Some people say "Reverse Engineering is an art". Well, this might be true if you consider stuff like mathematics as art. It is more an application of standard methods that evolve constantly. Actually, everybody can learn these methods and start to RE executables. With the [RE-Google](http://regoogle.carnivore.it) plugin for IDA Pro, even your granny can start reversing :)
 

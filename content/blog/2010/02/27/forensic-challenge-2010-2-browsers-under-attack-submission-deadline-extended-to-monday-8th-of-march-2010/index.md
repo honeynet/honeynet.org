@@ -8,6 +8,7 @@ tags:
   - "browsers-under-attack"
   - "forensic-challenge"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We have decided to extend the submission deadline for our second forensic challenge - "browsers under attack" to Monday, 8th of March 2010. This gives you another week to participate in our latest challenge. Subsequently, the announcement of the results will also move another week to Monday, 22nd of March 2010. 
 

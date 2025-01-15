@@ -5,6 +5,7 @@ date: "2013-01-01"
 tags: 
   - "mohpt"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Let the "Month of the Honeynet Project Tools" begin!  
   

@@ -4,6 +4,7 @@ date: 2024-02-25T11:45:22+01:00
 authors: ["Lukas Rist"]
 tags: ["gsoc"]
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We are happy to announce that we have been selected as an organization to participate in Google Summer of Code 2024! This will be the 15th time that Honeynet is participating in the Google Summer of Code program to accelerate the creation of information- and cyber security related tools that are free and open source software. We are now entering the community bonding phase during which students are encouraged to reach out and interact with organizations and start getting involved with potential projects. We strongly recommend to join our [Discord](https://discord.gg/68B8Ru5fSU).
 <!--more-->

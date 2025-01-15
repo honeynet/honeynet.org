@@ -8,6 +8,7 @@ tags:
   - "gsoc"
   - "glutton"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 #### Student [Mohammad Bilal](https://gist.github.com/furusiyya) contributed this post as a project summary of his GSoC2017 experience. 
 

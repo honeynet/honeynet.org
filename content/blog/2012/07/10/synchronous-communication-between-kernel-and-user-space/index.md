@@ -5,6 +5,7 @@ date: "2012-07-10"
 tags: 
   - "ghost"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 In this post I'd like to describe some aspects of the communication between kernel and user mode in the Ghost USB honeypot. More specifically, I'll focus on how to realize blocking communication with the Windows Driver Frameworks (WDF).  
   

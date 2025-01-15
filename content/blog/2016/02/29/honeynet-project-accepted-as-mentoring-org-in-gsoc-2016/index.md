@@ -8,6 +8,7 @@ tags:
   - "gsoc"
 coverImage: "banner-gsoc2016_2.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ![](images/banner-gsoc2016_2.png)
 

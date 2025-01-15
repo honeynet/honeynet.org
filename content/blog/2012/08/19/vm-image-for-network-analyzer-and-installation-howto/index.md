@@ -3,6 +3,7 @@ title: "VM image for Network Analyzer and installation howto"
 authors: ["Oguz Yarimtepe"]
 date: "2012-08-19"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 There is a vm image, that you can import the appliance and see the application at your own machine. You may download the ova file here: [http://www.loopbacking.info/ovizart/](http://www.loopbacking.info/ovizart/)  
   

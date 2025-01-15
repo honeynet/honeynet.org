@@ -7,6 +7,7 @@ categories:
 tags:
   - "qebek"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 One difference in Qebek from other existing virtualization based honeypot monitoring tool is that I want to 'hook' the function of system service instead of the dispatcher, more precisely, the 'sysenter' or 'int 2e' instruction. This is similar to the difference between SSDT (System Service Descriptor Table) hook and kernel inline hook. However, doing it this way must face a problem: how to get the function address? One way is get it directly from SSDT. Under Windows, since SDT (Service Descriptor Table) can be referenced by the exported symbol 'KeServiceDescriptorTable', this is a very simple task. So the problem for me is how to get the SDT address in QEMU without any 'symbol'.
 ### A Brief Introduction of SSDT and SDT
