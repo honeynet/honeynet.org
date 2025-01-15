@@ -7,6 +7,7 @@ tags:
   - "thug-vagrant"
   - "vagrant"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Vagrant and Docker and wonderful tools that enable security practitioners to easily dive into the DevOps world and use them for InfoSec projects. Continuing from the previous blog post [Thug in 5 minutes](https://www.honeynet.org/node/1168), here is a Vagrant configuration to setup Thug honeyclient.  
   

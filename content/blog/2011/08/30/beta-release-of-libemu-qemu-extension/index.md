@@ -7,6 +7,7 @@ tags:
   - "qemu"
   - "shellcode"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 As part of this year’s Summer of Code, I programmed an extension for the shellcode detection and analysis library [libemu](http://libemu.carnivore.it/). The main goal of the project was to increase the performance when executing shellcode, with the help of a virtualizer. Prior to this extension, libemu made use of a custom emulator, which supported only instructions mostly used in shellcode. With this extension, libemu utilizes a full-blown, completely functioning virtualizer, which executes code presumably the same way a real CPU does.  
   

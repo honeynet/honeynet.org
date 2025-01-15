@@ -5,6 +5,7 @@ date: "2008-12-08"
 categories: 
   - "analysis"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 I gave a lecture on Picviz during [the Usenix Workshop on the Analysis of System Logs](http://www.usenix.org/events/wasl08/tech/) (WASL 2008).
 

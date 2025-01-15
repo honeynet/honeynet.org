@@ -8,6 +8,7 @@ tags:
   - "infection-monkey"
 coverImage: "infection_monkey_2020.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 _Shreya Malviya wrote this post as a project summary of her GSoC2020 experience._
 

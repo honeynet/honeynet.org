@@ -3,6 +3,7 @@ title: "Cuckoo Sandbox meets Mac OS X"
 authors: ["Jurriaan Bremer"]
 date: "2015-11-10"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **Posting this blogpost on behalf of Dmitry Rodionov.**  
   

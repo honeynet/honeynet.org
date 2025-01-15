@@ -3,6 +3,7 @@ title: "Tracking Intelligence Project"
 authors: ["Angelo Dellaera"]
 date: "2009-07-03"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 What is TIP? TIP stands for Tracking Intelligence Project. In my most beautiful dreams, TIP should be an information gathering  
 framework whose purpose is to autonomously collect Internet threat  

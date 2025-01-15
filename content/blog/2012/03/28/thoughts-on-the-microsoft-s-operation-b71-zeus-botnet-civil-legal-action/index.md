@@ -8,6 +8,7 @@ tags:
   - "legal"
   - "takedown"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 On Sunday, March 25, Microsoft announced that for the fourth time, they had gone to a federal court and successfully obtained an _ex parte_ temporary restraining order (TRO) to seize domain names from botnet operators. For the second time, the court has also ordered U.S. Marshals to accompany Microsoft and others to serve search warrants and seize evidence that can be used in future civil or criminal actions. Critics of earlier such actions who decried them as "vigilantism", said this was an incomplete takedown of the entire population of Zeus botnets, or had little impact on delivery of spam after a takedown, do not understand some subtle points about these actions. And they fail to learn some lessons from them.
 

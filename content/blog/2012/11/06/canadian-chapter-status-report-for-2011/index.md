@@ -8,6 +8,7 @@ tags:
   - "chapter"
   - "report"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ORGANIZATION Last year our chapter membership has gone through several changes: some members moved to new places and new positions and are no longer a part of the honeynet chapter, while others (Natalia Stakhanova) came back.
 

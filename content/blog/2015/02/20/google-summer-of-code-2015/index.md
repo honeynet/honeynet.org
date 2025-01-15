@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 With winter in the northern hemisphere beginning to turn into spring, it is once again time to think about summer. And of course, for many open source organizations, that means [Google Summer of Code (GSoC)](https://developers.google.com/open-source/soc/?csw=1 "GSoC 2015").
 

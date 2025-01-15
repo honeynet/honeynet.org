@@ -11,6 +11,7 @@ tags:
   - "pdf"
   - "simplified-chinese"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **取证分析挑战 6：分析恶意编码 PDF 档案 -** (由来自马来西亚分支的Mahmud Ab Rahman和Ahmad Azizan Idris提供) 利用含恶意编码 PDF档案进行的典型攻击。  
 

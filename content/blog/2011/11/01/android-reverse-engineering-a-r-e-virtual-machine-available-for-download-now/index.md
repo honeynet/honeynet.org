@@ -7,6 +7,7 @@ categories:
 tags: 
   - "android"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The Honeynet Project is happy to announce the release of the Android Reverse Engineering (A.R.E.) Virtual Machine.  
 

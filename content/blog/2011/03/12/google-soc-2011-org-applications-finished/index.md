@@ -8,6 +8,7 @@ tags:
   - "gsoc"
   - "gsoc-gsoc2011"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [23:00 UTC Friday March 11th](http://www.google-melange.com/document/show/gsoc_program/google/gsoc2011/timeline) was the first deadline for [Google Summer of Code 2011](http://www.google-melange.com/), and the cut off point for organizations interesting in participating to complete their org application.  
 

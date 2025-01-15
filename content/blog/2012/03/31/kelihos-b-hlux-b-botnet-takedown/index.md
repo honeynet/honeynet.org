@@ -7,6 +7,7 @@ tags:
   - "kelihos-b-hlux-b"
   - "takedown"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 On Wednesday, March 21, 2012, an operation by security experts from Dell SecureWorks, CrowdStrike, Kaspersky, and the Honeynet Project was initiated to sinkhole infected computers in the Kelihos.B/Hlux.B botnet. The objective of this action was to remove from the attacker's control all computers currently infected with the Kelihos.B/Hlux.B malware by poisoning the peer lists and routing tables in the lower layers of command and control. This will prevent the botnet operator from doing any more harm with this set of infected computers.  
   

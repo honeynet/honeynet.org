@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Has it really been another year already? Having really enjoyed our experience as a successful mentoring organization in [Google Summer of Code 2009](/gsoc2009) and [Google Summer of Code 2010](/gsoc2010), The Honeynet Project is very pleased to announce that we will once again be applying to be accepted this year as a potential mentoring organization for [Google Summer of Code 2011](http://www.google-melange.com/) (note the changed URL for GSoC 2011).  
 

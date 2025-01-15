@@ -7,6 +7,7 @@ tags:
   - "news"
   - "tool"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Here is another tool release from The Honeynet Project: Cuckoo Box by Claudio Guarnieri. Cuckoo is a binary analysis sandbox, designed and developed with the general purpose of automating the analysis of malware. Read more about the tool [here](https://cuckoosandbox.org/), grab the tool [here](https://cuckoosandbox.org/downloadp) – but please read detailed setup guide [here](https://cuckoo.sh/docs/) (make sure to read it!). BTW, this tool is really well-documented, so make use of it before deploying it.
 

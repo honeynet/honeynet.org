@@ -3,6 +3,7 @@ title: "In-depth interview: Angelo Dell'Aera"
 authors: ["Leon van der Eijk"]
 date: "2014-04-22"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Angelo Dell'Aera ([@angelodellaera](https://twitter.com/angelodellaera)) is currently Chief Executive Officer of the Honeynet Project. His interests are botnet tracking, honeyclient technologies and malware analysis. His previous research on TCP congestion control algorithms led to the design of the TCP Westwood+ algorithm and the implementation in the official Linux kernel. He’s the lead developer of the low-interaction honeyclient [Thug](https://github.com/buffer/thug/). He will be giving [a presentation and a live demo on Thug](http://warsaw2014.honeynet.org/briefings.html#dellaera) at the upcoming [The Honeynet Project workshop in Warsaw](http://warsaw2014.honeynet.org/), on May 12th and 13th. Here are his answers to our questions: keep reading to get to know a bit more about him.  
   

@@ -5,6 +5,7 @@ date: "2011-02-09"
 tags: 
   - "tool"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Here is another new release from the Project: a release of a new tool called [PhoneyC](https://www.honeynet.org/project/PhoneyC), a virtual client honeypot.  
 PhoneyC is a virtual client honeypot, meaning it is not a real application (that can be compromised by attackers and then monitored for analysis of attacker behavior), but rather an emulated client, implemented in Python. The main thing it does is scour web pages looking for those that attack the browser.  

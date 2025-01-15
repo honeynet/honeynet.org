@@ -8,6 +8,7 @@ tags:
   - "android"
   - "are"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [AREsoft-updater](https://github.com/xanda/AREsoft-updater) is a simple updater script for Android Reverse Engineering Software belongs to [Android Reverse Engineering (A.R.E.)](http://redmine.honeynet.org/projects/are/wiki) Virtual Machine from the Honeynet Project  
 

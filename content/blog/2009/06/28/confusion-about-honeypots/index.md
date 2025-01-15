@@ -5,6 +5,7 @@ date: "2009-06-28"
 categories: 
   - "honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Honeypots have been actively used by the security community for over ten years now.  They are used for a variety of purposes, but now a days primarily for information gathering.   When honeypots first were being used they generated a great deal of discussion about the legal issues.  However, through the years this debate has died down, most organizations feeling these issues are minor.  I just wanted to share an update on these thoughts.
 

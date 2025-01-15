@@ -6,6 +6,7 @@ tags:
   - "picviz"
   - "visualization"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The new release 0.5 of Picviz is out. This version comes with real-time mode enabled (and adds the libevent dependency) among other things, such as new properties and variables.  
   

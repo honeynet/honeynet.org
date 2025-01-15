@@ -11,6 +11,7 @@ tags:
   - "leet09"
   - "honeyclient"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Earlier this week I had the good fortune to be in Boston for [LEET09](http://usenix.org/events/leet09/tech/tech.html), a workshop on exploits, malware, and large-scale trends. I presented on PhoneyC, the Python honeyclient I've been working on. The paper describes the architecture and features of the tool and a real world evaluation and test. The talk was well received, and many thanks to the organizers of the conference and the PC for their helpful reviews.  
 Usenix has made the full paper available to all for free.  

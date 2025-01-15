@@ -13,6 +13,7 @@ tags:
   - "tool"
   - "video"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 As the deadline of GSOC has passed, I would like to announce the APKinspector Beta1.0. APKinspector is a tool to help Android application analysts and reverse engineers to analyze the compiled Android packages and their corresponding codes. You can review the [Alpha version report](https://www.honeynet.org/node/747) and [the page of this project](http://code.google.com/p/apkinspector) to know more about it.
 

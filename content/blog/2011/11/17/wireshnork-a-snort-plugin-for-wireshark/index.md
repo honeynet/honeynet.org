@@ -11,6 +11,7 @@ tags:
   - "wireshark"
   - "wireshnork"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 GSoC 2011 #8 project's goal was to add forensics features to the popular Wireshark network analyzer.
 

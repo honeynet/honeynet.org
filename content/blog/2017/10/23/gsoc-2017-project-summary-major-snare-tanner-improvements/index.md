@@ -8,6 +8,7 @@ tags:
   - "gsoc"
   - "snare-tanner"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ##### Student Ravinder Nehra contributed this post as a project summary of his GSoC2017 experience
 

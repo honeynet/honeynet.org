@@ -5,6 +5,7 @@ date: "2012-07-14"
 tags: 
   - "ghost"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 As the first half of the HP summer of code has passed, I'd like to give a short update on the current status of the Ghost USB honeypot.  
   

@@ -12,6 +12,7 @@ tags:
   - "honeypot"
   - "ipv6-d51"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 6Guard is a honeypot-based IPv6 attack detector aiming at detecting the link-local level attacks, especially when the port-mirror feature of switch is unavailable.
 

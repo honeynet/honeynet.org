@@ -5,6 +5,7 @@ date: "2013-11-25"
 categories: 
   - "honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **SHIVA (Spam Honeypot with Intelligent Virtual Analyzer) is an open-source, high interaction spam honeypot developed in Python2.7 and is released under [GNU GPL v3](http://opensource.org/licenses/GPL-3.0).**
 

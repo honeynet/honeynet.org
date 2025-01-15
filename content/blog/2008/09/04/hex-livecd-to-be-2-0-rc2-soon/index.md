@@ -7,6 +7,7 @@ categories:
 tags: 
   - "hex"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 As effort of the Honeynet Project [Malaysian chapter](http://my-honeynet.org) and the [RawPacket team](http://www.rawpacket.org) initiative, [HeX LiveCD](http://www.rawpacket.org/projects/hex) was created. It is a Network Security Monitoring (NSM) centric Live CD, built based on the principles of NSM, for analysts, by analysts. This project will be eventually forked to Hex Sensor and Hex Server to complete the cycle of NSM processes. Besides, HeX LiveCD is the blueprint for [HornyD](http://my-honeynet.org/index.php?/archives/HornyD-and-HoneySuckle-Subversion-and-Trac.html). HornyD and HoneySuckle are the toolkits for the Malaysia Distributed Honeynet Project.
 

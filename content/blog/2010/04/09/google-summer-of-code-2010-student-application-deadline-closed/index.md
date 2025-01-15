@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Student applications for [Google Summer of Code 2010](http://socghop.appspot.com) closed at 19:00 UTC tonight, with the usual last minute rush of submissions (but thankfully no timezone confusion this time). We had thought that receiving three student applications in the final minute, including one with 8.4 seconds to spare was cutting it close, but Plan9 apparently had one lucky applicant with 1.23 seconds remaining on the clock! That must set a new GSoC record... ;-)  
 

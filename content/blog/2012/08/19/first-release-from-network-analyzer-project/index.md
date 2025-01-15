@@ -9,6 +9,7 @@ tags:
   - "traffic-analyze"
   - "visualization"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hi everyone, I am announcing an initial release of the [Ovizart, Network Analyzer Project](https://www.honeynet.org/gsoc/slot13). Ovizart (OV - Open VİZual Analsis foR network Traffic ) is a web based application that will let users upload captured traffic in a PCAP format, analyze the traffic, and present the traffic in an intuitive manner. The current development branch is located on Github: [https://github.com/oguzy/ovizart](https://github.com/oguzy/ovizart).
 

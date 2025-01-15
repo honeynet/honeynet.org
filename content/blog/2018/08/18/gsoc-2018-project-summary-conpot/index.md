@@ -12,6 +12,7 @@ tags:
   - "scada"
 coverImage: "conpot.jpeg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Abhinav Saxena wrote this post as a project summary of his GSoC2018 experience.
 

@@ -8,6 +8,7 @@ tags:
   - "murofet"
   - "zeus"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The first one writing about this new threat was [Marco Giuliani](http://www.prevx.com/blog/159/WinMurofetor-just-ZeuS.html). So, Murofet or Zeus++?
 

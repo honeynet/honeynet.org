@@ -3,6 +3,7 @@ title: "The Spamhattan Project"
 authors: ["Jop van der Lelie"]
 date: "2016-01-11"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 _Let’s develop a nextgen spamtrap and create intel feeds for .NL_
 

@@ -3,6 +3,7 @@ title: "Security in 2020? Anton Chuvakin will give you the broad overview!"
 authors: ["Sjur Usken"]
 date: "2013-02-07"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The broader picture a the conference will be given by a well known person in this field. He will talk about ["Security 2020"](http://dubai2013.honeynet.org/briefings.html#talk2) This is [Dr. Anton Chuvakin](http://www.chuvakin.org/), and he is a Research Director at Gartner's [Gartner for Technical Professionals (GTP) Security and Risk Management Strategies](http://www.burtongroup.com/Research/Srms.aspx) team in his day job.  
 Anton is a recognized security expert in the field of log management, SIEM and PCI DSS compliance. He is an author of books "Security Warrior" and ["PCI Compliance"](http://www.pcicompliancebook.info/) and a contributor to "Know Your Enemy II", "Information Security Management Handbook" and others. Anton has published dozens of papers on log management, SIEM, correlation, security data analysis, PCI DSS, security management. His blog "Security Warrior" is one of the most popular in the industry.  

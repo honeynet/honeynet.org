@@ -5,6 +5,7 @@ date: "2009-07-30"
 tags: 
   - "qebek-windows-socket-network"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 As the console spy is almost finished, the next stage is mainly for network activities. Sebek Win32 version uses TDI hook to get this done. However, since getting driver object in virtualization layer is hard and TDI is TDI is on the path to deprecation, I need to find another way. The best solution seems to be hooking NtDeviceIoControlFile, the API Windows uses to do network related stuff and has been widely mentioned in malware behavior analysis papers. After some days of searching, I encounter a very useful resources today, a master thesis from TTAnalyze team:
 

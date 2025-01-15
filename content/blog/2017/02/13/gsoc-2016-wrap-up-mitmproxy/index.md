@@ -9,6 +9,7 @@ tags:
   - "mitmproxy"
 coverImage: "mitmweb_1_0.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 With Google Summer of Code (GSoC) 2017 being around the corner, we’d like to do a short flashback to 2016, our most successful GSoC year for mitmproxy so far! GSoC 2016 was mitmproxy’s fourth time participating in the program under the umbrella of the Honeynet Project. For the first time, we were able to mentor three students over the summer to work on both our Python core and the brand new web interface. As a major milestone, mitmproxy is now a Python 3 project and has a fantastic user interface that even works on Windows. With these improvements in, we finally decided to pull the trigger and called it the [mitmproxy 1.0 release](https://corte.si/posts/code/mitmproxy/announce_1_0/index.html)!
 

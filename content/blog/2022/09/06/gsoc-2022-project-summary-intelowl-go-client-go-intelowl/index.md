@@ -5,6 +5,7 @@ date: "2022-09-06"
 coverImage: "intel_owl_positive_reduced.png"
 tags: ["gsoc", "intelowl", "threatintel"]
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Our [GSoC](https://summerofcode.withgoogle.com/) student [Hussain Khan](https://github.com/fear-the-reaper) was working for three months under the supervision of Matteo Lodi on the OSINT platform [IntelOwl](https://github.com/intelowlproject/IntelOwl), specifically on a Go client library, allowing developers to integrate with the IntelOwl API in their solutions.
 

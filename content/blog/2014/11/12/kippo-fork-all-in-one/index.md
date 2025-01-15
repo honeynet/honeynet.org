@@ -5,6 +5,7 @@ date: "2014-11-12"
 tags: 
   - "kippo"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hello,  
   

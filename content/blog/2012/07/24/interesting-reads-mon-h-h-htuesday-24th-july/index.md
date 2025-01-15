@@ -8,6 +8,7 @@ tags:
   - "news"
   - "readables"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Good morning folks  
   

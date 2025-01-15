@@ -3,6 +3,7 @@ title: "Beeswarm - active deceptions made easy"
 authors: ["Johnny Vestergaard"]
 date: "2014-08-25"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Finally we can announce with great pleasure the first public beta of the [Beeswarm](http://www.beeswarm-ids.org) project. [Beeswarm](http://www.beeswarm-ids.org) is an active IDS project that provides easy configuration, deployment and management of honeypots and clients. The project differentiates itself by two key items:
 

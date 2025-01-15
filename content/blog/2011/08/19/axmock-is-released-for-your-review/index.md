@@ -6,6 +6,7 @@ tags:
   - "capture-hpc"
   - "gsoc-gsoc2011"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We build up a project in google code, you can browse AxMock by the link  
 [http://code.google.com/p/axmock](http://code.google.com/p/axmock/)  

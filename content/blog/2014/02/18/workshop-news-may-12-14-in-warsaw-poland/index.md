@@ -7,6 +7,7 @@ categories:
 tags: 
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **Mon 5 May 2014 : :  
 We are very proud to announce that ticket sales are beyond our expectations ! So hurry up if you are planning to attend and http://warsaw2014.honeynet.org/register.html for registration !  

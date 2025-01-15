@@ -8,6 +8,7 @@ tags:
   - "workshop"
 coverImage: "drupal_image_1356.jpg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **The Honeynet Project Workshop 2017**
 

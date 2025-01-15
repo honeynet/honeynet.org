@@ -6,6 +6,7 @@ tags:
   - "challenge"
   - "lessons-learned"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We just finished grading the [results](https://honeynet.org/challenges/2010_5_log_mysteries) of [Project Honeynet “Log Mysteries” Challenge #5](https://honeynet.org/node/581) and there are some useful lessons for BOTH future challenge respondents and to log analysts and incident investigators everywhere.
 

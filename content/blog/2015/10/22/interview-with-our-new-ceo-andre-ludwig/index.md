@@ -5,6 +5,7 @@ date: "2015-10-22"
 tags: 
   - "meet-our-new-ceo-andre"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 1\. Hello Andre and congratulations on getting the CEO job ! Can you please tell us a bit more about yourself. What is your background for instance ?  
   

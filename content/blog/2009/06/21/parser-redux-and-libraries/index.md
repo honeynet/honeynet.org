@@ -4,6 +4,7 @@ authors: ["Kevin Galloway"]
 date: "2009-06-21"
 coverImage: "parser.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 I know I said that I would post a screenshot a week ago, but it's been a little busy, but here's an older attached image. One of the reasons there was a delay is that the code that I was using was based on one of the wxPython demo programs, hence the RunDemo title bar. I'm in the process of revamping that code into something that's a little more standalone.  
   

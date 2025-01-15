@@ -11,6 +11,7 @@ tags:
   - "workshop"
 coverImage: "drupal_image_1233.jpg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Kai Roer is focusing on user awareness, security culture and the study of how our human mind makes us vulnerable and exploitable. He consults with people and organizations on the interpersonal skills that are vital to a successful and trusted secure environment. He is the creator of the Security Culture Framework, a columnist at Help-Net Security and the author of a number of books about cybersecurity and leadership. His latest book is "Build a Security Culture".
 

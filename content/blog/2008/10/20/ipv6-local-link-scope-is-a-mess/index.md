@@ -6,6 +6,7 @@ tags:
   - "ipv6-d51"
   - "link-local"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 I've been looking on [ipv6](http://en.wikipedia.org/wiki/IPv6) lately, and even though I got a global /64 for free from he.net, I'm not that amused about ipv6 yet.
 

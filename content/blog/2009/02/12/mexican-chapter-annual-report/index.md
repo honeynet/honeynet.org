@@ -10,6 +10,7 @@ tags:
   - "mexican-chapter-annual-report"
   - "report"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **\=== ORGANIZATION ===**  
   

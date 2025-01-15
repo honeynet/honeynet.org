@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Like many other open source organizations, The Honeynet Project's members have been excitedly waiting to hear if Google would be running their Google Summer of Code (GSoC) initiative again this year. Well, the wait the over and [GSoC 2013](http://www.google-melange.com/gsoc/homepage/google/gsoc2013) has officially been announced on [Google's Open Source Blog](http://google-opensource.blogspot.co.uk/2013/02/flip-bits-not-burgers-google-summer-of.html). This is great news!  
   

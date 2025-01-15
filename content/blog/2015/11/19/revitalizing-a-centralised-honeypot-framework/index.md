@@ -5,6 +5,7 @@ date: "2015-11-19"
 tags: 
   - "framework-honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
   
 

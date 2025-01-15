@@ -12,6 +12,7 @@ tags:
   - "pdf"
   - "traditional-chinese"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **鑑識分析挑戰 6：分析惡意編碼 PDF 檔案 -** (由來自馬來西亞團隊的Mahmud Ab Rahman和Ahmad Azizan Idris提供) 利用含惡意編碼 PDF檔案進行的典型攻擊。  
 

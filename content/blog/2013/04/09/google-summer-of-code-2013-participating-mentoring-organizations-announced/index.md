@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 After a tense few days for all of the organizations who applied, The Honeynet Project is delighted to announce that it has once again been [selected as one the participating mentoring organizations](https://www.google-melange.com/gsoc/org/google/gsoc2013/honeynet) in [Google Summer of Code (GSoC) 2013](http://www.google-melange.com/gsoc/homepage/google/gsoc2013). This is great news and should make for another very exciting summer for many students, mentors and team members, so many thanks to Google's and their Open Source Projects Office for their continued support of both us and free open source software (FLOSS) in general. We all really appreciate the support :-)  
   

@@ -8,6 +8,7 @@ tags:
   - "visualization"
   - "worldmap"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ![](images/drupal_image_959.png)
 

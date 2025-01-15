@@ -10,6 +10,7 @@ tags:
   - "rumal"
   - "thug"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Thug is a client honeypot that emulates a real web browser, fetches and executes any internal or external JavaScript, follows all redirects, downloadable files just like any browser would do, and collects the results in a mongodb collection. The purpose of this tool is to study, analyse and locate exploit kits and malicious websites. Thug’s analysis can be difficult to navigate or understand and this is where Rumal comes in. Rumal’s function is to be Thug’s GUI, providing users with trees, graphs, maps, tables and intuitive representations of Thug’s data.
 

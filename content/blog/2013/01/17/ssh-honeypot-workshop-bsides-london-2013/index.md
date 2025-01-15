@@ -9,6 +9,7 @@ tags:
   - "kippo-ssh-honeypot"
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 At the last BruCON conference in Ghent last year I had the pleasure to talk to Soraya (Iggi), Bsides London co-organizer. She convinced me into submitting a workshop proposal for the Bsides London 2013. 
   

@@ -5,6 +5,7 @@ date: "2012-01-03"
 tags: 
   - "cuckoo-sandbox-malware-analysis"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Cuckoo Sandbox 0.3.1 has been released.  
   

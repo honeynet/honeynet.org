@@ -5,6 +5,7 @@ date: "2011-11-25"
 tags: 
   - "dynamic-malware-analysis-virtuaization-cuckoo-gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 #### Overview
 

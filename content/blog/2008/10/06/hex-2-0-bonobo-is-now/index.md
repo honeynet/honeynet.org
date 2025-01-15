@@ -7,6 +7,7 @@ tags:
   - "malaysian-honeynet-chapter"
 coverImage: "drupal_image_250.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ![](images/drupal_image_250.png)
 

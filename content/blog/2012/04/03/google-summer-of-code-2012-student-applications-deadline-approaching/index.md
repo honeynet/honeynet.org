@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 If you have been following our blog you'll know that the Honeynet Project was very happy to have been [accepted as a mentoring organization](/node/826) for [applying to the Honeynet Project](https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2012/home>Google Summer of Code (GSoC) 2012</a>.<br><br>If you are a student interested in <a href=), the [student application deadline](https://www.google-melange.com/gsoc/events/google/gsoc2012) is 19:00 UTC on Friday April 6th. So with 3 days to go, you need to be planning on submitting your project application vi the Melange system soon. To avoid disappointment, please don't leave your application until the last minute - you can edit as often as you want before the deadline.  
   

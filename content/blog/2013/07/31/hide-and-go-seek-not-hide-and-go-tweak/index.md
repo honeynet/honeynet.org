@@ -10,6 +10,7 @@ tags:
   - "law-of-war"
   - "tallinn-manual"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 On July 31, 2013, [Jason Geffner of CrowdStrike discussed a new tool called "Tortilla"](http://www.blackhat.com/us-13/briefings.html#Geffner2) that allows incident responders and computer security researchers to hide behind the Tor network as they poke and prod malicious software infrastructure. Were I there, I would have asked Jason this question: What things should I _not do_ while using Tortilla, and _why_ shouldn't I do them? I know Jason and respect his technical skills, but if he and CrowdStrike don't have a good answer, that will say a lot about our field's collective ability to reason about actions along the Active Response Continuum. \[D. Dittrich and K. E. Himma. Active Response to Computer Intrusions. Chapter 182 in Vol. III, Handbook of Information Security, 2005. [http://ssrn.com/abstract=790585](http://ssrn.com/abstract=790585).\]  
   

@@ -8,6 +8,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ORGANIZATION  
 • Brian Hay (Chapter Lead, Full Member)  

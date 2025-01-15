@@ -8,6 +8,7 @@ tags:
   - "challenge"
   - "forensic-challenge"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The 4th Forensic Challenge on VoIP has come to an end. We had a total of 21 submissions with several submissions from Chinese speakers which has been made possible by Julia, Jianwei and Roland from the Chinese speaking chapters.  
 

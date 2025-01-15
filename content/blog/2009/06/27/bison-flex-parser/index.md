@@ -5,6 +5,7 @@ date: "2009-06-27"
 tags: 
   - "honeybrid-gsoc-parser"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 This week I completed an important step which is to integrate a parser in Honeybrid. There are now two new files in the source code:
 

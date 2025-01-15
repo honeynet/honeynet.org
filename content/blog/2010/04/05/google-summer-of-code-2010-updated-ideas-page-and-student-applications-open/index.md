@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 On March 29th Google officially began accepting applications from students for [Google Summer of Code 2010](http://socghop.appspot.com), which the Honeynet Project is very exicted to be participating in again this year as a [mentoring organisation](http://socghop.appspot.com/gsoc/program/accepted_orgs/google/gsoc2010). We've recently updated our [project ideas page](/gsoc/ideas) and mentor information and students have until 19:00 UTC on Friday April 9th to apply (you can either chose one of our ideas or propose your own).  
 

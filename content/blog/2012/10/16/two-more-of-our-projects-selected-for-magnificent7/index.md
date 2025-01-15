@@ -3,6 +3,7 @@ title: "Two more of our projects selected for Magnificent7"
 authors: ["Sebastian Poeplau"]
 date: "2012-10-16"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Rapid7 have [announced](http://www.rapid7.com/news-events/press-releases/2012/2012-second-round-magnificent7-program.jsp) the selected projects for the second round of their Magnificent7 program. The program sponsors open source efforts in the area of IT security over the course of a year and provides them with Rapid7's technological and marketing expertise.  
   

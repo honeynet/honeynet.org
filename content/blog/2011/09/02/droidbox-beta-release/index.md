@@ -8,6 +8,7 @@ tags:
   - "dynamic-analysis"
   - "sandbox"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Beta version is out and the install instructions are available at the [project webpage](http://code.google.com/p/droidbox/). The new features are:
 

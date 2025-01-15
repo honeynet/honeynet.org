@@ -3,6 +3,7 @@ title: "In-depth Interview: Lukas Rist"
 authors: ["Pietro Delsante"]
 date: "2014-04-18"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Lukas Rist ([@glaslos](https://twitter.com/glaslos)) is a software engineer with Blue Coat Norway where he develops behavioral malware analysis systems. In his spare time, he creates web application and ICS/SCADA honeypots and botnet monitoring tools under the umbrella of the Honeynet Project. He recently developed an interest in industrial security and automated SQL statement classification. He will be giving [a live demo on Conpot](http://warsaw2014.honeynet.org/briefings.html#demo2) at the upcoming [The Honeynet Project workshop in Warsaw](http://warsaw2014.honeynet.org/), on May 13. Here are his answers to our questions: keep reading to get to know a bit more about him.  
   

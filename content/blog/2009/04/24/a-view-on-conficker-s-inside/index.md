@@ -9,6 +9,7 @@ tags:
   - "malware"
   - "visualization"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Many people have asked us, how Conficker looks like. That's a tough question for something that's hidden and tries to be as stealthy as possible. The last time somebody asked me: "Can you show me Conficker?", I decided to visualize Conficker. Here is [a little video that shows the evil core of Conficker.C](http://iv.cs.uni-bonn.de/uploads/media/video.avi "Conficker.C video").
 

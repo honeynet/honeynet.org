@@ -4,6 +4,7 @@ authors: ["Kumiszhan Dybyspayeva"]
 date: "2023-08-24T11:00:06+01:00"
 tags: ["gsoc", "ochi"]
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 
 Our [GSoC](https://summerofcode.withgoogle.com/) student [Kumiszhan Dybyspayeva](https://github.com/dkumiszhan) was working for three months under the supervision of Lukas Rist on [Ochi](https://github.com/honeynet/ochi/), specifically on introducing new features such as event filtering using a DSL, persisting filters and sharing an event. 

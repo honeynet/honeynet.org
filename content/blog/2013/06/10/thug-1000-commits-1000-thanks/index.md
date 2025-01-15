@@ -6,6 +6,7 @@ tags:
   - "honeyclient"
   - "thug"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Two years are passed from the first commit and taking a look at the number of committed patches I realized that right now the patch number 1000 was committed. Let me say it's really impressive realizing it. In the last two years I had a lot of fun thinking and designing the future of this project and I'm really proud of what Thug turned to be. I have to thank a lot of persons who contributed with their suggestions, ideas, bug reports and sometimes patches. You know who you are. Really thanks! Stay tuned because I'm already moving towards patch number 2000 with a lot of new features and ideas like the [Thug Honeyclient Distributed Task Queing](https://honeynet.org/gsoc/slot3).  
   

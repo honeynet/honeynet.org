@@ -8,6 +8,7 @@ tags:
   - "aggressive-network-defense"
   - "hack-back"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **\[This post expresses the personal opinion of the author and is not an official statement representing the Honeynet Project.\]**  
   

@@ -8,6 +8,7 @@ tags:
   - "qemu"
   - "hook"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 I'm developing a syscall interception tool for Android as a course's project. While it is relatively simple to intercept calling into the system services (introduced at the end), it is harder to get the syscall return. The reason is, the latest Android emulator is build upon QEMU 0.10.50, meaning it's TCG based. So we cannot use the same way Qebek or TEMU uses to intercept the syscall return. Therefore I looked into the new code to find if I could find a way to solve this problem.  
 

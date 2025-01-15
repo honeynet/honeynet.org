@@ -5,6 +5,7 @@ date: "2012-02-14"
 tags: 
   - "fuzzy-hashing"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Identifying unknown files by using fuzzy hashing  
   

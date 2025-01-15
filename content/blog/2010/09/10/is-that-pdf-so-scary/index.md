@@ -9,6 +9,7 @@ tags:
   - "pdf"
   - "rop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
   
   

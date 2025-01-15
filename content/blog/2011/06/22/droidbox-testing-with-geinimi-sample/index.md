@@ -13,6 +13,7 @@ tags:
   - "gsoc"
   - "sandbox"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 One of the very first Android malwares, [Geinimi](http://www.symantec.com/security_response/writeup.jsp?docid=2011-010111-5403-99&tabid=2) has been analyzed in the application sandbox [DroidBox](https://www.honeynet.org/gsoc/slot5) that is currently being developed. The project is part of GSoC 2011 in collaboration with Honeynet and as a master thesis. The Geinimi application uses DES encryption, and it's possible to [uncrypt](http://code.google.com/p/androguard/source/browse/demos/geinimi_analysis.py) statically the content, see picture below.
 

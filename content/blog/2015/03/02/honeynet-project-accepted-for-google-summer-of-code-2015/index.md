@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 After a tense few days of waiting, which is always the most stressful part of GSoC for mentoring organizations and org admins, 19:00 UTC today was the moment of truth when some [lucky orgs found out](http://google-opensource.blogspot.in/2015/03/mentoring-organizations-for-google.html "GSoC 2015 accepted orgs") that they were accepted for [GSoC 2015](https://www.google-melange.com/gsoc/homepage/google/gsoc2015 "GSoC 2015"), and other orgs sadly discovered that they would not be taking part.
 

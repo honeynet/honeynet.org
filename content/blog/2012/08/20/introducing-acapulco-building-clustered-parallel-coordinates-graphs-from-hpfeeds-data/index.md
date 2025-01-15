@@ -10,6 +10,7 @@ tags:
   - "parallel-coordinates"
   - "splunk"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 …and the summer is over. During the last three months I have tried to make sense of the highly unstructured data set that comes from merging the data streams of several hpfeeds channels. I have had to learn the inner workings of Splunk, their SDKs, the D3.js graphic library and explore different machine learning frameworks and clustering algorithms.
 

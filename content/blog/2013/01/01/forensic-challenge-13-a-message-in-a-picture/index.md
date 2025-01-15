@@ -8,6 +8,7 @@ tags:
   - "challenge"
   - "forensic-challenge"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Let's start the new year with a forensic challenge!  
   

@@ -3,6 +3,7 @@ title: "Webviz is out for your reviews"
 authors: ["Oguz Yarimtepe"]
 date: "2011-08-12"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 While the "pencil down" date is approaching, i would like to announce the latest situation at Webviz project. From the last time till time, there have been some changes at the visualization:
 

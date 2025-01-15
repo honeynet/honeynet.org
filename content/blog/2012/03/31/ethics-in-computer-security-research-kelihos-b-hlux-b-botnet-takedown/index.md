@@ -8,6 +8,7 @@ tags:
   - "kelihos"
   - "kelihos-b-hlux-b"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Earlier, we posted about [our operation on the Kelihos.B/Hlux.B botnet takedown](https://honeynet.org/node/833) that was conducted with by security experts from Dell SecureWorks, CrowdStrike, Kaspersky, and the Honeynet Project. On initial view, the operation seems very clear cut: the bad guys are running a botnet that is doing havoc on the Internet; on the other side, are the good guys that have found a way to disable the botnet.  
   

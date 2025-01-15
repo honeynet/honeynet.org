@@ -8,6 +8,7 @@ tags:
   - "capture-hpc"
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 By now, what I have done for Capture-HPC is:
 

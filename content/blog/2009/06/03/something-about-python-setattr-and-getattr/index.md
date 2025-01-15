@@ -5,6 +5,7 @@ date: "2009-06-03"
 tags: 
   - "project"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 It seems that there was some problems in this blog system, and i was busy with my final exam, so i haven't written blog a long time since the project starts.
 

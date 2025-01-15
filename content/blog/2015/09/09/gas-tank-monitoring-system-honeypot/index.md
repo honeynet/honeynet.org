@@ -9,6 +9,7 @@ tags:
   - "honeypot"
   - "ics"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The [Conpot](http://conpot.org) team is following closely the latest developments in Honeypot research and the methods and technologies used. If you look at the topics presented on security conferences, you might have also noticed an increased interest in ICS security and honeypot technologies in the last two years. One presentation from this years Blackhat’15 conference caught my attention also knowing previous research done by Kyle and Stephen: “The little pump gauge that could: Attacks against gas pump monitoring systems” \[[link](https://www.blackhat.com/us-15/briefings.html#the-little-pump-gauge-that-could-attacks-against-gas-pump-monitoring-systems)\] If you are interested in their findings, I recommend their white paper: “The GasPot Experiment: Unexamined Perils in Using Gas-Tank-Monitoring Systems“ \[[link](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/the-gaspot-experiment), [pdf](http://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp_the_gaspot_experiment.pdf)\] by [Kyle Wilhoit](https://twitter.com/lowcalspam) and [Stephen Hilt](https://twitter.com/sjhilt) from Trend Micro’s Forward-Looking Threat Research team.  
 

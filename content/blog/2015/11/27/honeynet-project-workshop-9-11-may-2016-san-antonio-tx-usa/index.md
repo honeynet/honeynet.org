@@ -10,6 +10,7 @@ tags:
   - "workshop"
 coverImage: "SATX2016.jpg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [![San Antonio 2016](images/SATX2016.jpg "San Antonio 2016")](http://sanantonio2016.honeynet.org/)  
 **Join us! [http://sanantonio2016.honeynet.org/](http://sanantonio2016.honeynet.org/)**

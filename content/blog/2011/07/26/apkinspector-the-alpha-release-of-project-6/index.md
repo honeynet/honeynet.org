@@ -12,6 +12,7 @@ tags:
   - "static-analysis"
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The GUI tool for static analysis of Android malware is ready for an alpha release. For more details regarding this project, check [here](https://www.honeynet.org/gsoc/slot6).  
   

@@ -6,6 +6,7 @@ tags:
   - "spam"
   - "translation"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Today I received a spam email from "Sicherheits-Center" ("security center") with subject "Vorsicht! Ihr Paypal-Konto wurde begrenzt!" ("Attention! Your paypal account has been restricted!"). Not only the subject but the whole message was in really bad German - I am sure everybody had the chance to delete similar spams and you know what they look like. The advertised link was already down and also already included in Google's "Safe Browsing" list of malicious URLs. But the message contained a piece of interesting information which I think is interesting.  
   

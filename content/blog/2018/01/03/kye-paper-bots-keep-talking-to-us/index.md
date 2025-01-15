@@ -7,6 +7,7 @@ categories:
 tags: 
   - "kye"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Analysis of 24 Hours Internet Attacks: A Brief Overview of Malicious Traffic Targeting Featureless Servers on the Web.
 

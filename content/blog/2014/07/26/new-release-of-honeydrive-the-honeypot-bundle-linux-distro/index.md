@@ -7,6 +7,7 @@ categories:
 tags: 
   - "honeydrive"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 It is my great pleasure to announce that HoneyDrive 3 is here, codenamed Royal Jelly!  
   

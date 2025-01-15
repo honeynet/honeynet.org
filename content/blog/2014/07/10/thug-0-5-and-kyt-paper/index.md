@@ -10,6 +10,7 @@ tags:
   - "kyt"
   - "thug"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Thug 0.4.0 was released on June, 8th 2012 and a huge number of really important features were added since then. During the last two years I had a lot of fun thinking and designing the future of the project and I'm really proud of what Thug is now. I have to thank a lot of persons who contributed with their suggestions, ideas, bug reports and sometimes patches. You know who you are. Really thanks!  
 

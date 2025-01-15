@@ -5,6 +5,7 @@ date: "2015-03-17"
 tags: 
   - "hpw2015-d52"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Lance Spitzner, founder of the Honeynet Project, is an internationally recognized leader in the field of cyber threat research and security training and awareness. He has helped develop and implement numerous multi-cultural security awareness programs around the world for organizations as small as 50 employees and as large as 100,000. Lance invented and developed the concept of honeynets, and has authored several books and security whitepapers.
 

@@ -3,6 +3,7 @@ title: "cuckooHide -  Hiding CuckooBox from trivial detection mechanism"
 authors: ["Dario Fernandes"]
 date: "2011-09-09"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The last part of Google Summer of Code 2011 was used to implement  
 a Windows Kernel Driver responsible for hiding files and folders.  

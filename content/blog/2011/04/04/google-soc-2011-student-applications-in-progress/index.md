@@ -7,6 +7,7 @@ categories:
 tags: 
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 With [GSoC 2011 student applications](http://www.google-melange.com) having been open for the past week, we've been having a number of interesting discussions with potential students on both **#gsoc2011-honeynet** on **irc.freenode.net** and on our [public GSoC mailing list](https://public.honeynet.org/mailman/listinfo/gsoc) and this summer is already looking to have many exciting project ideas.  
 

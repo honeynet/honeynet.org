@@ -7,6 +7,7 @@ tags:
   - "ics"
   - "scada"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 We proudly announce the first release of our Industrial Control System honeypot named [Conpot](http://conpot.org).  
   

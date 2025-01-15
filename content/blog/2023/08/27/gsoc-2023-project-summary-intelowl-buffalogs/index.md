@@ -4,6 +4,7 @@ authors: ["Matteo Lodi"]
 date: "2023-08-27"
 tags: ["gsoc", "intelowl", "buffalogs"]
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Our dedicated Google Summer of Code (GSoC) participant, [Abheek](https://twitter.com/abheekblahblah), has spent an impressive three-month duration program actively contributing to not one, but two distinct projects: [IntelOwl](https://intelowlproject.github.io/) and [Buffalogs](https://github.com/certego/BuffaLogs). Notably, Abheek undertook the responsibility of crafting the brand-new official website for IntelOwl throughout this period.
 

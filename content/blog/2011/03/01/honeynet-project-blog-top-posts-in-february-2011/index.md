@@ -6,6 +6,7 @@ tags:
   - "blogging"
   - "monthly"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The following are the Top 5 popular blog posts from [The Honeynet Project blog](https://www.honeynet.org/blog) this month.
 

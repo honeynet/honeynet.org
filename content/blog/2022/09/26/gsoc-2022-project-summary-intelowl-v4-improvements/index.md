@@ -5,6 +5,7 @@ date: "2022-09-26"
 coverImage: "intel_owl_positive_reduced.png"
 tags: ["gsoc", "intelowl", "threatintel"]
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 Our [GSoC](https://summerofcode.withgoogle.com/) student [Aditya Pratap Singh](https://github.com/devmrfitz) was working for three months under the supervision of Matteo Lodi on the OSINT platform [IntelOwl](https://github.com/intelowlproject/IntelOwl), specifically on bulk analysis, single sign-on, and major improvements to the configurations and secrets.
 
 Read on for an overview of their achievements and how they successfully contributed towards IntelOwl and some considerations for the future.

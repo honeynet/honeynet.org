@@ -10,6 +10,7 @@ tags:
   - "featured"
 coverImage: "intel_owl.jpeg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [Intel Owl](https://github.com/intelowlproject/IntelOwl) is an Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain from a single API at scale. It integrates a number of analyzers available online and is for everyone who needs a single point to query for info about a specific file or observable.
 

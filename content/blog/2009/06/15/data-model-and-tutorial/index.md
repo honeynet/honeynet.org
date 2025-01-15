@@ -5,6 +5,7 @@ date: "2009-06-15"
 tags: 
   - "data-model-honeyweb-tutorial"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **Hi everyone,**
 

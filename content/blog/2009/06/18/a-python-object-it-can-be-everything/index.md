@@ -5,6 +5,7 @@ date: "2009-06-18"
 tags: 
   - "project"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The code is like this:
 

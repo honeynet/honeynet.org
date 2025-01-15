@@ -11,6 +11,7 @@ tags:
   - "shellcode"
   - "spidermonkey"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ### Mid-term Report on [PHoneyC](http://code.google.com/p/phoneyc/) GSoC project 1
 

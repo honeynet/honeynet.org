@@ -6,6 +6,7 @@ tags:
   - "ftp"
   - "iteolih"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 While playing with the current hsoc code, I got attacked, and saw an offer to download something from somewhere.  
 `  

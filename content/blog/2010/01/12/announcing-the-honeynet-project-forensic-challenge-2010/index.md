@@ -10,6 +10,7 @@ tags:
   - "honeynet-blogs"
   - "main-blog"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 I am very happy to announce the Honeynet Project Forensic Challenge 2010. The purpose of the Forensic Challenges is to take learning one step farther. Instead of having the Honeynet Project analyze attacks and share their findings, Forensic Challenges give the security community the opportunity to analyze attacks and [share their findings](https://honeynet.org/papers). In the end, individuals and organizations not only learn about threats, but also learn how to analyze them. Even better, individuals can access the write-ups from other individuals, and learn about new tools and techniques for analyzing attacks. Best of all, the attacks of the Forensic Challenge are attacks encountered in the wild, real hacks, provided by our members.
 

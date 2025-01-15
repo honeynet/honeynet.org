@@ -6,6 +6,7 @@ tags:
   - "heralding"
   - "honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Sometimes (actually, most times) you don’t need advanced deception technology, but rather just a simple tool to answer some simple questions. I was recently in that situation, and needed the answers to the following questions:
 

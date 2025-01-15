@@ -4,6 +4,7 @@ date: 2023-07-31
 authors: ["Lukas Rist"]
 tags: ["announcement"]
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 It has been almost 15 years since Lance [announced]({{< ref "blog/2008/08/12/our-new-website" >}}) our new web site on August 12th 2008. While you are already enjoying the pleasures of our now home, read on for a quick tour...
 

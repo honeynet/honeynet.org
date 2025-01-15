@@ -6,6 +6,7 @@ tags:
   - "honeybrid-gsoc-redirection"
 coverImage: "redirection_diagram_20090611.jpg"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 TCP was built to allow 2 hosts to exchange a stream of packets reliably. Honeybrid must add a third host to this operation when it decides to investigate further a connection. The keys for this process to work are: 1) a replay process that gets the high interaction honeypot to the same state than the low interaction honeypot; and 2) a forwarding process that translates not only IP addresses but also TCP sequence and acknowledgement numbers. Here is how things work in detail:
 

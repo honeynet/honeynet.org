@@ -5,6 +5,7 @@ date: "2009-07-13"
 tags: 
   - "project"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Our work mainly focuses on DOM simulation. I believe the following is the most important for deobfuscation, but we also do lot more so that our program can handle normal web pages. We will not list them here.
 

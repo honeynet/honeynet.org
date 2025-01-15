@@ -10,6 +10,7 @@ tags:
   - "report"
 coverImage: "preview.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **This is a contribute by HoneyNED chapter from the Netherlands about all their 2017 activities.**
 

@@ -12,6 +12,7 @@ tags:
   - "stix"
   - "taxii"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The team working on the ICS/SCADA honeypot [Conpot](http://conpot.org), just merged in a more mature support for [STIX](https://stix.mitre.org/) (Structured Threat Information eXpression) formatted reporting via [TAXII](https://taxii.mitre.org/) (Trusted Automated eXchange of Indicator Information) into the master branch on [Github](https://github.com/glastopf/conpot).  
 

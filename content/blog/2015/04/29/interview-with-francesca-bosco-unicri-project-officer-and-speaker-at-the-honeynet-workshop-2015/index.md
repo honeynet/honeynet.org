@@ -7,6 +7,7 @@ categories:
 tags: 
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Francesca Bosco earned a law degree in International Law and joined UNICRI in 2006 as a member of the Emerging Crimes Unit. She is responsible for cybercrime prevention projects, and in conjunction with key strategic partners, has developed new methodologies and strategies for researching and countering computer related crimes.
 

@@ -7,6 +7,7 @@ tags:
   - "gsoc"
   - "honeypot"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Hello, this initial blog post is used to introduce me and to provide a brief overview of [my GSoC Project](/gsoc/project8 "Glastopf GSoC Project").
 

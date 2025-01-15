@@ -10,6 +10,7 @@ tags:
   - "stavanger"
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 This year, the annual [Honeynet Project Workshop 2015](http://stavanger2015.honeynet.org/) event will be sponsored by Deutsche Telekom. In anticipation of the event, we did an exclusive interview with André Vorbach (IT-Security Expert) and Markus Schmall (Vice President IT Security) to find out how Deutsche Telekom is getting involved and what they see as the hot topics at this year’s workshop.
 

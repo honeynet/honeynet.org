@@ -6,6 +6,7 @@ tags:
   - "iteolih"
   - "python"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 As the plan is to embedd python as scripting language into the honeypot, I ran a benchmark on a testsuite. The 'testsuite' is a c core which accepts connections, and allows python to deal with the input. The protocol used for benchmarking is http, the service serves a non static html page.
 

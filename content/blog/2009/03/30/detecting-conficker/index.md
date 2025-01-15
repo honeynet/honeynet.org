@@ -9,6 +9,7 @@ tags:
   - "scanner"
   - "signature"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 As you know, bad things are going to happen on April 1st: people will be sending out emails to their friends, telling silly jokes and putting MTAs under a higher load. Besides that (but not quite that bad), Conficker will activate its domain name generation routine to contact command-and-control servers. We have been researching this piece of malware recently, with a focus on how to detect Conficker-infected machines. Felix and I had a discussion with Dan Kaminsky about the possibilities to actively detect Conficker and wrote a scanner for this task. Our proof-of-concept code is publicly available and [can be downloaded from here](http://iv.cs.uni-bonn.de/wg/cs/applications/containing-conficker/). The output looks like this:
 

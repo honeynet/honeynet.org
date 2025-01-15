@@ -10,6 +10,7 @@ tags:
   - "stavanger"
   - "workshop"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Per Thorsheim is the founder & main organizer of Passwordscon, the worlds first and only conference about passwords and digital authentication. After pwning a Fortune 500 in a day because of a lazy sysadmin using "Password" as his password 16 years ago, Per has been researching the security and usability of the one security technology that pretty much everyone uses every single day.
 

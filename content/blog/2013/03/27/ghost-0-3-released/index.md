@@ -5,6 +5,7 @@ date: "2013-03-27"
 tags: 
   - "ghost"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Today I've released version 0.3 of the Ghost USB honeypot, which introduces a lot of new features, including a completely rewritten core for better malware detection. The new version is available on the [project page](https://code.google.com/p/ghost-usb-honeypot/). This post outlines the major changes.
 

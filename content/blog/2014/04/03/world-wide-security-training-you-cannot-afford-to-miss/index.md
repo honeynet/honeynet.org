@@ -3,6 +3,7 @@ title: "World-wide security training you cannot afford to miss!"
 authors: ["Julia Yuchin Cheng"]
 date: "2014-04-03"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The Honeynet Project will offer 4 world-class training courses for the 2014 workshop. The topics are as follows:  
   

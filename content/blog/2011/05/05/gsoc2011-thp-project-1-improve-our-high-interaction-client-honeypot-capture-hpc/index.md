@@ -9,6 +9,7 @@ tags:
   - "capture-hpc"
   - "gsoc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Project Description:  
 [Proposed Capture-HPC Description](https://honeynet.org/gsoc/ideas#project1)  

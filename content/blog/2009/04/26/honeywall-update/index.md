@@ -5,6 +5,7 @@ date: "2009-04-26"
 tags: 
   - "honeywall"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Finally updated the roo-base rpm to point at http://yum.honeynet.org/roo/repo-1.4/ for the location of the yum repository.  Once I have access to the server, someone with an old deployment of roo 1.4, will be able to upgrade their honeywall as follows:
 

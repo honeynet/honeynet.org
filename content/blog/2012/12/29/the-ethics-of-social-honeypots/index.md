@@ -13,6 +13,7 @@ tags:
   - "social-networks"
   - "the-menlo-report"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 For the last few years, I have been participating in a Department of Homeland Security sponsored effort to develop principles and applications for the evaluation of information and communication technology (ICT) research. If you are not familiar with the Menlo Report, you can find a description in _Michael Bailey, David Dittrich, Erin Kenneally, and Douglas Maughan. [The Menlo Report](http://staff.washington.edu/dittrich/papers/menlo_report/menlo_report.pdf). Security & Privacy, IEEE, 10(2):71–75, March/April 2012._  
   

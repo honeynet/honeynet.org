@@ -5,6 +5,7 @@ date: "2009-06-03"
 tags: 
   - "project"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 There are of course more of them, but we only list which will bring  
 confusion to our code. Note that the current version is based on IE,  

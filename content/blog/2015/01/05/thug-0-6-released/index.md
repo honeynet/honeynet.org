@@ -6,6 +6,7 @@ tags:
   - "honeyclient"
   - "thug"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Thug 0.6 was released just a few hours ago. The most important change introduced during the 0.5 branch was a complete redesign of the logging infrastructure which is now completely modular. This makes adding (or removing) new logging modules extremely easy.  
   

@@ -5,6 +5,7 @@ date: "2009-07-24"
 tags: 
   - "report"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 **ORGANIZATION**
 

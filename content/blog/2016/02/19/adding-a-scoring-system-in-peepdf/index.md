@@ -9,6 +9,7 @@ tags:
   - "gsoc"
   - "peepdf"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 [peepdf](http://eternal-todo.com/tools/peepdf-pdf-analysis-tool) is a Python tool to explore PDF files in order to find out if the file can be harmful or not. The aim of this tool is to provide all the necessary components that a security researcher could need in a PDF analysis without using 3 or 4 tools to make all the tasks. With peepdf it's possible to see all the objects in the document showing the suspicious elements, supports the most used filters and encodings, it can parse different versions of a file, object streams and encrypted files. With the installation of [PyV8](http://code.google.com/p/pyv8/) and [Pylibemu](https://github.com/buffer/pylibemu) it provides Javascript and shellcode analysis wrappers too. Apart of this it is able to create new PDF files, modify existing ones and obfuscate them.
 

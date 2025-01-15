@@ -7,6 +7,7 @@ tags:
   - "ethics"
   - "takedown"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 On March 4, 2013, a contest was held at the Nullcon conference in Goa, India, to see who could take over a botnet. The Times of India reported that [the prize money was provided by an Indian government official](http://timesofindia.indiatimes.com/city/goa/Will-support-cyber-security-initiatives-CM/articleshow/18899132.cms) and was [awarded to the Garage4Hackers](https://www.facebook.com/photo.php?v=574303972588033&set=vb.138904662794635&type=2&theater) team. The co-founder of the Nullcon conference, Antriksh Shah, said "At Nullcon Goa 2013, for the first time in the world the government has come forward and announced a bounty prize of Rs 35,000 to whoever provides critical information on the command and control servers of a malware recently found in one of the government installations in India," and then tweeted, "Dawn of new infosec era. Govt of India announced (and actually paid) first ever bounty (Rs. 35 k) at nullcon to take down a c&c." When asked whether this was a live botnet, or a simulated botnet held within a safe and isolated virtual network where no harm could result, [Nullcon](https://twitter.com/nullcon) tweeted, "it was a live campaign up since a couple of yrs and the malware was found in a gov. Infra."  
   

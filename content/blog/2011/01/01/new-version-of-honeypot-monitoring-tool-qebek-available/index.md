@@ -7,6 +7,7 @@ categories:
 tags: 
   - "qebek"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Folks, Chengyu Song has been busy the last few weeks and made some upgrades to the honeypot monitoring tool Qebek. He has ported it from QEMU 0.9.1 to QEMU 0.13.0. As a result, Qebek's performance (boot time) is better and it no longer requires gcc 3.4. You can check it out  
 

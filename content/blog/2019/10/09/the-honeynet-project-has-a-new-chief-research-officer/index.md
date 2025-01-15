@@ -9,6 +9,7 @@ tags:
   - "featured"
 coverImage: "logo-thp-100.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 The Honeynet Project recently appointed a new Chief Research Officer, **Tamas Lengyel.**  We want to thank again Lukas Rist for leading and growing our research over the past years, and welcome Tamas that accepted the role.
 

@@ -5,6 +5,7 @@ date: "2010-08-10"
 tags: 
   - "phoneyc"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 A few weeks ago I started reviewing the PHoneyC DOM emulation code and realized it was turning to be hard to maintain and debug due to a huge amount of undocumented (and sometimes awful) hacks. For this reason I decided it was time to patch (and sometimes rewrite from scratch) such code. These posts will describe how the new DOM emulation code will work. The patch is not available right now since I'm testing the code but plans exists to commit it in the [PHoneyC SVN](http://code.google.com/p/phoneyc/) in the next days.  
   

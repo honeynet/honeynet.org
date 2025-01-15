@@ -8,6 +8,7 @@ tags:
   - "gsoc"
 coverImage: "gsoc2013_accepted_stats_1.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 After a pretty hectic few weeks of student application review, setting and scoring coding challenges, and assessing proposals, mentoring organizations participating in [GSoC 2013](http://www.google-melange.com/gsoc/homepage/google/gsoc2013) had to confirm their student slot allocations and final short list of preferred candidates by [Friday May 24th at 19:00 UTC](https://google-melange.appspot.com/gsoc/events/google/gsoc2013). This is always one of the most difficult periods for us, with many tough decisions required trying to balance the best mix of students/projects/mentors into a limited number of student slots. It is always less that we would ideally like, making it impossible to keep everyone happy, and often pretty challenging. This year was no different, with a lot of late nights and last minute debate.  
   

@@ -11,6 +11,7 @@ tags:
   - "network-traffic"
   - "protocols"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Although it is still time for the official coding period start at GSoC 2012, i started to make my commits for the Network Analyzer project . The output of the project will be a web based traffic analyzer. It is aimed to let people upload their files from web interface and see the results. Instead of the detail header information, network analyzer will be focusing on applicaiton level data for display. One will be able to find answer to questions like what is the response HTML, is there any malicous javascript files at the header of the HTML file, is there any binary attachment at the sent mail, is it malicious, etc. The project is aimed to display these results by using visualization. The visualization details can be found at the project site:  
   

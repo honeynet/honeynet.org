@@ -4,6 +4,7 @@ authors: ["Federico Foschini"]
 date: "2021-09-07"
 tags: ["gsoc", "pcap"]
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 Our [GSoC](https://summerofcode.withgoogle.com/) student [Hariom Chaturved](https://github.com/hariomch/) was working for three months on the network capture analysis tool [PcapMonkey](https://github.com/certego/PcapMonkey), specifically introducing live capture, testing architecture, and the introduction of zkg support.
 

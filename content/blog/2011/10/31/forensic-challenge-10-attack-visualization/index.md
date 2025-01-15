@@ -8,6 +8,7 @@ tags:
   - "challenge"
   - "forensic-challenge"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 I am pleased to announce the next forensic challenge: [Forensic Challenge 10 - "Attack Visualization"](https://www.honeynet.org/node/781).  
 

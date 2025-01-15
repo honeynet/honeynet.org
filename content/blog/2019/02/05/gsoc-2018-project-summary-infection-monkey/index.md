@@ -13,6 +13,7 @@ tags:
   - "student"
 coverImage: "infectionmonkey.png"
 ---
+{{<figure src="images/banner.png" alt="Banner" width="50%">}}
 
 ### The Infection-Monkey team for GSoC 2018 wrote this post as a project summary of their GSoC 2018 experience
 
