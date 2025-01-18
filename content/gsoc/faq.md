@@ -3,10 +3,10 @@ title: "Frequently Asked Questions"
 ---
 
 - **Where can I find the list of project ideas for this year?**  
-Our project ideas can be found [here](https://www.honeynet.org/gsoc/gsoc-2024/google-summer-of-code-2024-project-ideas/)
+Our project ideas can be found [here](https://www.honeynet.org/gsoc/gsoc-2025/google-summer-of-code-2025-project-ideas/)
 
 - **How do I get started?**  
-Read through the list of [ideas](https://www.honeynet.org/gsoc/gsoc-2024/google-summer-of-code-2024-project-ideas/) and identify the project ideas you find interesting. Play around with our tools! Install the project, use it. Have a look at the issue tracker.
+Read through the list of [ideas](https://www.honeynet.org/gsoc/gsoc-2025/google-summer-of-code-2025-project-ideas/) and identify the project ideas you find interesting. Play around with our tools! Install the project, use it. Have a look at the issue tracker.
 
 - **How do I start contributing to a project?**  
 Often projects have issues tagged which are considered good starting points. Updating documentation is often a low barrier start and gets you familiar with the process of contributing to an open source project.
