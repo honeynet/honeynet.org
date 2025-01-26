@@ -16,7 +16,7 @@ DICOMHawk is a powerful and efficient honeypot for DICOM servers, designed to at
 - **Web Interface**: A user-friendly web interface to view server status, active associations, and logs.
 - **Custom Handlers**: Easily extendable to support additional DICOM services and custom logging or handling requirements.
 
-  ## GSoC 2025
+## GSoC 2025
 
 - **DICOM Server Simulation**: 
 - **Logging**: 
