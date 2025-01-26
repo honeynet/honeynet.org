@@ -11,7 +11,7 @@ on:
 
 jobs:
   deploy:
-    uses: mhils/workflows/.github/workflows/gh-pages-hugo.yml@v16
+    uses: mhils/workflows/.github/workflows/gh-pages-hugo.yml@v15
     with:
       deploy: ${{ github.ref == 'refs/heads/main' }}
     permissions:
