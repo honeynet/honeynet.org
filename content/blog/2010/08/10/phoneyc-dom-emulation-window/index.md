@@ -8,10 +8,9 @@ tags:
 
 A few weeks ago I started reviewing the PHoneyC DOM emulation code and realized it was turning to be hard to maintain and debug due to a huge amount of undocumented (and sometimes awful) hacks. For this reason I decided it was time to patch (and sometimes rewrite from scratch) such code. These posts will describe how the new DOM emulation code will work. The patch is not available right now since I'm testing the code but plans exists to commit it in the [PHoneyC SVN](http://code.google.com/p/phoneyc/) in the next days.  
   
-In this first post we will take a look at the Window object in DOM/Window.py. During object inizialization, the following code is executed.  
+In this first post we will take a look at the Window object in DOM/Window.py. During object initialization, the following code is executed.  
   
-`  
-  
+```
 156 def __init_context(self):  
 157 """  
 158 Spidermonkey Context initialization.  
@@ -24,12 +23,11 @@ In this first post we will take a look at the Window object in DOM/Window.py. Du
 165 self.__init_properties(document)  
 166 self.__init_methods()  
 167 self.__finalize_context()  
-  
-`  
+```
   
 Let's go into further details. First of all Window object properties are initialized through the \_\_init\_properties method.  
   
-`  
+```
 181 def __init_properties(self, document):  
 182 self.__dict__['__cx'].add_global('window', self)  
 183 self.__dict__['__cx'].add_global('self' , self)  
@@ -76,22 +74,22 @@ Let's go into further details. First of all Window object properties are initial
 224  
 225 for prop in properties:  
 226 self.__dict__['__cx'].execute("window.%s = undefined;" % (prop, ))  
-`  
+```
   
 The code should be straightforward to understand. The idea beyond it is really simple. Simply stated this code allows Python objects' variables and methods to be accessible from JS. Let's move to most interesting stuff. Following the \_\_init\_methods method is called.  
   
-`  
+```
 228 def __init_methods(self):  
 229 for attr in dir(self):  
 230 if attr.startswith('_Window__window'):  
 231 p = attr.split('_Window__window_')[1]  
 232 self.__dict__['__cx'].add_global(p, getattr(self, attr))  
 233 self.__dict__['__cx'].execute("window.%s = %s;" % (p, p, ))  
-`  
+```
   
 Not so easy to understand? Let's take a look to the definition of a method.  
   
-`  
+```
 322 def __window_back(self):  
 323 """  
 324 Returns the window to the previous item in the history.  
@@ -104,7 +102,7 @@ Not so easy to understand? Let's take a look to the definition of a method.
 331 None.  
 332 """  
 333 pass  
-`  
+```
   
 This is a private class method since its name starts with \_\_. "If you try to call a private method, Python will raise a slightly misleading exception, saying that the method does not exist. Of course it does exist, but it's private, so it's not accessible outside the class. Strictly speaking, private methods are accessible outside their class, just not easily accessible. Nothing in Python is truly private; internally, the names of private methods and attributes are mangled and unmangled on the fly to make them seem inaccessible by their given names." (taken from [Dive Into Python](http://diveintopython.org)).  
   
@@ -112,7 +110,7 @@ We can access the \_\_window\_back method of the Window class by the name \_Wind
   
 The last step happens in \_\_finalize\_context method.  
   
-`  
+```
 169 def __finalize_context(self):  
 170 self.__dict__['__cx'].execute("Event = function(){}")  
 171 self.__dict__['__cx'].execute("function CollectGarbage() {};")  
@@ -124,11 +122,11 @@ The last step happens in \_\_finalize\_context method.
 177 'tagName': dataetc.classtotag(clsname),  
 178 'parser' : None}  
 179 self.__dict__['__cx'].add_global(clsname, DOMObjectFactory(clsname, inits))  
-`  
+```
   
 The most interesting code is in lines 175-179. First of all let's take a look at the DOMObjectFactory code (DOM/ClassFactory.py) which is a genuine Python hack.  
   
-`  
+```
 3 class DynamicDOMObject(DOMObject):  
 4 def __init__(self):  
 5 self.__dict__.update(self.inits)  
@@ -136,10 +134,11 @@ The most interesting code is in lines 175-179. First of all let's take a look at
 7  
 8 def DOMObjectFactory(name, initializers):  
 9 return type(name, (DynamicDOMObject,), {'inits' : initializers})  
-`  
+```
   
 After reading Python documentation it should be easy to understand how this code works and how it's able to dynamically add new DOM objects to the context.  
-  
+
+```
 **type**(_name_, _bases_, _dict_)  
   
 _Return a new type object. This is essentially a dynamic form of the class statement. The name string is the class name and becomes the \_\_name\_\_ attribute; the bases tuple itemizes the base classes and becomes the \_\_bases\_\_ attribute; and the dict dictionary is the namespace containing definitions for class body and becomes the \_\_dict\_\_ attribute. For example, the following two statements create identical type objects:  
@@ -147,11 +146,11 @@ _Return a new type object. This is essentially a dynamic form of the class state
 ... a = 1  
 ...  
 \>>> X = type('X', (object,), dict(a=1))  
-_  
+```
   
-What about the Window event handlers? They are handled with a different mechanism which can be fully understood just by analyzing how the new DOM emulation code preparses the pages deferring code execution until the last possible moment. I'll analyze such feature in a future post in greater detail. Right now what you have to know is that if the handler for the event is set, the Window attribute _on<event>_ is set and contains the handler code. Once you understand it, the following code in DOM/DOM.py used for event handling should be easy to understand.  
+What about the Window event handlers? They are handled with a different mechanism which can be fully understood just by analyzing how the new DOM emulation code preparses the pages deferring code execution until the last possible moment. I'll analyze such feature in a future post in greater detail. Right now what you have to know is that if the handler for the event is set, the Window attribute `_on<event>_` is set and contains the handler code. Once you understand it, the following code in DOM/DOM.py used for event handling should be easy to understand.  
   
-`  
+```
 171 def get_event_func(self, name, f):  
 172 begin = str(f).index('{') + 1  
 173 s = str(f)[begin:].split('}')  
@@ -202,6 +201,6 @@ What about the Window event handlers? They are handled with a different mechanis
 218 self.event_handler(window, 'onpageshow' , window.onpageshow)  
 219 self.event_handler(window, 'onpagehide' , window.onpagehide)  
 220 window.__dict__['__warning'] = True  
-`  
+```
   
 ([Original post](http://buffer.antifork.org/blog/2010/08/10/phoneyc-dom-emulation-window/))

@@ -45,8 +45,6 @@ We have a pretty detailed setup guide for you here [ARTDroid-tutorial](https://
 
 You can look at the following [ARTDroid-Demo](https://vimeo.com/138221439):
 
-<iframe src="https://player.vimeo.com/video/138221439" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen="" allowfullscreen=""></iframe>
-
 For any questions or suggestions, please go to our Google Group: [ARTDroid-Google-Group-Q&A](https://groups.google.com/forum/#!forum/artdroid)
 
 **Acknowledgements**  

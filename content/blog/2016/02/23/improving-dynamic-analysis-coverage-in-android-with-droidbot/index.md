@@ -33,8 +33,6 @@ After starting the target app, DroidBot interacts with it to trigger all possibl
 2. **Key presses**. Keys such as \`HOME\`, \`MENU\`, \`A\`, \`B\`, \`C\` are another set of important user inputs. The keys have different meanings on different UI screens based on the key event handlers implemented in different apps. There are also interfaces for sending key event using ADB.  
 3. **Intents**. Unlike gestures and keys which are direct ways of interacting with apps, Intents are indirect. Normally Intents are sent from the Android framework or other apps, and the target app handles the Intents and perform the corresponding actions. For example, when the device is booted up, a Intent named \`ACTION\_BOOT\_COMPLETED\` is sent out, and if the target app registered a broadcast receiver listening the Intent, it would be waken up to handle the Intent. DroidBot gets the list of registered receivers of the target app using [Androguard](http://code.google.com/p/androguard/), and sends the Intents when the app is running.
 
-<iframe src="https://www.youtube.com/embed/jtvXZzeTbVE" frameborder="0" align="middle" width="600" height="495"></iframe>
-
 The goal of DroidBot is to execute as much code as possible by sending events. A common metric to measure the amount of executed code is \*coverage\*, which can be described in terms of lines, paths, methods etc. Existing tools that measure the coverage require access to the source code or instrumenting the app, but we don't have the source code, and we would like to avoid instrumentation due to its instability (many apps will crash after instrumentation). Therefore, we use the number of sensitive operations as a metric instead.  
    
 For the dynamic analysis, our tool relies on [DroidBox](https://github.com/pjlantz/droidbox) , a well-known sandbox for Android apps which integrates the taint tracking system [TaintDroid](http://www.appanalysis.org/)  and log the sensitive operations at runtime. The more logs generated means the more sensitive operations are triggered.  
@@ -52,9 +50,11 @@ Here we can see the comparison of the amount of sensitive behaviors triggered by
  This second picture shows the comparison of the speed of Monkey and DroidBot to trigger sensitive behaviors. We can see a significant growth of log count triggered by the dynamic policy of DroidBot after 100s, which is because it entered the malicious state of the app which Monkey could not enter.
 
 For more details on our evaluation you can check our [DroidBot blog](http://lynnlyc.github.io/droidbot/) to see the evaluation reports and if you want to give DroidBot a try, you can easily get it on the [DroidBot githubpage](https://github.com/lynnlyc/droidbot) for detailed setup instructions. If you know Docker there is also an one-liner command to run it without further setup:  
-   
+
+```
 docker run -it --rm -v ~/mobileSamples:/samples:ro -v ~/mobileSamples/out:/samples/out honeynet/droidbot /samples/mySample.apk  
-   
+```
+
 Pull requests are also welcome!  
    
 Finally I would like to thank my GSoC mentors Hugo Gascon, Hanno Lemoine, and other cool guys from the Honeynet Project, I learned a lot from them. Also I would like to thank the open source projects [AndroidViewClient](https://github.com/dtmilano/AndroidViewClient)  and [Androguard](http://code.google.com/p/androguard/) that DroidBot is based on.
