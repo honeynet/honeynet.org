@@ -31,6 +31,9 @@ baseName = "../feed/index"
     style = 'monokailight'
     tabWidth = 4
 
+[security.http]
+mediaTypes = ['image/gif']
+
 [permalinks]
   blog = '/:year/:month/:day/:filename/'
   challenges = '/challenges/:filename/'
