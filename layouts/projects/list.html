@@ -22,8 +22,11 @@
                 <!-- token is a classic token (without expiry) from a bot account with no privileges, fine to leak. -->
                 <!-- obfuscated so that GitHub does not revoke it immediately. -->
                 {{- $auth := printf "Bearer ghp_%s%s" "n0V6Jwhc32WEl0Zv91m" "DAxQKbCPcDy1sDBg3" }}
-                {{- $repo := getJSON (printf "https://api.github.com/repos/%s" .Params.github) (dict "Authorization" $auth) }}
-                {{- $events := getJSON (printf "https://api.github.com/repos/%s/events?per_page=100" .Params.github) (dict "Authorization" $auth) }}
+                {{- $opts := dict
+                    "headers" (dict "Authorization" $auth)
+                }}
+                {{- $repo := resources.GetRemote (printf "https://api.github.com/repos/%s" .Params.github) $opts | transform.Unmarshal }}
+                {{- $events := resources.GetRemote (printf "https://api.github.com/repos/%s/events?per_page=100" .Params.github) $opts | transform.Unmarshal }}
                 {{ $info = merge $repo $info }}
                 <!-- https://docs.github.com/en/webhooks-and-events/events/github-event-types -->
                 {{- $filtered_events := slice }}
@@ -67,11 +70,10 @@
         <div class="mb-3">
             <div class="row gx-2 align-items-center mb-1">
                 <div class="col-auto">
-                    {{ $image := resources.GetRemote .actor.avatar_url }}
+                    {{ $image := resources.GetRemote (printf "%s?size=80" .actor.avatar_url)  }}
                     {{ if $image }}
-                        {{ $image := $image.Resize "80x" }}
                         <a href="https://github.com/{{ .actor.display_login }}">
-                        <img class="rounded-circle" width="40" alt="@{{ .actor.display_login }}" src="{{ $image.RelPermalink }}">
+                            <img class="rounded-circle" width="40" alt="@{{ .actor.display_login }}" src="{{ $image.RelPermalink }}">
                         </a>
                     {{ end }}
                 </div>
