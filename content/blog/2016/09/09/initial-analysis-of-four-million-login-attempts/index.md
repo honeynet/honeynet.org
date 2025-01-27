@@ -30,15 +30,42 @@ Since Heralding only supports 6 protocols (8 if you include ssl wrapped http and
 
 As expected the two most targeted protocols was SSH and Telnet, these two protocols combined saw around 93% of all brute force activity. More surprisingly it was found that SMTP and POP3 only saw around 7% of all activity, I expected the numbers for email protocols would be higher, but maybe SMTP relays sells too cheap to be worth the hassle?
 
-<table><caption>Attacks per protocol</caption><tbody><tr><th>Protocol</th><th>Attempts</th><th>Percentage</th></tr><tr><td>SSH</td><td>2717874</td><td>62%</td></tr><tr><td>Telnet</td><td>1353050</td><td>31%</td></tr><tr><td>SMTP</td><td>196601</td><td>5%</td></tr><tr><td>POP3</td><td>83420</td><td>2%</td></tr><tr><td>HTTP</td><td>17990</td><td>&lt;1%</td></tr><tr><td>FTP</td><td>194</td><td>&lt;1%</td></tr><tr><td>HTTPS</td><td>20</td><td>&lt;1%</td></tr><tr><td>POP3S</td><td>0</td><td>0</td></tr></tbody></table>
+**Attacks per protocol**
+
+| Protocol | Attempts | Percentage |
+|----------|----------|------------|
+| SSH      | 2,717,874| 62%        |
+| Telnet   | 1,353,050| 31%        |
+| SMTP     | 196,601  | 5%         |
+| POP3     | 83,420   | 2%         |
+| HTTP     | 17,990   | <1%        |
+| FTP      | 194      | <1%        |
+| HTTPS    | 20       | <1%        |
+| POP3S    | 0        | 0%         |
 
 **Which username and password did he use?**
 
 A total of 11685 usernames and 128001 was collected during the period. Not surprisingly the username root comes in at a first place with 2955040 login attempts. More surprising the second most attempted password was _/bin/busybox MIRAI_, this is most definitely not an password attempt - but looks more like trying to execute some known malware. Never the less this was attempted 106969 times, it would be interesting to look at the timing of these - maybe it can be correlated with OSINT on this specific malware. Update: For further information in regards to MIRAI, check this [article](http://blog.malwaremustdie.org/2016/08/mmd-0056-2016-linuxmirai-just.html?m=1) by [MalwareMustDie](http://malwaremustdie.org).
 
-<table><caption>Top 5 username</caption><tbody><tr><th>Username</th><th>Attempts</th></tr><tr><td>root</td><td>2955040</td></tr><tr><td>admin</td><td>300637</td></tr><tr><td>shell</td><td>147641</td></tr><tr><td>support</td><td>114015</td></tr><tr><td>sh</td><td>107741</td></tr></tbody></table>
+**Top 5 usernames**
 
-<table><caption>Top 5 passwords</caption><tbody><tr><th>Password</th><th>Attempts</th></tr><tr><td>enable</td><td>107361</td></tr><tr><td>/bin/busybox MIRAI</td><td>106969</td></tr><tr><td>12345</td><td>105879</td></tr><tr><td>admin</td><td>101248</td></tr><tr><td>1234</td><td>89741</td></tr></tbody></table>
+| Username | Attempts |
+|----------|----------|
+| root     | 2,955,040|
+| admin    | 300,637  |
+| shell    | 147,641  |
+| support  | 114,015  |
+| sh       | 107,741  |
+
+**Top 5 passwords**
+
+| Password           | Attempts |
+|--------------------|----------|
+| enable             | 107,361  |
+| /bin/busybox MIRAI | 106,969  |
+| 12345              | 105,879  |
+| admin              | 101,248  |
+| 1234               | 89,741   |
 
 A curated list of all attempted passwords can be found [here](https://raw.githubusercontent.com/johnnykv/various/master/stripped_passwords.txt) and a list of usernames [here](https://raw.githubusercontent.com/johnnykv/various/master/stripped_usernames.txt).
 

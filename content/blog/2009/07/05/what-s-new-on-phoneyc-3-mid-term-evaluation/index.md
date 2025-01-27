@@ -14,7 +14,11 @@ tags:
 
 ### Mid-term Report on [PHoneyC](http://code.google.com/p/phoneyc/) GSoC project 1
 
-<table class="docinfo" border="0" frame="void" rules="none"><colgroup><col class="docinfo-name"></colgroup><colgroup><col class="docinfo-content"></colgroup><tbody><tr class="field"><th class="docinfo-name">Info:</th><td class="field-body">See &lt;<a class="reference external" href="/gsoc/project1">https://www.honeynet.org/gsoc/project1</a>&gt; for<br>project details.</td></tr><tr><th class="docinfo-name">Author:</th><td>Zhijie Chen (Joyan) &lt;<a class="reference external" href="mailto:czj.pub@gmail.com">czj.pub@gmail.com</a>&gt;</td></tr><tr class="field"><th class="docinfo-name">Mentor:</th><td class="field-body">Jose Nazario</td></tr><tr class="field"><th class="docinfo-name">Description:</th><td class="field-body">Mid-term Report on <a class="reference external" href="http://code.google.com/p/phoneyc/">PHoneyC</a> GSoC project 1. This report<br>describes what I have done on the PHoneyC's libemu integration<br>for shellcode and heapspray detection during the first half of<br>the GSoC. Till now, the main ideas on this feature has been<br>fast-implemented (actually I mean poor coding style) and the<br>whole flow works well, with some code rewriting and performance<br>optimization needed in the future.</td></tr></tbody></table>
+| Info        | See [https://www.honeynet.org/gsoc/project1](https://www.honeynet.org/gsoc/project1) for project details. |
+|-------------|----------------------------------------------------------------------------------------------------------|
+| Author      | Zhijie Chen (Joyan) [czj.pub@gmail.com](mailto:czj.pub@gmail.com)                                         |
+| Mentor      | Jose Nazario                                                                                             |
+| Description | Mid-term Report on [PHoneyC](http://code.google.com/p/phoneyc/) GSoC project 1. This report describes what I have done on the PHoneyC's libemu integration for shellcode and heapspray detection during the first half of the GSoC. Till now, the main ideas on this feature have been fast-implemented (actually I mean poor coding style) and the whole flow works well, with some code rewriting and performance optimization needed in the future. |
 
 ### **Introduction**
 
@@ -45,20 +49,19 @@ techniques.
 
 ### **My Approach**
 
-
 My approach to detection shellcode and heapspray can be simply  
 described as:
 
 1. Firstly I have modified the python-spidermonkey v0.0.1a  
 (written in Pyrex) to let the Javascript Virtual Machine  
 interrupted on each assignment.
-2. Then I check if the r-value of this assignment is a string.  
+1. Then I check if the r-value of this assignment is a string.  
 If so, I use libemu to check for shellcodes in this string. If  
 there are shellcode within the string, it will append an alert  
 message into the alert list.
-3. A series of shellcode alerts relating to one variable will  
+1. A series of shellcode alerts relating to one variable will  
 be summarized into a potential heapspray alert.
-4. After the execution of the Javascripts, phoneyc will  
+1. After the execution of the Javascripts, phoneyc will  
 analyze the shellcodes for mal-download URLs and other  
 information using libemu.
 

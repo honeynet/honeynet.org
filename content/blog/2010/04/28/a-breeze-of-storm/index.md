@@ -9,7 +9,7 @@ tags:
   - "stormfucker"
 ---
 
-Today, Steven Adair from Shadowserver imformed us about a new piece of malware that looks like a new version of the infamous Storm Worm. Storm was one of the first serious peer-to-peer botnets, it was sending out spam for more than two years until its decline in late 2008. Mark Schloesser, Tillmann Werner, Georg Wicherski, and I [Stormfucker](http://www.h-online.com/security/news/item/Storm-Worm-botnet-cracked-wide-open-739607.html>did some work on how to take down Storm</a> back then, so the rumors about a new version caught our interest. Mark, Tillmann, and me started to take the sample apart, and it looks very much like Storm indeed. It even uses the same configuration file, stored under C:\WINDOWS\herjek.config (the same filename as used by the last Storm version), but as the command-and-control channel has been replaced with an HTTP based version, there is no peer list included anymmore. When we looked at it, just contained two lines:
+Today, Steven Adair from Shadowserver imformed us about a new piece of malware that looks like a new version of the infamous Storm Worm. Storm was one of the first serious peer-to-peer botnets, it was sending out spam for more than two years until its decline in late 2008. Mark Schloesser, Tillmann Werner, Georg Wicherski, and I [Stormfucker](http://www.h-online.com/security/news/item/Storm-Worm-botnet-cracked-wide-open-739607.html> did some work on how to take down Storm back then, so the rumors about a new version caught our interest. Mark, Tillmann, and me started to take the sample apart, and it looks very much like Storm indeed. It even uses the same configuration file, stored under C:\WINDOWS\herjek.config (the same filename as used by the last Storm version), but as the command-and-control channel has been replaced with an HTTP based version, there is no peer list included anymore. When we looked at it, just contained two lines:
 
 ```
 [config]
@@ -17,8 +17,6 @@ ID=285220200
 ```
 
 This ID is also stored in the registry under HKLM/SOFTWARE/Microsoft/Windows/ITStorage/Find, together with a mutex name that prevents execution of multiple instances of the malware on one machine.
-
-[image:538 align=center node=538 size=original]
 
 Just like Storm, this new malware decompresses itself into a heap section and jumps to the unpacked code. We just dumped the heap section to a file and fixed the imports to get an executable we can analyze conveniently.
 
