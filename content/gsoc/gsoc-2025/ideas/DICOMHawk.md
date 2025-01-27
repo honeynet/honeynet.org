@@ -3,7 +3,7 @@ title: "Improving the DICOMHawk medical honeypot"
 date: "2025-01-23"
 project_url: "https://github.com/gtheodoridis/DICOMHawk"
 hours: "175 or 350 hours"
-mentor: "Emmanouil Vasilomanolakis, Karina Elzer"
+mentor: "Emmanouil Vasilomanolakis, Karina Elzer, Georgios Theodoridis"
 project_type: "Improving an existing tool"
 ---
 
