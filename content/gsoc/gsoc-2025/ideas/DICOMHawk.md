@@ -18,7 +18,16 @@ DICOMHawk is a powerful and efficient honeypot for DICOM servers, designed to at
 
 ## GSoC 2025
 
-- **DICOM Server Simulation**: 
-- **Logging**: 
-- **Automization**: 
-- **Documentation**: 
+## Outcomes
+- Examine a potential integration with [TPot](https://github.com/telekom-security/tpotce)
+- Improve Docker usage (Security & Automation)
+- Improve logging capabilities
+- Integrate CanaryToken Webhook
+- Potentially add additional protocol
+- Documentation of the Implementations
+- Testing
+   
+## Skills Preferred
+- Basic Linux/Command Line skills
+- Docker 
+- Python 
