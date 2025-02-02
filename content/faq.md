@@ -4,7 +4,7 @@ title: "Frequently Asked Questions"
 
 ##### 1. “I am a student and want to contribute to your Google Summer of Code projects. What should I do?”
 
-Please refrain from contacting us via Email. Rather please join our GSoC Slack channel at https://gsoc-slack.honeynet.org/ and ask your questions there.
+Please refrain from contacting us via Email. Rather please join our [Discord](https://discord.gg/68B8Ru5fSU) and ask your questions there.
 
 ##### 2. How do I contribute to the development of a Honeynet Project tool?
 
