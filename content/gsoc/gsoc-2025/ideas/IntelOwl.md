@@ -15,6 +15,6 @@ This project aims to increment the number of available Analyzers and adjusting t
 
 Plus, we would like this project to carry additional non-Analyzer related work, like the addition of new Ingestors or Playbooks for instance, which are pretty similar components.
 
-Another optional and very different task could be to add support for [Podman](https://podman.io/) for the overall project as an alternative of Docker. This would require working more with the documentation and the core parts of the projects.
+Another optional and very different task could be to add support for [Podman](https://github.com/intelowlproject/IntelOwl/issues/2393) for the overall project as an alternative of Docker. This would require working more with the documentation and the core parts of the projects.
 
 The ideal candidate for this project is someone who understand how IntelOwl's framework works and already tried to implement some Analyzers.
