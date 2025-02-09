@@ -44,12 +44,10 @@ The following figure runs _ffdomainip_ external command to explore fast-fluxing 
   
 **Attack Graph 1 : Domains and IP addresses connected to malware**  
 This forced-based attack graph shows the comprehensive malicious hostname and resolved IPs relationships connected to malware MD5. 
+
 - Central red dot: the circle means cuckoo reports.
-  
 - Green dot: Malware samples MD5
-  
 - Black dot: Malcious hostname extracting from cuckoo reports
-  
 - Dark red dot: Resolved IPs or fast-flux IPs by ffdomain external module
   
 The most important we did in this graph is to make nodes unique. It helps us easily find the highly-connected node called it "weak point". The weak point is the domains or IP addresses are connected to lots of malwares.  
@@ -61,11 +59,10 @@ It is quite interesting when observing this graph. We found that different shape
 ![Observations](images/observation1.jpg)  
   
 **Attack Graph 2 :Thug\_hopping: Malicious websites interlinks**  
-This graph is to display the interlinks from landing site, hopping site to malware downloading.  
+This graph is to display the interlinks from landing site, hopping site to malware downloading.
+
 - Green dot: landing site detected by thug
-  
 - Black dot: hopping site (referer URL from thug.events)
-  
 - Dark blue dot: malware MD5
   
 ![Malicious website interlinks](images/attack2.jpg)  
@@ -76,7 +73,7 @@ From observing the graph, some thoughts come in my mind. This graph could help s
   
 **Attack Graph 3 : By Country: Malicious Activities on selected country**  
 This graph displays malicious activities related to selected country on specific time duration.  
-Malicious activities include (1) malicious IPs (sites): The IP address on selected country are used to host malicious pages or malwares. (2) malicious hostnames: Analyzed from malware samples using Cuckoo sandboxing. We also use node-link tree to show malicious activities for each IP address.  
+Malicious activities include (1)malicious IPs (sites): The IP address on selected country are used to host malicious pages or malwares. (2) malicious hostnames: Analyzed from malware samples using Cuckoo sandboxing. We also use node-link tree to show malicious activities for each IP address.  
   
 ![Malicious Activities on selected country](images/attack31.jpg)  
 ![Malicious Activities on selected country](images/attack32.jpg)  

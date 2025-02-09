@@ -27,11 +27,7 @@ As we now have a good basis for collecting the data, we created a docker compose
 
 Image 1: Honeypot activity of the last 3 months. Every color is a different honeypot
 
- 
-
 Sometimes some of them stopped unexpectedly as the data shows. Currently we restart the  honeypots manually, the idea is to make this automatic soon. We are being informed that a sensor is down via an alert sent from Splunk to our Slack channel, as seen in image 2.
-
- 
 
 ![](https://lh6.googleusercontent.com/Wx28FNQAvvEfcB8qMRnfARAz4XWEaryHVnrklLJ0tLu5np7kLsA4QL1vhC33ANndi0mDamGrmGkSe1NrN_bkn4wHDCS34SoznsDtvkZl-hFuxesaA_GRrHCeuUOmR7tO-b5oUYXG)
 
@@ -53,13 +49,9 @@ Image 5: Scanning location overview of the last 30 days
 
 Lastly, we are grouping together scans by hashing the commands and listing the different countries, IP’s and via lookup which ISP the scanning IP belongs to.
 
- 
-
 ![](https://lh4.googleusercontent.com/K7EQEXy90T1Y72hxxLfSZC6hK2s-kYiQ7CpIdFmDDCIQ2yCqean3CJNTDzt4Pragem5DoY_r0Mud54iItZLrMdN-bTJ2zojBR90LZxfvdCzAFghERn2zj45wCsDBr-uUmqZy8cbS)
 
 Image 6: Scan correlations
-
- 
 
 Other projects
 

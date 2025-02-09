@@ -6,7 +6,6 @@ categories:
   - "encryption"
 tags: 
   - "libemu"
-  - "release"
   - "shellcode"
 ---
 
@@ -16,15 +15,12 @@ _[libemu](http://libemu.mwcollect.org "libemu download on sourceforge") is a sma
 
 This post is split into four parts:
 
-- - Practical libemu usecase, showing how it executes shellcode and which information we get from it
+- Practical libemu usecase, showing how it executes shellcode and which information we get from it
+- Explanation of libemu and how it detects shellcode
+- High level shellcode profiling and pre-requirements for this step
+- API call hooking internals
 
-- - Explanation of libemu and how it detects shellcode
-
-- - High level shellcode profiling and pre-requirements for this step
-
-- - API call hooking internals
-
-### example
+## Example
 
 #### the input shellcode
 
@@ -34,13 +30,15 @@ The shellcode was created using metasploit 3, it is a windows bindshell decrypte
 
 **sctest** is a command line tool shipped with libemu allowing to test streams for shellcode. We use `/opt/libemu/bin/sctest -s 100000 -S -g < the_test_shellcode.bin` to check our created buffer for shellcode.
 
-- - \-s 100000 - execute at max 100000 instructions
+- -s 100000 - execute at max 100000 instructions
+- -S - read from stdin
+- -g - use GetPC to detect shellcode start
 
-- - \-S - read from stdin
-
-- - \-g - use GetPC to detect shellcode start
-
-The result is: `/opt/libemu/bin/sctest -s 100000 -S -g < the_test_shellcode.bin verbose = 0 success offset = 0x00001000 stepcount 100000 HMODULE LoadLibraryA ( LPCTSTR lpFileName = 0x0012fe84 => = "ws2_32"; ) = 0x71a10000; int WSAStartup ( WORD wVersionRequested = 2; LPWSADATA lpWSAData = 1244280; ) = 0; SOCKET WSASocket ( int af = 2; int type = 1; int protocol = 0; LPWSAPROTOCOL_INFO lpProtocolInfo = 0; GROUP g = 0; DWORD dwFlags = 0; ) = 66; int bind ( SOCKET s = 66; struct sockaddr_in * name = 0x0012fe70 => struct = { short sin_family = 2; unsigned short sin_port = 23569 (port=4444); struct in_addr sin_addr = { unsigned long s_addr = 0 (host=0.0.0.0); }; char sin_zero = " "; }; int namelen = 16; ) = 0; int listen ( SOCKET s = 66; int backlog = 2; ) = 0; SOCKET accept ( SOCKET s = 66; struct sockaddr * addr = 0x0012fe50 => struct = { }; int addrlen = 0x0012fe54 => none; ) = 68; int closesocket ( SOCKET s = 66; ) = 0;` If you are looking for a cool poster for your office, libemu can create graphs from shellcode. `/opt/libemu/bin/sctest -s 100000 -S -g -G /tmp/the_test_shellcode.dot < the_test_shellcode.bin dot -Tjpeg /tmp/the_test_shellcode.dot -o /tmp/the_test_shellcode.jpeg` ![](images/drupal_image_314-1024x605.jpeg)(excuse the bad quality, I had to resize it, the original picture was 5352x3160) The libemu homepage has a [gallery](http://libemu.mwcollect.org/gallery.html) with some unscaled graphs of better quality - including the dot source.
+The result is: 
+```
+/opt/libemu/bin/sctest -s 100000 -S -g < the_test_shellcode.bin verbose = 0 success offset = 0x00001000 stepcount 100000 HMODULE LoadLibraryA ( LPCTSTR lpFileName = 0x0012fe84 => = "ws2_32"; ) = 0x71a10000; int WSAStartup ( WORD wVersionRequested = 2; LPWSADATA lpWSAData = 1244280; ) = 0; SOCKET WSASocket ( int af = 2; int type = 1; int protocol = 0; LPWSAPROTOCOL_INFO lpProtocolInfo = 0; GROUP g = 0; DWORD dwFlags = 0; ) = 66; int bind ( SOCKET s = 66; struct sockaddr_in * name = 0x0012fe70 => struct = { short sin_family = 2; unsigned short sin_port = 23569 (port=4444); struct in_addr sin_addr = { unsigned long s_addr = 0 (host=0.0.0.0); }; char sin_zero = " "; }; int namelen = 16; ) = 0; int listen ( SOCKET s = 66; int backlog = 2; ) = 0; SOCKET accept ( SOCKET s = 66; struct sockaddr * addr = 0x0012fe50 => struct = { }; int addrlen = 0x0012fe54 => none; ) = 68; int closesocket ( SOCKET s = 66; ) = 0;
+```
+If you are looking for a cool poster for your office, libemu can create graphs from shellcode. `/opt/libemu/bin/sctest -s 100000 -S -g -G /tmp/the_test_shellcode.dot < the_test_shellcode.bin dot -Tjpeg /tmp/the_test_shellcode.dot -o /tmp/the_test_shellcode.jpeg` ![](images/drupal_image_314-1024x605.jpeg)(excuse the bad quality, I had to resize it, the original picture was 5352x3160) The libemu homepage has a [gallery](http://libemu.mwcollect.org/gallery.html) with some unscaled graphs of better quality - including the dot source.
 
 #### emulation based processing
 
@@ -182,7 +180,12 @@ Often there is code infront of the GetPC code, used to initialize registers requ
 
 #### Metasploit JmpCallAdditive Decoder
 
-The decoder looks like this: `00000000 FC cld ; clear direction flag 00000001 BB1E88B804 mov ebx,0x4b8881e ; the xor key 00000006 EB0C jmp short 0x14 ; jump to the GetPC call 00000008 5E pop esi ; pop EIP to ESI 00000009 56 push esi ; stores EIP on the stack again 0000000A 311E xor [esi],ebx ; xor the memory at the addr ESI (0x00000018) with the key stored in ebx 0000000C AD lodsd ; load the doubleword at address ESI to EAX, modify ESI accroding to the direction flag, the df flag is clear, so we increase 0000000D 01C3 add ebx,eax ; add the xor key to the doubleword read 0000000F 85C0 test eax,eax ; test 00000011 75F7 jnz 0xa ; if the result is "not zero" jump to 0000000A 00000013 C3 ret ; else return, restores EIP from the stack, continues code execution at 0x00000018 00000014 E8EFFFFFFF call 0x8 ; GetPC via call, pushes EIP, jumps to 00000008` execution gives the instruction flow:
+The decoder looks like this: 
+```
+00000000 FC cld ; clear direction flag 00000001 BB1E88B804 mov ebx,0x4b8881e ; the xor key 00000006 EB0C jmp short 0x14 ; jump to the GetPC call 00000008 5E pop esi ; pop EIP to ESI 00000009 56 push esi ; stores EIP on the stack again 0000000A 311E xor [esi],ebx ; xor the memory at the addr ESI (0x00000018) with the key stored in ebx 0000000C AD lodsd ; load the doubleword at address ESI to EAX, modify ESI accroding to the direction flag, the df flag is clear, so we increase 0000000D 01C3 add ebx,eax ; add the xor key to the doubleword read 0000000F 85C0 test eax,eax ; test 00000011 75F7 jnz 0xa ; if the result is "not zero" jump to 0000000A 00000013 C3 ret ; else return, restores EIP from the stack, continues code execution at 0x00000018 00000014 E8EFFFFFFF call 0x8 ; GetPC via call, pushes EIP, jumps to 00000008
+```
+
+execution gives the instruction flow:
 
 ![](images/drupal_image_304.png)
 
@@ -216,11 +219,9 @@ And the decoder is able to decrypt the encrypted payload as all required registe
 
 In order to execute the shellcode on a emulated cpu, we implemented a x86 cpu with the basic instructions required to execute a shellcode and profile it. As shown by Michalis Polychronakis , Qinghua Zhang it is pretty easy to determine if binary code is shellcode once run on a cpu emulation.
 
-- - recognize selfdecrypted shellcode by number of corrent steps Actually I lost the paper to cite as well as the actual number, but I think it was about 32 corrent steps
-
-- - recognize selfdecrypted shellcode by payload reads _Requiring the execution of some GetPC code followed by 7 or more payload reads gives zero false positives_
-
-- - recognize selfdecrypted shellcode by API calls
+- recognize selfdecrypted shellcode by number of corrent steps Actually I lost the paper to cite as well as the actual number, but I think it was about 32 corrent steps
+- recognize selfdecrypted shellcode by payload reads _Requiring the execution of some GetPC code followed by 7 or more payload reads gives zero false positives_
+- recognize selfdecrypted shellcode by API calls
 
 ### High-level emulation of shellcode
 
@@ -242,39 +243,30 @@ Due to the complex nature of properly parsing dlls, dll memory relocation and ot
 
 If a shellcode requires a function exported by a dll, he has to retrieve the the dlls Virtual Address (VA) add the functions Relative Virtual Address RVA, add the RVA offset to the VA and call the resulting address. Retrieving the pointer to the function can be done using GetProcAddress or by hashing all exported functionnames and comparing the hashes with the hash of the function the shellcode wants to call. The overhead in size for this hash & lookup mechanism pays off when multiple function pointers have be looked up, as the hash is usual a dword, where the functionname GetProcAddress requires as argument is often much longer. For hashing one algorithm is used widely, `uint32_t hash_by(void *key, uint8_t num) { uint32_t hash = 0; char *c = (char *)key; while (*c != 0) { hash = hash << (32-num) | hash >> (num); hash += *c; c++; } return hash; }` Using 13 (0xd) or 27 (0x1b) as num gives no hashcollisions on for all windows dll exports. Below is a graph from hashbased addresslookup of LoadLibary, calling LoadLibrary with the argument „ws2\_32“ to get the module base address for the socket library. „Understanding Windows Shellcode“ as well as the previously mentioned LSD paper describe what's going on there in detail. Basically,
 
-- - the baseaddress of kernel32.dll gets calculated
+- the baseaddress of kernel32.dll gets calculated
+- the virtual address of the IMAGE\_DATA\_DIRECTORY is looked up ![](images/drupal_image_311-1024x174.png)
+- the absoulte address is calculated by adding the base address
+- the number of functions and the virtual address to the export table is looked up. ![](images/drupal_image_312.png)
 
-- - the virtual address of the IMAGE\_DATA\_DIRECTORY is looked up ![](images/drupal_image_311-1024x174.png)
-
-- - the absoulte address is calculated by adding the base address
-
-- - the number of functions and the virtual address to the export table is looked up. ![](images/drupal_image_312.png)
-
-- - gets absolute by adding the base address
-        
-        - - hashes each word
-        
-        - - compares the hash with the expected one
-        
-        - - if the hashes match
-                
-                - - extract the ordinals table from IMAGE\_EXPORT\_DIRECTORY
-                
-                - - retrieve the functionnumber for the current functionname from the ordinalstable
-                
-                - - extract the AddressOfFunctions table
-                
-                - - retrieve the functionpointer from the AddressOfFunctions using the offset from the ordinalnumber as offset
-                
-                - - return having the address of the function stored on eax
-        
-        - - if not, continue hashing the functionnames
+- gets absolute by adding the base address  
+  - hashes each word
+  - compares the hash with the expected one
+  - if the hashes match
+    - extract the ordinals table from IMAGE\_EXPORT\_DIRECTORY
+    - retrieve the functionnumber for the current functionname from the ordinalstable
+    - extract the AddressOfFunctions table
+    - retrieve the functionpointer from the AddressOfFunctions using the offset from the ordinalnumber as offset
+    - return having the address of the function stored on eax
+  - if not, continue hashing the functionnames
 
 For our emulation it is necessary to provide these parts of process environment, we dumped the parts from a native process, and write them into emu memory once the dll gets loaded. To check if a function gets called it is enough to check if EIP is within the borders of a dll mapped region. In our case, we have kernel32, ws2\_32 and wininet, each dll has a Virtual Address and a size, so `if ( eip >= BASEADDR(dll) && eip <= BASEADDR(dll) + IMAGESIZE(dll)) printf("eip is within %s",NAME(dll));` for each provided dll is enough to check if the shellcode is upto use dll exported functions.
 
 ### hooking calls to dll exported apis
 
-If eip is within a dll's memory borders, one can check which function is meant to be called using the dlls VA and the exported functions RVA. For example Addr: 00001D77 hint: 578(0242) Name: LoadLibraryA 37) LoadLibraryA from kernel32.dll has 0x00001D77 as RVA within the dll, if we map kernel32.dll to VA=0x7c800000 a call to 0x7c801d77 would be within kernel32.dll and call LoadLibraryA. So, once EIP is within a dll's memory segment, check which exported function is meant to be called, as the code the dll itself would provide at the given address is not mapped anyway, we have to hook these API calls. If we can detect calls to dll exports, we can hook these calls, just provide a function pointer for each used api function, and call you own function once EIP hits the api exports. Inside the hook we need access to the emulated cpu's registers as well as the memory enviroment to be able to change the stack and set the functions desired return value. If the function has parameters, we have to retrieve each argument from the stack, if function changes an arguments parameter, we have to push this parameter back on the stack, so the shellcode can use the changed value. As an example, here is a simple hook for 'WSASocketA' `SOCKET WSASocket( int af, int type, int protocol, LPWSAPROTOCOL_INFO lpProtocolInfo, GROUP g, DWORD dwFlags );` WSASocket takes 6 arguments, each an 4 bytes of size, on success a value larger than 0 is returned, on windows typically larger than 64. So, hooking this function requires us to retrieve the 6 arguments from the stack, even if we do not need, them, and return a value larger than 64. `int32_t emu_env_w32_hook_WSASocketA(struct emu_env_w32 *env, struct emu_env_w32_dll_export *ex) { struct emu_cpu *c = emu_cpu_get(env->emu); uint32_t eip_save; POP_DWORD(c, &eip_save); uint32_t af; POP_DWORD(c, &af); uint32_t type; POP_DWORD(c, &type); uint32_t protocol; POP_DWORD(c, &protocol); uint32_t protocolinfo; POP_DWORD(c, &protocolinfo); uint32_t group; POP_DWORD(c, &group); uint32_t flags; POP_DWORD(c, &flags); int s = 67;/*socket(af, type, protocol);*/ printf("socket %i \n", s); emu_cpu_reg32_set(c, eax, s); emu_cpu_eip_set(c, eip_save); return 0; }`
+If eip is within a dll's memory borders, one can check which function is meant to be called using the dlls VA and the exported functions RVA. For example Addr: 00001D77 hint: 578(0242) Name: LoadLibraryA 37) LoadLibraryA from kernel32.dll has 0x00001D77 as RVA within the dll, if we map kernel32.dll to VA=0x7c800000 a call to 0x7c801d77 would be within kernel32.dll and call LoadLibraryA. So, once EIP is within a dll's memory segment, check which exported function is meant to be called, as the code the dll itself would provide at the given address is not mapped anyway, we have to hook these API calls. If we can detect calls to dll exports, we can hook these calls, just provide a function pointer for each used api function, and call you own function once EIP hits the api exports. Inside the hook we need access to the emulated cpu's registers as well as the memory enviroment to be able to change the stack and set the functions desired return value. If the function has parameters, we have to retrieve each argument from the stack, if function changes an arguments parameter, we have to push this parameter back on the stack, so the shellcode can use the changed value. As an example, here is a simple hook for 'WSASocketA' `SOCKET WSASocket( int af, int type, int protocol, LPWSAPROTOCOL_INFO lpProtocolInfo, GROUP g, DWORD dwFlags );` WSASocket takes 6 arguments, each an 4 bytes of size, on success a value larger than 0 is returned, on windows typically larger than 64. So, hooking this function requires us to retrieve the 6 arguments from the stack, even if we do not need, them, and return a value larger than 64. 
+```
+int32_t emu_env_w32_hook_WSASocketA(struct emu_env_w32 *env, struct emu_env_w32_dll_export *ex) { struct emu_cpu *c = emu_cpu_get(env->emu); uint32_t eip_save; POP_DWORD(c, &eip_save); uint32_t af; POP_DWORD(c, &af); uint32_t type; POP_DWORD(c, &type); uint32_t protocol; POP_DWORD(c, &protocol); uint32_t protocolinfo; POP_DWORD(c, &protocolinfo); uint32_t group; POP_DWORD(c, &group); uint32_t flags; POP_DWORD(c, &flags); int s = 67;/*socket(af, type, protocol);*/ printf("socket %i \n", s); emu_cpu_reg32_set(c, eax, s); emu_cpu_eip_set(c, eip_save); return 0; }
+```
 
 #### interactive hooks
 

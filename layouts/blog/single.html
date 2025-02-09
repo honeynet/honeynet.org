@@ -2,6 +2,14 @@
 <div class="container py-4">
     <div class="col col-lg-8">
         {{ partial "posts/head.html" . }}
+        {{ if .Params.thumbnail }}
+            <div class="thumbnail">
+                {{ $image := .Page.Resources.GetMatch .Params.thumbnail }}
+                {{ if $image }}
+                    <img src="{{ ($image.Fill "400x200 q100 Top").RelPermalink }}">
+                {{ end }}
+            </div>
+        {{ end }}
         <section>
             {{ .Content }}
         </section>

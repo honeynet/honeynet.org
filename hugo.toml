@@ -12,15 +12,33 @@ taxonomy = ["HTML"]
 term     = ["HTML"]
 
 [outputFormats.RSS]
-# Make blog/feed.xml availalbe at /feed/.
+# Make blog/feed.xml available at /feed/.
 baseName = "../feed/index"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokailight'
+    tabWidth = 4
+
+[security.http]
+mediaTypes = ['image/gif']
 
 [permalinks]
   blog = '/:year/:month/:day/:filename/'
   challenges = '/challenges/:filename/'
   papers = '/papers/:filename/'
   projects = '/projects/:filename/'
-  gsoc = '/gsoc/:year/:filename'
 
 [taxonomies]
   author = "authors"
@@ -60,6 +78,21 @@ baseName = "../feed/index"
   name = 'GSoC'
   pageRef = '/gsoc'
   weight = 30
+[[menu.main]]
+  name = 'Google Summer of Code'
+  parent = 'GSoC'
+  pageRef = '/gsoc'
+  weight = 10
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2025'
+  pageRef = '/gsoc/gsoc-2025'
+  weight = 18
+[[menu.main]]
+  parent = 'GSoC'
+  name = 'GSoC 2024'
+  pageRef = '/gsoc/gsoc-2024'
+  weight = 19
 [[menu.main]]
   parent = 'GSoC'
   name = 'GSoC 2023'

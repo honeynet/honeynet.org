@@ -6,7 +6,6 @@ categories:
   - "gsoc"
 tags: 
   - "gsoc"
-  - "gsoc2017"
   - "mitmproxy"
 coverImage: "options_editor_3.gif"
 ---
@@ -39,24 +38,18 @@ This feature, I personally consider it as the most challenging as well as the mo
 
 The sharing process goes like this:
 
-1. 1. Alice uses mitmproxy (maybe mitmweb or mitmdump) to capture a bunch of flows.
-
-1. 1. Alice uploads her flows to [share.mitmproxy.org](http://share.mitmproxy.org), either from within mitmproxy or from the website.
-
-1. 1. Our server converts the uploaded flows to static files and returns the sharing URL.
-
-1. 1. Alice shares the URL with Bob.
-
-1. 1. Bob accesses the URL and gets the mitmweb interface with all the flows captured by Alice.
+- Alice uses mitmproxy (maybe mitmweb or mitmdump) to capture a bunch of flows.
+- Alice uploads her flows to [share.mitmproxy.org](http://share.mitmproxy.org), either from within mitmproxy or from the website.
+- Our server converts the uploaded flows to static files and returns the sharing URL.
+- Alice shares the URL with Bob.
+- Bob accesses the URL and gets the mitmweb interface with all the flows captured by Alice.
 
 First, we had a discussion about which components in the web interface should be eliminated in static mode. I set a global variable to tell whether we are in static mode or not, and hide the redundant components in static mode according to the variable ([#2504](https://github.com/mitmproxy/mitmproxy/pull/2504)). This was a bit tricky as we needed to upgrade to the latest React beta version. Second, I implemented a converter addon to copy all the static files (in `.html`, `.css`, `.js`) to the destination and generated the json files which contain all the captured information ([#2510](https://github.com/mitmproxy/mitmproxy/pull/2510)). Third, @mhils and I started to work on the [share.mitmproxy.org](http://share.mitmproxy.org) code, which can be found at [https://github.com/mitmproxy/share.mitmproxy.org](https://github.com/mitmproxy/share.mitmproxy.org).
 
 ## Lesson Learned and Conclusion
 
-1. 1. I got familiar with the work flow of Web App development with `React.js` and `Redux.js`, especially about how to write reliable tests for the Web UI.
-
-1. 1. Python 3 type checking feature is of great help. Frankly, I only wrote Python 2 before this summer, but had to switch to Python 3 and got used to the type checking annotation for some back-end tasks. That’s kind of awkward to write it on the first try, but I fall in love with it later because it can prevent a log of bug.
-
-1. 1. Communication is of top importance during the open source software development. We are working together as an international team, the time difference and language problem might reduce your interest of expressing your thoughts, but those can be overcome with passion.
+- I got familiar with the work flow of Web App development with `React.js` and `Redux.js`, especially about how to write reliable tests for the Web UI.
+- Python 3 type checking feature is of great help. Frankly, I only wrote Python 2 before this summer, but had to switch to Python 3 and got used to the type checking annotation for some back-end tasks. That’s kind of awkward to write it on the first try, but I fall in love with it later because it can prevent a log of bug.
+- Communication is of top importance during the open source software development. We are working together as an international team, the time difference and language problem might reduce your interest of expressing your thoughts, but those can be overcome with passion.
 
 I enjoy coding cool stuff with my dear mentors very much. Thanks for the countless helpful suggestions and great patience from them. Thanks to Google to provide me with this invaluable chance to work with a famous open source community with awesome members from all over the world. I really appreciate this experience and I believe it will have profound impact on my career.

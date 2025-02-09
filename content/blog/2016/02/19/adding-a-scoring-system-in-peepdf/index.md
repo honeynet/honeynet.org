@@ -18,31 +18,15 @@ The scoring system has the goal of giving valuable advice about the maliciousnes
 
 A Beta version was presented during [Black Hat Europe Arsenal 2015](https://www.blackhat.com/docs/eu-15/materials/eu-15-Esparza-peepdf.pdf) last November, where [Jose Miguel Esparza](https://twitter.com/EternalTodo) introduced the new functionalities: actually the scoring is based on different indicators like
 
-- - Number of pages
-        
-
-- - Number of stream filters
-        
-
-- - Broken/Missing cross reference table
-        
-
-- - Obfuscated elements: names, strings, Javascript code.
-        
-
-- - Malformed elements: garbage bytes, missing tags…
-        
-
-- - Encryption with default password
-        
-
-- - Suspicious elements: Javascript, event triggers, actions, known vulns…
-        
-
-- - Big streams and strings
-        
-
-- - Objects not referenced from the Catalog
+- Number of pages
+- Number of stream filters
+- Broken/Missing cross reference table
+- Obfuscated elements: names, strings, Javascript code.
+- Malformed elements: garbage bytes, missing tags…
+- Encryption with default password
+- Suspicious elements: Javascript, event triggers, actions, known vulns…
+- Big streams and strings
+- Objects not referenced from the Catalog
         
 
 Here’s a screenshot of the scoring system in action:

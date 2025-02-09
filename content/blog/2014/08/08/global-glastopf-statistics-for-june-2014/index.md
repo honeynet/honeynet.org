@@ -21,7 +21,18 @@ Short introduction to RFI:
 
 “Remote File Inclusion (RFI) is a type of vulnerability most often found on websites. It allows an attacker to include a remote file, usually through a script on the web server. The vulnerability occurs due to the use of user-supplied input without proper validation. This can lead to something as minimal as outputting the contents of the file or more serious events such as: Code execution on the web server .. “ source: Wikipedia
 
-<table><tbody><tr><td><strong>Hash</strong></td><td><strong>Hits</strong></td><td><strong>VirusTotal detection ratio</strong></td></tr><tr><td>30a7bb30303f7da9ad102edc313dc80e</td><td>929</td><td>0 / 52</td></tr><tr><td>ab4d03072cc0532afc83d13854ed7e4f</td><td>577</td><td>22 / 49</td></tr><tr><td>474c4daeff3d82ae49d7c96acb8c0d84</td><td>514</td><td>21 / 53</td></tr><tr><td>9f67913d2c77545a4187053ad18230e4</td><td>496</td><td>7 / 52</td></tr><tr><td>369aab6f3a40d0259e6b036b68c27d25</td><td>411</td><td>7 / 54</td></tr><tr><td>10b5c4f77bbd80a3886e591dc3426198</td><td>267</td><td>N / A</td></tr><tr><td>6427bb17f4922b82c0147099429cfef9</td><td>203</td><td>3 / 53</td></tr><tr><td>be52cd4e8a8f6e42418c87d3468bba20</td><td>191</td><td>9 / 51</td></tr><tr><td>f922514cec9b9dc9c74b99ce9e39d3bc</td><td>164</td><td>15 / 53</td></tr><tr><td>46f5757064a2a0a081d6fd099f2916b5</td><td>159</td><td>18 / 46</td></tr></tbody></table>
+| **Hash**                               | **Hits** | **VirusTotal detection ratio** |
+|----------------------------------------|----------|---------------------------------|
+| 30a7bb30303f7da9ad102edc313dc80e       | 929      | 0 / 52                          |
+| ab4d03072cc0532afc83d13854ed7e4f       | 577      | 22 / 49                         |
+| 474c4daeff3d82ae49d7c96acb8c0d84       | 514      | 21 / 53                         |
+| 9f67913d2c77545a4187053ad18230e4       | 496      | 7 / 52                          |
+| 369aab6f3a40d0259e6b036b68c27d25       | 411      | 7 / 54                          |
+| 10b5c4f77bbd80a3886e591dc3426198       | 267      | N / A                           |
+| 6427bb17f4922b82c0147099429cfef9       | 203      | 3 / 53                          |
+| be52cd4e8a8f6e42418c87d3468bba20       | 191      | 9 / 51                          |
+| f922514cec9b9dc9c74b99ce9e39d3bc       | 164      | 15 / 53                         |
+| 46f5757064a2a0a081d6fd099f2916b5       | 159      | 18 / 46                         |
 
 Note: VirusTotal scan was performed on the 20:th of July 2014. N/A means that the injected binary was no longer present at it's original location and no sample could be acquired
 
@@ -29,11 +40,28 @@ Note: VirusTotal scan was performed on the 20:th of July 2014. N/A means that th
 
 Glastopf is a web application Honeypot which emulates vulnerabilities and lures the attacker that the requested service/application is vulnerable to gather data from attacks targeting web applications.
 
-<table><tbody><tr><td><strong>Resource</strong></td><td><strong>Count</strong></td></tr><tr><td>admin</td><td>467194</td></tr><tr><td>administrator/index.php</td><td>73285</td></tr><tr><td>changes.html</td><td>13193</td></tr><tr><td>wp-login.php</td><td>11248</td></tr><tr><td>awstats/awstats.pl</td><td>9961</td></tr><tr><td>robots.txt</td><td>8620</td></tr><tr><td>xmlrpc.php</td><td>8175</td></tr><tr><td>index.php?app=core&amp;module=global§ion=login&amp;do=process</td><td>7339</td></tr><tr><td>phpMyAdmin-2.5.5/index.php</td><td>3738</td></tr><tr><td>phpMyAdmin-2.5.5-pl1/index.php</td><td>3712</td></tr><tr><td>awstats/awstats.pl?framename=mainright&amp;output=refererpages</td><td>3538</td></tr></tbody></table>
+| **Resource**                                                                 | **Count** |
+|------------------------------------------------------------------------------|-----------|
+| admin                                                                        | 467194    |
+| administrator/index.php                                                      | 73285     |
+| changes.html                                                                 | 13193     |
+| wp-login.php                                                                 | 11248     |
+| awstats/awstats.pl                                                           | 9961      |
+| robots.txt                                                                   | 8620      |
+| xmlrpc.php                                                                   | 8175      |
+| index.php?app=core&module=global§ion=login&do=process                        | 7339      |
+| phpMyAdmin-2.5.5/index.php                                                   | 3738      |
+| phpMyAdmin-2.5.5-pl1/index.php                                               | 3712      |
+| awstats/awstats.pl?framename=mainright&output=refererpages                   | 3538      |
 
 **Other requests that are interesting to highlight**
 
-<table><tbody><tr><td><strong>Resource</strong></td><td><strong>Reference</strong></td><td><strong>CVE</strong></td></tr><tr><td>plugin_googlemap2_proxy.php</td><td>http://securityvulns.ru/docs29645.html</td><td>CVE-2013-4764</td></tr><tr><td>HNAP1/</td><td>http://tools.cisco.com/security/center/viewAlert.x?alertId=32899</td><td>CVE-2013-5122</td></tr><tr><td>rom-0</td><td>http://www.exploit-db.com/exploits/33803/</td><td>CVE-2014-4019</td></tr><tr><td>cgi-bin/rtpd.cgi</td><td>http://www.coresecurity.com/advisories/d-link-ip-cameras-multiple-vulnerabilities</td><td>CVE-2013-1599</td></tr></tbody></table>
+| **Resource**                  | **Reference**                                                                 | **CVE**         |
+|-------------------------------|-------------------------------------------------------------------------------|-----------------|
+| plugin_googlemap2_proxy.php   | [http://securityvulns.ru/docs29645.html](http://securityvulns.ru/docs29645.html) | CVE-2013-4764   |
+| HNAP1/                        | [http://tools.cisco.com/security/center/viewAlert.x?alertId=32899](http://tools.cisco.com/security/center/viewAlert.x?alertId=32899) | CVE-2013-5122   |
+| rom-0                         | [http://www.exploit-db.com/exploits/33803/](http://www.exploit-db.com/exploits/33803/) | CVE-2014-4019   |
+| cgi-bin/rtpd.cgi              | [http://www.coresecurity.com/advisories/d-link-ip-cameras-multiple-vulnerabilities](http://www.coresecurity.com/advisories/d-link-ip-cameras-multiple-vulnerabilities) | CVE-2013-1599   |
 
 **And a few findings that we found extra interesting**
 
@@ -91,7 +119,17 @@ Please see the URL below for more information about this vulnerability **URL** h
 
 The list is quite long, so here is a small sample
 
-<table><tbody><tr><td>password</td><td>melody</td><td>master</td></tr><tr><td>gogogo</td><td>"name of the domain"</td><td>admin</td></tr><tr><td>12345678</td><td>trustno1</td><td>test</td></tr><tr><td>secret</td><td>reset123</td><td>qwerty123</td></tr><tr><td>pass</td><td>fuck</td><td>audrey</td></tr><tr><td>admin123</td><td>1qaz2wsx</td><td>123</td></tr><tr><td>12345</td><td>123456</td><td>123456789</td></tr><tr><td>1111</td><td>zaq12wsx</td><td>yellow</td></tr><tr><td>wisdom</td><td>winter</td><td>windows</td></tr></tbody></table>
+| **Password** | **Password** | **Password** |
+|--------------|--------------|--------------|
+| password     | melody       | master       |
+| gogogo       | "name of the domain" | admin |
+| 12345678     | trustno1     | test         |
+| secret       | reset123     | qwerty123    |
+| pass         | [redacted]   | audrey       |
+| admin123     | 1qaz2wsx     | 123          |
+| 12345        | 123456       | 123456789    |
+| 1111         | zaq12wsx     | yellow       |
+| wisdom       | winter       | windows      |
 
 **Summary**
 

@@ -46,8 +46,8 @@ Project blog.
 
 ## Primary Contact Information
 
-1425 Broadway #438, Seattle  
-WA, 98122, USA  
+2602 S 38th Street, Suite A-126, Tacoma
+WA, USA 98409-7303
 Email: project@honeynet.org  
 Twitter: [@projecthoneynet](https://twitter.com/projecthoneynet)
 
@@ -58,21 +58,22 @@ Our tax status can be checked on the IRS website.
 ## Our Board Of Directors
 
 * 01/2021–01/2024: Jeff Nathan
-* 01/2021–01/2024: David Pisano (chairman)
+* 01/2021–01/2024: David Pisano 
 * 01/2022–01/2025: Max Kilger
 * 01/2022–01/2025: Felix Leder
-* 01/2023–01/2026: Hugo Gascón
+* 01/2023–01/2026: Hugo Gascón (Chairman)
 * 01/2023–01/2026: Maximilian Hils
 * 01/2023–01/2026: Emmanouil Vasilomanolakis
 
 ## Our Officers
 
-* Chief Executive Officer: Ali Ikinci
-* Chief Ethics and Legal Officer: Dave Dittrich
-* Chief Membership Officer: Stewart Sentanoe
-* Chief Financial Officer: Katherine Carpenter
-* Chief Infrastructure Officer: Andrea De Pasquale
+* Chief Executive Officer: Emmanouil Vasilomanolakis
+* Chief Financial Officer: D.C. Grant
 * Chief Research Officer: Lukas Rist
+* Chief Infrastructure Officer: Brian Hay 
+* Chief Ethics and Legal Officer: Dave Dittrich
+* Chief Membership Officer: Hugo Gascón 
+* Chief Public Relations Officer: Shreyas Srinivasa
 
 ## Organizational Bylaws
 

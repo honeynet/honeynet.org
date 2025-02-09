@@ -6,8 +6,13 @@ $primary: #f0b913;
 
 body {
   min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+main {
+  overflow: hidden;
 }
 
 h1 {
@@ -36,4 +41,23 @@ nav {
   --bs-navbar-active-color: var(--bs-primary);
   --bs-navbar-color: #ffffffdd;
   --bs-navbar-hover-color: #ffffffff;
+}
+
+.discord-link {
+  padding-left: 8px;
+}
+
+blockquote {
+  font-style: italic;
+  padding-left: 15px;
+  border-left: 3px solid #565857;
+}
+
+.thumbnail {
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  margin-top: auto;
 }

@@ -4,8 +4,7 @@ authors: ["Christian Seifert"]
 date: "2010-04-19"
 categories: 
   - "challenge"
-tags: 
-  - "challenge"
+tags:
   - "forensic-challenge"
 ---
 
