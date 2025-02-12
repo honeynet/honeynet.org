@@ -26,7 +26,7 @@ DICOMHawk is a powerful and efficient honeypot for DICOM servers, designed to at
 - Potentially add additional protocol
 - Documentation of the Implementations
 - Testing
-   
+
 #### Skills Preferred
 - Basic Linux/Command Line skills
 - Docker 
