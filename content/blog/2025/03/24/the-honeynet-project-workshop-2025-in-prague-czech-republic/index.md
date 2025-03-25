@@ -10,7 +10,7 @@ tags:
 ---
 
 
-{{<figure src="/2025/03/24/the-honeynet-project-workshop-2025-in-prague-czech-republic/images/prague.webp" alt="Prague" width="96%">}}
+{{<figure src="/2025/03/24/the-honeynet-project-workshop-2025-in-prague-czech-republic/images/prague.jpeg" alt="Prague" width="96%">}}
 
 We are very happy to announce The Honeynet Project Workshop 2025, scheduled to take place in **Prague, Czech Republic, from June 2nd to 4th**. 
 The event will be hosted at the National Technical Library (NTK) and will feature a combination of cybersecurity briefings and advanced hands-on training sessions. 
