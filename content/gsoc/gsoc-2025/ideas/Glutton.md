@@ -32,4 +32,4 @@ Glutton is a powerful Generic Low Interaction Honeypot designed to emulate vario
 1. Clone the [Glutton repository](https://github.com/mushorg/glutton)
 2. Familiarize yourself with the [existing parsers](https://github.com/mushorg/glutton/tree/main/protocols)
 3. Set up a [Spicy development environment](https://docs.zeek.org/projects/spicy/en/latest/installation.html)
-4. Customize something in this example and submit as part of your proposal.
+4. Customize something in [this example](https://docs.zeek.org/projects/spicy/en/latest/getting-started.html#id2) and submit as part of your proposal.
