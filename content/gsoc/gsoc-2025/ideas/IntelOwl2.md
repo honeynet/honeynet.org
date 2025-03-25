@@ -1,5 +1,5 @@
 ---
-title: "IntelOwl improvements: analyzers and integrations"
+title: "IntelOwl improvements: refactor analyzer tests"
 date: "2025-02-07"
 project_url: "https://github.com/intelowlproject/IntelOwl"
 hours: "175"
@@ -9,7 +9,7 @@ project_type: "Improving an existing tool"
 
 This projects aims to improve the tests implemented in IntelOwl, in particular the ones regarding the Analyzers.
 
-Right now, the actual implementation is kinda limited due to the inheritance of a framework built years ago, based on monkeypatching the tests.
+Right now, the actual implementation is kinda limited due to the inheritance of a framework built years ago, based on monkey-patching the tests.
 
 The goal is to refactor this framework in a way that is easier to use and, at the same time, that it allows better tests implementation.
 
