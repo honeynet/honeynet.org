@@ -61,3 +61,56 @@ blockquote {
 footer {
   margin-top: auto;
 }
+
+[data-bs-theme="dark"] footer {
+  span {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+}
+
+[data-bs-theme="light"] footer {
+  span {
+    color: rgba(0, 0, 0, 0.9) !important;
+  }
+}
+
+
+.navbar[data-bs-theme=dark] {
+  --bs-navbar-active-color: $primary;
+  --bs-navbar-color: #ffffffdd;
+  --bs-navbar-hover-color: #ffffff;
+
+  .nav-link.active,
+  .nav-item.active > .nav-link,
+  .nav-item.show > .nav-link,
+  .nav-link[aria-current="page"],
+  .nav-item.current-section > .nav-link {
+    color: $primary !important;
+  }
+
+  .nav-item {
+    &.active,
+    &.show {
+      .nav-link {
+        color: $primary !important;
+      }
+    }
+  }
+
+  .dropdown-item {
+    &.active,
+    &:active {
+      background-color: $primary;
+      color: var(--bs-dark) !important;
+    }
+  }
+
+  .nav-link:hover {
+    color: rgba($primary, 0.8) !important;
+  }
+}
+
+body.section-workshops .navbar .nav-link[href*="workshops"] {
+  color: $primary !important;
+}
+
