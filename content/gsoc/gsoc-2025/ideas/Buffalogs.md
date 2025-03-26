@@ -3,7 +3,7 @@ title: "BuffaLogs: new ingestion sources"
 date: "2025-02-09"
 project_url: "https://github.com/certego/BuffaLogs"
 hours: "90 - 175 based on received proposal"
-mentor: "Federico Foschini"
+mentor: "Federico Foschini, Lorena Goldoni"
 project_type: "Improving an existing tool"
 ---
 
