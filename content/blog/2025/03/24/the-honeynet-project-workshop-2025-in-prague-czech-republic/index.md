@@ -18,7 +18,7 @@ The event will be hosted at the National Technical Library (NTK) and will featur
 The workshop will begin with a day of talks on Monday, exploring the latest trends, threats, and advancements in cybersecurity and deception. Then, on the following two days, you will have the chance to level up your skills at interactive trainings led by industry experts. Needless to say, the event will offer a lot of opportunities for networking and participating in lively discussions. You can already secure a spot by registering [here](https://prague2025.honeynet.org/registration/).
 
 
-We look forward to welcoming you in Copenhagen!
+We look forward to welcoming you in Prague!
 
 🎟️ **Details and Tickets:** <https://prague2025.honeynet.org/>  
 📅 **Date:** June 2nd–4th, 2025  
