@@ -7,7 +7,7 @@ mentor: "Matteo Lodi, Daniele Rosetti, Federico Gibertoni"
 project_type: "Improving an existing tool"
 ---
 
-Right now we have a lot of [Analyzers](https://intelowl.readthedocs.io/en/latest/Usage.html#analyzers) implemented in IntelOwl.
+Right now we have a lot of [Analyzers](https://intelowlproject.github.io/docs/IntelOwl/usage/#analyzers) implemented in IntelOwl.
 
 But they are not enough! They are one of the core parts of the application so we want to add even more of them!!!! :)
 
