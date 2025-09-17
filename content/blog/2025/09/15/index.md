@@ -31,7 +31,7 @@ Three new alerters were added to BuffaLogs:
 - GoogleChat: [#289](https://github.com/certego/BuffaLogs/pull/289)
 
 #### <u>P1 Standardization of Alerting Module</u> [#303](https://github.com/certego/BuffaLogs/pull/303)
-I refactored and standardized all the alerting modules, ensuring that all alerters and their respective tests have a similar structure. This improved maintainability and made it easier to add new alerting sources. The structure of the alerters was further updated in future PRs as new features were implemented.
+I refactored and standardized all the alerting modules, ensuring that all alerters and their respective tests have a similar structure. This improved maintainability and made it easier to add new alerting sources. The structure of the alerters was further updated in future PRs as new features were implemented. 
 
 #### <u>P1 Comprehensive Testing</u> [#309](https://github.com/certego/BuffaLogs/pull/309)
 I improved the test setup and added new tests to cover edge cases, such as:
