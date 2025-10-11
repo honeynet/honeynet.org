@@ -108,9 +108,11 @@
                         {{ $count }} commit{{ if ne $count 1 }}s{{ end }} to <a class="badge text-bg-info">{{ .repo.name }}</a>
                     </div>
                     {{ $repo := .repo }}
-                    {{ range .payload.commits | first 3 }}
-                        <a style="color: #0969da" href="https://github.com/{{ $repo.name }}/commit/{{ .sha }}">{{ .sha | truncate 7 "" }}</a>
-                        <span class="text-muted">{{ index (split .message "\n") 0 | truncate 80 }}</span>
+                    {{ if .payload.commits }}
+                        {{ range (first 3 .payload.commits) }}
+                            <a style="color: #0969da" href="https://github.com/{{ $repo.name }}/commit/{{ .sha }}">{{ .sha | truncate 7 "" }}</a>
+                            <span class="text-muted">{{ index (split .message "\n") 0 | truncate 80 }}</span>
+                        {{ end }}
                     {{ end }}
               </div>
             </div>
