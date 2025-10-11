@@ -15,16 +15,16 @@
         {{- $all_events := slice }}
         {{- $active := slice }}
         {{- $inactive := slice }}
+        <!-- token is a classic token (without expiry) from a bot account with no privileges, fine to leak. -->
+        <!-- obfuscated so that GitHub does not revoke it immediately. -->
+        {{- $auth := printf "Bearer ghp_%s%s" "n0V6Jwhc32WEl0Zv91m" "DAxQKbCPcDy1sDBg3" }}
+        {{- $opts := dict
+            "headers" (dict "Authorization" $auth)
+        }}
         {{- range .Pages }}
             {{- $is_active := false }}
             {{- $info := .Params }}
             {{- if .Params.github }}
-                <!-- token is a classic token (without expiry) from a bot account with no privileges, fine to leak. -->
-                <!-- obfuscated so that GitHub does not revoke it immediately. -->
-                {{- $auth := printf "Bearer ghp_%s%s" "n0V6Jwhc32WEl0Zv91m" "DAxQKbCPcDy1sDBg3" }}
-                {{- $opts := dict
-                    "headers" (dict "Authorization" $auth)
-                }}
                 {{- $repo := resources.GetRemote (printf "https://api.github.com/repos/%s" .Params.github) $opts | transform.Unmarshal }}
                 {{- $events := resources.GetRemote (printf "https://api.github.com/repos/%s/events?per_page=100" .Params.github) $opts | transform.Unmarshal }}
                 {{ $info = merge $repo $info }}
@@ -100,18 +100,26 @@
             {{ if eq .type "PushEvent" }}
             <div class="card shadow-sm">
                 <div class="card-body">
+                    {{- $compare_url := printf "https://api.github.com/repos/%s/compare/%s...%s" .repo.name .payload.before .payload.head }}
+                    {{- $compare := resources.GetRemote $compare_url $opts | transform.Unmarshal }}
                     <div class="mb-1">
                         {{ $count := 0 }}
-                        {{ if .payload.commits }}
-                            {{ $count = len .payload.commits }}
+                        {{ if $compare.commits }}
+                            {{ $count = len $compare.commits }}
                         {{ end }}
                         {{ $count }} commit{{ if ne $count 1 }}s{{ end }} to <a class="badge text-bg-info">{{ .repo.name }}</a>
                     </div>
                     {{ $repo := .repo }}
-                    {{ if .payload.commits }}
-                        {{ range (first 3 .payload.commits) }}
+                    {{ if $compare.commits }}
+                        {{ range (first 3 $compare.commits) }}
                             <a style="color: #0969da" href="https://github.com/{{ $repo.name }}/commit/{{ .sha }}">{{ .sha | truncate 7 "" }}</a>
-                            <span class="text-muted">{{ index (split .message "\n") 0 | truncate 80 }}</span>
+                            <span class="text-muted">
+                                {{ if gt (len .commit.message) 0 }}
+                                    {{ index (split .commit.message "\n") 0 | truncate 60 }}
+                                {{ else }}
+                                    (no commit message)
+                                {{ end }}
+                            </span>
                         {{ end }}
                     {{ end }}
               </div>
@@ -119,15 +127,16 @@
             {{ else if eq .type "PullRequestEvent" }}
             <div class="card shadow-sm">
                 <div class="card-body">
+                    {{- $pull_request := resources.GetRemote .payload.pull_request.url $opts | transform.Unmarshal }}
                     <div class="mb-1">
-                    <a class="link-body-emphasis" href="{{ .payload.pull_request.html_url }}">
-                        <span class="badge text-bg-info">#{{ .payload.pull_request.number }}</span></a>
-                    <a class="link-body-emphasis" href="{{ .payload.pull_request.html_url }}">
-                        {{ .payload.pull_request.title }}
+                    <a class="link-body-emphasis" href="{{ $pull_request.html_url }}">
+                        <span class="badge text-bg-info">#{{ $pull_request.number }}</span></a>
+                    <a class="link-body-emphasis" href="{{ $pull_request.html_url }}">
+                        {{ $pull_request.title }}
                     </a>
                     </div>
-                    {{ .payload.pull_request.additions }} additions and {{ .payload.pull_request.deletions }} deletions
-                    in {{ .payload.pull_request.changed_files }} changed files.
+                    {{ $pull_request.additions }} additions and {{ $pull_request.deletions }} deletions
+                    in {{ $pull_request.changed_files }} changed files.
               </div>
             </div>
             {{ end }}
