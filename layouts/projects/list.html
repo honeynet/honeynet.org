@@ -101,11 +101,8 @@
             <div class="card shadow-sm">
                 <div class="card-body">
                     <div class="mb-1">
-                    {{ if .payload.commits }}
-                        {{ .payload.commits | len }} commit{{ if gt (.payload.commits | len) 1 }}s{{ end }}
-                    {{ else }}
-                        0 commits
-                    {{ end }}
+                    {{ $count := (cond (not .payload.commits) 0 (.payload.commits | len)) }}
+                    {{ $count }} commit{{ if ne $count 1 }}s{{ end }}
                     to <a class="badge text-bg-info">{{ .repo.name }}</a>
                     </div>
                     {{ $repo := .repo }}
