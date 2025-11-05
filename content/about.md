@@ -70,7 +70,7 @@ Our tax status can be checked on the IRS website.
 
 * Chief Executive Officer: Emmanouil Vasilomanolakis
 * Chief Financial Officer: D.C. Grant
-* Chief Research Officer: Lukas Rist
+* Chief Research Officer: Natalia Stakhanova
 * Chief Infrastructure Officer: Brian Hay 
 * Chief Ethics and Legal Officer: Dave Dittrich
 * Chief Membership Officer: Hugo Gascón 
