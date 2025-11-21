@@ -36,12 +36,16 @@ title: Workshops
         border-radius: 2px;
         text-align: center;
         color: black;
+        text-decoration: none;
+        background-color: white;
         box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+        cursor: pointer;
     }
-    #workshops > .active {
-        background-color: var(--bs-primary);
-        color: var(--bs-dark);
+
+    #workshops > a:hover {
+        background-color: #f5f5f5;
     }
+    
 </style>
 <div id="workshops">
     <a class="active" href="https://prague2025.honeynet.org/"><span>2025</span> Prague</a>
@@ -52,7 +56,7 @@ title: Workshops
     <a href="https://sanantonio2016.honeynet.org/"><span>2016</span> San Antonio</a>
     <a href="https://stavanger2015.honeynet.org/"><span>2015</span> Stavanger</a>
     <a href="https://warsaw2014.honeynet.org/"><span>2014</span> Warsaw</a>
-    <div><span>2013</span> Dubai</div>
-    <div><span>2012</span> SF Bay Area</div>
-    <div><span>2011</span> Paris</div>
+    <a><span>2013</span> Dubai</a>
+    <a><span>2012</span> SF Bay Area</a>
+    <a><span>2011</span> Paris</a>
 </div>
