@@ -64,7 +64,30 @@
             {{- partial "project.html" . }}
         {{- end }}
     </div>
-    <div class="col col-lg-5 py-4 bg-light">
+    <div class="col col-lg-5 py-4 bg-light" id="activity-sidebar">
+        <style>
+            [data-bs-theme="dark"] #activity-sidebar {
+                background-color: var(--bs-dark) !important;
+            }
+
+            [data-bs-theme="dark"] .link-body-emphasis {
+                color: var(--bs-light) !important;
+            }
+
+            [data-bs-theme="dark"] .card {
+                background-color: var(--bs-dark-bg-subtle);
+                border-color: var(--bs-border-color-translucent);
+            }
+
+            [data-bs-theme="dark"] .text-muted {
+                color: var(--bs-gray-400) !important;
+            }
+
+            [data-bs-theme="dark"] relative-time {
+                color: var(--bs-gray-400);
+            }
+        </style>
+
         <h4>Latest Activity</h4>
         {{ range sort $all_events "created_at" "desc" | first 20 }}
         <div class="mb-3">
