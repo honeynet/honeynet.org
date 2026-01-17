@@ -44,7 +44,7 @@ If you have any questions, please drop by in our [Discord](https://discord.gg/6
 Our GSoC 2026 organizational administrators this year are:
 
 - Matteo Lodi
-- Lukas Rist
+- Natalia Stakhanova
 - Maximilian Hils
 - Emmanouil Vasilomano
 
