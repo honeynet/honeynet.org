@@ -18,7 +18,7 @@ On this page you will learn more about GSoC 2026 and our efforts on developing a
 
 Often students ask us what kind of projects we are likely to be offering in a coming year. If you want to get an idea of the kind of projects ideas we proposed and the accepted projects we ran during GSoC 2009-2024, you can view these here:
 
-- [GSoC 2025 Project Ideas](/gsoc/gsoc-2024/google-summer-of-code-2025-project-ideas/)
+- [GSoC 2025 Project Ideas](/gsoc/gsoc-2025/google-summer-of-code-2025-project-ideas/)
 - [GSoC 2024 Project Ideas](/gsoc/gsoc-2024/google-summer-of-code-2024-project-ideas/)
 - [GSoC 2023 Project Ideas](/gsoc/gsoc-2023/google-summer-of-code-2023-project-ideas/)
 - [GSoC 2022 Project Ideas](/gsoc/gsoc-2022/google-summer-of-code-2022-project-ideas/)
