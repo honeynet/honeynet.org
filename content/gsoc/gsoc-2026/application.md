@@ -1,6 +1,6 @@
 ---
 title: "GSoC 2026 application template"
-date: "2025-12-23"
+date: "2026-01-17"
 ---
 
 These are the questions we require potential [Google Summer of Code](https://summerofcode.withgoogle.com/) participants to complete. **Please use [Google's official interface](https://summerofcode.withgoogle.com/) to submit both drafts for feedback and your final proposal.** You can always update your submission up until the deadline. Submission received by email, Discord, or through direct contact with a mentor will not count.
