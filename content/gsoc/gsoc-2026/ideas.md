@@ -1,6 +1,6 @@
 ---
 title: "Google Summer of Code 2026 Project Ideas"
-date: "2025-12-23"
+date: "2026-01-17"
 url: "/gsoc/gsoc-2026/google-summer-of-code-2026-project-ideas"
 type: "ideas"
 ---
