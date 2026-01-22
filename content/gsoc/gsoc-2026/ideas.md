@@ -22,7 +22,7 @@ We are also always interested in hearing any ideas for additional relevant compu
 
 Please note - even if you aren't an [eligible GSoC participant](//developers.google.com/open-source/gsoc/faq), we are also always looking for general volunteers who are enthusiastic and interested in getting involved in honeynet R&D.
 
-Each sponsored GSoC 2025 project will have one or more mentors available to provide a guaranteed contact point to students, plus one or more technical advisors to help applicants with the technical direction and delivery of the project (often the original author of a tool or its current maintainer, and usually someone recognized as an international expert in their particular field). Our Google Summer of Code organizational administrators will also be available to all sponsored GSoC students for general advice and logistical support. We'll also provide hosting for project infrastructure, if required.
+Each sponsored GSoC 2026 project will have one or more mentors available to provide a guaranteed contact point to students, plus one or more technical advisors to help applicants with the technical direction and delivery of the project (often the original author of a tool or its current maintainer, and usually someone recognized as an international expert in their particular field). Our Google Summer of Code organizational administrators will also be available to all sponsored GSoC students for general advice and logistical support. We'll also provide hosting for project infrastructure, if required.
 
 For all questions about the Honeynet Project, the GSoC program or our projects, please contact us on [Discord](https://discord.gg/68B8Ru5fSU) (preferred)** or email us at [project@honeynet.org](mailto:project@honeynet.org). You can also find us in [Slack](https://gsoc-slack.honeynet.org/).
 
@@ -32,4 +32,4 @@ If you are considering applying to participate with us in GSoC 2026 please find 
 
 * * *
 
-# GSoC 2025 Project Ideas Overview
+# GSoC 2026 Project Ideas Overview
