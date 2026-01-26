@@ -17,7 +17,7 @@ This project offers a deep dive into Elasticsearch and provides a high-impact op
 
 * Elasticsearch Optimization: Audit and refine the interaction between the IntelOwl backend and the Elasticsearch cluster to ensure queries are fast and reliable.
 
-* UI/UX Enhancement: Beyond fixing what is broken, you will work on improving the usability of the search interface—making it easier for users to build complex queries and filter results effectively.
+* UI/UX Enhancement: Beyond fixing what is broken, you will work on improving the usability of the search interface—making it easier for users to build complex queries and filter results effectively. It's important to be interested into Elasticsearch to change the indexing and allow to search reports based on the keys and not on the values.
 
 * Performance Tuning: Identify and address bottlenecks in data retrieval to ensure the search remains responsive even as the database grows.
 
