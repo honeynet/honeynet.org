@@ -3,7 +3,7 @@ title: "IntelOwl: Integrating a Self-Deployed LLM Chatbot for Threat Intelligenc
 date: "2025-01-20"
 project_url: "https://github.com/intelowlproject/IntelOwl"
 hours: "175 - 350 based on received proposal"
-mentor: "Matteo Lodi, Daniele Rosetti, Federico Gibertoni, Hugo Gascón"
+mentor: "Matteo Lodi, backups to be defined"
 project_type: "Improving an existing tool"
 ---
 

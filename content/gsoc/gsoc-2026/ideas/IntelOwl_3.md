@@ -3,7 +3,7 @@ title: "IntelOwl: Integration Ecosystem & Connector Optimization"
 date: "2025-01-20"
 project_url: "https://github.com/intelowlproject/IntelOwl"
 hours: "175"
-mentor: "Matteo Lodi, Daniele Rosetti, Federico Gibertoni"
+mentor: "Matteo Lodi, backups to be defined"
 project_type: "Improving an existing tool"
 ---
 

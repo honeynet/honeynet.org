@@ -3,7 +3,7 @@ title: "Greedybear: Access payload files"
 date: "2025-01-23"
 project_url: "https://github.com/intelowlproject/Greedybear"
 hours: "175 - 350 based on received proposal"
-mentor: "Tim Leonhard, Matteo Lodi, Federico Gibertoni"
+mentor: "Tim Leonhard, Matteo Lodi"
 project_type: "Improving an existing tool"
 ---
 
