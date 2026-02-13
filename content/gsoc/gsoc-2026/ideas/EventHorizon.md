@@ -1,7 +1,7 @@
 ---
 title: "EventHorizon: the tarpit framework"
 date: "2026-01-31"
-project_url: "https://github.com/intelowlproject/Greedybear"
+project_url: "https://github.com/honeynet/EventHorizon"
 hours: "175 - 350 based on received proposal"
 mentor: "Manolis Vasilomanolakis"
 project_type: "Improving an existing tool"
