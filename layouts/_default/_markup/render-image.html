@@ -5,4 +5,4 @@
 {{- with .Page.Resources.GetMatch .Destination -}}
   {{- $src = .RelPermalink -}}
 {{- end -}}
-<img class="img-fluid" src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+<img class="img-fluid" loading="lazy" decoding="async" src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
