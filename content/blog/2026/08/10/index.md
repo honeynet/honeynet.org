@@ -10,13 +10,17 @@ tags: ["gsoc", "intelowl"]
 
 An analyst opens IntelOwl, types *"is job #40 malicious?"*, and gets back:
 
-<blockquote style="border-left:3px solid #00ADEE;padding:0.1rem 0 0.1rem 1.1rem;margin:0 0 1.25rem 0">Job #40 is classified as <strong>malicious</strong> with a reliability score of 7 out of 10. The verdict was supported by 2 analyzers and contradicted by 1 analyzer, while the remaining 3 analyzers did not provide an opinion (silent).</blockquote>
+> Job #40 is classified as **malicious** with a reliability score of 7 out of 10. The verdict was
+> supported by 2 analyzers and contradicted by 1 analyzer, while the remaining 3 analyzers did not
+> provide an opinion (silent).
 
 No API key. No token bill. **No byte of that observable ever left the machine.**
 
 That is what I built for Google Summer of Code 2026 with The Honeynet Project: a conversational
 interface embedded in IntelOwl, running entirely on a locally-hosted LLM. This post explains how it
 works, what I measured, and what did not work.
+
+<!--more-->
 
 ## Why a chatbot inside a threat intelligence platform
 
@@ -49,7 +53,7 @@ The chatbot ships in **IntelOwl v6.7.0**. It lives in a drawer available from an
 answers token by token over a WebSocket. It is also aware of where you are: ask "summarize this" while
 looking at a job and it knows which job you mean.
 
-<img src="/images/chatbot_turn.png" alt="The IntelOwl chat panel answering a question about recent jobs" style="max-width:100%;border-radius:8px" />
+![The IntelOwl chat panel answering a question about recent jobs](chatbot_turn.png)
 
 *The chat panel answering "show my recent jobs", with context-aware quick actions below.*
 
@@ -71,63 +75,7 @@ platform, not a retrieval index over a documentation dump:
 
 ## Architecture
 
-<div style="overflow-x:auto;max-width:100%">
-  <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" style="width:100%;min-width:680px;height:auto;font-family:ui-sans-serif,system-ui,sans-serif">
-  <defs>
-    <marker id="ar" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L8,3 z" fill="#00ADEE"/>
-    </marker>
-    <marker id="ar2" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L8,3 z" fill="#22c55e"/>
-    </marker>
-  </defs>
-  <g stroke="#8b98a5" stroke-width="1.2" fill="#0d1b23">
-    <rect x="20" y="36" width="150" height="52" rx="8"/>
-    <rect x="262" y="36" width="148" height="52" rx="8"/>
-    <rect x="502" y="36" width="148" height="52" rx="8"/>
-    <rect x="742" y="36" width="140" height="52" rx="8"/>
-    <rect x="556" y="140" width="326" height="62" rx="8"/>
-    <rect x="700" y="254" width="182" height="52" rx="8"/>
-    <rect x="330" y="254" width="280" height="62" rx="8"/>
-    <rect x="330" y="366" width="280" height="52" rx="8"/>
-  </g>
-  <g fill="none" stroke="#00ADEE" stroke-width="1.6" marker-end="url(#ar)">
-    <path d="M170 62 L258 62"/>
-    <path d="M410 62 L498 62"/>
-    <path d="M650 62 L738 62"/>
-    <path d="M812 88 L812 136"/>
-    <path d="M782 202 L782 250"/>
-    <path d="M800 250 L800 206"/>
-    <path d="M600 202 L600 228 L470 228 L470 250"/>
-    <path d="M470 316 L470 362"/>
-  </g>
-  <g fill="none" stroke="#22c55e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ar2)">
-    <path d="M552 171 L95 171 L95 92"/>
-  </g>
-  <g fill="#e6edf3" font-size="13" text-anchor="middle">
-    <text x="95" y="60">Browser</text>
-    <text x="95" y="78" fill="#9fb3c0" font-size="11.5">React chat panel</text>
-    <text x="336" y="60">Daphne</text>
-    <text x="336" y="78" fill="#9fb3c0" font-size="11.5">ChatConsumer (WS)</text>
-    <text x="576" y="60">Redis</text>
-    <text x="576" y="78" fill="#9fb3c0" font-size="11.5">broker + channel layer</text>
-    <text x="812" y="60">Celery</text>
-    <text x="812" y="78" fill="#9fb3c0" font-size="11.5">chatbot queue</text>
-    <text x="719" y="166">LangChain agent</text>
-    <text x="719" y="185" fill="#9fb3c0" font-size="11.5">create_agent (LangGraph runtime)</text>
-    <text x="791" y="280">Ollama</text>
-    <text x="791" y="298" fill="#9fb3c0" font-size="11.5">qwen2.5:3b — local</text>
-    <text x="470" y="280">10 LLM tools</text>
-    <text x="470" y="299" fill="#9fb3c0" font-size="11.5">built per request, scoped to the user</text>
-    <text x="470" y="392">PostgreSQL</text>
-    <text x="470" y="410" fill="#9fb3c0" font-size="11.5">Jobs · Investigations · DataModels</text>
-  </g>
-  <g font-size="11.5">
-    <text x="110" y="163" fill="#22c55e">streamed tokens flow back the same way</text>
-    <text x="535" y="221" fill="#9fb3c0" text-anchor="middle">visible_for_user(user)</text>
-  </g>
-  </svg>
-</div>
+![Architecture: the browser talks to Daphne over a WebSocket, the turn is queued on Redis for the chatbot Celery worker, the LangChain agent calls per-user tools against PostgreSQL and Ollama, and tokens stream back the same way](chatbot_architecture.svg)
 
 Three decisions in that diagram were not obvious.
 
@@ -203,7 +151,7 @@ reached the launch path. But the flag was set **by the model**, so the safety pr
 4. Only `POST /api/chatbot/analysis/confirm` with that `pending_id` launches. It re-validates playbook
    visibility too, because permissions could have changed between the preview and the click.
 
-<img src="/images/chatbot_confirm.png" alt="The confirmation card listing the analyzers that would run, with Confirm and Cancel buttons" style="max-width:100%;border-radius:8px" />
+![The confirmation card listing the analyzers that would run, with Confirm and Cancel buttons](chatbot_confirm.png)
 
 *The model can describe the analysis. Only the Confirm button starts it.*
 

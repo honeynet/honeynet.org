@@ -1,0 +1,8 @@
+{{- /* Markdown images: resolve page-bundle resources and keep them inside the column.
+       Bootstrap's reboot sets no max-width on img, so without this a screenshot wider than the
+       post column overflows the page. */ -}}
+{{- $src := .Destination -}}
+{{- with .Page.Resources.GetMatch .Destination -}}
+  {{- $src = .RelPermalink -}}
+{{- end -}}
+<img class="img-fluid" src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>

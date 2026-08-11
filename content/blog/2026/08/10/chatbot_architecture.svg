@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" font-family="ui-sans-serif,system-ui,sans-serif">
+<defs>
+  <marker id="ar" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L8,3 z" fill="#00ADEE"/>
+  </marker>
+  <marker id="ar2" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L8,3 z" fill="#22c55e"/>
+  </marker>
+</defs>
+<g stroke="#8b98a5" stroke-width="1.2" fill="#0d1b23">
+  <rect x="20" y="36" width="150" height="52" rx="8"/>
+  <rect x="262" y="36" width="148" height="52" rx="8"/>
+  <rect x="502" y="36" width="148" height="52" rx="8"/>
+  <rect x="742" y="36" width="140" height="52" rx="8"/>
+  <rect x="556" y="140" width="326" height="62" rx="8"/>
+  <rect x="700" y="254" width="182" height="52" rx="8"/>
+  <rect x="330" y="254" width="280" height="62" rx="8"/>
+  <rect x="330" y="366" width="280" height="52" rx="8"/>
+</g>
+<g fill="none" stroke="#00ADEE" stroke-width="1.6" marker-end="url(#ar)">
+  <path d="M170 62 L258 62"/>
+  <path d="M410 62 L498 62"/>
+  <path d="M650 62 L738 62"/>
+  <path d="M812 88 L812 136"/>
+  <path d="M782 202 L782 250"/>
+  <path d="M800 250 L800 206"/>
+  <path d="M600 202 L600 228 L470 228 L470 250"/>
+  <path d="M470 316 L470 362"/>
+</g>
+<g fill="none" stroke="#22c55e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ar2)">
+  <path d="M552 171 L95 171 L95 92"/>
+</g>
+<g fill="#e6edf3" font-size="13" text-anchor="middle">
+  <text x="95" y="60">Browser</text>
+  <text x="95" y="78" fill="#9fb3c0" font-size="11.5">React chat panel</text>
+  <text x="336" y="60">Daphne</text>
+  <text x="336" y="78" fill="#9fb3c0" font-size="11.5">ChatConsumer (WS)</text>
+  <text x="576" y="60">Redis</text>
+  <text x="576" y="78" fill="#9fb3c0" font-size="11.5">broker + channel layer</text>
+  <text x="812" y="60">Celery</text>
+  <text x="812" y="78" fill="#9fb3c0" font-size="11.5">chatbot queue</text>
+  <text x="719" y="166">LangChain agent</text>
+  <text x="719" y="185" fill="#9fb3c0" font-size="11.5">create_agent (LangGraph runtime)</text>
+  <text x="791" y="280">Ollama</text>
+  <text x="791" y="298" fill="#9fb3c0" font-size="11.5">qwen2.5:3b — local</text>
+  <text x="470" y="280">10 LLM tools</text>
+  <text x="470" y="299" fill="#9fb3c0" font-size="11.5">built per request, scoped to the user</text>
+  <text x="470" y="392">PostgreSQL</text>
+  <text x="470" y="410" fill="#9fb3c0" font-size="11.5">Jobs · Investigations · DataModels</text>
+</g>
+<g font-size="11.5">
+  <text x="110" y="163" fill="#22c55e">streamed tokens flow back the same way</text>
+  <text x="535" y="221" fill="#9fb3c0" text-anchor="middle">visible_for_user(user)</text>
+</g>
+</svg>
