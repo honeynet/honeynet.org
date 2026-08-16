@@ -9,7 +9,7 @@ I spent this summer as a [GSoC](https://summerofcode.withgoogle.com/) contributo
 
 **Mentor:** Tim Leonhard  
 **Organization:** The Honeynet Project  
-**Project:** [GreedyBear: Dashboard Modularization](https://summerofcode.withgoogle.com/)
+**Project:** [GreedyBear: Dashboard Modularization](https://summerofcode.withgoogle.com/programs/2026/projects/9CLNdcdS)
 
 ## GSoC Proposal
 
