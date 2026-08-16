@@ -59,7 +59,10 @@ I've only little experience with Python and Django, so I struggled slightly with
 
 [PR #1491](https://github.com/GreedyBear-Project/GreedyBear/pull/1491)
 
+## Screenshots
+![GreedyBear Dashboard: Drag and Drop UI for widgets](dashboard.png)
 
+![Dropdown for adding widgets](add_widget.png)
 
 ## Final Thoughts
 
