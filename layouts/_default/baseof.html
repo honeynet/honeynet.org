@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ $js := resources.Get "bootstrap-5.3.0/bootstrap.bundle.min.js" | resources.Fingerprint -}}
     <script src="{{ $js.RelPermalink }}"></script>
+    {{ $darkMode := resources.Get "dark-mode.js" | resources.Minify }}
+    <script src="{{ $darkMode.RelPermalink }}"></script>
 
     <link rel="alternate" type="application/rss+xml" title="The Honeynet Project" href="/feed/" />
 </head>
