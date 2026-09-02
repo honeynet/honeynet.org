@@ -31,7 +31,7 @@ The first part of the project focused heavily on designing the API before implem
 
 We spent significant time discussing the architecture, data flow, API fields, response formats, authentication, and how the new system should integrate with GreedyBear's existing event-processing pipeline.
 
-The project design and discussion can be found in [Discussion #1348](https://github.com/GreedyBearProject/GreedyBear/discussions/1348).
+The project design and discussion can be found in [Discussion #1348](https://github.com/GreedyBear-Project/GreedyBear/discussions/1348).
 
 This was also one of the most valuable parts of my GSoC experience. Working closely with my mentor during the design phase taught me that spending time on API design and discussing small details early can prevent much larger problems during implementation.
 
