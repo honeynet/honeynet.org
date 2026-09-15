@@ -2,7 +2,6 @@
 title: "The Honeynet Project Workshop 2025"
 authors: ["Garcia Sebastian"]
 date: "2025-03-24"
-weight: 10
 categories: 
   - "workshop"
 tags: 
