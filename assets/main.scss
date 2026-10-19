@@ -61,3 +61,28 @@ blockquote {
 footer {
   margin-top: auto;
 }
+
+// Fix: Button text display in Safari (desktop & mobile) — Issue #63
+// Safari does not reliably center text or respect padding in <a>/<button>
+// elements styled with Bootstrap's .btn class. Using inline-flex with
+// explicit centering, removing the native -webkit-appearance, and clamping
+// overflow ensures consistent rendering across all browsers.
+.btn {
+  -webkit-appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// On smaller viewports, slightly reduce the large-button font-size so that
+// longer labels (e.g. "Call for Sponsors") stay within bounds.
+@media (max-width: 575.98px) {
+  .btn-lg {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
