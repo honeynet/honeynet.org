@@ -27,6 +27,11 @@
                         {{- range .Children }}
                         <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
                         {{- end }}
+                        {{- if and .Params.listSections .Page }}
+                        {{- range sort .Page.Sections "LinkTitle" "desc" }}
+                        <li><a class="dropdown-item" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                        {{- end }}
+                        {{- end }}
                     </ul>
                 </li>
                 {{- else }}

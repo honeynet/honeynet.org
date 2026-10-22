@@ -48,10 +48,8 @@ mediaTypes = ['image/gif']
   tag = "tags"
   category = "categories"
 
-[menu]
 [[menu.main]]
   name = 'About'
-  pageRef = '#'
   weight = 10
 [[menu.main]]
   name = 'The Project'
@@ -77,100 +75,17 @@ mediaTypes = ['image/gif']
   name = 'Projects'
   pageRef = '/projects'
   weight = 20
+# GSoC year entries are appended from the /gsoc subsections in layouts/partials/nav.html.
 [[menu.main]]
   name = 'GSoC'
   pageRef = '/gsoc'
   weight = 30
+  [menu.main.params]
+    listSections = true
 [[menu.main]]
   name = 'Google Summer of Code'
   parent = 'GSoC'
   pageRef = '/gsoc'
-  weight = 10
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2026'
-  pageRef = '/gsoc/gsoc-2026'
-  weight = 17
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2025'
-  pageRef = '/gsoc/gsoc-2025'
-  weight = 18
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2024'
-  pageRef = '/gsoc/gsoc-2024'
-  weight = 19
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2023'
-  pageRef = '/gsoc/gsoc-2023'
-  weight = 20
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2022'
-  pageRef = '/gsoc/gsoc-2022'
-  weight = 21
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2021'
-  pageRef = '/gsoc/gsoc-2021'
-  weight = 22
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2020'
-  pageRef = '/gsoc/gsoc-2020'
-  weight = 23
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2018'
-  pageRef = '/gsoc/gsoc-2018'
-  weight = 24
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2017'
-  pageRef = '/gsoc/gsoc-2017'
-  weight = 25
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2016'
-  pageRef = '/gsoc/gsoc-2016'
-  weight = 26
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2015'
-  pageRef = '/gsoc/gsoc-2015'
-  weight = 27
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2014'
-  pageRef = '/gsoc/gsoc-2014'
-  weight = 28
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2013'
-  pageRef = '/gsoc/gsoc-2013'
-  weight = 29
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2012'
-  pageRef = '/gsoc/gsoc-2012'
-  weight = 30
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2011'
-  pageRef = '/gsoc/gsoc-2011'
-  weight = 31
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2010'
-  pageRef = '/gsoc/gsoc-2010'
-  weight = 32
-[[menu.main]]
-  parent = 'GSoC'
-  name = 'GSoC 2009'
-  pageRef = '/gsoc/gsoc-2009'
-  weight = 33
 [[menu.main]]
   name = 'Workshops'
   pageRef = '/workshops'

@@ -1,5 +1,6 @@
 ---
 title: "Google Summer of Code 2012"
+linkTitle: "GSoC 2012"
 date: "2012-08-28"
 ---
 
