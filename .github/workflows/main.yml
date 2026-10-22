@@ -23,6 +23,12 @@ jobs:
           hugo-version: '0.168.0'
           extended: true
 
+      - run: |
+          wget -q https://github.com/sass/dart-sass/releases/download/1.106.1/dart-sass-1.106.1-linux-x64.tar.gz
+          echo "ad99cccb90de4ad2926e03e32d819c83baf32c3dbff56da92df0eed10e604d60 dart-sass-1.106.1-linux-x64.tar.gz" | sha256sum -c
+          tar -xzf dart-sass-1.106.1-linux-x64.tar.gz -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/dart-sass" >> "$GITHUB_PATH"
+
       - run: hugo
 
       - uses: actions/upload-pages-artifact@v3
