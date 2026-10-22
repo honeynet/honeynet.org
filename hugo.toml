@@ -31,6 +31,9 @@ baseName = "../feed/index"
     style = 'monokailight'
     tabWidth = 4
 
+[security]
+allowContent = ['! ^text/org$']
+
 [security.http]
 mediaTypes = ['image/gif']
 
