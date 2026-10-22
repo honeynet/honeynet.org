@@ -1,5 +1,6 @@
 ---
 title: "Papers"
+url: "/papers/"
 ---
 
 The papers provided here are dedicated to describing the concepts and technology of the Honeynet Project and Research Alliance and sharing the lessons we have learned. The goal is for this information to improve the security of the Internet. Each paper topic must be first approved by our internal Review Board, then all drafts go through a five week review process. You can download the papers and read them offline, or read translated papers here. If you find any errors in the papers, or have any suggestions for improvements or new paper topics, please contact us at project@honeynet.org.

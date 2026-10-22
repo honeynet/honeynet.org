@@ -10,11 +10,43 @@ on:
     - cron: '27 3,9,15,21 * * *'
 
 jobs:
+  # Build the website and upload the static HTML files as an artifact.
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - uses: peaceiris/actions-hugo@v3.2.1
+        with:
+          hugo-version: '0.168.0'
+          extended: true
+
+      - run: |
+          wget -q https://github.com/sass/dart-sass/releases/download/1.106.1/dart-sass-1.106.1-linux-x64.tar.gz
+          echo "ad99cccb90de4ad2926e03e32d819c83baf32c3dbff56da92df0eed10e604d60 dart-sass-1.106.1-linux-x64.tar.gz" | sha256sum -c
+          tar -xzf dart-sass-1.106.1-linux-x64.tar.gz -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/dart-sass" >> "$GITHUB_PATH"
+
+      - run: hugo
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: public/
+
+  # Deploy the artifact to GitHub pages.
+  # This is a separate job so that only actions/deploy-pages has the necessary permissions.
   deploy:
-    uses: mhils/workflows/.github/workflows/gh-pages-hugo.yml@v16
-    with:
-      deploy: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: build
+    runs-on: ubuntu-latest
     permissions:
-      contents: read
-      id-token: write
       pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

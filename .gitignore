@@ -4,3 +4,6 @@ resources/
 .vscode
 
 .DS_Store
+
+.claude/
+.cursor/
