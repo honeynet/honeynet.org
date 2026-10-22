@@ -18,10 +18,10 @@ jobs:
         with:
           persist-credentials: false
 
-      - run: |
-          wget -q https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_extended_0.142.0_linux-amd64.deb
-          echo "ed20a7c0b74482a3d036c549fd5eaca8c3ea4e74de0bd414193d16503768b44d hugo_extended_0.142.0_linux-amd64.deb" | sha256sum -c
-          sudo dpkg -i hugo*.deb
+      - uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78 # v3.2.1
+        with:
+          hugo-version: '0.142.0'
+          extended: true
 
       - run: hugo
 
